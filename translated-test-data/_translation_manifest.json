@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-03-25",
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "languages": [
+    {
+      "key": "spanish",
+      "label": "Spanish"
+    },
+    {
+      "key": "french",
+      "label": "French"
+    },
+    {
+      "key": "german",
+      "label": "German"
+    },
+    {
+      "key": "polish",
+      "label": "Polish"
+    },
+    {
+      "key": "portuguese",
+      "label": "Portuguese"
+    },
+    {
+      "key": "turkish",
+      "label": "Turkish"
+    },
+    {
+      "key": "arabic",
+      "label": "Arabic"
+    },
+    {
+      "key": "chinese_mandarin",
+      "label": "Chinese Mandarin"
+    },
+    {
+      "key": "bengali",
+      "label": "Bengali"
+    },
+    {
+      "key": "urdu",
+      "label": "Urdu"
+    }
+  ],
+  "files": [
+    "detect_all_symptom_mention_using_llm.json",
+    "detect_followup_info_in_previous_user_response.csv",
+    "detect_whether_patient_is_experiencing_symptom.csv"
+  ],
+  "limit": null
+}

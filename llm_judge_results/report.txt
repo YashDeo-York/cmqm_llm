@@ -1,0 +1,72 @@
+======================================================================
+LLM TRANSLATION QUALITY JUDGE - ANALYSIS REPORT
+======================================================================
+
+Total judgments: 165200
+Models: ['CohereLabs/aya-expanse-32b', 'Qwen/Qwen3-30B-A3B', 'Qwen/Qwen3-8B', 'deepseek-ai/DeepSeek-V3-0324', 'google/gemma-4-31B-it', 'meta-llama/Llama-3.1-8B-Instruct', 'meta-llama/Llama-3.3-70B-Instruct', 'utter-project/EuroLLM-22B-Instruct-2512']
+Languages: ['Arabic', 'Bengali', 'Chinese Mandarin', 'French', 'German', 'Polish', 'Portuguese (Brazilian)', 'Spanish', 'Turkish', 'Urdu']
+
+--------------------------------------------------
+1. PER-MODEL SUMMARY
+--------------------------------------------------
+                                  model  total  edit_yes  edit_no  edit_rate  api_errors  parse_errors
+             CohereLabs/aya-expanse-32b  20650      3948    16702   0.191186           0             0
+                     Qwen/Qwen3-30B-A3B  20650      4698    15952   0.227506           0             0
+                          Qwen/Qwen3-8B  20650      3613    17033   0.174998           4             4
+           deepseek-ai/DeepSeek-V3-0324  20650      6497    14153   0.314625           0             0
+                  google/gemma-4-31B-it  20650      6444    14206   0.312058           0             0
+       meta-llama/Llama-3.1-8B-Instruct  20650     17669     2981   0.855642           0             0
+      meta-llama/Llama-3.3-70B-Instruct  20650      4697    15953   0.227458           0             0
+utter-project/EuroLLM-22B-Instruct-2512  20650      2680     8053   0.249697        9917          9917
+
+--------------------------------------------------
+2. EDIT RATE BY LANGUAGE (rows=language, cols=model)
+--------------------------------------------------
+model                   CohereLabs/aya-expanse-32b  Qwen/Qwen3-30B-A3B  Qwen/Qwen3-8B  deepseek-ai/DeepSeek-V3-0324  google/gemma-4-31B-it  meta-llama/Llama-3.1-8B-Instruct  meta-llama/Llama-3.3-70B-Instruct  utter-project/EuroLLM-22B-Instruct-2512
+language                                                                                                                                                                                                                                                
+Arabic                                       0.167               0.266          0.228                         0.387                  0.358                             0.942                              0.234                                    0.212
+Bengali                                      0.175               0.196          0.198                         0.391                  0.310                             0.946                              0.230                                    0.498
+Chinese Mandarin                             0.248               0.241          0.153                         0.323                  0.276                             0.893                              0.276                                    0.083
+French                                       0.127               0.214          0.154                         0.254                  0.304                             0.759                              0.222                                    0.133
+German                                       0.155               0.232          0.153                         0.262                  0.269                             0.760                              0.197                                    0.107
+Polish                                       0.212               0.234          0.175                         0.305                  0.348                             0.853                              0.204                                    0.159
+Portuguese (Brazilian)                       0.169               0.183          0.133                         0.225                  0.231                             0.769                              0.218                                    0.119
+Spanish                                      0.156               0.199          0.136                         0.223                  0.294                             0.783                              0.212                                    0.161
+Turkish                                      0.270               0.260          0.196                         0.323                  0.328                             0.888                              0.268                                    0.287
+Urdu                                         0.233               0.251          0.224                         0.453                  0.402                             0.963                              0.213                                    0.416
+
+--------------------------------------------------
+3. CMQM CATEGORY COUNTS (rows=category, cols=model)
+--------------------------------------------------
+model                  CohereLabs/aya-expanse-32b  Qwen/Qwen3-30B-A3B  Qwen/Qwen3-8B  deepseek-ai/DeepSeek-V3-0324  google/gemma-4-31B-it  meta-llama/Llama-3.1-8B-Instruct  meta-llama/Llama-3.3-70B-Instruct  utter-project/EuroLLM-22B-Instruct-2512
+category                                                                                                                                                                                                                                               
+Clinical Accuracy                            94.0              1662.0          225.0                        2665.0                 1319.0                           10090.0                              177.0                                    368.0
+Linguistic Quality                         3190.0              2790.0          575.0                        4508.0                 5690.0                            8157.0                              678.0                                   1816.0
+Negation/Polarity                             7.0                58.0           20.0                          59.0                   56.0                             179.0                                5.0                                      0.0
+Patient Communication                       293.0               121.0           16.0                          19.0                  290.0                               2.0                                9.0                                     19.0
+Ungrounded Content                            2.0                12.0           31.0                          32.0                   17.0                              40.0                              220.0                                      0.0
+
+--------------------------------------------------
+4. CLINICAL HARM POTENTIAL (rows=level, cols=model)
+--------------------------------------------------
+model       CohereLabs/aya-expanse-32b  Qwen/Qwen3-30B-A3B  Qwen/Qwen3-8B  deepseek-ai/DeepSeek-V3-0324  google/gemma-4-31B-it  meta-llama/Llama-3.1-8B-Instruct  meta-llama/Llama-3.3-70B-Instruct  utter-project/EuroLLM-22B-Instruct-2512
+harm_level                                                                                                                                                                                                                                  
+error                              0.0                 0.0            4.0                           0.0                    0.0                               0.0                                0.0                                   9917.0
+high                               1.0                 7.0            5.0                          15.0                   11.0                               0.0                                3.0                                      0.0
+low                             3947.0              4624.0         3443.0                        5256.0                 6068.0                           17669.0                             4539.0                                   2680.0
+moderate                           0.0                67.0          165.0                        1226.0                  365.0                               0.0                              155.0                                      0.0
+none                           16702.0             15952.0        17033.0                       14153.0                14206.0                            2981.0                            15953.0                                   8053.0
+unknown                            0.0                 0.0            0.0                           0.0                    0.0                               0.0                                0.0                                      0.0
+
+--------------------------------------------------
+5. CROSS-MODEL AGREEMENT ON edit_required
+--------------------------------------------------
+                                         CohereLabs/aya-expanse-32b  Qwen/Qwen3-30B-A3B  Qwen/Qwen3-8B  deepseek-ai/DeepSeek-V3-0324  google/gemma-4-31B-it  meta-llama/Llama-3.1-8B-Instruct  meta-llama/Llama-3.3-70B-Instruct  utter-project/EuroLLM-22B-Instruct-2512
+CohereLabs/aya-expanse-32b                                    1.000               0.745          0.765                         0.732                  0.691                             0.321                              0.778                                    0.750
+Qwen/Qwen3-30B-A3B                                            0.745               1.000          0.801                         0.740                  0.756                             0.346                              0.739                                    0.759
+Qwen/Qwen3-8B                                                 0.765               0.801          1.000                         0.737                  0.744                             0.301                              0.762                                    0.744
+deepseek-ai/DeepSeek-V3-0324                                  0.732               0.740          0.737                         1.000                  0.745                             0.438                              0.788                                    0.751
+google/gemma-4-31B-it                                         0.691               0.756          0.744                         0.745                  1.000                             0.414                              0.682                                    0.714
+meta-llama/Llama-3.1-8B-Instruct                              0.321               0.346          0.301                         0.438                  0.414                             1.000                              0.358                                    0.367
+meta-llama/Llama-3.3-70B-Instruct                             0.778               0.739          0.762                         0.788                  0.682                             0.358                              1.000                                    0.756
+utter-project/EuroLLM-22B-Instruct-2512                       0.750               0.759          0.744                         0.751                  0.714                             0.367                              0.756                                    1.000

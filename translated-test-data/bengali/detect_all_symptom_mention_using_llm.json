@@ -1,0 +1,1329 @@
+[
+  {
+    "response": "না কোনটাই নয়",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ একটু",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ সর্বদা",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ তাই সঠিক",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ সব জায়গায়",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "উহম না আমি মনে করি না",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি প্রায় ১০ বছর আগে আমার দৃষ্টিশক্তি সংশোধন করতে লেসিক করেছিলাম",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "আমি অতীতে লেজার চোখের অস্ত্রোপচার করেছি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "আমি ছোটবেলায় পিআরকে লেজার অস্ত্রোপচার করিয়েছিলাম",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "না, আমি কখনো লেজার চোখের অস্ত্রোপচার করাইনি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "আমি কয়েক বছর আগে গ্লুকোমা অস্ত্রোপচার করেছিলাম",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations",
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "আমার ডান চোখের বিচ্ছিন্ন রেটিনা ঠিক করা হয়েছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "আমি ছোটবেলায় এক চোখে প্লাস্টার বাঁধা ছিলাম",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "না, আমার কখনো অন্য কোনো চোখের অপারেশন হয়নি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "বছর আগে আমার চোখে একটি রাসায়নিক পোড়া ছিল",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "আমি একবার একটি টেনিস বল দিয়ে আমার চোখে আঘাত করেছিলাম এবং হাসপাতালে যেতে হয়েছিল",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "আমার কখনো কোনো মারাত্মক চোখের আঘাত হয়নি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "আমার গ্লৌকোমা আছে যার চিকিৎসা করা হচ্ছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "আমাকে ম্যাকুলার ডিজেনারেশনের জন্য দেখা হচ্ছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "আমার শুষ্ক চোখ আছে যার জন্য আমি ড্রপস ব্যবহার করি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "না, আমার অন্য কোন চোখের সমস্যা নেই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "আমার একটি গুরুতর হার্ট সমস্যা আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "আমার মারাত্মক সিওপিডি আছে যা আমার শ্বাস-প্রশ্বাসকে প্রভাবিত করে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "আমার একটি ইমপ্লান্টেবল ডিফিব্রিলেটর আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "গত বছর আমার হার্ট অ্যাটাক হয়েছিল",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "না, আমার কোনো হৃদপিণ্ড বা শ্বাসকষ্টের সমস্যা নেই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "আমি আমার হৃদরোগের জন্য ওয়ার্ফারিন সেবন করি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "আমি আমার প্রোস্টেটের জন্য ট্যামসুলোসিন সেবন করি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "আমি ডক্সাজোসিন খাচ্ছিলাম কিন্তু গত বছর থেমে গেছি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "আমার ডাক্তার আমাকে সম্প্রতি ফ্লোম্যাক্স প্রেসক্রাইব করেছেন",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "না, আমি কখনো ট্যামসুলোসিন বা ডক্সাজোসিন নেই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "আমি পেনিসিলিনে অ্যালার্জি আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমার ল্যাটেক্স অ্যালার্জি আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমার হে-ফিভার হয় কিন্তু অন্য কোন অ্যালার্জি নেই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমি কোডিন সহ বেশ কয়েকটি ওষুধে অ্যালার্জি আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমি গ্লুটেন এবং ল্যাকটোজ সহনশীল নই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "না, আমার কোন অ্যালার্জি আছে বলে আমি জানি না",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমার গ্লৌকোমা আছে এবং আমি রক্ত পাতলা করার ওষুধ খাই",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "আমি অনেক আগে লেজার চোখের অস্ত্রোপচার করিয়েছি এবং আমি পেনিসিলিনে অ্যালার্জি আছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery",
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "আমার একটি হার্ট সমস্যা আছে, আমি ওয়ারফারিন খাই এবং গত বছর আমার একটি আলোড়িত রেটিনা ঠিক করা হয়েছিল",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator",
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "আমি আমার প্রোস্টেটের জন্য ট্যামসুলোসিন নিই এবং আগে আমার চোখে একটি রাসায়নিক পোড়া হয়েছে",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin",
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "আমার ম্যাকুলার ডিজেনারেশনের চিকিৎসা চলছে এবং আমি ডায়াবেটিসের জন্য মেটফরমিন সহ বেশ কয়েকটি ওষুধ নিচ্ছি",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, এটা ব্যথা দেয় যখন আমি আলোর দিকে তাকাই",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "আমি যখন উজ্জ্বল আলো দেখি তখন এটা ব্যথা দেয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "যখন আমি উজ্জ্বল আলো দেখি তখন এটি অবশ্যই খারাপ হয়ে যায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "এটি আলোর প্রতি খুব সংবেদনশীল",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আলোর দিকে তাকালে খুব ব্যথা লাগে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "এটা ভালোই ছিল, দৃষ্টিশক্তি শুরুতে একটু ঝাপসা ছিল কিন্তু এটা একটু ভালো হচ্ছে এবং চোখগুলো খুব খসখসে এবং ক্রাঁচ ক্রাঁচ।",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision",
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "হ্যাঁ... আমি দেখেছি। তারা, এম, খুব বিরল, যদিও। আমি বলব যে আমি তাদের দেখি, এরম, একসময়ে একসময়ে। যখন আমি তাদের দেখি, তারা যেন... পাতলা রেখা, আমি অনুমান করি। ক্যামেরার ফ্ল্যাশের মতো নয়, শুধু ধরনের... অস্থায়ী আলোর রেখ",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "না কোনটাই নয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না আমি এটা সবসময় অনুভব করছি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ, একটু যখন আমি পড়ছি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "নাকের পাশে শুধু কোণায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ একটু কোণায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ সর্বদা",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ তাই সঠিক",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ সব জায়গায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি কিছুটা ওজন বাড়িয়েছি",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "weight_gain"
+    ]
+  },
+  {
+    "response": "না কিন্তু আমি খুব ক্লান্ত আমি এমনকি নিজের জন্য রান্না করতে পারছি না",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "fatigue"
+    ]
+  },
+  {
+    "response": "তাদের আবার আমাকে অ্যান্টিবায়োটিক দিতে হয়েছিল",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "recent_illness"
+    ]
+  },
+  {
+    "response": "আমি মনে করি আমার পা ফোলাভাব খারাপ হয়ে গেছে",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "leg_swelling"
+    ]
+  },
+  {
+    "response": "শ্বাস নেওয়া খারাপ হয়ে গেছে",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "breathlessness"
+    ]
+  },
+  {
+    "response": "কোন চপচপ শব্দ নেই, কিন্তু আমি সর্বদা এই রিংয়ের শব্দ শুনতে পাই",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "tinnitus",
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, আমার কানে এই ধারালো ব্যথা হচ্ছে",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pain"
+    ]
+  },
+  {
+    "response": "আমার মনে হচ্ছে কেউ আমার মাথার উপর চাপ দিচ্ছে",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "আমি কিছু ক্লিকিং শব্দ পাই হ্যাঁ",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "আমি এটাকে চাপ বলব না",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "সর্বদা এই পপিং শব্দ থাকে",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "আপনি চাপ বলতে কি বোঝান?",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "মনে হয় আমি সবসময় পানির নীচে আছি",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "clogged_sensation"
+    ]
+  },
+  {
+    "response": "না, তবে আমার প্রতি কয়েক সপ্তাহ অন্তর ডায়রিয়া হয়",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "আমার মল পাতলা এবং কখনও কখনও তাতে রক্ত থাকে",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "আমার গত কয়েক সপ্তাহ ধরে পরিবর্তনহীন জ্বর আছে",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "non_specific_symptoms"
+    ]
+  },
+  {
+    "response": "হ্যাঁ পেট ফোলাভাব অনেক বেশি",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "আমার সাম্প্রতিক সময়ে কাশি হয়েছে",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "সাম্প্রতিক সময়গুলো খুব কঠিন হয়ে উঠেছে",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমার পেটে ব্যথা হয়",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "আমার প্রধান সমস্যা হল পেট ব্যথা",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "এটি পরিবর্তিত হয়, কিন্তু অনেক পানিজাতীয়",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "আমি কিছুটা ওজন কমেছি",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "weight_change"
+    ]
+  },
+  {
+    "response": "রক্তক্ষরণ আরো বেড়ে গেছে",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "gynae_symptom_change"
+    ]
+  },
+  {
+    "response": "আমি অনেক দিন ধরে অপেক্ষা করছি",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "still_waiting"
+    ]
+  },
+  {
+    "response": "আমি সংক্ষিপ্ত নোটিশে আসতে পারি",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "short_notice_availability"
+    ]
+  },
+  {
+    "response": "দুর্ভাগ্যবশত আমার একটি ফ্র্যাকচার হয়েছে তাই জিনিসগুলি পরিবর্তিত হয়েছে",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "major_health_events"
+    ]
+  },
+  {
+    "response": "শুধুমাত্র যখন আমি চেষ্টা করি তখনই আমি কিছু অনুভব করতে পারি",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, আমি মনে করি আমি ভালোভাবে সেরে উঠছি।",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "হ্যাঁ, এটা একটু ব্যথা দেয় এবং এটা আমাকে চলাফেরা থেকে আসলেই বাধা দিচ্ছে",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "ব্যথার কারণে আমি ঝুঁকতে পারি না",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "সব ভালোই চলছে, কিন্তু আমি মনে করি যেখানে অপারেশন করা হয়েছে সেখানে একটু ব্যথা করছে",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, আমি মনে করি আমি ভালোভাবে সেরে উঠছি।",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "সব ভালোই চলছে, কিন্তু আমি মনে করি আমি হার্নিয়া যেখানে ছিল সেখানে একটি গাঁটা অনুভব করতে পারি।",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "আমি ভিটামিন ডি সম্পূরক খাচ্ছি",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "supplements"
+    ]
+  },
+  {
+    "response": "আমি সম্প্রতি একটি রক্ত পরীক্ষা করেছি",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "এটা ভালো না, আমি কিছু পার্শ্বপ্রতিক্রিয়া অনুভব করেছি এবং আমার ওষুধ বন্ধ করে দিয়েছি",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects",
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "আমি দুঃখজনকভাবে সাম্প্রতিক সময়ে প্রচুর হার্টবার্ন এবং অজীর্ণতা ভোগ করছি, আমি নিশ্চিত নই যে এটি ঔষধের কারণে কিনা",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "আমি ওষুধ নেওয়া শুরু করেছি হ্যাঁ",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "আমি আসলে গত সপ্তাহে পড়ে গেছি দুর্ভাগ্যবশত।",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_further_falls_since_attendance"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, ঠিক আছে, আমার একেবারেই কোন পার্শ্বপ্রতিক্রিয়া হয়নি!",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "তোমার সমস্ত প্রচেষ্টা সত্ত্বেও আমাকে গত মাসে আমার অন্য কোমরটিও মেরামত করতে হয়েছে",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_broken_bones_since_attendance"
+    ]
+  },
+  {
+    "response": "এটা শুধু কঠোর হওয়ার চেয়ে অনেক বেশি ব্যথা দেয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "একটু দেখলাম",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "ঠিক একটু অস্বস্তিকর",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, হ্যাঁ, আমার চোখে এটা কিছুটা কারসাজি মনে হচ্ছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "এটা ব্যথা দায়ক,",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "আমি বলব যে কিছু সময় এটা একটু নরম হয়ে যায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, কখনো কখনো এটা ব্যথা দেয় আমি অনুভব করি যখন আমি ভাবি আমাকে অনুভব করা উচিত নয় আমি এটা সচেতন আমার মধ্যে এটা আছে এটা আমাকে একটা ধীর ব্যথা দেয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "কিছু ঝকঝকে আলো",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "হ্যাঁ মত একটা ঝলমলিয়ে আলোর মত একটা ছবি থাকা",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "ও সেগুলোই হবে হ্যাঁ আমি ঝলমলিয়ে ওঠা আলো দেখতে পাচ্ছি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "এটা আরো এটা প্রায় পঞ্চাশ শতাংশ সঠিক",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "একটু কিন্তু অন্যটির চেয়ে বেশি নয় আমি মনে করি এটি সম্ভবত অপারেশনের আগেও একটু লাল ছিল",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "এর একটু অংশ লাল",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "এটা ঠিক সব সাদা না",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "আমার চোখের বাকি অংশ সাদা নয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, এটা লাল হ্যাঁ",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "লাল",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "আমার চোখ লাল হয়ে গেছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, অনেক অনেক ছোট ছোট কালো বিন্দু আমার দৃষ্টিতে প্রবেশ করে এবং বের হয়ে যাচ্ছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "আমার ফ্লোটার এবং ধুমসাদূষ্ণ দৃষ্টি আছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "আমার সাম্প্রতিক একটি অস্ত্রোপচার হয়েছে এবং সবকিছু ঠিক ছিল",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "significant_medical_history",
+      "recent_illness_infections"
+    ]
+  },
+  {
+    "response": "আমার মেয়ে আমাকে বাড়িতে নিয়ে যায়",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "post_procedure_support"
+    ]
+  },
+  {
+    "response": "আমি একটি হুইলচেয়ার ব্যবহার করি",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "wheelchair_user"
+    ]
+  },
+  {
+    "response": "আমি রক্তচাপ এবং ডায়াবেটিসের জন্য ওষুধ সেবন করি",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications"
+    ]
+  },
+  {
+    "response": "আমি আসপিরিন খেতাম কিন্তু বন্ধ করে দিয়েছি",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications",
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "হ্যাঁ, আমি রক্ত পাতলা করার ওষুধ খাচ্ছি",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "না কিন্তু আমাকে তোমাকে বলতে হবে আমার পেনিসিলিন সহ্য হয় না।",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "allergies"
+    ]
+  },
+  {
+    "response": "আমি আসলে ৬ মাস আগের চেয়ে প্রায় ২ স্টোন হালকা",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "weight_loss"
+    ]
+  },
+  {
+    "response": "হ্যাঁ আমার আছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "কোন রক্ত নেই, শুধু সবুজ জিনিস",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "আমি সর্বদা কাশছি",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "cough"
+    ]
+  },
+  {
+    "response": "শীতকালে আমার সর্বদা বুকের সংক্রমণ হয়",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "wheeze_bronchitis"
+    ]
+  },
+  {
+    "response": "নাকি কফ নেই, তবে আমি রক্তের ছোপ পাই",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "না, কিন্তু আমি হাঁটার সময় আমার বুকে কিছু ব্যথা পাই",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "chest_pain"
+    ]
+  },
+  {
+    "response": "কোন রক্ত নেই, না",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "এটা সর্বদা পুড়ছে",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "এটা পুড়ে যায় এবং কাটা দেয়",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "এখানে কিছু রক্ত আছে হ্যাঁ",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "সম্ভবত বাতাস থাকতে পারে",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_air"
+    ]
+  },
+  {
+    "response": "আমাকে সবসময় যেতে হয়",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "এখানে কিছু রক্ত আছে হ্যাঁ",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "ঠিক আছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমার শুধু একটি চোখে অস্ত্রোপচার হয়েছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি যখন পড়ার চেষ্টা করি তখন সবকিছু একটু ঝাপসা দেখায়, কিন্তু আমি টিভি ঠিক ভালোই দেখতে পাচ্ছি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "আমি কাছে বা দূরে জিনিসগুলো পরিষ্কারভাবে দেখতে পাচ্ছি না, সবকিছু ঝাপসা",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "অস্ত্রোপচারের পর থেকে আমার দৃষ্টিতে আরও বেশি মাকড়ের জালা দেখা দিচ্ছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "আমি এই ছোট ছোট কালো ছিন্নগুলোকে দেখতে পাচ্ছি যেগুলো ঘুরছে যখন আমি কিছু দেখি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "চোখটি খুব রক্তবেগুনি, স্বাভাবিকের চেয়ে অনেক বেশি লাল",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "আমার চোখ সবদিক থেকে উজ্জ্বল গোলাপী রঙের, শুধু একটি জায়গায় নয়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "আমার চোখের সাদা অংশটি গত দিনে অনেক বেশি লাল হয়ে গেছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "আমি এই উজ্জ্বল আলোর চাপগুলো দেখছি, বিশেষ করে অন্ধকারে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "কখনো কখনো আমি আমার চোখের কোণে এই বিদ্যুতের মতো ঝলকানি দেখতে পাই",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "এই সংক্ষিপ্ত উজ্জ্বল ঝলকগুলি আসে এবং চলে যায়",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "আমার চোখে একটা তীব্র বেদনাদায়ক অনুভূতি হচ্ছে, বিশেষ করে যখন আমি পাপড়ি নামিয়ে দেই",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "আমার চোখ সবসময় খুব শুষ্ক এবং খসখসে বোধ করছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "অস্ত্রোপচারের পর থেকে আমার উভয়ই ফ্লোটার এবং ঝলকানি আলো দেখা যাচ্ছে",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "আমার চোখ খুব ব্যথা করছে এবং আমি সঠিকভাবে দেখতেও পারছি না",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "চোখটা খুব লাল এবং ব্যথা করছে, আর আমি এই ঝলকানো আলোগুলো সবসময় দেখতে পাচ্ছি",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness",
+      "eye_pain",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "না, আমি ইউকেতে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ইউকে তে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ইউকেতে থাকি কিন্তু আমি ইউকেতে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ইংল্যান্ডে থাকি কিন্তু আমি যুক্তরাজ্যে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি স্কটল্যান্ডে বাস করি কিন্তু না, আমি ইউকেতে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ওয়েলসে থাকি কিন্তু আমি সেখানে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি উত্তর আয়ারল্যান্ডে থাকি কিন্তু আমি যুক্তরাজ্যে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি ইংল্যান্ডে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি স্কটল্যান্ডে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি ওয়েলসে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি উত্তর আয়ারল্যান্ডে জন্মগ্রহণ করিনি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ইতালিতে বেড়ে উঠেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি আমেরিকায় বড় হয়েছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি ফ্রান্সে জন্মেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ফ্রান্সে জন্মগ্রহণ করেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ইংল্যান্ডে থাকি কিন্তু আমি অস্ট্রেলিয়ায় জন্মেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি স্কটল্যান্ডে থাকি কিন্তু আমি বেলারুসে জন্মেছিলাম",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ইউকেতে বাস করি কিন্তু আমি আসলে আর্জেন্টিনায় জন্মগ্রহণ করেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "না, আমি স্পেনে জন্মেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ভারতে জন্মেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি জার্মানিতে জন্মগ্রহণ করেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ইউকেতে বেড়ে উঠেছি কিন্তু আমি আসলে ক্যামেরুনে জন্মগ্রহণ করেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ইউকেতে বেড়ে উঠেছি কিন্তু আমি আসলে চীনে জন্মগ্রহণ করেছি",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "আমি ট্যাবলেটটি পুরোপুরি গিলে নিই না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি এটা একগুলে গিলে ফেলতে পারব না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি পুরো ট্যাবলেটটি গিলতে পারছি না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ট্যাবলেটটি পুরোপুরি গিলে ফেলতে খুব কঠিন মনে করি",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমি ট্যাবলেটটি পুরোপুরি গিলে ফেলি না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না, আমার সবটা নেই",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "আমি ট্যাবলেটটি পুরোপুরি গিলে নিই না, আমি এটি পিষে নিই",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি এটা নেওয়ার আগে এটা গুঁড়ো করে নিই",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি ট্যাবলেটটিকে দুই ভাগ করে ফেললাম",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি এটিকে ছোট ছোট টুকরো করে ফেলি",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "না, আমি এটা গুঁড়া করে ফেলি",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি ট্যাবলেটটি চিবাই",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি একটি পিল কাটার দিয়ে এটিকে দুই ভাগ করে কেটেছি",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "না, আমি এটিকে একটি পাউডারে পিষে এবং পানির সাথে মিশিয়ে নিই",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আসলে আমি প্রথমে ওষুধটি পানিতে দ্রবীভূত করি",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমাকে ট্যাবলেট চিবাতে হবে কারণ আমি বড় ঔষধ গিলতে পারি না",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "আমি সাধারণত একটি পিল ক্রাশার ব্যবহার করি এটি ভাঙ্গতে",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  }
+]

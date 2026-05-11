@@ -1,0 +1,1451 @@
+llm_question,response,context,topic_key,expected_output
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,"""""""
+جی میں اب اخبار نہیں پڑھ سکتا
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,جی اور میں سیڑھیوں سے نیچے اترتے ہوئے دو بار گر چکا ہوں,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,"""""""
+مجھے لوگوں کے چہروں کو پہچاننے میں مشکل ہوتی ہے اور چلتے وقت مجھے لگتا ہے کہ میں بے سروسامان ہوں
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,پڑھنا ایک مسئلہ بن رہا ہے,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,جی یہ رات کو گاڑی چلانے میں مشکل ہے اور حال ہی میں مجھے کچھ گرے ہیں,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر آپ کی کام کرنے، گاڑی چلانے، پڑھنے، ٹی وی دیکھنے، یا چہروں کو پہچاننے کی صلاحیت کو متاثر کر رہی ہے؟,"""""""
+اب میں آہستہ چلتا ہوں خاص طور پر سیڑھیوں پر
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,جی میں اپنی دل کی بیماری کے لئے وارفارین لیتا ہوں,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+میں روزانہ ایسپیرن لیتا ہوں
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+جی لیکن مجھے نام نہیں معلوم
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+میں ریمیپریل لیتا ہوں کیا یہ ایک بلڈ تھنر ہے
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+جی میں کلوپڈوگرل پر ہوں """"""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,ایپیکسابان,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+جی
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,جی میں اپنی دل کی بیماری کے لئے وارفارین لیتا ہوں,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+میں روزانہ ایسپیرن لیتا ہوں
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ کوئی خون کے پتلی کرنے والی ادویات لے رہے ہیں؟,"""""""
+میں ریمیپریل لیتا ہوں کیا یہ ایک بلڈ تھنر ہے
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟",جی میں اپنے ذیابیطس کے لیے میٹفارمین لیتا ہوں,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+میں انسولین پر ہوں
+""""""",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+ہاں میرے بلڈ پریشر کے لیے
+""""""",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟",میں روزانہ کئی ادویات لیتا ہوں,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+میں بلڈ پریشر کے لیے رامیپریل لے رہا ہوں
+""""""",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+ہاں میرے بلڈ پریشر کے لیے
+""""""",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟",میں روزانہ کئی ادویات لیتا ہوں,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+میں بلڈ پریشر کے لیے رامیپریل لے رہا ہوں اور وٹامن ڈی کی سپلیمنٹس بھی لیتا ہوں
+""""""",Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے ادویات کے بارے میں پوچھنا ہو گا۔ کیا آپ کوئی باقاعدہ ادویات لیتے ہیں؟","""""""
+ہاں میرے بلڈ پریشر اور کولیسٹرول کے لیے
+""""""",Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,"""""""
+جی مجھے اس میں داخل ہونے اور باہر نکلنے میں مدد کی ضرورت ہے
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,"""""""
+معاف کیجئے کیا
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,"""""""
+میں جب شاپنگ کے لیے نکلتا ہوں تو میں ایک استعمال کرتا ہوں
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,جی میرا کیئر میری مدد کرتا ہے ٹرانسفر میں,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,"""""""
+جی میں بالکل چل نہیں سکتا
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,"""""""
+جی
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ باقاعدگی سے وہیل چیئر کا استعمال کرتے ہیں؟,نہیں,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ عام طور پر اپنی کرسی پر بیٹھنے اور اٹھنے کے لیے مدد کی ضرورت محسوس کرتے ہیں؟,"""""""
+جی
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ عام طور پر اپنی کرسی پر بیٹھنے اور اٹھنے کے لیے مدد کی ضرورت محسوس کرتے ہیں؟,"""""""
+نہیں میں خود ہی سنبھال لوں گا
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ عام طور پر اپنی کرسی پر بیٹھنے اور اٹھنے کے لیے مدد کی ضرورت محسوس کرتے ہیں؟,میری بیوی مجھے مدد کرتی ہے,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ عام طور پر اپنی کرسی پر بیٹھنے اور اٹھنے کے لیے مدد کی ضرورت محسوس کرتے ہیں؟,کبھی کبھی,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کی نظر گرتے یا نقل و حرکت کے مسائل کا سبب بن رہی ہے؟,"""""""
+جی میں کچھ دفعہ گر چکا ہوں
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر گرتے یا نقل و حرکت کے مسائل کا سبب بن رہی ہے؟,"""""""
+نہیں یقیناً نہیں
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر گرتے یا نقل و حرکت کے مسائل کا سبب بن رہی ہے؟,"""""""
+کبھی کبھی میں سیڑھیوں سے نیچے اترتے ہوئے تھوڑا بے سانت میں محسوس کرتا ہوں
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+کیا آپ کی نظر گرتے یا نقل و حرکت کے مسائل کا سبب بن رہی ہے؟,میں آہستہ چلتا ہوں,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+"""""""
+آپ کون سے بلڈ ٹھینرز لیتے ہیں؟
+""""""",وارفارن,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+آپ کون سے بلڈ ٹھینرز لیتے ہیں؟
+""""""",ایسپیرن,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+آپ کون سے بلڈ ٹھینرز لیتے ہیں؟
+""""""",کلوپڈوگرل,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+آپ کون سے بلڈ ٹھینرز لیتے ہیں؟
+""""""","""""""
+مुझے نام کا یقین نہیں ہے
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ وارفارین لیتے ہیں؟,"""""""
+جی
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ وارفارین لیتے ہیں؟,نہیں,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ وارفارین لیتے ہیں؟,"""""""
+میں استعمال کرتا تھا لیکن اب نہیں 
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے ذیابیطس کو کنٹرول کرنے کے لیے ادویات لیتے ہیں؟,"""""""
+جی میٹفارمین
+""""""",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے ذیابیطس کو کنٹرول کرنے کے لیے ادویات لیتے ہیں؟,"""""""
+میں انسولین پر ہوں
+""""""",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے ذیابیطس کو کنٹرول کرنے کے لیے ادویات لیتے ہیں؟,"""""""
+نہیں میں ذیابیطس سے متاثر نہیں ہوں
+""""""",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے بلڈ پریشر کو کنٹرول کرنے کے لیے کوئی گولیاں لیتے ہیں؟,جی ریمپرل,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے بلڈ پریشر کو کنٹرول کرنے کے لیے کوئی گولیاں لیتے ہیں؟,"""""""
+نہیں میرا بلڈ پریشر ٹھیک ہے
+""""""",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنے بلڈ پریشر کو کنٹرول کرنے کے لیے کوئی گولیاں لیتے ہیں؟,ایملوڈیپین,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,قریب ہی ٹھیک ہے,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,قریب ہی ٹھیک ہے,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,قریب ہی ٹھیک ہے,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+ہاں ایک فاصلے پر
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+ہاں ایک فاصلے پر
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+ہاں ایک فاصلے پر
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی قریب سے
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی قریب سے
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی قریب سے
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,دونوں,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,دونوں,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,دونوں,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور یا قریب دیکھ نہیں سکتا
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور یا قریب دیکھ نہیں سکتا
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور یا قریب دیکھ نہیں سکتا
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں قریب سے نہیں دیکھ سکتا
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں قریب سے نہیں دیکھ سکتا
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں قریب سے نہیں دیکھ سکتا
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور تک نہیں دیکھ سکتا
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور تک نہیں دیکھ سکتا
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+میں دور تک نہیں دیکھ سکتا
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,دونوں,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+کیا آپ کو دور سے، قریب سے یا دونوں سے واضح دیکھنے میں مشکل ہو رہی ہے؟,"""""""
+جی
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"""""""
+میں آپ کی آنکھ کی صحت یاب ہونے کے بارے میں کچھ معلومات اکٹھا کرنا چاہتا ہوں، جو میں آپ کے ڈاکٹر کے ساتھ شیئر کروں گا۔ تو، آپریشن کے بعد سے آپ کی آنکھ کیسا محسوس کر رہی ہے؟",میں سمجھتا ہوں کہ میں سب ٹھیک کر رہا ہوں اور کبھی کبھی تھوڑا سا خارش ہو جاتی ہے اور کچھ فلوٹرز بھی آتے ہیں,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"""""""
+میں آپ کی آنکھ کی صحت یاب ہونے کے بارے میں کچھ معلومات اکٹھا کرنا چاہتا ہوں، جو میں آپ کے ڈاکٹر کے ساتھ شیئر کروں گا۔ تو، آپریشن کے بعد سے آپ کی آنکھ کیسا محسوس کر رہی ہے؟",میں سمجھتا ہوں کہ میں سب ٹھیک کر رہا ہوں اور کبھی کبھی تھوڑا سا خارش ہو جاتی ہے اور کچھ فلوٹرز بھی آتے ہیں,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+"""""""
+میں آپ کی آنکھ کی صحت یاب ہونے کے بارے میں کچھ معلومات اکٹھا کرنا چاہتا ہوں، جو میں آپ کے ڈاکٹر کے ساتھ شیئر کروں گا۔ تو، آپریشن کے بعد سے آپ کی آنکھ کیسا محسوس کر رہی ہے؟",میں سمجھتا ہوں کہ میں سب ٹھیک کر رہا ہوں اور کبھی کبھی تھوڑا سا خارش ہو جاتی ہے اور کچھ فلوٹرز بھی آتے ہیں,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,"""""""
+جی جی میں نے جی
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,"""""""
+میں بہت اچھی طرح سے پڑھ نہیں سکتا
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,جی جب میں پڑھتا ہوں,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,"""""""
+ہاں دونوں
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,"""""""
+فقط ایک دوری پر
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کو دھندلا پن کا تجربہ ہو رہا ہے، چاہے آپ دور کی چیزوں کو دیکھ رہے ہوں یا پڑھ رہے ہوں؟,"""""""
+جی میں دور سے دیکھ نہیں سکتا",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا یہ زیادہ ہے جب آپ ٹی وی دیکھ رہے ہیں یا کچھ پڑھنے کی کوشش کر رہے ہیں؟,میری پڑھنے کی بصیرت,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا یہ زیادہ ہے جب آپ ٹی وی دیکھ رہے ہیں یا کچھ پڑھنے کی کوشش کر رہے ہیں؟,ٹی وی دیکھنا,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا یہ زیادہ ہے جب آپ ٹی وی دیکھ رہے ہیں یا کچھ پڑھنے کی کوشش کر رہے ہیں؟,دونوں,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا یہ زیادہ ہے جب آپ ٹی وی دیکھ رہے ہیں یا کچھ پڑھنے کی کوشش کر رہے ہیں؟,"""""""پڑھتے وقت کم""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کی نظر سرجری کے بعد بہتر ہوئی ہے,"""""""
+یہ کچھ بہتر ہو گیا ہے کیونکہ اب میں ٹی وی دیکھ سکتا ہوں لیکن میں پڑھ نہیں سکتا",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+کیا آپ کی نظر سرجری کے بعد بہتر ہوئی ہے,"""""""
+دیکھائی دینے میں تھوڑا سا بہتری آئی۔
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا آپ کی نظر سرجری کے بعد بہتر ہوئی ہے,"""""""
+یہ کچھ بہتر ہو گیا ہے کیونکہ اب میں ٹی وی دیکھ سکتا ہوں لیکن میں پڑھ نہیں سکتا",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+کیا آپ کی نظر سرجری کے بعد بہتر ہوئی ہے,یہ واقعی پہلے کے مقابلے میں بہت برا ہے,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,یہ بہتر تھا، لیکن اب یہ دھندلا ہے,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,میری نظر کمزور ہوتی جارہی ہے,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+صرف پہلے ہفتے کے لیے وہ اب غائب ہو گئے ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+مجھے پہلے کچھ تھا
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+جب میں نے پہلی بار یہ کیا تھا ہاں لیکن اب نہیں ہے
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+جی اور سیاہ دھبوں جیسی چیزیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+مجھے اپنی نظر میں دھبے نظر آ رہے ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+یہ سارے چھوٹے مکڑی کے جالے ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""تھوڑے سے چھوٹے سیاہ نقطے لیکن زیادہ نہیں صرف صبح کے اوائل میں اور پھر یہ چلا جاتا ہے""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+سرجری سے کچھ سال پہلے سے ہی مجھے فلوٹرز ہو گئے تھے
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ نے آپریشن کے بعد اپنی نظر میں چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے؟,"""""""
+مujhe chhoti chhoti bindiyaan hain
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+یہ حال ہی میں بہتر سے بدتر ہوتا جا رہا ہے
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟",وہ پہلے سے زیادہ تکلیف دہ ہیں,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+یہ اضافہ نہیں ہے میں فلائٹرز ہیں لیکن پہلے سے زیادہ نہیں ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+مुझے لگتا ہے کہ میرے فلوٹرز میں اضافہ نہیں ہوا ہے
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+میری رائے میں مجھے حال ہی میں زیادہ فلوٹرز نہیں ہوئے ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟",ٹوٹکے ضرور بڑھ رہے ہیں,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+سیاہ نقطے اب زیادہ تکلیف دہ ہیں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟",نہیں,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+تو کہہ رہے ہو کہ آپ نے سرجری کے بعد اپنی نظر میں کچھ چھوٹے سیاہ دھبوں یا مکڑی کے جالوں کو محسوس کیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ وہ آپریشن کے بعد سے بدل گئے ہیں یا ان کی تعداد میں اضافہ ہوا ہے؟","""""""
+جی میں ان کے پاس پہلے نہیں تھا
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,"""""""
+مujhe چھوٹے چھوٹے نقطے نظر آتے ہیں جو میرے اوپر آگے پیچھے ہلتے رہتے ہیں اور مجھے ان سب سے پیار ہے
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,"""""""
+میں بہت سے سیاہ نقطے دیکھ رہا ہوں
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+جی
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+نہیں بہت درد سے آگاہ ہوں صرف اس سائٹ کا درد اور آج صبح وہ بہت ہلکا تھا
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+صرف قطرے کے بعد میرا آنکھا جلتا ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+جی میں نے کل رات کو تکلیف محسوس کی ہاں جب میں نے اینٹی بائیوٹک کھانا ختم کیا تھا",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,بہت درد ہوتا ہے,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,یہ نازک ہے,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,یہ مجھے خفا کر رہا ہے,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,جی مجھے بہت درد ہے,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+یہ گریٹی سے بھی زیادہ چوٹ کرتا ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,"""""""
+مجھے لگتا ہے کہ یہ مجموعی طور پر کم تکلیف دہ ہوتا جا رہا ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,ہمیشہ تکلیف دہ,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,"""""""
+جی کبھی کبھی یہ درد کرتا ہے میں اسے محسوس کرتا ہوں جب میں سوچتا ہوں کہ مجھے نہیں کرنا چاہیے میں اس کے بارے میں آگاہ ہوں یہ مجھے ایک سست درد دیتا ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,ہمیشہ درد ہوتا ہے اور خاص طور پر صبح کے وقت,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,درد کم ہو رہا ہے,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,"""""""
+کل یہ بہت برا تھا لیکن آج صبح جب میں اٹھا تو اب بھی مجھے تکلیف ہو رہی ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,"""""""
+جب بھی قطرے اسے چبھنے لگتے ہیں
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,کبھی کبھی تھوڑا سا درد ناک,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,"""""""
+مجھے تکلیف ہو رہی ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی آنکھ میں درد محسوس کر رہے ہیں,درد ٹھنڈا ہو جائے اوور,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+کیا آپکے آنکھ میں درد کبھی کبھی ہوتا ہے یا ہمیشہ؟,"""""""
+یہ سڑا ہوا محسوس ہوتا ہے
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"""""""
+شکریہ  تو تھوڑا سا درد محسوس کر رہے ہو اور یہ آتا جاتا رہتا ہے۔ کیا آپ اس درد کے بارے میں تھوڑا زیادہ بتا سکتے ہیں - کیا یہ زیادہ تر خشک یا ریتلا احساس ہے یا کچھ اور؟",جی ہاں بالکل ٹھیک ہے کبھی کبھی تھوڑا سا خشک بھی ہوتا ہے,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو آپ کو اپنی آنکھ میں کبھی کبھی تھوڑا سا درد محسوس ہو رہا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ درد کیسا محسوس ہوتا ہے - کیا یہ زیادہ تر ریتلا یا خشک احساس ہے یا کچھ اور؟,سوکھا احساس,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کو اپنی آنکھ میں درد ہو رہا ہے؟,"""""""
+کبھی کبھی تھوڑا سا خشک ہو جاتا ہے
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,کبھی کبھی تھوڑا سا خشک ہو جاتا ہے,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟,کبھی کبھی تھوڑا سا خشک ہو جاتا ہے,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کی آنکھیں بिलکل بھی درد کر رہی ہیں؟,وہ صرف تھوڑا سا کھردار ہیں,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟ بالکل بھی,وہ صرف تھوڑا سا کھردار ہیں,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟ بالکل بھی,وہ صرف تھوڑا سا کھردار ہیں,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کو اپنی آنکھ میں درد ہو رہا ہے؟,"""""""
+صرف قطرے کے بعد میرا آنکھا جلتا ہے
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,"""""""
+صرف قطرے کے بعد میرا آنکھا جلتا ہے
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟,"""""""
+صرف قطرے گرانے کے بعد میرے آنکھیں چبھتی ہیں
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ کو اپنی آنکھ میں درد ہو رہا ہے؟,"""""""
+جی
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,"""""""
+جی
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟,"""""""
+جی
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,"""""""
+مجھے لگتا ہے کہ یہ مجموعی طور پر کم تکلیف دہ ہوتا جا رہا ہے
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟,"""""""
+مجھے لگتا ہے کہ یہ مجموعی طور پر کم تکلیف دہ ہوتا جا رہا ہے
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپکي آنکھ فی الحال درد کر رہی ہے؟,ہمیشہ تکلیف دہ,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ کی آنکھیں درد کر رہی ہیں؟,ہمیشہ تکلیف دہ,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,میری آنکھ تھوڑی سے گُلابی ہے جی,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,آنکھ کے بائیں اور دائیں دونوں حصے سرخ ہیں,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,یہ سارے راستے سرخ ہے,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,پوری طرح سے سرخ,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,میری آنکھ کا تھوڑا سا حصہ سرخ ہو گیا ہے,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,ٹھیک ہے یہ ابھی بھی تھوڑا سا گلابی ہے,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+کیا آپ کے آنکھ میں سرخی کا احساس ہو رہا ہے,سرخ کناروں کے ارد گرد,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,"""""""
+نہیں یہ کونے میں نہیں لال ہے یہ تو سارے جگہ لال ہے
+""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,میری آنکھ کا ہر حصہ سرخ ہو گیا ہے,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,جی یہ ناک کے قریب ہے یہ بہت بہت سرخ ہے اور یہ ایسا لگتا ہے جیسے اس میں زخم ہو,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,"""""""سرخی تقریباً مکمل طور پر ختم ہو گئی ہے، سواۓ کونے میں تھوڑی سی کے""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,"""""""نہیں بالکل۔ یہ یہ زیادہ خون آلود ہے، اور یہ باہر سے سرخ ہے، آنکھ کے نیچے یہ سرخ ہو جاتا ہے۔""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا آپکے پورے آنکھ میں سرخی ہے یا صرف ایک کونے میں ہے، جو آپکے ناک کے قریب ہے؟,"""""""
+میں کہوں گا کہ آنکھ کا ایک حصہ سرخ ہے
+""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+کیا سرخی آپکے پورے آنکھ پر ہے یا ناک کے قریب کونے میں زیادہ ہے؟,"""""""
+نہیں یہ بہت سرخ نہیں بس کونے میں تھوڑا سا
+""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+آپریشن کے بعد آپ کی آنکھ کیسا محسوس کر رہی ہے؟,یہ تو بہت سا لال ہے,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+کیا آپ نے غیر متوقع طور پر وزن میں کمی کا تجربہ کیا ہے؟,"""""""
+تقریباً 6 ماہ میں 2 پتھر کے قریب ہوں گے میں سمجھتا ہوں
+""""""",How much weight have you lost?,copd-screen@1.0.0,TRUE
+کیا آپ نے غیر متوقع طور پر وزن میں کمی کا تجربہ کیا ہے؟,"""""""
+تقریباً 6 ماہ میں 2 پتھر کے قریب ہوں گے میں سمجھتا ہوں
+""""""",Over what time period did you lose this weight?,copd-screen@1.0.0,TRUE
+کیا آپ نے غیر متوقع طور پر وزن میں کمی کا تجربہ کیا ہے؟,"""""""
+میں نے کچھ وزن کم کیا ہے
+""""""",Over what time period did you lose this weight?,copd-screen@1.0.0,FALSE
+کیا آپ نے غیر متوقع طور پر وزن میں کمی کا تجربہ کیا ہے؟,"""""""
+میں نے کچھ وزن کم کیا ہے
+""""""",How much weight have you lost?,copd-screen@1.0.0,FALSE
+کیا آپ نے خون کا قہقہہ کیا ہے؟,جی، لیکن یہ صرف کچھ جگہیں ہیں,How much blood have you coughed up?,copd-screen@1.0.0,TRUE
+کیا آپ نے خون کا قہقہہ کیا ہے؟,جی میں کچھ خون دیکھتا ہوں,How much blood have you coughed up?,copd-screen@1.0.0,FALSE
+کیا آپ نے خون کا قہقہہ کیا ہے؟,جی، لیکن ایسا صرف ایک یا دو بار ہوا,How often has this happened?,copd-screen@1.0.0,TRUE
+کیا آپ نے خون کا قہقہہ کیا ہے؟,جی میں کچھ خون دیکھتا ہوں,How often has this happened?,copd-screen@1.0.0,FALSE
+"""""""
+آپ کے کانوں میں دباؤ کتنا بڑا مسئلہ رہا ہے؟
+""""""",یہ صرف ایک ہلکی سی پریشانی ہے,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+"""""""
+آپ کے کانوں میں دباؤ کتنا بڑا مسئلہ رہا ہے؟
+""""""","""""""
+بہتر ہے۔ میں اس کا کیسے بیان کروں..
+""""""","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+"""""""
+آپ کے کانوں میں دباؤ کتنا بڑا مسئلہ رہا ہے؟
+""""""",دباؤ ہمیشہ موجود رہتا ہے,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+کیا آپ کے کان بھرے ہوئے یا 'پانی کے نیچے' محسوس ہوتے ہیں؟,"""""""
+جی، لیکن میں سمجھتا ہوں کہ تھوڑا سا
+""""""","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+کیا آپ کے کان بھرے ہوئے یا 'پانی کے نیچے' محسوس ہوتے ہیں؟,جی، یہ ایک سنگین مسئلہ ہے۔,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+کیا آپ کے کان بھرے ہوئے یا 'پانی کے نیچے' محسوس ہوتے ہیں؟,"""""""
+جی بिलکل ایسا ہی ہے
+""""""","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+کیا آپ کے کان بھرے ہوئے یا 'پانی کے نیچے' محسوس ہوتے ہیں؟,"""""""
+جی، ہر وقت
+""""""","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+کیا آپ کو دوائی سے کوئی ضمنی اثرات کا سامنا کرنا پڑا ہے؟,جی، مجھے بدیہہضمی ہو رہی ہے,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,TRUE
+کیا آپ کو دوائی سے کوئی ضمنی اثرات کا سامنا کرنا پڑا ہے؟,میں تو ہمیشہ اپنے گرنے کے بعد سے ہی درد میں رہتا ہوں,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,FALSE
+کیا آپ کو دوائی سے کوئی ضمنی اثرات کا سامنا کرنا پڑا ہے؟,"""""""
+جی میں نے کچھ مسائل کا سامنا کیا ہے
+""""""",Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+کیا آپ کو دوائی سے کوئی ضمنی اثرات کا سامنا کرنا پڑا ہے؟,"""""""
+جی لیکن میں سوچتا ہوں کہ جب میں لیٹ جاتا ہوں جب میں اپنی گولی لیتا ہوں """"""",Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+کیا آپ کو دوائی سے کوئی ضمنی اثرات کا سامنا کرنا پڑا ہے؟,جی کچھ گولیاں تھوڑی مشکل سے نزл جاتی ہیں,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,TRUE
+"""""""
+میں یہاں آپ سے اپنی ہڈی کی صحت کی ادویات کے ساتھ آپ کے تجربات کے بارے میں کچھ سوالات پوچھنے کے لیے یہاں ہوں۔ کیا یہ ٹھیک ہوگا؟",جی وہ ٹھیک ہے,Are you able to swallow the tablet whole?,llm-fracture-liaison-service@1.0.0,FALSE
+"""""""
+میں یہاں آپ سے اپنی ہڈی کی صحت کی ادویات کے ساتھ آپ کے تجربات کے بارے میں کچھ سوالات پوچھنے کے لیے یہاں ہوں۔ کیا یہ ٹھیک ہوگا؟",ٹھیک ہے، لیکن آپ کو یہ جاننے کی ضرورت ہے کہ میرے ڈاکٹر نے میرے ادویات بدل دیے ہیں کیونکہ مجھے کچھ ضمنی اثرات تھے,Has your GP tried you on a different medication or referred you back to the hospital?,llm-fracture-liaison-service@1.0.0,TRUE
+"""""""
+میں یہاں آپ سے اپنی ہڈی کی صحت کی ادویات کے ساتھ آپ کے تجربات کے بارے میں کچھ سوالات پوچھنے کے لیے یہاں ہوں۔ کیا یہ ٹھیک ہوگا؟",جی، میں اپنی تمام گولیاں لیتا ہوں، صبح کے وقت کھانے کے بغیر اور اس طرح کے تمام کاموں کے لیے، میں اس کے بارے میں بہت محنت سے کام لیتا ہوں۔,Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,TRUE
+"""""""
+میں یہاں آپ سے اپنی ہڈی کی صحت کی ادویات کے ساتھ آپ کے تجربات کے بارے میں کچھ سوالات پوچھنے کے لیے یہاں ہوں۔ کیا یہ ٹھیک ہوگا؟",جی، مجھے کچھ سوالات ہیں,Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,FALSE
+"""""""
+میں یہاں آپ سے اپنی ہڈی کی صحت کی ادویات کے ساتھ آپ کے تجربات کے بارے میں کچھ سوالات پوچھنے کے لیے یہاں ہوں۔ کیا یہ ٹھیک ہوگا؟",ٹھیک ہے وہ ٹھیک ہے,Do you remain sitting or standing for 30 minutes after taking the tablet?,llm-fracture-liaison-service@1.0.0,FALSE
+"""""""
+کیا آپ نے وینٹنگ لسٹ میں شامل ہونے کے بعد کوئی بڑا صحت کا واقعہ (مثلاً دل کا دورہ یا فالج) کا تجربہ کیا ہے؟","""""""
+مجھے دل کا دورہ پڑا ہے
+""""""",details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,TRUE
+"""""""
+کیا آپ نے وینٹنگ لسٹ میں شامل ہونے کے بعد کوئی بڑا صحت کا واقعہ (مثلاً دل کا دورہ یا فالج) کا تجربہ کیا ہے؟",جی میں ایک ہفتے کے لیے ہسپتال میں رہنا پڑا,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+کیا آپ نے وینٹنگ لسٹ میں شامل ہونے کے بعد کوئی بڑا صحت کا واقعہ (مثلاً دل کا دورہ یا فالج) کا تجربہ کیا ہے؟",جی ضرور,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+کیا آپ نے وینٹنگ لسٹ میں شامل ہونے کے بعد کوئی بڑا صحت کا واقعہ (مثلاً دل کا دورہ یا فالج) کا تجربہ کیا ہے؟",جی ہاں,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+آپ کو آخری دفعہ دیکھا گیا تھا، کیا آپ کہیں گے کہ آپ کے علامات میں نمایاں طور پر تبدیلی آئی ہے (بہتر یا بدتر)?
+""""""",جی، میرا خون بہنا بہت زیادہ بڑھ گیا ہے۔,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,TRUE
+"""""""
+آپ کو آخری دفعہ دیکھا گیا تھا، کیا آپ کہیں گے کہ آپ کے علامات میں نمایاں طور پر تبدیلی آئی ہے (بہتر یا بدتر)?
+""""""",جی ہاں,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+آپ کو آخری دفعہ دیکھا گیا تھا، کیا آپ کہیں گے کہ آپ کے علامات میں نمایاں طور پر تبدیلی آئی ہے (بہتر یا بدتر)?
+""""""",جی میں نے، مجھے واقعی کسی سے ملاقات کرنی ہے,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,جی ہاں,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,یقینی طور پر یہ بہتر ہوتا جا رہا ہے,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,جی، خاص طور پر جب میں چلتا ہوں,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,TRUE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,جی ہاں,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,جی، میں ہمیشہ پھولا ہوا ہوں,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+کیا آپ کو سانس لینے میں کوئی نئی یا بڑھتی ہوئی تکلیف ہوئی ہے؟,جی اور مجھے لگتا ہے کہ یہ بہتر ہونے کے بجائے بہتر ہوتا جا رہا ہے,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,TRUE
+"""""""
+میں آپ کے دل کی حالت کا جائزہ لینا چاہتا ہوں۔ حال ہی میں آپ کیسا محسوس کر رہے ہیں؟
+""""""",میں بہت تھک گیا ہوں، اب گھر سے باہر نکلنے کی بھی مجھے ہمت نہیں ہے,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,TRUE
+"""""""
+میں آپ کے دل کی حالت کا جائزہ لینا چاہتا ہوں۔ حال ہی میں آپ کیسا محسوس کر رہے ہیں؟
+""""""",میں بہت تھک گیا ہوں,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,FALSE
+"""""""
+میں آپ کے دل کی حالت کا جائزہ لینا چاہتا ہوں۔ حال ہی میں آپ کیسا محسوس کر رہے ہیں؟
+""""""","""""""
+میں حال ہی میں بہت اچھا نہیں محسوس کر رہا ہوں۔
+""""""",What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,FALSE
+"""""""
+میں آپ کے دل کی حالت کا جائزہ لینا چاہتا ہوں۔ حال ہی میں آپ کیسا محسوس کر رہے ہیں؟
+""""""","""""""
+میں اچھا نہیں محسوس کر رہا تھا، میرا ذیابیطس بہت بڑھ گیا تھا اور مجھے اپنے ڈاکٹر سے ملاقات کے لئے جانا پڑا
+""""""",What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,TRUE
+کیا آپ کو پیٹ میں درد، تکلیف یا پھولنے کی شکایت ہے؟,"""""""
+جی، تقریباً ایک سال ہو گیا ہے۔
+""""""",Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,TRUE
+کیا آپ کو پیٹ میں درد، تکلیف یا پھولنے کی شکایت ہے؟,جی ہاں,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,FALSE
+کیا آپ کو پیٹ میں درد، تکلیف یا پھولنے کی شکایت ہے؟,جی، درد کبھی آتا ہے اور کبھی چلا جاتا ہے۔ کچھ دن میں بالکل ٹھیک ہو جاتا ہوں۔,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,TRUE
+کیا آپ کو پیٹ میں درد، تکلیف یا پھولنے کی شکایت ہے؟,جی میں نے کچھ درد محسوس کیا ہے,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,FALSE
+کیا آپ کو دیارہ ہو رہا ہے، جس میں رات کے وقت بھی شامل ہے؟,جی اور اس میں کچھ خون بھی ہے جو فکر مند کرنے والا ہے,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,TRUE
+کیا آپ کو دیارہ ہو رہا ہے، جس میں رات کے وقت بھی شامل ہے؟,"""""""
+جی، بہت پانی والا، رات کے وقت بھی۔",Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+کیا آپ کو دیارہ ہو رہا ہے، جس میں رات کے وقت بھی شامل ہے؟,جی بہت زیادہ دست,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+"""""""
+اس سوال کے لیے، میں آپ سے ایک سادہ ٹیسٹ کرنے کو کہوں گا۔ کیا آپ براہ کرم کھڑے ہو سکتے ہیں اور اپنا دوسرا ہاتھ اپنی آپریٹ کی ہوئی جگہ پر सपاٹ سے رکھ سکتے ہیں؟ اب براہ کرم فون کو نیچے رکھ دیں اور اس ہاتھ کو اپنے منہ کے قریب لے آئیں اور پھونک ماریں۔ مجھے بتائیں کہ جب آپ یہ کر لیں گے تو میں آپ سے پوچھوں گا کہ کیا آپ کو کچھ محسوس ہوا۔",جی میں وہاں گٹھا محسوس کر سکتا ہوں جب میں ایسا کرتا ہوں,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,TRUE
+"""""""
+اس سوال کے لیے، میں آپ سے ایک سادہ ٹیسٹ کرنے کو کہوں گا۔ کیا آپ براہ کرم کھڑے ہو سکتے ہیں اور اپنا دوسرا ہاتھ اپنی آپریٹ کی ہوئی جگہ پر सपاٹ سے رکھ سکتے ہیں؟ اب براہ کرم فون کو نیچے رکھ دیں اور اس ہاتھ کو اپنے منہ کے قریب لے آئیں اور پھونک ماریں۔ مجھے بتائیں کہ جب آپ یہ کر لیں گے تو میں آپ سے پوچھوں گا کہ کیا آپ کو کچھ محسوس ہوا۔",میں نے یہ کام کر لیا ہے,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+"""""""
+اس سوال کے لیے، میں آپ سے ایک سادہ ٹیسٹ کرنے کو کہوں گا۔ کیا آپ براہ کرم کھڑے ہو سکتے ہیں اور اپنا دوسرا ہاتھ اپنی آپریٹ کی ہوئی جگہ پر सपاٹ سے رکھ سکتے ہیں؟ اب براہ کرم فون کو نیچے رکھ دیں اور اس ہاتھ کو اپنے منہ کے قریب لے آئیں اور پھونک ماریں۔ مجھے بتائیں کہ جب آپ یہ کر لیں گے تو میں آپ سے پوچھوں گا کہ کیا آپ کو کچھ محسوس ہوا۔",ٹھیک ہے,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+کیا آپ فی الحال کوئی باقاعدہ ادویات لے رہے ہیں، بشمول پرسکرپشن دوائیں یا کاؤنٹر پر موجود کوئی بھی چیز؟,جی ہاں,Have you been advised to adjust or stop any medications before this procedure?,llm-preop-hvlc@1.0.0,FALSE
+کیا آپ نے پہلے جنرل اینیسٹھیسیا یا سڈیشن کیا ہے؟,"""""""
+جی میں نے یہ حال ہی میں کیا ہے، یہ بالکل ٹھیک ہو گیا ہے
+""""""",Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,TRUE
+کیا آپ نے پہلے جنرل اینیسٹھیسیا یا سڈیشن کیا ہے؟,"""""""
+جی میں کیا ہے
+""""""",Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,FALSE
+کیا آپ کوئی بلڈ ٹھینرز (جیسے وارفارن، اپیکسابان، ریوروکسابان، کلوپڈوگرل، یا ایسپرن) لے رہے ہیں؟,جی میں وارفارن لیتا ہوں,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+کیا آپ کوئی بلڈ ٹھینرز (جیسے وارفارن، اپیکسابان، ریوروکسابان، کلوپڈوگرل، یا ایسپرن) لے رہے ہیں؟,جی ہاں,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ کے پاس کوئی جانے جانی الرجی ہے، بشمول ادویات کی الرجی (مثلا اینٹی بائیوٹکس، لیکسیکس، یا اینیسٹھیٹک ایجنٹس)؟,"""""""
+میں لیکسیس سے الرجک ہوں
+""""""",What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+کیا آپ کے پاس کوئی جانے جانی الرجی ہے، بشمول ادویات کی الرجی (مثلا اینٹی بائیوٹکس، لیکسیکس، یا اینیسٹھیٹک ایجنٹس)؟,جی میں کچھ الرجی کا شکار ہوں,What are you allergic to?,llm-preop-hvlc@1.0.0,FALSE
+کیا آپ کے پاس کوئی جانے جانی الرجی ہے، بشمول ادویات کی الرجی (مثلا اینٹی بائیوٹکس، لیکسیکس، یا اینیسٹھیٹک ایجنٹس)؟,پینسلین,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+کیا آپ کے پاس کوئی اہم طبی تاریخ ہے، بشمول دائمی حالات یا پچھلے سرجری، جس کے بارے میں ٹیم کو آگاہ ہونا چاہیے؟,جی میں نے حال ہی میں اپنی کولھے کی جوڑی بدلی ہے، تقریباً 6 ماہ قبل,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,TRUE
+کیا آپ کے پاس کوئی اہم طبی تاریخ ہے، بشمول دائمی حالات یا پچھلے سرجری، جس کے بارے میں ٹیم کو آگاہ ہونا چاہیے؟,جی میں نے کچھ کام کرائے ہیں,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,FALSE
+"""""""
+میں یہاں آپ کی بار بار ہونے والے پیشاب کی инфекشن کی تاریخ پر بات کرنے کے لیے ہوں۔ آپ کیسے ہیں؟","""""""
+میں ٹھیک ہوں، لیکن جب میں پانی نکلتا ہوں تو مجھے جلن اور چبھنے کی تکلیف ہوتی ہے
+""""""",Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+"""""""
+میں یہاں آپ کی بار بار ہونے والے پیشاب کی инфекشن کی تاریخ پر بات کرنے کے لیے ہوں۔ آپ کیسے ہیں؟","""""""
+میں ٹھیک ہوں، لیکن مجھے پیشاب کرنے میں بہت زیادہ مسائل ہیں۔
+""""""",Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+میں یہاں آپ کی بار بار ہونے والے پیشاب کی инфекشن کی تاریخ پر بات کرنے کے لیے ہوں۔ آپ کیسے ہیں؟","""""""
+میں ٹھیک ہوں، لیکن مجھے پیشاب کرنے میں بہت زیادہ مسائل ہیں۔
+""""""",Do you rush to the toilet?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+میں یہاں آپ کی بار بار ہونے والے پیشاب کی инфекشن کی تاریخ پر بات کرنے کے لیے ہوں۔ آپ کیسے ہیں؟","""""""
+میں ٹھیک ہوں، لیکن مجھے پیشاب کرنے میں بہت زیادہ مسائل ہیں۔
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+"""""""
+میں یہاں آپ کی بار بار ہونے والے پیشاب کی инфекشن کی تاریخ پر بات کرنے کے لیے ہوں۔ آپ کیسے ہیں؟","""""""
+میں ٹھیک ہوں، لیکن جب میں پانی نکلتا ہوں تو مجھے جلن اور چبھنے کی تکلیف ہوتی ہے
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+جب آپ کو پیشاب کی инфекشن ہوتی ہے تو آپ کو کون سے علامات ہوتی ہیں؟
+""""""",یہ ہمیشہ جلتا ہے,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+"""""""
+جب آپ کو پیشاب کی инфекشن ہوتی ہے تو آپ کو کون سے علامات ہوتی ہیں؟
+""""""","""""""
+یہ زیادہ ضرورت ہے کہ بہت بار جانا پڑے
+""""""",Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+جب آپ کو پیشاب کی инфекشن ہوتی ہے تو آپ کو کون سے علامات ہوتی ہیں؟
+""""""","""""""
+یہ زیادہ ضرورت ہے کہ بہت بار جانا پڑے
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+"""""""
+جب آپ کو پیشاب کی инфекشن ہوتی ہے تو آپ کو کون سے علامات ہوتی ہیں؟
+""""""",یہ ہمیشہ جلتا ہے,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+جب آپ کو پیشاب کی инфекشن ہوتی ہے تو آپ کو کون سے علامات ہوتی ہیں؟
+""""""","""""""
+مجھے جلدی سے بیت الخلا جانا ہے۔
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+تو آپ کو سوجن کے ساتھ کچھ درد بھی ہو رہا ہے، ہاں۔ میں یہ لکھ لوں۔ کیا آپکے آنکھ میں اس وقت درد ہو رہا ہے؟",اور یہ تھوڑا درد ناک بھی ہے اصل میں,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"""""""
+شکریہ، اب میں آپ کی نظر کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ سرجری کے بعد کوئی دھندلا پن محسوس کر رہے ہیں؟",جی، سرجری کے بعد سے میرے نظر میں کچھ دھندلا پن محسوس ہو رہا ہے۔,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",دو ہفتوں پہلے تک واضح تھا، پھر دھندلا ہونا شروع ہوا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""","""""""
+سرجری کے بعد سے ہی حالات اچھے نہیں ہیں، سچ تو یہ ہے 
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",نہیں,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ تھوڑا دھندلا ہے,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ مجھ سے سوچا ہوا زیادہ دھندلا ہے، لیکن آہستہ آہستہ بہتر ہو رہا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ بہتر سے بہتر ہوتا جا رہا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ تھوڑا دھندلا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ بہتر ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+کیا آپ سمجھتے ہیں کہ دھندلا پن بہتر ہو رہا ہے یا بُرا ہو رہا ہے؟,یہ مجھ سے سوچا ہوا زیادہ دھندلا ہے، لیکن آہستہ آہستہ بہتر ہو رہا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+کیا آپ سمجھتے ہیں کہ دھندلا پن بہتر ہو رہا ہے یا بُرا ہو رہا ہے؟,یہ بہتر سے بہتر ہوتا جا رہا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+کیا آپ سمجھتے ہیں کہ دھندلا پن بہتر ہو رہا ہے یا بُرا ہو رہا ہے؟,یہ تھوڑا دھندلا ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+کیا آپ سمجھتے ہیں کہ دھندلا پن بہتر ہو رہا ہے یا بُرا ہو رہا ہے؟,یہ بہتر ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+دھندلاپن کی کتنی برائی ہے؟
+""""""",مुझے لگتا ہے کہ دھندلاپن تھوڑا بہتر ہو رہا ہے۔,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+وقت کے ساتھ تبدیلی - کیا آپ سمجھتے ہیں کہ دھندلاپن بہتر ہو رہا ہے یا بدتر؟,مुझے لگتا ہے کہ دھندلاپن تھوڑا بہتر ہو رہا ہے۔,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو آپ کو اپنی نظر میں کچھ تبدیلیاں محسوس ہو رہی ہیں۔ اب، میں صرف پوچھنا چاہتا ہوں، کیا آپ کی نظر تھوڑی سی دھندلی ہے یا مکمل طور پر دھندلی ہے؟,میری نظر تھوڑی سی دھندلی ہے، مکمل طور پر دھندلی نہیں۔,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو آپ کو اپنی نظر میں کچھ تبدیلیاں محسوس ہو رہی ہیں۔ اب، میں صرف پوچھنا چاہتا ہوں، کیا آپ کی نظر تھوڑی سی دھندلی ہے یا مکمل طور پر دھندلی ہے؟,"""""""
+ہم ایم یہ مکمل طور پر دھندلا ہو گیا ہے۔
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""","""""""
+نہیں یہ تھوڑا دھندلا ہے
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ تھوڑا دھندلا ہے,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ بالکل دھندلا ہو گیا ہے,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ بالکل دھندلا ہو گیا ہے,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",نہیں,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,نہیں,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""","""""""
+جی
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,"""""""
+جی
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",ٹھیک ہے یہ بہتر نہیں ہے، لیکن شاید اس لیے کہ میں اپا پرانا چشما پہنا ہوا ہوں,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ بہتر ہے، میرے پرانے چشمیوں کے ساتھ یا ان کے بغیر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ بہتر ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"""""""
+کیا آپ کی نظر آپ کی امید کے مطابق سرجری کے بعد بہتر ہوئی ہے؟
+""""""",یہ اب بھی دھندلا ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,دو ہفتوں پہلے تک واضح تھا، پھر دھندلا ہونا شروع ہوا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,"""""""
+سرجری کے بعد سے ہی حالات اچھے نہیں ہیں، سچ تو یہ ہے 
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,نہیں,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ تھوڑا دھندلا ہے,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+جب آپ نے پہلی بار دھندلاپن کو محسوس کیا؟",دو ہفتوں پہلے تک واضح تھا، پھر دھندلا ہونا شروع ہوا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+جب آپ نے پہلی بار دھندلاپن کو محسوس کیا؟","""""""
+سرجری کے بعد سے ہی حالات اچھے نہیں ہیں، سچ تو یہ ہے 
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+جب آپ نے پہلی بار دھندلاپن کو محسوس کیا؟",نہیں,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+جب آپ نے پہلی بار دھندلاپن کو محسوس کیا؟",یہ تھوڑا دھندلا ہے,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ بہتر ہے,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,ٹھیک ہے یہ بہتر نہیں ہے، لیکن شاید اس لیے کہ میں اپا پرانا چشما پہنا ہوا ہوں,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ بہتر ہے، میرے پرانے چشمیوں کے ساتھ یا ان کے بغیر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ بہتر ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+کیا آپ اپنی سرجری کے بعد سے اب تک دھندلا دیکھنے کا تجربہ کر رہے ہیں؟,یہ اب بھی دھندلا ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+کیا دھندلا پن صرف اس وقت ہوتا ہے جب آپ اپا پرانا چشما پہنتے ہیں؟,ٹھیک ہے یہ بہتر نہیں ہے، لیکن شاید اس لیے کہ میں اپا پرانا چشما پہنا ہوا ہوں,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+کیا دھندلا پن صرف اس وقت ہوتا ہے جب آپ اپا پرانا چشما پہنتے ہیں؟,یہ بہتر ہے، میرے پرانے چشمیوں کے ساتھ یا ان کے بغیر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+کیا دھندلا پن صرف اس وقت ہوتا ہے جب آپ اپا پرانا چشما پہنتے ہیں؟,یہ بہتر ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+کیا دھندلا پن صرف اس وقت ہوتا ہے جب آپ اپا پرانا چشما پہنتے ہیں؟,یہ اب بھی دھندلا ہے,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+اس آپریشن کے بعد میں انہیں کبھی کبھار دیکھتا ہوں
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+جی، لیکن صرف کبھی کبھی
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+دو دن پہلے سے
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+جی میں کیا ہے
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، تو میں ان فلوٹرز کے بارے میں پوچھنا چاہتا ہوں جن کی آپ نے نشاندہی کی ہے۔ کیا آپ ان فلوٹرز کو اکثر دیکھ رہے ہیں یا کبھی کبھار؟,"""""""
+اس آپریشن کے بعد میں انہیں کبھی کبھار دیکھتا ہوں
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں ان فلوٹرز کے بارے میں پوچھنا چاہتا ہوں جن کی آپ نے نشاندہی کی ہے۔ کیا آپ ان فلوٹرز کو اکثر دیکھ رہے ہیں یا کبھی کبھار؟,"""""""
+جی، لیکن صرف کبھی کبھی
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں ان فلوٹرز کے بارے میں پوچھنا چاہتا ہوں جن کی آپ نے نشاندہی کی ہے۔ کیا آپ ان فلوٹرز کو اکثر دیکھ رہے ہیں یا کبھی کبھار؟,"""""""
+دو دن پہلے سے
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، تو میں ان فلوٹرز کے بارے میں پوچھنا چاہتا ہوں جن کی آپ نے نشاندہی کی ہے۔ کیا آپ ان فلوٹرز کو اکثر دیکھ رہے ہیں یا کبھی کبھار؟,"""""""
+جی میں کیا ہے
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"""""""
+سمجھ گیا تو بس آپ کی نظر کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟ """"""",جی، سرجری کے بعد سے میں نے کچھ فلوٹرز محسوس کیے ہیں۔,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+میں نے کچھ، سیاہ دھبوں کو ہاں
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+دو دن پہلے سے
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+اس آپریشن کے بعد میں انہیں کبھی کبھار دیکھتا ہوں
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد کوئی فلوٹرز محسوس کیے ہیں؟,"""""""
+جی میں کیا ہے
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"""""""
+جب آپ نے پہلی بار ان فلوٹرز کو دیکھا تھا؟","""""""
+میں نے کچھ، سیاہ دھبوں کو ہاں
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"""""""
+جب آپ نے پہلی بار ان فلوٹرز کو دیکھا تھا؟","""""""
+دو دن پہلے سے
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+"""""""
+جب آپ نے پہلی بار ان فلوٹرز کو دیکھا تھا؟","""""""
+اس آپریشن کے بعد میں انہیں کبھی کبھار دیکھتا ہوں
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+"""""""
+جب آپ نے پہلی بار ان فلوٹرز کو دیکھا تھا؟","""""""
+جی میں کیا ہے
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,جی، کیمرے کی فلیش کی طرح,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+بس ایک پتلی چمکتی ہوئی لکیر
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+مجرا ہوں 
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، میں چمکتی ہوئی روشنیوں کے بارے میں تھوڑا اور پوچھنا چاہتا ہوں۔ کیا آپ ان کا بیان کر سکتے ہیں - کیا وہ کیمرے کی فلیش کی طرح ہیں، یا ایک پتلی لکیر، یا کچھ اور؟,جی، کیمرے کی فلیش کی طرح,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، میں چمکتی ہوئی روشنیوں کے بارے میں تھوڑا اور پوچھنا چاہتا ہوں۔ کیا آپ ان کا بیان کر سکتے ہیں - کیا وہ کیمرے کی فلیش کی طرح ہیں، یا ایک پتلی لکیر، یا کچھ اور؟,"""""""
+بس ایک پتلی چمکتی ہوئی لکیر
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، میں چمکتی ہوئی روشنیوں کے بارے میں تھوڑا اور پوچھنا چاہتا ہوں۔ کیا آپ ان کا بیان کر سکتے ہیں - کیا وہ کیمرے کی فلیش کی طرح ہیں، یا ایک پتلی لکیر، یا کچھ اور؟,"""""""
+جی
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، میں چمکتی ہوئی روشنیوں کے بارے میں تھوڑا اور پوچھنا چاہتا ہوں۔ کیا آپ ان کا بیان کر سکتے ہیں - کیا وہ کیمرے کی فلیش کی طرح ہیں، یا ایک پتلی لکیر، یا کچھ اور؟,"""""""
+مجرا ہوں 
+""""""","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+بس ایک پتلی چمکتی ہوئی لکیر
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,جی، کیمرے کی فلیش کی طرح,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+مجرا ہوں 
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,"""""""
+بس ایک پتلی چمکتی ہوئی لکیر
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی یہ کل سے بھی بُری ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی لیکن یہ بہتر ہو رہا ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+مجھے ہاں لیکن آج یہ بہتر لگتا ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,"""""""
+جی میں ہوں، مجھے لگتا ہے یہ بہت برا ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,"""""""
+جی میں ہوں لیکن یہ بہتر ہو رہا ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,"""""""
+جی میں ہوں، مجھے لگتا ہے یہ بہت برا ہے
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,یقینی طور پر بہتر نہیں,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+میں سمجھ گیا تو، میں ان چمکتی ہوئی روشنیوں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ انہیں اب بھی محسوس کر رہے ہیں، اور وہ وقت کے ساتھ بہتر ہو رہے ہیں یا بدتر؟,یقینی طور پر بہتر,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+کल تک 
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,جی، آپریشن کے بعد سے میں انہیں روزانہ دیکھتا ہوں,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی میں کیا ہے
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی ہاں مجھے کبھی کبھی نئی جھلکیاں آتی ہیں
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، آپ نے سرجری کے بعد کچھ چمکتی ہوئی روشنیوں کا مشاہدہ کیا ہے۔ چمکتی ہوئی روشنیاں آپ کی نظر میں وقفے وقفے سے کیمرے کی فلیش کی طرح ہو سکتی ہیں۔ آپ نے ان چمکتی ہوئی روشنیوں کا مشاہدہ کب سے شروع کیا ہے؟,"""""""
+کल تک 
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، آپ نے سرجری کے بعد کچھ چمکتی ہوئی روشنیوں کا مشاہدہ کیا ہے۔ چمکتی ہوئی روشنیاں آپ کی نظر میں وقفے وقفے سے کیمرے کی فلیش کی طرح ہو سکتی ہیں۔ آپ نے ان چمکتی ہوئی روشنیوں کا مشاہدہ کب سے شروع کیا ہے؟,جی، آپریشن کے بعد سے میں انہیں روزانہ دیکھتا ہوں,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، آپ نے سرجری کے بعد کچھ چمکتی ہوئی روشنیوں کا مشاہدہ کیا ہے۔ چمکتی ہوئی روشنیاں آپ کی نظر میں وقفے وقفے سے کیمرے کی فلیش کی طرح ہو سکتی ہیں۔ آپ نے ان چمکتی ہوئی روشنیوں کا مشاہدہ کب سے شروع کیا ہے؟,"""""""
+جی میں کیا ہے
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، آپ نے سرجری کے بعد کچھ چمکتی ہوئی روشنیوں کا مشاہدہ کیا ہے۔ چمکتی ہوئی روشنیاں آپ کی نظر میں وقفے وقفے سے کیمرے کی فلیش کی طرح ہو سکتی ہیں۔ آپ نے ان چمکتی ہوئی روشنیوں کا مشاہدہ کب سے شروع کیا ہے؟,"""""""
+جی ہاں مجھے کبھی کبھی نئی جھلکیاں آتی ہیں
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی میں انہیں ہمیشہ دیکھتا ہوں
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی، لیکن صرف ایک یا دو بار
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی میں انہیں ہمیشہ دیکھتا ہوں
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی، لیکن صرف ایک یا دو بار
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+کیا آپ نے سرجری کے بعد سے کسی چمکتی ہوئی روشنی کو دیکھا ہے؟,"""""""
+جی
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی میں انہیں ہمیشہ دیکھتا ہوں
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی، لیکن صرف ایک یا دو بار
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی میں انہیں ہمیشہ دیکھتا ہوں
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی، لیکن صرف ایک یا دو بار
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے محسوس کیا ہے۔ کیا آپ انہیں کم یا زیادہ تجربہ کرتے ہیں؟,"""""""
+جی
+""""""",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,تھوڑا سا,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,جی، یہ ایک شدید درد ہے,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,جی ہاں یہ حساس ہے جب میں سورج میں ہوں,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، آپ تیز روشنی کو دیکھتے وقت کچھ درد کا تجربہ کر رہے ہیں۔ یہ آنکھ میں سوزش کا ایک نشان ہو سکتا ہے، اور ہمیں اسے قریب سے دیکھنے کی ضرورت ہو سکتی ہے۔ سرجری کے بعد ہلکی روشنی کی حساسیت معمول کی ہے، لیکن تیز روشنی کو دیکھتے وقت درد معمول کا نہیں ہے۔ کیا آپ مجھے درد کے بارے میں زیادہ بتا سکتے ہیں - کیا آپ اسے ہلکا، درمیانہ، شدید، یا غیر قابل برداشت کے طور پر بیان کریں گے؟,تھوڑا سا,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، آپ تیز روشنی کو دیکھتے وقت کچھ درد کا تجربہ کر رہے ہیں۔ یہ آنکھ میں سوزش کا ایک نشان ہو سکتا ہے، اور ہمیں اسے قریب سے دیکھنے کی ضرورت ہو سکتی ہے۔ سرجری کے بعد ہلکی روشنی کی حساسیت معمول کی ہے، لیکن تیز روشنی کو دیکھتے وقت درد معمول کا نہیں ہے۔ کیا آپ مجھے درد کے بارے میں زیادہ بتا سکتے ہیں - کیا آپ اسے ہلکا، درمیانہ، شدید، یا غیر قابل برداشت کے طور پر بیان کریں گے؟,جی، یہ ایک شدید درد ہے,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+ٹھیک ہے تو، آپ تیز روشنی کو دیکھتے وقت کچھ درد کا تجربہ کر رہے ہیں۔ یہ آنکھ میں سوزش کا ایک نشان ہو سکتا ہے، اور ہمیں اسے قریب سے دیکھنے کی ضرورت ہو سکتی ہے۔ سرجری کے بعد ہلکی روشنی کی حساسیت معمول کی ہے، لیکن تیز روشنی کو دیکھتے وقت درد معمول کا نہیں ہے۔ کیا آپ مجھے درد کے بارے میں زیادہ بتا سکتے ہیں - کیا آپ اسے ہلکا، درمیانہ، شدید، یا غیر قابل برداشت کے طور پر بیان کریں گے؟,کیا آپ کو درد ہوتا ہے جب آپ چمکتی روشنیوں کو دیکھتے ہیں؟,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے تو، آپ تیز روشنی کو دیکھتے وقت کچھ درد کا تجربہ کر رہے ہیں۔ یہ آنکھ میں سوزش کا ایک نشان ہو سکتا ہے، اور ہمیں اسے قریب سے دیکھنے کی ضرورت ہو سکتی ہے۔ سرجری کے بعد ہلکی روشنی کی حساسیت معمول کی ہے، لیکن تیز روشنی کو دیکھتے وقت درد معمول کا نہیں ہے۔ کیا آپ مجھے درد کے بارے میں زیادہ بتا سکتے ہیں - کیا آپ اسے ہلکا، درمیانہ، شدید، یا غیر قابل برداشت کے طور پر بیان کریں گے؟,جی ہاں یہ حساس ہے جب میں سورج میں ہوں,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+کیا آپ کی نظر ہے,"""""""
+جی
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+کیا آپ کی نظر اثر کر رہی ہے,"""""""
+جی
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+کیا آپ کوئی لے رہے ہیں,کیا,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا آپ,معاف کیجئے,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے کسی بھی دوائی کے بارے میں پوچھنا ہو گا۔
+""""""",ٹھیک ہے,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+"""""""
+اپنی صحت کا مکمل نقشہ حاصل کرنے کے لیے، مجھے آپ کے لیے لئے جانے والے کسی بھی دوائی کے بارے میں پوچھنا ہو گا۔
+""""""",ٹھیک ہے,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+کیا,ہیلو,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+ٹھیک تو,جی، آپریشن کے بعد سے میں انہیں روزانہ دیکھتا ہوں,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، تو میں چاہتا ہوں کہ تھوڑا اور پوچھوں ان چمکتی ہوئی روشنیوں کے بارے میں جنہیں آپ نے دیکھا ہے۔,ٹھیک ہے,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+ٹھیک ہے، لگتا ہے کہ آپ کو چمکتی روشنیوں کو دیکھتے وقت کچھ درد ہو رہا ہے۔ یہ آنکھ میں سوزش کا ایک نشان ہو سکتا ہے، اور ہمیں اسے قریب سے دیکھنے کی ضرورت ہو سکتی ہے۔ سرجری کے بعد ہلکی روشنی کی حساسیت عام ہے، لیکن چمکتی روشنیوں کو دیکھتے وقت درد نہیں ہوتا۔,ٹھیک ہے,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+ٹھیک ہے، شروع کرنے کے لیے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟,"""""""
+میں برتن دھوتے ہوئے گر گیا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو تمہیں دھونے کے دوران گر گئے تھے۔ اب، کیا آپ یہ تصدیق کر سکتے ہیں کہ آپ کے جسم کے کس حصے میں فریکچر ہوا ہے؟","""""""
+موجھے لگتا ہے کہ یہ میرے بائیں کولہے کا معاملہ تھا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو پہلے شروع کرنے کے لئے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟
+""""""","""""""
+میں شاور سے باہر نکلتے ہوئے پھسل گیا اور میرا کولہہ زمین پر آ کر گرا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے، شروع کرنے کے لیے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟,میں نے اپنا پاؤں توڑ دیا,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے تو شروع کرنے کے لئے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟,"""""""
+سیڑھیوں پر چڑھتے ہوئے میں اپا کو سانتھ گوا بیٹھا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو صرف وضاحت کے لئے، آپ سیڑھیوں پر چڑھتے وقت اپنا توازن کھو بیٹھے۔ کیا آپ یہ تصدیق کر سکتے ہیں کہ آپ کے جسم کے کس حصے میں فریکچر ہوا ہے؟","""""""
+جی یہ گھر پر تھا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو، صرف وضاحت کے لیے، آپ سیڑھیوں پر چڑھتے وقت اپنا توازن کھو بیٹھے۔ کیا آپ مجھے بتا سکتے ہیں کہ فریکچر کے باعث آپ کے جسم کا کون سا حصہ متاثر ہوا تھا؟","""""""
+میری پیٹھ تھی
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو چلیں پھر شروع کرتے ہیں۔ شروع کرنے کے لئے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟ """"""","""""""
+میں نہانے کے ٹب سے باہر نکلتے ہوئے گر گیا
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شروع کرنے کے لیے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟",میں دراصل بس جانتا تھا کہ سڑک کے ساتھ ساتھ چل رہا تھا اور یہ ایک بہت ہی ٹھنڈا دن تھا اور میں ایک قسم کے پچڈ برف کے ایک ٹکڑے پر پھسل گیا اور اپنی کلائی پر بہت زور سے گرا۔,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو پہلے شروع کرنے کے لئے، کیا آپ مجھے بتا سکتے ہیں کہ آپ کا فریکچر کیسے ہوا؟ آپ کیا کر رہے تھے اور یہ کیسے ہوا؟
+""""""",میں صرف کتوں کو چھوڑنے کے لئے باہر گیا تھا اور میں برف پر پھسل گیا، گرا اور اپنی بائیں بازو توڑ دی۔,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، لگتا ہے کہ آپ کے پہلے بھی فریکچر ہوا ہے۔ کیا آپ یہ تصدیق کر سکتے ہیں کہ آپ کا پچھلا فریکچر کہاں ہوا تھا اور وہاں کیا ہوا تھا؟",ہاں میں نے اپنی کلائی توڑ دی ہے,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، لگتا ہے کہ آپ کے پہلے بھی فریکچر ہوا ہے۔ کیا آپ یہ تصدیق کر سکتے ہیں کہ آپ کا پچھلا فریکچر کہاں ہوا تھا اور وہاں کیا ہوا تھا؟",ہاں میں نے اپنی کلائی توڑ دی ہے,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو پہلے کی فریکچر میں اپنی کلائی توڑ دی تھی۔ کیا آپ اس کے بارے میں تقریباً کیے گئے وقت کی تصدیق کر سکتے ہیں؟
+""""""",کچھ سال پہلے میں کتوں کو گھمانے کے دوران پھسل گیا اور بری طرح گرا۔,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، تو پہلے کی فریکچر میں اپنی کلائی توڑ دی تھی۔ کیا آپ اس کے بارے میں تقریباً کیے گئے وقت کی تصدیق کر سکتے ہیں؟
+""""""",کچھ سال پہلے میں کتوں کو گھمانے کے دوران پھسل گیا اور بری طرح گرا۔,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ کیا آپ یہ تصدیق کر سکتے ہیں کہ وہ رکاوٹ کہاں آئی اور کیا ہوا؟
+""""""",میں نے کار حادثے میں دونوں ٹانگوں توڑ دیں,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ کیا آپ یہ تصدیق کر سکتے ہیں کہ وہ رکاوٹ کہاں آئی اور کیا ہوا؟
+""""""",میں نے کار حادثے میں دونوں ٹانگوں توڑ دیں,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"""""""
+افسوس ہے کہ سننے میں آیا، لہذا آپ کے ساتھ پہلے بھی فریکچر ہو چکا ہے۔ ایک بالغ کے طور پر پہلے کا فریکچر مستقبل میں ایک اور فریکچر کا ایک مضبوط ترین پیش گوئی کرنے والا ہے، اس لیے یہ خطرے کی تشخیص اور روک تھام کے بارے میں ہماری بات چیت کو بدل دیتا ہے۔ کیا آپ تقریباً یہ کار حادثہ کب ہوا تھا اس کی تصدیق کر سکتے ہیں؟",میرے پڑوسی گاڑی چلا رہے تھے اور ان کا کنٹرول گاڑی پر سے چھوٹ گیا تھا,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+تو، آپ کے پڑوسی کے کنٹرول کھونے کی وجہ سے ایک کار حادثہ ہوا۔ تو، آپ کے پہلے بھی فریکچر ہوا ہے۔ ایک بالغ کے طور پر پہلے کا فریکچر مستقبل میں ایک اور فریکچر کا ایک مضبوط ترین پیش گوئی کرنے والا ہے، اس لیے یہ ہمارے خطرے کی تشخیص اور روک تھام کے بارے میں بات چیت کے طریقے کو بدل دیتا ہے۔ کیا آپ اس کار حادثے کے تقریباً کب ہونے کی تصدیق کر سکتے ہیں؟,"""""یہ سالوں پہلے کی بات ہے لیکن میرے پاؤں کبھی بھی وہی نہیں رہے""""",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو پہلے بھی کئی وقفے لے چکے ہو۔ کیا آپ مجھے ان کے بارے میں زیادہ بتا سکتے ہیں جو وہاں ہوا تھا؟","""""""
+میں نے بچپن میں اپنی کلاہی ٹوٹی تھی اور کچھ سال پہلے میں پھسل کر گریا اور میری پیلوس ٹوٹ گئی تھی
+""""""",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو پہلے بھی کئی وقفے لے چکے ہو۔ کیا آپ مجھے ان کے بارے میں زیادہ بتا سکتے ہیں جو وہاں ہوا تھا؟","""""""
+میں نے بچپن میں اپنی کلاہی ٹوٹی تھی اور کچھ سال پہلے میں پھسل کر گریا اور میری پیلوس ٹوٹ گئی تھی
+""""""",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"""""""
+تو شکر ہے، تو کیا یہ تصدیق کر سکتے ہیں کہ وہ رکاوٹ کہاں پر آئی اور وہاں کیا ہوا؟
+""""""","""""میں نے تقریبا پندرہ سال پہلے اپنی پنڈلی کی ہڈی ٹوٹی تھی""""",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"""""""
+تو شکر ہے، تو کیا یہ تصدیق کر سکتے ہیں کہ وہ رکاوٹ کہاں پر آئی اور وہاں کیا ہوا؟
+""""""","""""میں نے تقریبا پندرہ سال پہلے اپنی پنڈلی کی ہڈی ٹوٹی تھی""""",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو صرف وضاحت کے لئے، آپ نے تقریبا 15 سال پہلے اپنی ٹانگ کی ہڈی کو ٹوٹ دیا تھا۔ کیا آپ مجھے اس ٹوٹ پھوٹ کے وقت ہونے والی باتوں کے بارے میں تھوڑا بتا سکتے ہیں؟",یہ بہت تکلیف دہ تھا، مجھے ایمبولینس میں جانا پڑا,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"""""""
+یہ ضرور ڈراؤنا ہوگا، شکریہ تو میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ تصدیق کر سکتے ہیں کہ وہ فریکچر کیسے ہوا، کیا یہ گرنے سے ہوا یا کسی اور چیز سے؟",میں سکینگ کر رہا تھا اور ایک جھپٹ کے بعد اترنے میں غلطی کر بیٹھا,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+اب میں پوچھنا چاہتا ہوں، کیا آپ نے پہلے کبھی ہڈی توڑی ہے؟,ہاں میں سات سال کا تھا اور میں ٹرامپولین کر رہا تھا میں اسے چھوڑ دیا اور میرا دوسرا ہاتھ ٹوٹ گیا,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"""""""
+ایک پچھلی فریکچر جو ایک بالغ کے طور پر ہوا ہے وہ مستقبل میں ایک اور فریکچر کا ایک مضبوط ترین پیش گوئی کرنے والا ہے، اس لیے یہ ہمارے خطرہ کا اندازہ لگانے اور روک تھام کے بارے میں بات چیت کے طریقے کو بدل دیتا ہے۔ کیا آپ اپنے حالیہ فریکچر کے تقریباً وقت کی تصدیق کر سکتے ہیں؟",ایک ماہ قبل تھا,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکی ہیں، یا آپ اس کا تجربہ کر رہی ہیں؟,جی میں منوپوزل ہوں,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکی ہیں، یا آپ اس کا تجربہ کر رہی ہیں؟,جی میں منوپوزل ہوں,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو کیا آپ مجھے تقریباً اس عمر کے بارے میں بتا سکتے ہیں جب آپ کے ماہواری بند ہو گئے تھے؟
+""""""","""""""
+میں اپنے آخری چالیس کی دہائی کے آس پاس تھا، ڈاکٹروں نے مجھے پچھلے سال ہارمونز دیے تھے
+""""""",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، تو کیا آپ مجھے تقریباً اس عمر کے بارے میں بتا سکتے ہیں جب آپ کے ماہواری بند ہو گئے تھے؟
+""""""","""""""
+میں اپنے آخری چالیس کی دہائی کے آس پاس تھا، ڈاکٹروں نے مجھے پچھلے سال ہارمونز دیے تھے
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے تو میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکے ہیں، یا آپ اس کا تجربہ کر رہے ہیں؟,جی ہاں میرے ماہواری کا دورانیہ بہت عرصہ پہلے بند ہو گیا تھا,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے تو میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکے ہیں، یا آپ اس کا تجربہ کر رہے ہیں؟,جی ہاں میرے ماہواری کا دورانیہ بہت عرصہ پہلے بند ہو گیا تھا,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ  تو نے کہا کہ آپ کے ماہواری کا سلسلہ بہت عرصہ پہلے بند ہو گیا تھا۔ کیا آپ کو لگ بھگ وہ عمر یاد ہے جب ایسا ہوا تھا؟","""""""
+میں بہت یقین نہیں ہوں
+""""""",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ  تو نے کہا کہ آپ کے ماہواری کا سلسلہ بہت عرصہ پہلے بند ہو گیا تھا۔ کیا آپ کو لگ بھگ وہ عمر یاد ہے جب ایسا ہوا تھا؟","""""""
+میں بہت یقین نہیں ہوں
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے تو میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکے ہیں، یا آپ اس کا تجربہ کر رہے ہیں؟,جی میں اس وقت منوپوز سے گزر رہی ہوں,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو، صرف وضاحت کے لیے، آپ اب مینوپاز سے گزر رہی ہیں۔ کیا آپ مجھے تقریباً اس عمر کے بارے میں بتا سکتی ہیں جب آپ کے ماہواری کے دورے بند ہو گئے تھے یا اگر وہ ابھی تک بند نہیں ہوئے ہیں، تو آپ نے مینوپاز کے علامات کا تجربہ کب سے شروع کیا ہے؟","""""""
+مجھے کبھی کبھی کچھ دن آتے ہیں، یہ کچھ سال پہلے غیر مساوی ہو گیا تھا
+""""""",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو، صرف وضاحت کے لیے، آپ کے ماہواری کے دورے کچھ سالوں سے لگاتار نہیں ہو رہے ہیں اور آپ کو اب بھی کبھی کبھار ماہواری کے دورے آتے ہیں۔ کیا آپ مجھے تقریباً وہ عمر بتا سکتے ہیں جب آپ کے ماہواری کے دورے پہلے بار غیر منظم ہونا شروع ہوئے تھے؟",میں تو 47 سال کا تھا,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، تو آپ کی صورتحال کو تھوڑا بہتر سمجھنے کے لئے، کیا آپ نے کبھی ہارمون کی تبدیلی کی تھراپی لی ہے، جسے اکثر ایچ آر ٹی کہا جاتا ہے؟","""""""
+نہیں میں نہیں سمجھتا
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو آپ کو اپنے پچاس کی دہائی کے وسط سے مہینے کے دورے نہیں ہوئے ہیں۔ اب، میں صرف پوچھنا چاہتا ہوں، کیا آپ نے کبھی ہارمون کی تبدیلی کی تھراپی لی ہے، جسے اکثر ایچ آر ٹی کہا جاتا ہے؟","""""""
+معاف کیجئے، مجھے نہیں پتا وہ کیا ہے
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"""""""
+تو آپ کو یقین نہیں ہے کہ ایچ آر ٹی کیا ہے تو ایچ آر ٹی کا مطلب ہارمون رپلیسمنٹ تھراپی ہے، یہ ایک علاج ہے جو مینوپوز کے بعد آپ کے جسم کے ذریعہ بنائے جانے والے ہارمونز کی جگہ لینے میں مدد کرتا ہے۔ یہ گرمی کی لہروں اور ہڈی کی صحت جیسے مسائل میں مدد کر سکتا ہے۔ کیا آپ نے کبھی ایسا کچھ لیا ہے، یا کیا کبھی کوئی ڈاکٹر نے آپ سے اس کا ذکر کیا ہے؟",ٹھیک ہاں میرے ڈاکٹر نے اس کا ذکر کیا لیکن انہوں نے مجھے ہارمونز پر نہیں رکھا,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ  تو آپ نے تقریبا 50 سال کی عمر میں منوپوز کا تجربہ کیا۔ صرف وضاحت کے لیے، کیا آپ نے منوپوز کے بعد ہارمون رپلیسمنٹ تھراپی لی، جسے اکثر ایچ آر ٹی کہا جاتا ہے؟",جی میں ہارمون رپلیسمنٹ تھراپی کرتا ہوں,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے میں ایک سوال پوچھنا چاہتا ہوں جو کہ کچھ لوگ ذاتی سمجھتے ہیں، لیکن یہ ہمیں آپ کی ہڈیوں کی صحت کو سمجھنے میں بہت مدد کرے گا۔ کیا آپ منوپوز سے گزر چکی ہیں، یا آپ اس کا تجربہ کر رہی ہیں؟,فی الحال تجربہ کر رہے ہیں,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ  تو اب مینوپاز سے گزر رہی ہو۔ کیا آپ کو لگ بھگ وہ عمر یاد ہے جب آپ کے مہینے کے دورے بند ہو گئے تھے یا کم عام ہو گئے تھے؟",پچھلے سال,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ 
+تو نے تقریباً ایک سال پہلے مہواری بند ہونے کے بارے میں بتایا۔ منوپوز کے بعد، ایسٹروجن کی سطح گر جاتی ہے، جو ہڈیوں کی صحت کو متاثر کر سکتی ہے۔ کیا آپ نے کبھی ہارمون رپلیسمنٹ تھراپی لی ہے، جسے اکثر ایچ آر ٹی کہا جاتا ہے؟","""""""
+جی
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو پہلے ہی مینوپاز سے گزر چکی ہو۔ کیا آپ کو لگ بھگ وہ عمر یاد ہے جب آپ کے مہینے کے دورے بند ہو گئے تھے؟
+""""""","""""""
+نہیں میں یاد نہیں کرتا",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے تو آپ کو یقین نہیں ہے کہ آپ کے ماہواری کب بند ہوئے۔ یہ ٹھیک ہے، یہ یاد رکھنا مشکل ہو سکتا ہے۔ صرف وضاحت کے لیے، کیا یہ پچاس سال کی عمر سے پہلے یا بعد میں تھا کہ آپ کے ماہواری بند ہو گئے تھے؟,پہلے,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ
+اب میں اسٹیرایڈ کی ادویات کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیرایڈ کی ادویات لی ہیں؟",جی میں گزشتہ کچھ ماہ سے اسٹیروئڈ کریم کا استعمال کر رہا ہوں,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ
+اب میں اسٹیرایڈ کی ادویات کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیرایڈ کی ادویات لی ہیں؟",جی میں گزشتہ کچھ ماہ سے اسٹیروئڈ کریم کا استعمال کر رہا ہوں,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ
+اب میں اسٹیرایڈ کی ادویات کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیرایڈ کی ادویات لی ہیں؟",جی میں گزشتہ کچھ ماہ سے اسٹیروئڈ کریم کا استعمال کر رہا ہوں,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو کچھ ماہ سے سٹیروڈ کریم کا استعمال کر رہے ہو۔ میں اس کے بارے میں تھوڑا سا جاننا چاہتا ہوں۔ اگر آپ فی الحال کوئی سٹیروڈ کی دوائیں لے رہے ہیں، تو ان کی کتنی مقدار اور کتنی بار لے رہے ہیں؟",فی الحال میں اسے ہر دوسرے دن استعمال کرتا ہوں,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو کچھ ماہ سے سٹیروڈ کریم کا استعمال کر رہے ہو۔ میں اس کے بارے میں تھوڑا سا جاننا چاہتا ہوں۔ اگر آپ فی الحال کوئی سٹیروڈ کی دوائیں لے رہے ہیں، تو ان کی کتنی مقدار اور کتنی بار لے رہے ہیں؟",فی الحال میں اسے ہر دوسرے دن استعمال کرتا ہوں,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو کچھ ماہ سے سٹیروڈ کریم کا استعمال کر رہے ہو۔ میں اس کے بارے میں تھوڑا سا جاننا چاہتا ہوں۔ اگر آپ فی الحال کوئی سٹیروڈ کی دوائیں لے رہے ہیں، تو ان کی کتنی مقدار اور کتنی بار لے رہے ہیں؟",فی الحال میں اسے ہر دوسرے دن استعمال کرتا ہوں,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے تو آپ اسٹیرایڈ کریم کو ہر دوسرے دن استعمال کر رہے ہیں۔ کیا آپ جانتے ہیں کہ آپ ان کا استعمال کیوں کر رہے تھے یا کر رہے ہیں؟,"""""""
+مुझے ایک्जیما تھا اس لیے ڈاکٹر نے مجھے کریم دی
+""""""",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے تو آپ اسٹیرایڈ کریم کو ہر دوسرے دن استعمال کر رہے ہیں۔ کیا آپ جانتے ہیں کہ آپ ان کا استعمال کیوں کر رہے تھے یا کر رہے ہیں؟,"""""""
+مुझے ایک्जیما تھا اس لیے ڈاکٹر نے مجھے کریم دی
+""""""",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے کبھی اسٹیرایڈ کی دوائیں لی ہیں؟,جی میں نے بچپن سے ہی دمہ کی بیماری ہے اس لیے میں نے اپنی زندگی کے بیشتر حصے میں اسٹیرایڈ کی دوائیں لی ہیں,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے کبھی اسٹیرایڈ کی دوائیں لی ہیں؟,جی میں نے بچپن سے ہی دمہ کی بیماری ہے اس لیے میں نے اپنی زندگی کے بیشتر حصے میں اسٹیرایڈ کی دوائیں لی ہیں,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے کبھی اسٹیرایڈ کی دوائیں لی ہیں؟,جی میں نے بچپن سے ہی دمہ کی بیماری ہے اس لیے میں نے اپنی زندگی کے بیشتر حصے میں اسٹیرایڈ کی دوائیں لی ہیں,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، تو آپ نے اپنی زندگی کے بیشتر حصے کے لیے دمہ کی وجہ سے اسٹیرائڈ کی دوائیں لی ہیں۔ صرف وضاحت کے لیے، کیا آپ فی الحال کوئی اسٹیرائڈ کی دوائیں لے رہے ہیں، اور اگر ایسا ہے تو، آپ انہیں کتنی مقدار میں اور کتنی بار لیتے ہیں؟",جی میں اب بھی اپنا انہیلر رکھتا ہوں، میں اسے زیادہ تر دنوں میں استعمال کرتا ہوں,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے تو، میں صرف اسٹیروڈ کی دوائیں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیروڈ کی دوائیں لی ہیں؟,"""""""
+مुझے لگتا ہے کہ میں انہیں اپنے پیٹ کے لیے لیتا تھا لیکن اب نہیں
+""""""","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے تو، میں صرف اسٹیروڈ کی دوائیں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیروڈ کی دوائیں لی ہیں؟,"""""""
+مुझے لگتا ہے کہ میں انہیں اپنے پیٹ کے لیے لیتا تھا لیکن اب نہیں
+""""""",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے تو، میں صرف اسٹیروڈ کی دوائیں کے بارے میں پوچھنا چاہتا ہوں۔ کیا آپ نے کبھی اسٹیروڈ کی دوائیں لی ہیں؟,"""""""
+مुझے لگتا ہے کہ میں انہیں اپنے پیٹ کے لیے لیتا تھا لیکن اب نہیں
+""""""",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"""""""
+تو نے اسٹیرائڈ کی دوائیں لی ہیں۔ کسی بھی اسٹیرائڈ کی دوائی کے لیے جو آپ فی الحال لے رہے ہیں، اس کی کتنی مقدار اور کتنی بار لیتے ہیں؟","""""""
+میں سمجھتا ہوں کہ یہ ایک دن میں ایک بار تقریبا پانچ سو ملی گرام ہے
+""""""","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""""""
+تو نے اسٹیرائڈ کی دوائیں لی ہیں۔ کسی بھی اسٹیرائڈ کی دوائی کے لیے جو آپ فی الحال لے رہے ہیں، اس کی کتنی مقدار اور کتنی بار لیتے ہیں؟","""""""
+میں سمجھتا ہوں کہ یہ ایک دن میں ایک بار تقریبا پانچ سو ملی گرام ہے
+""""""",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"""""""
+تو نے اسٹیرائڈ کی دوائیں لی ہیں۔ کسی بھی اسٹیرائڈ کی دوائی کے لیے جو آپ فی الحال لے رہے ہیں، اس کی کتنی مقدار اور کتنی بار لیتے ہیں؟","""""""
+میں سمجھتا ہوں کہ یہ ایک دن میں ایک بار تقریبا پانچ سو ملی گرام ہے
+""""""",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے، تو میں صرف گٹھیا کے بارے میں پوچھنا چاہتا ہوں۔ کیا ڈاکٹر نے آپ کو کبھی بتایا ہے کہ آپ کو گٹھیا ہے؟,جی وہ کہتی ہے کہ مجھے جوڑوں کا درد ہے,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو، صرف وضاحت کے لیے، کیا ڈاکٹر نے بتایا کہ یہ گٹھیہ کا کون سا قسم ہے؟","""""""
+میں نہیں جانتا، مجھے یہ نہیں پتہ تھا کہ مختلف قسم کے ہوتے ہیں
+""""""",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+ٹھیک ہے میں صرف آپ کی صحت کے بارے میں پوچھنا چاہتا ہوں۔ کیا کبھی کوئی ڈاکٹر نے آپ کو بتایا ہے کہ آپ کو جوڑوں کی سوزش ہے؟,"""""""
+جی میں کچھ عرصہ پہلے تشخیص کیا گیا تھا
+""""""",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ تو آپ کو آرٹھرائٹس کا पतہ لگایا گیا ہے۔ کیا آپ مجھے بتا سکتے ہیں کہ یہ آرٹھرائٹس کا کون سا قسم تھا؟","""""""
+کہ کون کون سے ہیں
+""""""",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+ٹھیک ہے، تو میں صرف گٹھیا کے بارے میں پوچھنا چاہتا ہوں۔ کیا ڈاکٹر نے آپ کو کبھی بتایا ہے کہ آپ کو گٹھیا ہے؟,جی میں کو جوڑوں کی سوزش کا مرض ہے اور میں اس کے لیے دوائی لے رہا ہوں,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو صرف وضاحت کے لیے، کیا ڈاکٹر نے آپ کو بتایا کہ آپ کو کس قسم کا گٹھیا ہے؟","""""""
+مجھے لگتا ہے کہ انہوں نے کہا تھا کہ یہ ریمیٹائڈ ہے
+""""""",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ، تو میں صرف یہ پوچھنا چاہتا ہوں، کیا کبھی کوئی ڈاکٹر نے آپ کو بتایا ہے کہ آپ کو جوڑوں کی سوزش ہے؟",میرے ڈاکٹر نے مجھے کچھ عرصہ پہلے ریمیٹائڈ آرترائٹس کا تشخیص لگایا تھا,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو اب ہم نے یہ قائم کر لیا ہے کہ آپ شراب پیتے ہیں، میں اس کے بارے میں تھوڑا سا جاننا چاہتا ہوں۔ کیا آپ عام طور پر بیئر، وائن، شراب یا کچھ اور پیتے ہیں؟","""""""
+میں بہت سارا بیئر پیتا ہوں
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو اب جب کہ میں جانتا ہوں کہ آپ شراب پیتے ہیں، کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر کس قسم کی شراب پیتے ہیں، جیسے کہ بیئر، وائن، اسپریٹس، یا کچھ اور؟",میں شراب پیتا ہوں اور کبھی کبھی شراب بھی پیتا ہوں,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو اب جب میں جانتا ہوں کہ آپ شراب پیتے ہیں اور کبھی کبھی شراب بھی پیتے ہیں، تو ہفتے میں آپ کتنے گلاس شراب اور کتنے شاٹس شراب پیتے ہیں؟",اکثر ہفتے میں کچھ گلاس اور اتوار کے دن کچھ شاٹس,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو اب ہم نے یہ قائم کر لیا ہے کہ آپ شراب پیتے ہیں، میں اس کے بارے میں تھوڑا سا جاننا چاہتا ہوں۔ کیا آپ عام طور پر بیئر، وائن، شراب یا کچھ اور پیتے ہیں؟","""""""
+میں ان تینوں کو پیوں گا اور کبھی کبھی سیڈر بھی
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو تم مختلف اشیاء پیتے ہو۔ صرف ایک بہتر اندازہ لینے کے لیے، لگ بھگ ایک ہفتے میں تم کتنے پینٹ بیئر پیتے ہو؟
+""""""","""""""
+شاید 3 یا 4
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"""""""
+شکریہ تو اب ہم یہ قائم کرچکے ہیں کہ آپ شراب پیتے ہیں، کیا آپ مجھے بتاسکتے ہیں کہ آپ عام طور پر کس قسم کی شراب پیتے ہیں، جیسے کہ بیئر، وائن، اسپریٹس، یا کچھ اور؟
+""""""",میں شراب پیتا ہوں,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"""""""
+شکریہ، تو جب آپ پیٹے، تو عام طور پر آپ کون سا الکوحل لیتے ہیں، کیا یہ بیئر، وائن، اسپریٹس، یا کچھ اور ہے؟",میں ہر ہفتے کے آخر میں 4 یا 5 شاٹ لیتا ہوں,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"""""""
+تو نے مجھے بتایا ہے کہ تم شراب پیتے ہو۔ اب، میں اس کے بارے میں تھوڑا سا اور جاننا چاہتا ہوں۔ کیا تم عام طور پر بیئر، وائن، شراب، یا کچھ اور پیتے ہو؟",لال ایک روحیں,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"""""""
+آپ نے اپنی دوائیں لینا کیوں بند کر دیا یا پریسکرائڈ کی گئی طرح شروع نہیں کی؟","""""""
+میں نے دوائی لینا شروع نہیں کیا کیونکہ میں ممکنہ ضمنی اثرات کے بارے میں فکر مند تھا اور ان سے نمٹنا نہیں چاہتا تھا۔","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+تو، آپ نے اپنی بائس فاسفیٹیٹ گولیاں لینا شروع نہیں کیا۔ کیا آپ مجھے بتا سکتے ہیں کہ آپ کو انہیں نہ لینے کا فیصلہ کس نے کیا تھا؟,"""""""
+سچ تو یہ ہے کہ مجھے سمجھ ہی نہیں آئی کہ اسے صحیح طریقے سے کیسے لینا ہے اور مجھے ڈر تھا کہ میں زیادہ یا کم لے لوں گا۔","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ نے اپنی دوائیں لینا کیوں بند کر دیا یا پریسکرائڈ کی گئی طرح شروع نہیں کی؟","""""""
+دوا کی قیمت بہت زیادہ تھی اور میں اسے خریدنے کا متحمل نہیں ہو سکا، اس لیے میں نے تو پراسکرپشن بھرنے کی کوشش بھی نہیں کی۔
+""""""","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+کیا آپ بتا سکتے ہیں کہ آپ کو کیا چیز روکتی ہے یا آپ اپنی دوائی لینا شروع ہی نہیں کرتے؟,"""""""
+میں کام اور ذاتی کاموں کے ساتھ بہت زیادہ بوجھ محسوس کر رہا ہوں، اس لیے مجھے اپنی دوائی کے بارے میں سوچنے کا موقع نہیں ملا۔","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ نے اپنی دوائیں لینا کیوں بند کر دیا یا پریسکرائڈ کی گئی طرح شروع نہیں کی؟","""""""
+میں نے اسے لینے کی کوشش کی، لیکن پھر میں دوسری چیزوں میں مصروف ہو گیا اور اپنے ڈاکٹر کے ساتھ فالو اپ کرنا بھول گیا۔","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ نے اپنی دوائیں لینا کیوں بند کر دیا یا پریسکرائڈ کی گئی طرح شروع نہیں کی؟","""""""
+میں صرف یہ نہیں جانتا کہ اب میرے جسم کے ساتھ کیا ہو رہا ہے، میں بہت سے مختلف علامات کا تجربہ کر رہا ہوں اور مجھے یہ نہیں पतا کہ ان کی وجہ کیا ہے۔","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+ٹھیک ہے تو، آپ نے ابھی تک اپنی بائس فاسفونیٹ گولیاں لینا شروع نہیں کی ہیں۔ کیا آپ مجھے بتا سکتے ہیں کہ انہیں لینا شروع کرنے سے آپ کو کیا روک رہا ہے؟,"""""""
+میں نے انہیں کھو دیا
+""""""","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,"""""""
+میں اپنی گولیاں تقریبا ہفتے میں ایک بار لیتا ہوں
+""""""","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,معمولًا میں صبح ایک گولی لیتا ہوں اور رات کو ایک اور گولی لیتا ہوں ایک ہفتے میں ایک یا دو بار,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں اپنے ڈاکٹر کے تجویز کردہ طریقے سے ہفتے میں تین بار اپنی گولی لے رہا ہوں,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,"""""""
+میں انہیں جب ضرورت ہوتی ہے لیتا ہوں
+""""""","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میرے ڈاکٹر نے مجھے لیبل پر دیے گئے ہدایات پر عمل کرنے کا کہا,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں ہر ہفتے انہیں لینے کا یاد رکھنے کی کوشش کرتا ہوں لیکن کبھی کبھی میں بھول جاتا ہوں,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,جی، میں صبح سب سے پہلے لیتا ہوں، جب میں جاگتا ہوں۔,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,"""""""
+میں اپنی گولی لیٹے ہی لیتا ہوں، تو ہاں، صبح کے پہلے ہی وقت پر۔
+""""""","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,صبح کے پہلے وقت ہی میں اسے لیتا ہوں، یہ میرے صبح کے روٹین کا حصہ ہے۔,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں اسے کھانے کے ساتھ لینے کی کوشش کرتا ہوں تاکہ پیٹ کے خراب ہونے سے بچا جائے۔,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میرے ڈاکٹر نے مجھے ہفتے میں دو بار لینے کا مشورہ دیا ۔,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں کچھ مہینوں سے اپنی گولیاں لے رہا ہوں، اور یہ مددگار لگ رہا ہے۔,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,جی، میں ہمیشہ اپنی گولیاں کھانے سے پہلے لیتا ہوں جیسا کہ میرے ڈاکٹر نے بتایا ہے۔,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,نہیں، میں انہیں کھانے کے ساتھ لیتا ہوں کیونکہ خالی پیٹ لینے سے مجھے الٹی جیسا محسوس ہوتا ہے۔,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,"""""""
+میں اپنی گولیاں صبح سب سے پہلے کھاتا ہوں جب میں کچھ بھی نہیں کھاتا، تو ہاں، وہ خالی پیٹ پر ہے۔
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں ہمیشہ ایک ہی وقت پر اپنی گولیاں لینے کی کوشش کرتا ہوں تاکہ ایک روایت قائم ہو۔,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میرے ڈاکٹر نے مجھے مشورہ دیا کہ میں اپنی دوائی لینے کے لیے لیبل پر دیے گئے ہدایات پر عمل کروں۔,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,میں کچھ عرصے سے یہ گولیاں لے رہا ہوں، اور میں اس روٹین سے واقف ہوں۔,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+تو، صرف وضاحت کے لیے، جب آپ اپنی گولی لیتے ہیں، کیا یہ صبح کا پہلا کام ہوتا ہے؟,جی، عام طور پر جب میں اٹھتا ہوں تو جلد ہی,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+تو، صرف وضاحت کے لیے، جب آپ اپنی گولی لیتے ہیں، کیا یہ صبح کا پہلا کام ہوتا ہے؟,جی، عام طور پر جب میں اٹھتا ہوں تو جلد ہی,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+تو، آپ اپنی گولیاں ہر سوموار لیتے ہیں۔ اب، کیا آپ مجھے بتا سکتے ہیں، کیا آپ صبح سب سے پہلے یہ گولی لیتے ہیں؟,"""""""
+عام طور پر دوپہر کے کھانے کے بعد نہیں
+""""""","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+تو، آپ اپنی گولیاں ہفتے میں ایک بار، صبح لے رہے ہیں۔ کیا آپ انہیں خالی پیٹ لیتے ہیں؟,"""""""
+جی میں کرتا ہوں
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+تو، آپ اپنی گولیاں ہفتے میں ایک بار، صبح لے رہے ہیں۔ کیا آپ انہیں خالی پیٹ لیتے ہیں؟,"""""""
+نہیں میں کبھی کبھی کھانا کھاتا ہوں
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+ٹھیک ہے، تو، صرف یہ یقینی بنانے کے لیے کہ آپ گولیاں صحیح طریقے سے لے رہے ہیں، کیا آپ مجھے بتا سکتے ہیں کہ کیا آپ انہیں خالی پیٹ پر لیتے ہیں؟,"""""""
+میں انہیں صبح لیتا ہوں
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ  تو اپنی گولیاں ہر ہفتے لیتے ہو۔ کیا آپ صبح سب سے پہلے یہ لیتے ہیں؟",صبح 7بجے,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+تو، صرف وضاحت کے لیے، آپ ہر ہفتے اپنی گولی لیتے ہیں۔ کیا آپ صبح کے وقت پہلے ہی گولی لیتے ہیں؟,"""""""
+جی
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+تو، میں صرف یہ پوچھنا چاہتا ہوں، آپ عام طور پر اپنی گولیاں کب لیتے ہیں؟,ہر ہفتے کے شنبے کے دن صبح 9 بجے,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ تو آپ نے اپنی گولیاں لینا شروع کر دی ہیں۔ کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر انہیں کب لیتے ہیں؟","""""""
+میں انہیں عام طور پر صبح سب سے پہلے لیتا ہوں
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+ٹھیک ہے، اب جب کہ آپ اپنی گولیاں لینا شروع کر دی ہیں، کیا آپ مجھے بتا سکتے ہیں کہ آپ عام طور پر انہیں کب لیتے ہیں؟,"""""""
+میں انہیں صبح کے وقت لیتا ہوں۔
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,میں اپنی گولیاں ایک بھری ہوئی گلاس پانی کے ساتھ لیتا ہوں۔,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,میں ہمیشہ اپنی دوائی کھانے کے ساتھ لیتا ہوں تاکہ پیٹ کے خراب ہونے سے بچا جائے۔,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,پانی وہ چیز ہے جو میں اپنی گولیوں لینے کے لئے استعمال کرتا ہوں، جیسا کہ میرے ڈاکٹر نے تجویز کیا ہے۔,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,میں اپنی گولیوں کو اپنے ڈاکٹر کے تجویز کے مطابق لیتا ہوں۔,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,"""""""
+میری گولیاں ہر صبح لئے جاتے ہیں۔
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+کیا آپ مجھے بتا سکتے ہیں کہ آپ گولیاں کیسے لیتے ہیں؟,میں کچھ ماہ سے اپنی گولیاں لے رہا ہوں۔,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+تو، صرف یہ یقینی بنانے کے لیے کہ آپ گولیوں کو درست طریقے سے لے رہے ہیں، کیا آپ مجھے بتا سکتے ہیں کہ آپ انہیں کیسے لیتے ہیں؟,اکثر کچھ پانی یا پھل کے رس کے ساتھ,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+تو، صرف یہ یقینی بنانے کے لیے کہ آپ گولیوں کو درست طریقے سے لے رہے ہیں، کیا آپ مجھے بتا سکتے ہیں کہ آپ انہیں کیسے لیتے ہیں؟,"""""""
+میں انہیں پیتا ہوں
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ، تو اب جب آپ گولیاں لینا شروع کر دی ہیں، تو کیا آپ مجھے بتا سکتے ہیں کہ آپ انہیں کیسے لیتے ہیں؟","""""""
+میں انہیں کچل دیتا ہوں وہ بہت بڑے ہیں
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ، تو اب جب آپ گولیاں لینا شروع کر دی ہیں، تو کیا آپ مجھے بتا سکتے ہیں کہ آپ انہیں کیسے لیتے ہیں؟","""""""
+میں انہیں اپنے صبح کے کافی کے ساتھ پیتا ہوں
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+میں سمجھ گیا تو میں صرف یہ پوچھنا چاہتا ہوں کہ آپ گولیوں کو کیسے لیتے ہیں، کیا آپ انہیں پانی کے ساتھ لیتے ہیں یا کسی اور چیز کے ساتھ؟,"""""""
+تو کھانے کا کتنا وقت لگتا ہے؟
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں تقریبا ایک گھنٹہ یا اس سے زیادہ بیٹھنے کی کوشش کرتا ہوں
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+اپنی دوائی لینے کے بعد میں کھڑا ہوتا ہوں اور تھوڑی دیر کے لیے چلتا پھرتا ہوں تاکہ سیدھا کھڑا رہ سکوں۔
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں اکثر انہیں لینے کے بعد لیٹ جاتا ہوں۔
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",میں بستر پر واپس جاتا ہوں,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں عام طور پر اپنی دوائی لینے کے بعد کتاب پڑھتا ہوں۔
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",میری دوائی لینا میرے صبح کے روٹین کا حصہ ہے، ناشتے سے تھوڑا پہلے۔,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",یہ اس بات پر منحصر ہے کہ آج کون سا دن ہے,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ، تو اب جب آپ اپنی گولیاں لینا شروع کر چکے ہیں، تو انہیں لینے کے بعد آپ عام طور پر کیا کرتے ہیں؟",اکثر صبحوں کو میں دوائی لینے کے بعد کتوں کو لمبی واک کے لئے لے جاتا ہوں,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+شکریہ، تو اب جب آپ اپنی گولیاں لینا شروع کر چکے ہیں، تو انہیں لینے کے بعد آپ عام طور پر کیا کرتے ہیں؟","""""""
+میں کچھ اور نہیں کھاتا یا پیتا
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو آپ نے ذکر کیا کہ یہ دن پر منحصر ہے۔ یہ یقینی بنانے کے لیے کہ آپ گولیوں کو محفوظ طریقے سے لے رہے ہیں، کیا آپ گولی لینے کے بعد کم از کم 30 منٹ کے لیے بیٹھے رہتے ہیں یا کھڑے رہتے ہیں؟",جی میں عام طور پر اگلی گھنٹے کے لیے اپنے پاؤں پر رہتا ہوں,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ نے ذکر کیا کہ یہ دن پر منحصر ہے۔ یہ یقینی بنانے کے لیے کہ آپ گولیوں کو محفوظ طریقے سے لے رہے ہیں، کیا آپ گولی لینے کے بعد کم از کم 30 منٹ کے لیے بیٹھے رہتے ہیں یا کھڑے رہتے ہیں؟",نہیں,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ نے ذکر کیا کہ یہ دن پر منحصر ہے۔ یہ یقینی بنانے کے لیے کہ آپ گولیوں کو محفوظ طریقے سے لے رہے ہیں، کیا آپ گولی لینے کے بعد کم از کم 30 منٹ کے لیے بیٹھے رہتے ہیں یا کھڑے رہتے ہیں؟","""""""
+نہیں میں نہیں کرتا
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ نے ذکر کیا کہ یہ دن پر منحصر ہے۔ یہ یقینی بنانے کے لیے کہ آپ گولیوں کو محفوظ طریقے سے لے رہے ہیں، کیا آپ گولی لینے کے بعد کم از کم 30 منٹ کے لیے بیٹھے رہتے ہیں یا کھڑے رہتے ہیں؟","""""""
+میں نہیں کرتا
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ نے ذکر کیا کہ یہ دن پر منحصر ہے۔ یہ یقینی بنانے کے لیے کہ آپ گولیوں کو محفوظ طریقے سے لے رہے ہیں، کیا آپ گولی لینے کے بعد کم از کم 30 منٹ کے لیے بیٹھے رہتے ہیں یا کھڑے رہتے ہیں؟","""""""
+میں عام طور پر لیٹ جاتا ہوں
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں اپنی تجویز کردہ دوائی لینے کے بعد آدھے گھنٹے کے لیے تمام کھانوں، مشروبات اور دیگر ادویات سے بچنے کی کوشش کرتا ہوں۔","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",میں کبھی کبھی کھانا یا پینا کھاتا ہوں، لیکن میں بڑا کھانا کھانے سے بچنے کی کوشش کرتا ہوں,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں اس تیس منٹ کے عرصے کے دوران پانی کے سوا ہر چیز سے پرہیز کرتا ہوں تاکہ میری دوائی مؤثر طریقے سے کام کرے۔
+""""""","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",میں ہمیشہ اسے ایک بھرے گلاس پانی کے ساتھ لیتا ہوں۔,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""",میرے ڈاکٹر نے کہا کہ ہر روز ایک ہی وقت پر لے لیں۔,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ عام طور پر اپنی دوائی لینے کے بعد کیا کرتے ہیں؟
+""""""","""""""
+میں عام طور پر اپنی دوائی لینے کے بعد کتاب پڑھتا ہوں۔
+""""""","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ، تو اب جب آپ اپنی گولیاں لینا شروع کر چکے ہیں، تو انہیں لینے کے بعد آپ عام طور پر کیا کرتے ہیں؟",اکثر صبحوں کو میں دوائی لینے کے بعد کتوں کو لمبی واک کے لئے لے جاتا ہوں,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+شکریہ، تو اب جب آپ اپنی گولیاں لینا شروع کر چکے ہیں، تو انہیں لینے کے بعد آپ عام طور پر کیا کرتے ہیں؟","""""""
+میں کچھ اور نہیں کھاتا یا پیتا
+""""""","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+تو، یقینی بنانے کے لئے، اپنی گولی لینے کے بعد، کیا آپ تھوڑی دیر کے لئے دیگر تمام کھانوں، مشروبات، یا ادویات سے پرہیز کرتے ہیں؟,کبھی کبھی میں ایک ٹکڑا پھل کھاتا ہوں,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+تو، یقینی بنانے کے لئے، اپنی گولی لینے کے بعد، کیا آپ کم از کم 30 منٹ کے لئے دیگر تمام کھانوں، مشروبات، یا ادویات سے پرہیز کرتے ہیں؟,جی یہ بہت پیارا ہے، ہم صبح کے تازہ ہوا کو بہت پسند کرتے ہیں,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟",جی ہاں، میرے دل کی جلی کا مسئلہ اس کے بعد بڑھ گیا ہے جب سے میں بائس فاسفیٹس لینا شروع کیا ہے۔,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟","""""""
+میری نظر میں میرے گیسٹروایسوفیجیل ریفلکس (heartburn) یا بدہضمی (indigestion) میں کوئی اضافہ نہیں ہوا ہے جب سے میں دوائی لے رہا ہوں۔","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟",جی، میرا بدہضمی کafi برا ہو گیا ہے جب سے میں گولی لینا شروع کی ہیں۔,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟","""""""
+میں کچھ ہفتوں سے گولیاں لے رہا ہوں اور محسوس کیا ہے کہ کبھی کبھی نिगلنا مشکل ہوتا ہے
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟","""""""
+دوا میرے ہڈیوں کے لیے کام کر رہی ہے، لیکن میں دوسرے ضمنی اثرات کے بارے میں یقین نہیں ہوں۔
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟","""""""
+میں نے دوا شروع کرنے سے پہلے کچھ اسیدیت  کا تجربہ کیا تھا
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟","""""""
+جی
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کو بائسفاسفونیٹس کی گولیاں لینے کے بعد دل کی جلن، بدہضمی یا کسی دوسری قسم کی تکلیف کا سامنا کرنا پڑا ہے؟",نہیں,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+تو اب ہم ان مسائل کے بارے میں بات کرتے ہیں جن کا سامنا آپ کو گولی لینے کے بعد کرنا پڑا ہے۔ کیا آپ کو اس طرح کے مسائل ہوئے ہیں جیسے اسیدیت، بدہضمی یا کوئی اور چیز؟,"""""""
+کوئی بات نہیں سب ٹھیک ہے
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+تو اب ہم ان مسائل کے بارے میں بات کرتے ہیں جن کا سامنا آپ کو گولی لینے کے بعد کرنا پڑا ہے۔ کیا آپ کو اس طرح کے مسائل ہوئے ہیں جیسے اسیدیت، بدہضمی یا کوئی اور چیز؟,جی میں نے کچھ مسائل کا سامنا کیا ہے,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو نے اپنی گولیوں لینا شروع کرنے کے بعد کچھ مسائل کا سامنا کیا ہے۔ کیا آپ مجھے اس کے بارے میں زیادہ معلومات دے سکتے ہیں جو آپ کا تجربہ کر رہے ہیں؟","""""""
+میری بدہضمی حال ہی میں بہت زیادہ خراب ہو گئی ہے
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو نے اپنی گولیوں لینا شروع کرنے کے بعد کچھ مسائل کا سامنا کیا ہے۔ کیا آپ مجھے اس کے بارے میں زیادہ معلومات دے سکتے ہیں جو آپ کا تجربہ کر رہے ہیں؟","""""""
+میں نے دوائیں لینے کے بعد سے بہت زیادہ بیمار محسوس کیا ہے
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+تو، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے اپنی اوسٹیوپوروسس کی دوائی لینا شروع کرنے کے بعد کسی اور علامات یا ضمنی اثرات کا تجربہ کیا ہے، جیسے کہ بیمار محسوس کرنا یا کوئی ایسی چیز جو آپ کو پریشان کر رہی ہو؟,"""""""
+میں نے بہت سارا دل کی جلن ہاں
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے اپنی اوسٹیوپوروسس کی دوائی لینا شروع کرنے کے بعد کسی اور علامات یا ضمنی اثرات کا تجربہ کیا ہے، جیسے کہ بیمار محسوس کرنا یا کوئی ایسی چیز جو آپ کو پریشان کر رہی ہو؟,مujhe بہت برا کھانسی ہے,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,"""""""
+جی
+""""""","gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,"""""""
+جی
+""""""","gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,میں نے گزشتہ ہفتے اپنے ڈاکٹر سے ملاقات کی اور انہیں اپنی جلن کے بارے میں بتایا,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,میں نے گزشتہ ہفتے اپنے ڈاکٹر سے ملاقات کی اور انہیں اپنی جلن کے بارے میں بتایا,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,جی میرے ڈاکٹر نے کہا کہ ہم ابھی کچھ نہیں بدلنا چاہیں اور میں دو ہفتوں کے لیے اس پر نظر رکھوں اور اگر یہ بہتر نہیں ہوتا ہے تو واپس آجاؤں,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,جی میرے ڈاکٹر نے کہا کہ ہم ابھی کچھ نہیں بدلنا چاہیں اور میں دو ہفتوں کے لیے اس پر نظر رکھوں اور اگر یہ بہتر نہیں ہوتا ہے تو واپس آجاؤں,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,جی ڈاکٹر نے مجھے ایک اور دوا پر رکھنے کا فیصلہ کیا,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+تو، آپ کو دل کی جلن ہوئی ہے جب سے آپ بائس فاسفیٹس گولیاں لے رہے ہیں۔ کیا آپ نے پہلے ہی اپنے ڈاکٹر کو اس سائڈ ایفیکٹ کے بارے میں информ کیا ہے؟,جی ڈاکٹر نے مجھے ایک اور دوا پر رکھنے کا فیصلہ کیا,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو نے اپنی بائس فاسفونیٹ گولیاں لینا جاری رکھا ہے اور تو نے کچھ مسائل محسوس کیے ہیں، جیسے کہ دانتوں کا درد اور ہاضمے میں تھوڑی سی تکلیف۔ صرف وضاحت کے لیے، کیا آپ نے پہلے ہی اپنے ڈاکٹر کو ان ضمنی اثرات کے بارے میں آگاہ کیا ہے؟",میں نے کیا اور اس نے مجھے ہسپتال بھیجنے کا فیصلہ کیا,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو نے اپنی بائس فاسفونیٹ گولیاں لینا جاری رکھا ہے اور تو نے کچھ مسائل محسوس کیے ہیں، جیسے کہ دانتوں کا درد اور ہاضمے میں تھوڑی سی تکلیف۔ صرف وضاحت کے لیے، کیا آپ نے پہلے ہی اپنے ڈاکٹر کو ان ضمنی اثرات کے بارے میں آگاہ کیا ہے؟",میں نے کیا اور اس نے مجھے ہسپتال بھیجنے کا فیصلہ کیا,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو آپ نے پہلے ہی اپنے ڈاکٹر سے اپنی دांتوں اور بدہضمی کے مسائل کے بارے میں بات کر لی ہے۔ کیا آپ کے ڈاکٹر نے اپنی دوائیوں میں کوئی تبدیلی کی سفارش کی یا ان ضمنی اثرات کے بارے میں کسی اور سے ملاقات کا حوالہ دیا؟",جی، اس نے مجھے واپس ہسپتال بھیج دیا,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ نے پہلے ہی اپنے ڈاکٹر سے اپنی دांتوں اور بدہضمی کے مسائل کے بارے میں بات کر لی ہے۔ کیا آپ کے ڈاکٹر نے اپنی دوائیوں میں کوئی تبدیلی کی سفارش کی یا ان ضمنی اثرات کے بارے میں کسی اور سے ملاقات کا حوالہ دیا؟",جی، اس نے مجھے واپس ہسپتال بھیج دیا,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ نے اپنے ڈاکٹر کو بدتر ہوتی ہوئی بدہضمی کے بارے میں آگاہ کیا ہے، میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ کے ڈاکٹر نے اس سائڈ ایفیکٹ کی وجہ سے کوئی کارروائی کی ہے یا آپ کے علاج کے منصوبے میں کوئی تبدیلی کی ہے؟,انہوں نے کہا کہ ہم کوئی تبدیلی کرنے سے پہلے کچھ ہفتوں کے لیے اس پر نظر رکھنی چاہیے,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ نے اپنے ڈاکٹر کو بدتر ہوتی ہوئی بدہضمی کے بارے میں آگاہ کیا ہے، میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ کے ڈاکٹر نے اس سائڈ ایفیکٹ کی وجہ سے کوئی کارروائی کی ہے یا آپ کے علاج کے منصوبے میں کوئی تبدیلی کی ہے؟,انہوں نے کہا کہ ہم اس پر کچھ ہفتوں کے لیے نظر رکھنی چاہیے,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ نے اپنے ڈاکٹر کو بدتر ہوتی ہوئی بدہضمی کے بارے میں آگاہ کیا ہے، میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ کے ڈاکٹر نے اس سائڈ ایفیکٹ کی وجہ سے کوئی کارروائی کی ہے یا آپ کے علاج کے منصوبے میں کوئی تبدیلی کی ہے؟,نہیں اس نے ایسا نہیں کیا,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ نے اپنے ڈاکٹر کو بدتر ہوتی ہوئی بدہضمی کے بارے میں آگاہ کیا ہے، میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ کے ڈاکٹر نے اس سائڈ ایفیکٹ کی وجہ سے کوئی کارروائی کی ہے یا آپ کے علاج کے منصوبے میں کوئی تبدیلی کی ہے؟,نہیں اس نے ایسا نہیں کیا,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,جی، میں انہیں باقاعدگی سے لے رہا ہوں، لیکن میں نے پیٹ میں خرابی محسوس کی ہے جسے میں ایک سائڈ ایفیکٹ سمجھتا ہوں۔,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,میں اپنی سپلیمنٹس کا استعمال ڈاکٹر کے مشورے کے مطابق کرتا ہوں، اور خوش قسمتی سے، ان کے استعمال سے مجھے اب تک کوئی مضر اثرات یا مسائل کا سامنا نہیں کرنا پڑا ہے۔,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,جی اور کیلیشیئم اور وٹامن ڈی لینا شروع کرنے کے بعد سے، مجھے کچھ قبض کی شکایت ہوئی ہے، جو میرے ڈاکٹر کہتے ہیں کہ کیلیشیئم کا ایک ضمنی اثر ہو سکتا ہے۔,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,"""""""
+میں نے اپنی سپلیمنٹس ہر صبح ناشتے کے ساتھ لینا شروع کر دی ہیں۔
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,میرے ڈاکٹر نے مجھے مشورہ دیا کہ میں انہیں لے لوں تو میں لیتا ہوں,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+کیا آپ کلسیم اور/یا وٹامن ڈی کا سپلیمنٹ باقاعدگی سے لے رہے ہیں؟,"""""""
+ہاں میں ہوں
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو آپ کیلشیم اور وٹامن ڈی کی گولیوں لے رہے ہیں۔ کیا آپ کو ان کے کسی سائڈ ایفیکٹ یا مسائل کا سامنا کرنا پڑا ہے؟","""""""
+جی میں کبھی کبھی تھوڑا سا بیمار محسوس کرتا ہوں
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+"""""""
+تو آپ کیلشیم اور وٹامن ڈی کی گولیوں لے رہے ہیں۔ کیا آپ کو ان کے کسی سائڈ ایفیکٹ یا مسائل کا سامنا کرنا پڑا ہے؟",بہر حال وہ تھوڑے مہنگے ہیں,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو نے اپنی اوسٹیوپوروسس کی دوائی لینا شروع کر دی ہے۔ میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ باقاعدگی سے کیلشیئم اور/یا وٹامن ڈی کا سپلیمنٹ لے رہے ہیں؟","""""""
+میں کرتا ہوں لیکن وہ مجھے واقعی قبض میں ڈالتے ہیں
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف پوچھنا چاہتا ہوں، کیا آپ کو کسی قسم کے منفی اثرات یا سپلیمنٹس کے ساتھ مسائل کا سامنا کرنا پڑا ہے؟,نہیں,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف پوچھنا چاہتا ہوں، کیا آپ کو کسی قسم کے منفی اثرات یا سپلیمنٹس کے ساتھ مسائل کا سامنا کرنا پڑا ہے؟,"""""""
+جی
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""","""""""
+میں اپنے گھر کے باہر برف کے ایک ٹکڑے پر پھسل گیا اور اپنی کہنی پر گرا، تب سے یہ درد سے بھری ہوئی ہے
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""",جی، مجھے پچھلے ہفتے گرنے کا واقعہ پیش آیا، میں سیڑھیوں سے نیچے اتر رہا تھا اور میں نے ایک سیڑھی چھوڑ دی، اب میرے گھٹنے میں چوٹ لگی ہوئی ہے,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""",میں بیت الخلا میں گر گیا، میرے پاؤں گیلے فرش پر میرے نیچے سے اڑ گئے، اور میں نے سنک میں اپنا سر مارا,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""",کیا یہ برا ہوگا اگر مجھے کچھ گرنے لگے ہوں؟,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""","""""""
+میں حال ہی میں تھوڑا چکر آتا محسوس کر رہا ہوں، شاید یہ اس سے متعلق ہے
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ کے آخری کلینک کے دورے کے بعد آپ کو گرنے کا کوئی واقعہ پیش آیا ہے؟
+""""""",میں کبھی کبھی گر بھی جاتا ہوں,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+ٹھیک ہے کیا آپ مجھے بتا سکتے ہیں کہ جب آپ گرے تو کیا ہوا؟,میں دکانوں سے واپس آتے ہوئے گر گیا,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ نے کلینک میں آخری بار آنے کے بعد سے کوئی گرنے کا واقعہ پیش آیا ہے؟
+""""""","""""""
+میں ہاں کہتا ہوں
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ نے کلینک میں آخری بار آنے کے بعد سے کوئی گرنے کا واقعہ پیش آیا ہے؟
+""""""",کچھ ہفتوں قبل مجھے گر گیا تھا,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+تو، کیا آپ مجھے بتا سکتے ہیں کہ کچھ ہفتوں پہلے جب آپ گرے تھے تو کیا ہوا تھا؟,"""""""
+میں نے اپا بالنس کھو دیا
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ نے آخری بار کلینک میں آنے کے بعد سے کوئی ہڈی توڑی ہے؟
+""""""",میں برف پر پھسل گیا اور گرا، اور اپنی کلائی پر سخت گر گیا,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+تو، اب جب ہم نے آپ کی دوائیں کے بارے میں بات کر لی ہے، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے کلینک میں آخری بار آنے کے بعد سے کوئی ہڈی توڑی ہے؟,"""""""
+میں سیڑھیوں سے گر گیا اور جسم بھر میں چوٹیں آ گئیں، اور میرا ٹخنہ بھی ٹوٹ گیا۔
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے اپنی آخری کلینک ویزٹ کے بعد سے کوئی ہڈی توڑی ہے؟,جی میں ایک بڑی کار حادثے میں تھا اور میری کاندھے کی ہڈی ٹوٹ گئی تھی,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+کیا آپ نے آخری بار کلینک میں آنے کے بعد سے کوئی ہڈی توڑی ہے؟
+""""""",جی میں نے,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ کے آخری کلینک کے دورے کے بعد سے آپ کو فریکچر ہوا ہے۔ کیا آپ مجھے اس کے بارے میں زیادہ معلومات دے سکتے ہیں؟","""""""
+میں کچن میں پھسل گیا اور جب میں اس پر گرا تو میرا کولہے کا حصہ ٹوٹ گیا
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+آپ کے آخری کلینک کے دورے کے بعد سے آپ کو فریکچر ہوا ہے۔ کیا آپ مجھے اس کے بارے میں زیادہ معلومات دے سکتے ہیں؟","""""""
+جی
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+آپ کے آخری کلینک کے دورے کے بعد سے آپ کو فریکچر ہوا ہے۔ کیا آپ مجھے اس کے بارے میں زیادہ معلومات دے سکتے ہیں؟",نہیں,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+تو، اب جب کہ ہم نے یہ قائم کر لیا ہے کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ نے اپنی آخری بار کلینک میں آنے کے بعد سے کوئی ہڈی توڑی ہے؟,"""""""
+میں نے کیا، اور ڈاکٹر نے کہا کہ مجھے زیادہ محتاط رہنا چاہیے
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+کیا آپ نے آخری بار کلینک میں آنے کے بعد سے کوئی ہڈی توڑی ہے؟
+""""""",بدقسمتی سے میں نے اپنا پاؤں توڑ دیا,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+معاف کیجئے گا کیا آپ مجھے اپنی ٹانگ کے ساتھ جو کچھ ہوا اس کے بارے میں زیادہ بتا سکتے ہیں؟
+""""""",یہ واقعی ڈراؤنا تھا حادثہ,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+تو، صرف وضاحت کے لیے، آپ نے اپنا پاؤں ٹوٹا ہے کیونکہ آپ آخری بار کلینک میں گئے تھے۔ کیا آپ مجھے اس کے بارے میں زیادہ بتا سکتے ہیں کہ کیا ہوا؟,"""""""
+میں اپنی موٹر سائیکل سے گر گیا اور میرا پاؤں فٹ پاتھ کے کنارے سے ٹکرایا
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟","""""""
+مجھے اپنی جبڑے میں تیز درد ہو رہا ہے، خاص طور پر جب میں چبا تا ہوں یا بات کرتا ہوں۔","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ چیک کرنا چاہتا ہوں کہ کیا آپ کو اپنی دندانوں کے ساتھ کوئی مسائل ہوئے ہیں جب سے آپ نے علاج شروع کیا ہے، یا کیا آپ کو کسی بھی چیز کے لیے ڈینٹسٹ سے ملاقات کرنے کی ضرورت ہے؟,جی ہاں، مجھے جبڑے کا درد ہوا ہے جو تقریباً ایک ماہ قبل شروع ہوا تھا، اور یہ ایک بھنی ہوئی چبھن ہے جو آتی ہے اور چلی جاتی ہے، لیکن حال ہی میں، یہ مسلسل رہا ہے۔,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟","""""""
+مجھے اپنے جبڑے سے لے کر میرے کان تک ایک گولی کی طرح درد ہو رہا ہے جب سے میں نے شروع کیا ہے
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟","""""""
+میری مسوڑھوں کے ساتھ کچھ مسائل ہو رہے ہیں
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ چیک کرنا چاہتا ہوں کہ کیا آپ کو اپنی دندانوں کے ساتھ کوئی مسائل ہوئے ہیں جب سے آپ نے علاج شروع کیا ہے، یا کیا آپ کو کسی بھی چیز کے لیے ڈینٹسٹ سے ملاقات کرنے کی ضرورت ہے؟,"""""""
+مجھے ایک فیلنگ بدلنی پڑی، لیکن کوئی بڑی بات نہیں تھی۔","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟",جی ہاں,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ کو اپنی دांتوں کے ساتھ کوئی مسائل ہوئے ہیں یا آپ نے علاج شروع کرنے کے بعد ڈاکٹر سے ملاقات کی ہے؟,میری جبڑے میں درد ہے,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو اپنے دانتوں کے ساتھ کچھ مسائل ہوئے ہیں جو کہ علاج کے آغاز کے بعد سے ہی شروع ہوئے ہیں۔ کیا آپ اس کے بارے میں مجھے زیادہ معلومات دے سکتے ہیں؟,"""""""
+مुझے اکثر دنوں میں دانت میں درد ہوتا ہے لیکن بس اتنہی ہے
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف پوچھنا چاہتا ہوں، کیا آپ کو اپنی جبڑے میں کوئی درد ہوا ہے، شاید آپ کے مسوڑھوں کے مسائل سے متعلق؟,نہیں,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف پوچھنا چاہتا ہوں، کیا آپ کو اپنی جبڑے میں کوئی درد ہوا ہے، شاید آپ کے مسوڑھوں کے مسائل سے متعلق؟,"""""""
+جی
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟",جی، مجھے حال ہی میں بہت درد ناک جبڑا ہوا ہے اور میں نے ڈینٹسٹ سے ذکر کیا کہ میں نے ادویات کا آغاز کر دیا ہے,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ کو اپنی دांتوں کے ساتھ کوئی مسائل ہوئے ہیں یا آپ نے علاج شروع کرنے کے بعد ڈاکٹر سے ملاقات کی ہے؟,"""""""
+میرے کچھ فِلنگز تھے لیکن کوئی بڑی بات نہیں تھی حالانکہ ڈینٹسٹ نے کہا کہ چونکہ میں بِسفاسفونیٹ پر ہوں اس لیے مجھے احتیاط کرنی چاہیے
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟","""""""
+مجھے کچھ جبڑے کے درد ہو رہے ہیں، لیکن مجھے یقین نہیں ہے کہ کیا یہ علاج سے متعلق ہے۔","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""""""
+ایلاج کے آغاز کے بعد سے، کیا آپ کے دانتوں کے ساتھ کوئی نئی پریشانی پیدا ہوئی ہے یا آپ کو اپنے دانتوں کا ڈاکٹر دیکھنے کی ضرورت پڑی ہے؟",میں گزشتہ ہفتے کچھ خون آلود گمز کے لیے ڈینٹسٹ کے پاس گیا تھا,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ چیک کرنا چاہتا ہوں کہ کیا آپ کو اپنی دندانوں کے ساتھ کوئی مسائل ہوئے ہیں جب سے آپ نے علاج شروع کیا ہے، یا کیا آپ کو کسی بھی چیز کے لیے ڈینٹسٹ سے ملاقات کرنے کی ضرورت ہے؟,میں اپنے دانتوں کی دیکھ بھال بہتر بنانے کی کوشش کر رہا ہوں، اس کے لیے میں مسواک کرنے اور فلوسیں کرنے کی عادت کو زیادہ باقاعدگی سے اپنا رہا ہوں، لیکن علاج شروع کرنے کے بعد سے ابھی تک مجھے کوئی تبدیلی محسوس نہیں ہوئی۔,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+تو، اب جب کہ آپ اپنی دوائی لینا شروع کر چکے ہیں، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ کو اپنی دांتوں کے ساتھ کوئی مسائل ہوئے ہیں یا آپ نے علاج شروع کرنے کے بعد ڈاکٹر سے ملاقات کی ہے؟,"""""""
+جی
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+تو، آپ کو جبڑے کا درد ہو رہا ہے یہ بائس فاسفونیٹ کے علاج کے دوران ایک تشویش کا باعث ہو سکتا ہے۔ کیا آپ کے دانتوں کا ڈاکٹر جانتا ہے کہ آپ نے یہ دوائی لینا شروع کی ہے؟,"""""""
+جی
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف یہ چیک کرنا چاہتا ہوں، کیا آپ کا ڈینٹسٹ جانتا ہے کہ آپ نے بائسفاسفونیٹ کا علاج شروع کر دیا ہے؟,نہیں,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+تو، میں صرف یہ پوچھنا چاہتا ہوں، کیا آپ کا ڈینٹسٹ کو پتا ہے کہ آپ نے بائسفاسفونیٹ کا علاج شروع کر دیا ہے؟,میں گزشتہ ہفتے ڈینٹسٹ کے پاس گیا تھا,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""""""
+تو نے پچھلے ہفتے ڈینٹسٹ کے پاس جانے کا فیصلہ کیا۔ کیا آپ نے اپنے ڈینٹسٹ سے ذکر کیا تھا کہ آپ بائسفاسفونیٹ کا علاج شروع کر چکے ہیں؟","""""""
+میں اسے بتانا بھول گیا
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+تو، صرف وضاحت کے لیے، آپ کو کچھ جبڑے کی درد ہو رہی ہے، لیکن آپ نے ابھی تک اپنے دندان ساز سے اس کے بارے میں بات نہیں کی ہے۔ کیا آپ کے دندان ساز کو پتہ ہے کہ آپ بائس فاسفونیٹ کا علاج شروع کر چکے ہیں؟,"""""""
+میں نے اپنے دندان ساز کو کچھ نہیں بتایا
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True

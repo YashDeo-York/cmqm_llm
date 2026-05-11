@@ -1,0 +1,1329 @@
+[
+  {
+    "response": "\"\"\"\nnie żaden z nich\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, trochę",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ntak zawsze\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, to prawda",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ntak wszędzie\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nnie\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "„hm, nie, nie sądzę”",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Miałem lasik około 10 lat temu, aby skorygować moje wzrok.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "W przeszłości przeszedłem laserową korekcję wzroku",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Miałem laserową operację PRK, gdy byłem młodszy",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Nie, nigdy nie miałem laserowej operacji oczu",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Przeszłem operację jaskry kilka lat temu",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations",
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Miałem odklejoną siatkówkę w moim prawym oku.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "Jako dziecko miałem opaskę na jednym oku",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Nie, nigdy nie miałem żadnych innych operacji oczu",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "\"\"\"\nMiałem oparzenie chemiczne oka wiele lat temu\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Raz dostałem piłki tenisowej w oko i musiałem iść do szpitala",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Nigdy nie miałem poważnych urazów oczu",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Mam jaskrę, na którą jestem leczony",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "\"\"\"\nZostaję zbadany z powodu zwyrodnienia plamki żółtej\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Mam suche oczy, dla których używam kropli.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Nie, nie mam żadnych innych schorzeń oczu",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Mam poważny problem z sercem",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Mam ciężką POChP, która wpływa na moje oddychanie",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Mam wszczepialny kardiowerter-defibrylator",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Miałem zawał serca w zeszłym roku",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Nie, nie mam żadnych problemów z sercem ani oddychaniem",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "\"\"\"\nBiorę warfarynę z powodu choroby serca\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "\"\"\"\nBiorę Tamsulosin na moją prostatę\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "\"\"\"\nByłem na Doxazosinie, ale przestałem używać go w zeszłym roku\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Mój lekarz ostatnio przepisał mi Flomax",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Nie, nigdy nie brałem Tamsulosiny ani Doxazosiny",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Jestem uczulony na penicylinę",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Mam alergię na lateks",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "\"\"\"\nCierpię na katar sienny, ale nie mam innych alergii\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Jestem uczulony na kilka leków, w tym kodeinę",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Jestem nietolerancyjny na gluten i laktozę",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Nie, nie mam żadnych alergii, o których bym wiedział",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Mam jaskrę i przyjmuję leki rozrzedzające krew",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Miałem laserową operację oczu lata temu i jestem uczulony na penicylinę",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery",
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Mam chorobę serca, przyjmuję warfarynę i w zeszłym roku zostałem poddany operacji odwarstwienia siatkówki.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator",
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "\"\"\"\nBiorę Tamsulosin na moją prostatę i w przeszłości miałem oparzenie chemiczne oka\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin",
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJestem leczony z powodu zwyrodnienia plamki żółtej i przyjmuję kilka leków, w tym metforminę na cukrzycę\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "tak to boli gdy patrzę w światło",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nkiedy patrzę na jasne światła, to boli\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "gdy patrzę na jasne światła, zdecydowanie się to pogarsza",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Jest bardzo wrażliwe na światło",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nbardzo bolą, gdy patrzę na światło\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nwszystko było w porządku, wizja była trochę niewyraźna na początku, ale trochę się poprawia i oczy są bardzo swędzące i drapieżne\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision",
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Tak... miałem. Są, hmm, dość rzadkie, jednak. Powiedziałbym, że widzę je, ęę, od czasu do czasu. Kiedy je widzę, są jak... cienkie linie, chyba. Nie jak błyski aparatu, po prostu rodzaj... ulotnych linii światła. Trudno to opisać, ale tak to wygląda.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnie żaden z nich\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "„Nie wiem, no to doświadczam tego cały czas”",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, trochę, kiedy czytam",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tuż w rogu przy nosie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, trochę w rogu",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ntak zawsze\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, to prawda",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ntak wszędzie\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nzyskałem trochę na wadze\n\"\"\"",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "weight_gain"
+    ]
+  },
+  {
+    "response": "nie ale jestem tak zmęczony, że nawet nie mogę ugotować sobie czegoś do jedzenia",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "fatigue"
+    ]
+  },
+  {
+    "response": "Musieli mi znów podać antybiotyki",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "recent_illness"
+    ]
+  },
+  {
+    "response": "Myślę, że obrzęk mojej nogi jest gorszy",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "leg_swelling"
+    ]
+  },
+  {
+    "response": "\"\"\"\noddech jest gorszy\n\"\"\"",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "breathlessness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnie ma trzaskania, ale zawsze słyszę ten dzwoniący hałas\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "tinnitus",
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "tak, miałem te ostre bóle w moim uchu",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pain"
+    ]
+  },
+  {
+    "response": "Czuję, jakby ktoś naciskał mi na głowę",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "\"\"\"\ntak, słyszę jakieś klikające odgłosy tak\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "nie nazwałbym tego presją",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "zawsze są te pękające odgłosy",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "Co masz na myśli mówiąc o presji?",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "Czuję się jakbym cały czas była pod wodą",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "clogged_sensation"
+    ]
+  },
+  {
+    "response": "Nie, ale co kilka tygodni mam biegunkę",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "Mój stolec jest wodnisty i czasami zawiera w nim krew.",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "Mam stałą gorączkę od kilku tygodni.",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "non_specific_symptoms"
+    ]
+  },
+  {
+    "response": "tak, dużo wzdęć",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "Ostatnio miałem kaszel",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ostatnio jest naprawdę ciężko.",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ndostaję skurcze żołądka\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "Moją główną sprawą jest ból brzucha",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nróżni się, ale jest dość wodniste\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "\"\"\"\nstraciłem trochę wagi\n\"\"\"",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "weight_change"
+    ]
+  },
+  {
+    "response": "krwawienie jest gorsze",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "gynae_symptom_change"
+    ]
+  },
+  {
+    "response": "czekam już tak długo",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "still_waiting"
+    ]
+  },
+  {
+    "response": "Mogę przyjść na krótkim wyprzedzeniem",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "short_notice_availability"
+    ]
+  },
+  {
+    "response": "Niestety, miałem złamanie, więc wszystko się zmieniło",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "major_health_events"
+    ]
+  },
+  {
+    "response": "\"\"\"\ntylko gdy napięty, mogę poczuć coś\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "tak, myślę, że wypadam całkiem dobrze.",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "tak, to trochę boli i naprawdę utrudnia mi poruszanie się",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "ból powoduje, że nie mogę się schylić",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "idzie wszystko dobrze, ale myślę, że tam gdzie robili operację to trochę bolą mnie miejsca",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "tak, myślę, że wypadam całkiem dobrze.",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "idzie wszystko dobrze, ale myślę, że czuję guz w miejscu, gdzie wcześniej była przepuklina.",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "biorę suplementy witaminy d",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "supplements"
+    ]
+  },
+  {
+    "response": "\"\"\"\nprzeszedłem niedawno badanie krwi\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "nie jest dobrze, miałem pewne skutki uboczne i przestałem brać leki",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects",
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "Niestety, ostatnio często mam problemy z paleniem się w piersiach i niestrawnością, nie jestem pewien, czy to przez tabletki",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "\"\"\"\nrozpocząłem kurację, tak\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "Niestety, ostatnio się potknąłem w zeszłym tygodniu",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_further_falls_since_attendance"
+    ]
+  },
+  {
+    "response": "Tak, wszystko w porządku, w ogóle nie odczułem żadnych skutków ubocznych!",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "Pomimo wszystkich twoich wysiłków, musiałem naprawić także moje drugie biodro w zeszłym miesiącu",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_broken_bones_since_attendance"
+    ]
+  },
+  {
+    "response": "boli o wiele więcej niż tylko być szorstkim",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "lekko widział piłę",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "nie, tylko trochę niewygodnie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "tak, tak to wygląda trochę skąpo w moich oczach",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "to bolało,",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Powiedziałbym, że czasem jest to trochę bolesne",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "tak czasem boli czuję to kiedy myślę, że nie powinienem jestem tego świadomy ono daje mi tępy ból",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "trochę lśniących świateł",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "tak jakby błysk światła jakby mieć zdjęcie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Och, to jest to, tak, widzę migające światła",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "to więcej, to mniej więcej pięćdziesiąt procent słuszne",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "trochę, ale nie więcej niż ten drugi, myślę, że był trochę czerwony również przed operacją",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Trochę z niego jest czerwone.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "to nie jest całkowicie białe",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nreszta mojego oka nie jest biała\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\ntak to czerwone tak\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "czerwony",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Mojego oko jest czerwone",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "tak, mnóstwo małych ciemnych kropel stale pojawia się i znika z mojego pola widzenia",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "Mam muchy przed oczami i niewyraźne widzenie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Miałem niedawno operację i wszystko było w porządku",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "significant_medical_history",
+      "recent_illness_infections"
+    ]
+  },
+  {
+    "response": "Moja córka wozi mnie do domu",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "post_procedure_support"
+    ]
+  },
+  {
+    "response": "\"\"\"\nużywam wózka inwalidzkiego\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "wheelchair_user"
+    ]
+  },
+  {
+    "response": "\"\"\"\nBiorę coś na ciśnienie krwi i cukrzycę\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications"
+    ]
+  },
+  {
+    "response": "\"\"\"\nzwykle brałem aspirynę, ale przestałem\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications",
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "tak, przyjmuję leki rozrzedzające krew",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "nie, ale muszę ci powiedzieć, że nie mogę przyjmować penicyliny.",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "allergies"
+    ]
+  },
+  {
+    "response": "\"\"\"\njestem tak naprawdę o 2 kamienie lżejszy niż 6 miesięcy temu\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "weight_loss"
+    ]
+  },
+  {
+    "response": "tak, mam",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nnie ma krwi, tylko zielona rzecz\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nzawsze kaszlę\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "cough"
+    ]
+  },
+  {
+    "response": "Zawsze dostaję infekcję płuc w zimie",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "wheeze_bronchitis"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnie ma śluzu, ale dostaję drobne plamki krwi\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "nie, ale czasem odczuwam bóle w klatce piersiowej, gdy chodzę",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "chest_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nŻadnej krwi, żadnej \n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "zawsze płonie",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "Pali i kłuje",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "jest trochę krwi tak",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "może być powietrze",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_air"
+    ]
+  },
+  {
+    "response": "Muszę iść cały czas",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "jest trochę krwi tak",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "ok",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nmiałem operację tylko na 1 oku\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Wszystko jest trochę niewyraźne, gdy próbuję czytać, ale widzę telewizor zupełnie dobrze",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Nie widzę wyraźnie ani z bliska, ani z daleka, wszystko jest niewyraźne",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Widzę więcej pajęczyn w swoim polu widzenia od czasu operacji",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "\"\"\"\nCiągle widzę te małe czarne kropelki, które poruszają się, gdy patrzę na coś\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "Oko jest bardzo zaczerwienione, znacznie bardziej czerwone niż normalnie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Mój oczodół jest jaskrawo różowy dookoła, a nie tylko w jednym miejscu",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Biała część mojego oka stała się znacznie bardziej czerwona w ciągu ostatniego dnia",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Widzę te jasne łuki światła, szczególnie w ciemności.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Czasami widzę te błyskawice w rogu mojego oka",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Są te krótkie, jasne błyski, które pojawiają się i znikają",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Czuję ostry, kłujący ból w oku, szczególnie gdy mrugam.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Moją oko cały czas czuje się bardzo suche i swędzące",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Mam zarówno plamki, jak i błyski światła od czasu operacji",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Mój oko bardzo boli i nie widzę również właściwie",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Oko jest bardzo czerwone i bolące, a ja cały czas widzę te migające światła",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness",
+      "eye_pain",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Nie, nie urodziłem się w Wielkiej Brytanii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie urodziłem się w Wielkiej Brytanii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Mieszkam w Wielkiej Brytanii, ale nie urodziłem się w Wielkiej Brytanii.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Mieszkam w Anglii, ale nie urodziłem się w Wielkiej Brytanii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nMieszkam w Szkocji, ale nie, nie urodziłem się w Wielkiej Brytanii\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nMieszkam w Walii, ale nie urodziłem się tam\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nMieszkam w Irlandii Północnej, ale nie urodziłem się w Wielkiej Brytanii\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie urodziłem się w Anglii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie urodziłem się w Szkocji",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie urodziłem się w Walii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie urodziłem się w Irlandii Północnej",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Wyrastałem we Włoszech",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Zostałem wychowany w Ameryce",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, urodziłem się we Francji",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Urodziłem się we Francji",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Mieszkam w Anglii, ale urodziłem się w Australii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\nMieszkam w Szkocji, ale urodziłem się na Białorusi\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Mieszkam w Wielkiej Brytanii, ale tak naprawdę urodziłem się w Argentynie.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Nie, urodziłem się w Hiszpanii",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Urodziłem się w Indiach",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\nUrodziłem się w Niemczech\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\nWyrastałem w Wielkiej Brytanii, ale tak naprawdę urodziłem się w Kamerunie\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\nZostałem wychowany w Wielkiej Brytanii, ale tak naprawdę urodziłem się w Chinach\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Nie połykam tabletki całej",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie mogę połknąć tego całością",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie jestem w stanie połknąć całej tabletki",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nZnajduję to zbyt trudne, aby połknąć tabletkę całą\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie połykam tabletki całości.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie, nie mam całej rzeczy",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nie połykam tabletki całej, rozcieram ją",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Mieliłem to przed zażyciem.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Podzieliłem tabletkę na pół",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Rozbijam to na mniejsze kawałki",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Nie, rozbijam to na proszek",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Przeżuwam tabletkę",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "\"\"\"\nPrzeciąłem je na pół przy użyciu podzielacza tabletek\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Nie, mielę to na proszek i mieszam z wodą",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Rzeczywiście najpierw rozpuszczam lek w wodzie",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Muszę żuć tabletkę, bo nie potrafię połykać pigułek",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Zwykle używam rozdrabniacza tabletek, aby je rozkruszyć",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  }
+]

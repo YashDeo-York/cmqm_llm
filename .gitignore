@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.bak
+__MACOSX/
+.collated_workbook_build/
+llama_translation_collated_check/
+llama_translation_collated_deduped_check/
+llama_translation_collated_topic_check/
+translation_demo_sheet_unzipped/
+*.rar
+*.zip
+.claude/

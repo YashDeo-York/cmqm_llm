@@ -1,0 +1,1329 @@
+[
+  {
+    "response": "\"\"\"\n没有那些中的任何一个\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，有点儿\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，总是\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n是的，没错\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，到处都是\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n不\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "嗯，不，我不这么认为。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我大约在10年前做了激光矫正手术来改善我的视力。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "我过去做过激光眼科手术。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "我年轻时做了PRK激光手术。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "不，我从未做过激光眼科手术。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "我几年前做了青光眼手术。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations",
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "我的右眼视网膜脱落已经修复了。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "\"\"\"\n小时候我的一只眼睛上戴着一个眼罩\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "不，我从未做过其他眼科手术。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "我多年前眼睛遭受了化学灼伤。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "我曾经被网球打到眼睛，不得不去医院。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "我从未受过严重的眼部伤害。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "我正在接受青光眼的治疗。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "我正在接受黄斑变性的治疗。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "我有干眼症，需要使用眼药水。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "不，我没有其他的眼部疾病。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "我有一个严重的心脏问题。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "我患有严重的慢性阻塞性肺疾病（COPD），这影响了我的呼吸。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "我有一个可植入的除颤器。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "我去年心脏病发作。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "不，我没有心脏或呼吸问题。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "我因为心脏疾病服用华法林。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "我服用坦索罗辛来治疗我的前列腺问题。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "我之前在服用多沙唑嗪，但去年停药了。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "我的医生最近给我开了佛洛马克。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "不，我从未服用过坦索罗辛或多沙唑嗪。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "我对青霉素过敏。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我有乳胶过敏",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我有花粉症，但没有其他过敏。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我对几种药物过敏，包括可待因。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我不能吃面筋和乳糖。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "不，据我所知我没有过敏史。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我有青光眼并且在服用抗凝血药物。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "我多年前做了激光眼科手术，而且我对青霉素过敏。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery",
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "我有心脏病，服用华法林，并且去年修复了视网膜脱落。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator",
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "我因前列腺问题服用坦索罗辛，并且过去曾有过化学烧伤眼睛的经历。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin",
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "我正在接受黄斑变性的治疗，并且我服用多种药物，包括用于糖尿病的二甲双胍。",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "是的，当我看向光的时候很痛苦。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "当我看亮光时，眼睛会痛。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "当我看亮光时，情况肯定会变得更糟。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "它对光非常敏感。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "看光时非常疼痛。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "视力开始有点模糊，但现在好一些了，眼睛真的很痒很刺痛。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision",
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\n嗯……我见过。不过，它们，嗯，相当罕见。我猜我偶尔会看到它们。当我确实看到它们时，它们就像是……细线，我想。不像相机闪光灯那样，只是有点……稍纵即逝的光线。这有点难以描述，但就是那样的感觉。\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\n没有那些中的任何一个\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "嗯，不，我一直在经历这一切。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，有点儿当我读书的时候\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "就在鼻子旁边的角落里",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n是的，有点儿在角落里\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，总是\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n是的，没错\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n嗯，到处都是\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我长了一些体重。",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "weight_gain"
+    ]
+  },
+  {
+    "response": "不，我太累了，连饭都懒得给自己做。",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "fatigue"
+    ]
+  },
+  {
+    "response": "他们又得给我用抗生素了。",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "recent_illness"
+    ]
+  },
+  {
+    "response": "我觉得我的腿肿得更厉害了。",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "leg_swelling"
+    ]
+  },
+  {
+    "response": "呼吸更糟了",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "breathlessness"
+    ]
+  },
+  {
+    "response": "没有噼啪声，但我总是听到这种嗡嗡声。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "tinnitus",
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "是的，我耳朵里有尖锐的疼痛。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pain"
+    ]
+  },
+  {
+    "response": "我感觉好像有人在按我的头。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "我听到了一些咔嗒声，是的。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "我不会称之为压力。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "总会有这些噼啪声",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "你指的是什么压力？",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "我感觉就像一直泡在水里一样。",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "clogged_sensation"
+    ]
+  },
+  {
+    "response": "不，但我每隔几周就会腹泻。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "我的大便呈水样，有时带有血迹。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "我过去几周一直发烧。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "non_specific_symptoms"
+    ]
+  },
+  {
+    "response": "是的，有很多胀气。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "我最近咳嗽了。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "最近日子挺难的。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我肚子疼",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "我的主要问题是胃痛。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "它会有所不同，但相当稀薄。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "我瘦了一些。",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "weight_change"
+    ]
+  },
+  {
+    "response": "出血更严重了",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "gynae_symptom_change"
+    ]
+  },
+  {
+    "response": "我等了这么久",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "still_waiting"
+    ]
+  },
+  {
+    "response": "我可以在短时间内来。",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "short_notice_availability"
+    ]
+  },
+  {
+    "response": "\"\"\"\n不幸的是，我自从骨折后情况发生了变化\n\"\"\"",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "major_health_events"
+    ]
+  },
+  {
+    "response": "只有当我用力时，我才能感觉到一些东西。",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，我觉得我恢复得很好。\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "是的，这有点疼，真的影响我行动。",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "疼痛让我无法弯腰",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "一切都还好，但是我觉得他们动手术的地方有点疼。",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，我觉得我恢复得很好。\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "一切还好，但我感觉疝气原来的地方有个肿块。",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "我正在服用维生素D补充剂。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "supplements"
+    ]
+  },
+  {
+    "response": "我最近做了个血液检查。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不太好，我出现了一些副作用，已经停药了。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects",
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "我最近不幸经常出现烧心和消化不良，不确定是不是因为那些药片。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "\"\"\"\n我已经开始服用药物了\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "我上周其实不幸摔倒了。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_further_falls_since_attendance"
+    ]
+  },
+  {
+    "response": "好的，没问题，我完全没有出现任何副作用！",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "尽管你付出了所有努力，我上个月还是不得不做了另一侧髋关节的修复手术。",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_broken_bones_since_attendance"
+    ]
+  },
+  {
+    "response": "这比仅仅只是坚韧要痛苦得多",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "稍微看见",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "不太舒服",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\n嗯，是的，它有点刺痛我的眼睛\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "这很痛苦，",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "我可以说有时候它有点嫩",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，有时候会痛，当我以为自己不应该感到的时候，我意识到了它，它给我带来了一种钝痛。\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "一些闪亮的灯光",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\n就像有一种闪光灯，像是在拍照\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "哦，原来是那些东西，是的，我确实看到了闪烁的灯光。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\n它大概是对的百分之五十\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "稍微有点，但不会比另一个更红。我想手术前它可能也有点红。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "有一点是红色的。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\n它并不完全是白色的\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "我的眼睛的其他部分不是白色的",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，它是红色的，没错。\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\n红色\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "我的眼睛红了。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "是的，我的视野中不断有许许多多的小黑点出现和消失。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "我有飞蚊症和视力模糊",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "我最近做了个手术，一切都很好。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "significant_medical_history",
+      "recent_illness_infections"
+    ]
+  },
+  {
+    "response": "我的女儿开车送我回家。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "post_procedure_support"
+    ]
+  },
+  {
+    "response": "我使用轮椅。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "wheelchair_user"
+    ]
+  },
+  {
+    "response": "我吃一些药来控制血压和糖尿病。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications"
+    ]
+  },
+  {
+    "response": "我以前吃阿司匹林，但后来停了。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications",
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，我在服用抗凝血药物\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "不，但我必须告诉你我不能用青霉素。",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "allergies"
+    ]
+  },
+  {
+    "response": "我实际上比六个月前轻了大约2英石。",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "weight_loss"
+    ]
+  },
+  {
+    "response": "\"\"\"\n是的，我有。\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n没有血液，只有绿色的东西\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "我总是咳嗽。",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "cough"
+    ]
+  },
+  {
+    "response": "总是在冬天得胸腔感染",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "wheeze_bronchitis"
+    ]
+  },
+  {
+    "response": "没有痰，但我确实会咳出血丝。",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "不，但是我在走路时确实会感到胸口有些疼痛。",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "chest_pain"
+    ]
+  },
+  {
+    "response": "没有鲜血，没有",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "它一直在燃烧",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "它烧灼并刺痛",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "有血，是的。",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\n可能有空气\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_air"
+    ]
+  },
+  {
+    "response": "我必须一直去",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "有血，是的。",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "好的",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我只做了一只眼睛的手术。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n当我试图阅读时，一切都变得有点模糊，但我可以清楚地看到电视。\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "我近距离和远距离都看不清楚，一切都很模糊。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "自从手术后，我的视野里出现了更多的蜘蛛网。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "我总是看到这些小黑点，当我看东西时它们会移动。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "眼睛非常充血，比正常情况下红得多。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "我的眼睛全部都是亮粉色的，而不仅仅是在一个地方。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "我的眼白在过去一天里变得更红了。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "我看到这些明亮的光弧，尤其是在黑暗中。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "有时候我在眼角看到像闪电一样的闪光。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "有这些短暂而明亮的闪光，来来去去。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "我感到眼睛里有尖锐的刺痛感，尤其是在眨眼时。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "我的眼睛一直感觉非常干燥和刺痛。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "我自从手术后就一直有飞蚊症和闪光。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "我的眼睛非常疼，而且我也看不清楚。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "眼睛非常红且疼痛，而且我不断看到这些闪光。",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness",
+      "eye_pain",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "不，我不是在英国出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我并不是在英国出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我住在英国，但不是在英国出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我住在英格兰，但我不出生在英国。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n我确实住在苏格兰，但我不是在英国出生的。\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我住在威尔士，但不是在那里出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我住在北爱尔兰，但不是在英国出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不是在英国出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不是出生在苏格兰。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不是在威尔士出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不是在北爱尔兰出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我在意大利长大。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我是在美国长大的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我出生在法国。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我出生在法国。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我住在英格兰，但我是澳大利亚出生的。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我住在苏格兰，但出生在白俄罗斯。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我确实住在英国，但我实际上出生在阿根廷。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "不，我出生在西班牙。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我出生在印度。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我出生在德国。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我在英国长大，但其实我出生在喀麦隆。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "我是在英国长大的，但其实我出生在中国。",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\n我不整颗吞下药片\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我不能一口气吞下去。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不能吞下整片药。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "我发现吞下整片药丸太困难了。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我不整颗吞下药片。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不，我没有全部。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "不",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\n我不整片吞下药片，而是把它研磨成粉\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我先把它磨碎再服用。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我将药片分成两半。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我把它分成更小的块",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "不，我把它碾成粉末。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我咀嚼着药片。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我用药片切割器把它切成两半。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "不，我把它们磨成粉末，然后和水混合。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "\"\"\"\n实际上，我先将药物溶解在水中\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我必须嚼碎药片，因为我不能吞咽药丸。",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "我倾向于使用药片粉碎器把它碾碎",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  }
+]

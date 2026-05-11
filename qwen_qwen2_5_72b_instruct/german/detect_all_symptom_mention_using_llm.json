@@ -1,0 +1,1329 @@
+[
+  {
+    "response": "\"\"\"\nkeiner von denen\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja ein bisschen\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja immer\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nJa, das ist richtig.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja, überall\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nnein\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nähm nein, das denke ich nicht\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich habe vor etwa 10 Jahren eine Lasik-Operation durchgeführt, um meine Sehschwäche zu korrigieren.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Ich habe in der Vergangenheit eine Laserchirurgie an den Augen durchgeführt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Ich habe als jüngerer Mensch eine PRK-Laserchirurgie durchgeführt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Nein, ich habe noch nie eine Laserektoberkorrektur durchgeführt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery"
+    ]
+  },
+  {
+    "response": "Ich hatte vor einigen Jahren eine Glaukomoperation.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations",
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Ich habe eine abgelöste Netzhaut in meinem rechten Auge behandeln lassen.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "Als Kind hatte ich eine Binde vor einem Auge.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Nein, ich habe noch keine anderen Augenoperationen durchgeführt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "Ich hatte vor Jahren einen Chemikalienbrand in meinem Auge.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Ich bin einmal mit einem Tennisball im Auge getroffen worden und musste ins Krankenhaus gehen.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Ich habe nie schwere Augenverletzungen erlitten.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "Ich werde aufgrund von Glaukom behandelt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Ich werde wegen Makuladegeneration behandelt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "Ich habe trockene Augen und verwende dafür Tropfen.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "\"\"\"\nNein, ich habe keine anderen Augenerkrankungen.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe ein schwerwiegendes Herzproblem\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Ich habe eine schwere COPD, die meine Atmung beeinträchtigt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Ich habe einen einpflanzbaren Defibrillator.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Ich hatte letztes Jahr einen Herzinfarkt.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Nein, ich habe keine Herz- oder Atemprobleme.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Ich nehme Warfarin für meine Herzkrankheit.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator"
+    ]
+  },
+  {
+    "response": "Ich nehme Tamsulosin für meine Prostata.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe Doxazosin genommen, aber ich habe letztes Jahr damit aufgehört.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Mein Arzt hat mir kürzlich Flomax verschrieben.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Nein, ich habe noch nie Tamsulosin oder Doxazosin eingenommen.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin"
+    ]
+  },
+  {
+    "response": "Ich bin allergisch gegen Penicillin.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Ich habe eine Latexallergie.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Ich habe Heuschnupfen, aber keine anderen Allergien.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Ich bin allergisch gegen mehrere Medikamente, darunter Codein.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Ich bin gluten- und lactoseintolerant.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "Nein, ich habe keine bekannteren Allergien.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe Glaukom und nehme Blutverdünner\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe vor Jahren eine Laserchirurgie an den Augen durchgeführt bekommen und bin allergisch gegen Penicillin.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "had_laser_eye_surgery",
+      "has_allergies"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe eine Herzkrankheit, nehme Warfarin und hatte letztes Jahr eine abgelöste Netzhaut operiert.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_heart_breathing_problem_defibrillator",
+      "had_other_eye_operations"
+    ]
+  },
+  {
+    "response": "Ich nehme Tamsulosin für meine Prostata und hatte in der Vergangenheit eine chemische Verbrennung am Auge.",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "been_on_tamsulosin_or_doxazosin",
+      "had_previous_eye_injury"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch werde wegen Makuladegeneration behandelt und nehme mehrere Medikamente, darunter Metformin für Diabetes.\n\"\"\"",
+    "topic_key": "llm-cataract-pre-assessment@1.0.0",
+    "expected_output": [
+      "has_other_eye_conditions"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja, es ist schmerzhaft, wenn ich ins Licht blicke\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nwenn ich auf helle Lichter schaue, tut es weh\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nwenn ich helle Lichter ansehe, wird es definitiv schlimmer\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Es ist sehr lichtempfindlich.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nes tut sehr weh, wenn man Licht ansieht\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nEs war in Ordnung, die Sicht war am Anfang etwas verschwommen, aber es wird ein bisschen besser und die Augen jucken und brennen wirklich.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision",
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa... Ich habe sie gesehen. Sie sind allerdings ziemlich selten. Ich würde sagen, ich sehe sie ab und zu. Wenn ich sie sehe, sind sie wie... dünne Linien, glaube ich. Nicht wie Blitzlichter oder so, sondern einfach... flüchtige Lichtlinien. Es ist ein bisschen schwer zu beschreiben, aber so ist es.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\nkeiner von denen\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nna ja, ich erlebe es ständig\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja ein bisschen, wenn ich lese\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\ngerade in der Ecke neben der Nase\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nein bisschen in der Ecke\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja immer\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nJa, das ist richtig.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nja, überall\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich habe ein wenig zugenommen.",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "weight_gain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnein, aber ich bin so müde, dass ich nicht einmal für mich selbst kochen kann\n\"\"\"",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "fatigue"
+    ]
+  },
+  {
+    "response": "Sie mussten mir wieder Antibiotika geben.",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "recent_illness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch denke, das Schwellen meines Beins ist schlimmer geworden.\n\"\"\"",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "leg_swelling"
+    ]
+  },
+  {
+    "response": "\"\"\"\ndas Atmen ist schlechter\n\"\"\"",
+    "topic_key": "llm-heart-failure-triage@1.0.0",
+    "expected_output": [
+      "breathlessness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nkein Knistern, aber ich höre immer dieses Klingelgeräusch\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "tinnitus",
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, ich habe diese scharfen Schmerzen im Ohr gehabt.\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch fühle mich, als würde jemand auf meinen Kopf drücken.\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch höre einige Klickgeräusche, ja.\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "\"\"\"\nich würde das nicht Druck nennen\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes gibt immer diese Knallgeräusche\n\"\"\"",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "crackling_sounds"
+    ]
+  },
+  {
+    "response": "Was meinst du mit Druck?",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "ear_pressure"
+    ]
+  },
+  {
+    "response": "Es fühlt sich an, als wäre ich die ganze Zeit unter Wasser.",
+    "topic_key": "llm-ent-demo@1.0.0",
+    "expected_output": [
+      "clogged_sensation"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnein, aber ich habe alle paar Wochen Durchfall\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "Mein Stuhl ist wässrig und manchmal enthält er Blut.",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe seit einigen Wochen ständig Fieber.\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "non_specific_symptoms"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja, viel Blähigkeit\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch hatte kürzlich einen Husten.\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nes war lately ziemlich schwer\n\"\"\"\n\nNote: The translation has been corrected to:\n\"\"\"\nes war lately ziemlich schwierig\n\"\"\"\n\nHowever, for better fluency and correctness, it should be:\n\"\"\"\nes war lately ziemlich hart\n\"\"\"\n\nOr even better:\n\"\"\"\nes war lately ziemlich schwierig\n\"\"\"\n\nThe most natural and correct version would be:\n\"\"\"\nes war lately ziemlich schwierig\n\"\"\"\n\nBut to avoid repetition and provide the best possible translation:\n\n\"\"\"\nes war neuerdings ziemlich schwierig\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nIch bekomme Bauchkrämpfe\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "Mein Hauptproblem ist ein Magenweh.",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "abdominal_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes variiert, aber es ist ziemlich wässrig\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "persistent_diarrhoea"
+    ]
+  },
+  {
+    "response": "Ich habe etwas abgenommen.",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "weight_change"
+    ]
+  },
+  {
+    "response": "\"\"\"\ndas Blutung ist schlimmer\n\"\"\" \n\n(Note: The correct grammatical form would be \"die Blutung ist stärker\" or \"das Bluten ist stärker.\")",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "gynae_symptom_change"
+    ]
+  },
+  {
+    "response": "\"\"\"\nich habe so lange gewartet\n\"\"\"",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "still_waiting"
+    ]
+  },
+  {
+    "response": "Ich kann kurzfristig kommen.",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "short_notice_availability"
+    ]
+  },
+  {
+    "response": "\"\"\"\nLeider habe ich seitdem einen Bruch, daher haben sich die Dinge geändert.\n\"\"\"",
+    "topic_key": "llm-gynaecology-waitlist@1.0.0",
+    "expected_output": [
+      "major_health_events"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnur wenn ich mich anstrenge, kann ich etwas spüren\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, ich denke, ich erhole mich gut.\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nJa, es ist ein bisschen schmerzhaft und es hindert mich wirklich daran, mich zu bewegen.\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "\"\"\"\nder Schmerz hat bedeutet, dass ich mich nicht hinunterbeugen kann\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "strain_related_sensation"
+    ]
+  },
+  {
+    "response": "Es läuft gut, aber ich glaube, es tut ein bisschen weh an der Stelle, wo sie die Operation durchgeführt haben.",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, ich denke, ich erhole mich gut.\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nEs läuft gut, aber ich glaube, ich kann eine Beule fühlen, wo die Hernie war.\n\"\"\"",
+    "topic_key": "llm-hernia-postop-check@1.0.0",
+    "expected_output": [
+      "groin_symptoms",
+      "noticed_changes"
+    ]
+  },
+  {
+    "response": "Ich nehme Vitamin D-ergänzungsmittel.",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "supplements"
+    ]
+  },
+  {
+    "response": "Ich habe kürzlich einen Bluttest gemacht.",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nEs ist nicht gut, ich habe Nebenwirkungen gehabt und habe meine Medikamente abgesetzt.\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects",
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "\"\"\"\nLeider habe ich in letzter Zeit viel Herzbrand und Verdauungsprobleme, ich bin mir nicht sicher, ob es die Tabletten sind.\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe die Medikamente angefangen, ja.\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "started_taking_medication"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch bin leider letzte Woche gestürzt\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_further_falls_since_attendance"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, es ist in Ordnung, ich habe überhaupt keine Nebenwirkungen gehabt!\n\"\"\"",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "medication_side_effects"
+    ]
+  },
+  {
+    "response": "Trotz all deiner Bemühungen musste ich letzten Monat auch mein anderes Hüftgelenk reparieren lassen.",
+    "topic_key": "llm-fracture-liaison-service@1.0.0",
+    "expected_output": [
+      "any_broken_bones_since_attendance"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes tut viel mehr weh als nur rau zu sein\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nleicht gesehen\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnur ein bisschen unangenehm\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja, es ist irgendwie sparsam in meinem Auge\n\"\"\" \n\nNote: The translation provided is a direct translation of the given text. However, the phrase \"kind of stingy in my eye\" is somewhat idiomatic and may not convey the intended meaning clearly in German. A more natural way to express this might be:\n\n\"\"\"\nja, es brennt irgendwie in meinem Auge\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes ist schmerzhaft,\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Ich würde sagen, manchmal ist es ein bisschen empfindlich.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja manchmal tut es weh ich spüre es wenn ich denke, dass ich es nicht sollte ich bin mir dessen bewusst es gibt mir ein dumpfes Ziehen\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "\"\"\"\neinige funkelnde Lichter\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja, so eine Art Blinklicht, als ob man ein Foto macht\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\nAch, das sind das also, ja, ich sehe blinkende Lichter.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Es ist mehr oder weniger fünfzig Prozent richtig.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\netwas, aber nicht mehr als der andere, ich denke, es war wahrscheinlich auch ein bisschen rot vor dem Eingriff\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "ein bisschen davon ist rot",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes ist nicht ganz weiß\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nder Rest meines Auges ist nicht weiß\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, es ist rot, ja.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nrot\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nmein Auge ist rot\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, viele kleine dunkle Punkte tauchen ständig in meinem Blickfeld auf und verschwinden wieder.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe Fliegen vor den Augen und verschwommene Sicht\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch hatte kürzlich eine Operation und alles war in Ordnung.\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "significant_medical_history",
+      "recent_illness_infections"
+    ]
+  },
+  {
+    "response": "\"\"\"\nmeine Tochter fährt mich nach Hause\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "post_procedure_support"
+    ]
+  },
+  {
+    "response": "Ich benutze einen Rollstuhl.",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "wheelchair_user"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch nehme etwas für den Blutdruck und den Diabetes.\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch habe früher Aspirin genommen, aber ich habe aufgehört.\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "current_medications",
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "\"\"\"\nJa, ich nehme Blutverdünner.\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "blood_thinners"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnein, aber ich muss Ihnen sagen, dass ich Penicillin nicht vertrage.\n\"\"\"",
+    "topic_key": "llm-preop-hvlc@1.0.0",
+    "expected_output": [
+      "allergies"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch bin etwa 2 Steine leichter als vor 6 Monaten.\n\"\"\"",
+    "topic_key": "llm-ibd-screening@1.0.0",
+    "expected_output": [
+      "weight_loss"
+    ]
+  },
+  {
+    "response": "\"\"\"\nja, ich habe\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nkein Blut, nur grüner Saft\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nich hustete immer\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "cough"
+    ]
+  },
+  {
+    "response": "immer eine Lungenentzündung im Winter bekommen",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "wheeze_bronchitis"
+    ]
+  },
+  {
+    "response": "\"\"\"\nkein Schleim, aber ich bekomme Blutspuren\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "sputum",
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nnein, aber ich bekomme manchmal Schmerzen in der Brust, wenn ich gehe\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "chest_pain"
+    ]
+  },
+  {
+    "response": "Kein Blut, kein",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes brennt immer\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes brennt und steckt\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes ist etwas Blut, ja\n\"\"\"",
+    "topic_key": "copd-screen@1.0.0",
+    "expected_output": [
+      "coughing_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes könnte Luft geben\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_air"
+    ]
+  },
+  {
+    "response": "\"\"\"\nich muss ständig gehen\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "infection_symptoms"
+    ]
+  },
+  {
+    "response": "\"\"\"\nes ist etwas Blut, ja\n\"\"\"",
+    "topic_key": "llm-uti-recurrent-triage@1.0.0",
+    "expected_output": [
+      "passed_blood"
+    ]
+  },
+  {
+    "response": "\"\"\"\nokay\n\"\"\" \n\n(Note: \"okay\" is often used as-is in German, but if you prefer the more formal German equivalent, it would be \"in Ordnung\" or \"alright\".) \n\nFor a direct translation:\n\"\"\"\nin Ordnung\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich hatte nur an einem Auge operieren lassen.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Alles wirkt etwas verschwommen, wenn ich versuche zu lesen, aber ich kann den Fernseher ganz klar sehen.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch kann Dinge weder in der Nähe noch in der Ferne klar sehen, alles ist verschwommen.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Es gibt mehr Spinnweben in meinem Blickfeld seit der Operation.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch sehe ständig diese kleinen schwarzen Punkte, die sich bewegen, wenn ich auf etwas schaue.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters"
+    ]
+  },
+  {
+    "response": "Das Auge ist sehr blutunterlaufen, viel roter als normal.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Mein Auge ist überall hellrosa, nicht nur an einer Stelle.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "\"\"\"\nDas Weiße meines Auges ist in den letzten Tagen viel roter geworden.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness"
+    ]
+  },
+  {
+    "response": "Ich sehe diese hellen Lichtbögen, besonders in der Dunkelheit.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Manchmal sehe ich diese blitzartigen Aufleuchten am Rande meines Gesichtsfeldes.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Es gibt diese kurzen, hellen Aufleuchten, die kommen und gehen.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Ich spüre einen scharfen, stechenden Schmerz in meinem Auge, besonders wenn ich blinzle.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Mein Auge fühlt sich ständig sehr trocken und rau an.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain"
+    ]
+  },
+  {
+    "response": "Ich habe seit der Operation sowohl Treffer als auch Blitzlichter.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "floaters",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "\"\"\"\nMein Auge tut sehr weh und ich kann auch nicht richtig sehen.\n\"\"\"",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_pain",
+      "blurry_vision"
+    ]
+  },
+  {
+    "response": "Das Auge ist sehr rot und schmerzhaft, und ich sehe ständig diese Blitzlichter.",
+    "topic_key": "llm-cataract@1.0.0",
+    "expected_output": [
+      "eye_redness",
+      "eye_pain",
+      "flashing_lights"
+    ]
+  },
+  {
+    "response": "Nein, ich bin nicht im Vereinigten Königreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich bin nicht im Vereinigten Königreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich lebe im Vereinigten Königreich, aber ich bin nicht im Vereinigten Königreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich lebe in England, aber ich bin nicht im Vereinigten Königreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nIch lebe in Schottland, aber nein, ich bin nicht im Vereinigten Königreich geboren.\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich lebe in Wales, bin aber nicht dort geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich lebe in Nordirland, aber ich bin nicht im Vereinigten Königreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein, ich bin nicht in England geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein, ich bin nicht in Schottland geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein, ich bin nicht in Wales geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein, ich bin nicht in Nordirland geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich bin in Italien aufgewachsen.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich wurde in Amerika aufgewachsen.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein, ich bin in Frankreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich wurde in Frankreich geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich lebe in England, aber ich bin in Australien geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich lebe in Schottland, aber ich bin in Weißrussland geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich lebe tatsächlich im Vereinigten Königreich, aber ich bin in Argentinien geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Nein, ich bin in Spanien geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich bin in Indien geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "\"\"\"\nIch bin in Deutschland geboren\n\"\"\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich bin im Vereinigten Königreich aufgewachsen, aber ich bin tatsächlich in Kamerun geboren.",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich wurde im Vereinigten Königreich aufgezogen, bin aber实际上出生在中国。\n(Note: The last part of the sentence is not properly translated into German. Here is the correct translation: \n\"Ich wurde im Vereinigten Königreich aufgezogen, bin aber实际上在中国出生。\" \nHowever, \"但实际上在中国出生\" would be more natural and fully translated as:\n\"Ich wurde im Vereinigten Königreich aufgezogen, bin aber tatsächlich in China geboren.\") \n\nHere is the corrected and natural-sounding translation:\n\n\"Ich wurde im Vereinigten Königreich aufgezogen, bin aber tatsächlich in China geboren.\"",
+    "topic_key": "llm-fls-initial@1.0.0",
+    "expected_output": [
+      "if_outside_uk_country_of_birth"
+    ]
+  },
+  {
+    "response": "Ich schlucke das Tablet nicht ganz.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Ich kann es nicht ganz schlucken.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nNein, ich bin nicht in der Lage, die ganze Tablette zu schlucken.\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nIch finde es zu schwierig, die Tablette ganz zu schlucken.\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nNein, ich schlucke das Tablet nicht ganz.\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nNein, ich habe das Ganze nicht.\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "Nein",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": []
+  },
+  {
+    "response": "\"\"\"\nIch schlucke das Tablet nicht ganz, ich zerdrücke es\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich mahle es vor dem Einnehmen.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich habe die Tablette halbiert.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich teile es in kleinere Stücke auf.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Nein, ich zerstoße es zu Pulver.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich kau das Tablett.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich habe es mit einem Tablettenhalter halbiert.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Nein, ich mahle es zu Pulver und mische es mit Wasser.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "\"\"\"\nTatsächlich löse ich das Medikament zuerst in Wasser auf.\n\"\"\"",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich muss die Tablette kauen, weil ich Pillen nicht schlucken kann.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  },
+  {
+    "response": "Ich neige dazu, einen Tablettendreher zu verwenden, um es zu zerkleinern.",
+    "topic_key": "llm-fls-adherence@1.0.0",
+    "expected_output": [
+      "not_swallow_tablet_whole_how_take"
+    ]
+  }
+]

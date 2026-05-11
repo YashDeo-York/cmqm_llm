@@ -1,0 +1,670 @@
+llm_question,response,context,topic_key,expected_output
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,"""""""
+是的，我再也不能读报了
+""""""",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,是的，我已经两次在走下楼梯的时候摔倒了,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,我很难认出别人的脸，而且走路的时候会感到不稳。,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,阅读越来越成问题,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,是的，晚上开车很难，最近我也遇到了一些问题,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+你的视力是否影响了你工作、驾驶、阅读、看电视或辨认面孔的能力？,我现在走得更慢，尤其是走楼梯的时候,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,是的，我因为心脏病而服用华法林。,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,我每天都在服用阿司匹林,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,是的，但我不知道名字,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,我服用雷米普利，那是一种抗凝剂吗？,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,是的，我正在服用氯吡格雷,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,阿匹沙班,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,是的,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+你正在服用任何抗凝血药吗？,是的，我因为心脏病而服用华法林。,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+你正在服用任何抗凝血药吗？,我每天都在服用阿司匹林,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+你正在服用任何抗凝血药吗？,我服用雷米普利，那是一种抗凝剂吗？,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,是的，我服用二甲双胍来控制我的糖尿病,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,我正在使用胰岛素,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,对我的血压来说是的,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,我每天服用几种药物,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,我正在服用拉米普利治疗高血压,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,对我的血压来说是的,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,我每天服用几种药物,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,我正在服用拉米普利治疗高血压，同时也服用维生素D补充剂,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+为了确保我们对您的健康状况有全面了解，我需要询问您是否正在服用任何药物。您是否有服用任何常规药物？,“是的，用于我的血压和胆固醇”,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+您经常使用轮椅吗？,是的，我需要帮助进出它,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+您经常使用轮椅吗？,对不起什么,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+您经常使用轮椅吗？,我外出购物时会用一个,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+您经常使用轮椅吗？,是的，我的护理人员帮助我转移,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+您经常使用轮椅吗？,"""""""
+是的，我根本不能走路
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+您经常使用轮椅吗？,是的,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+您经常使用轮椅吗？,不,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+你通常需要帮助上下椅子吗？,是的,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+你通常需要帮助上下椅子吗？,“不，我可以自己处理”,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+你通常需要帮助上下椅子吗？,我妻子帮助我,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+你通常需要帮助上下椅子吗？,有时,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+您的视力是否导致跌倒或行动不便？,是的，我已经摔倒过几次了,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+您的视力是否导致跌倒或行动不便？,“不，不真的”,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+您的视力是否导致跌倒或行动不便？,有时候走下楼梯我会感到有点失去平衡,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+您的视力是否导致跌倒或行动不便？,我走得更慢一些,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+你服用什么样的抗凝药？,华法林,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你服用什么样的抗凝药？,阿司匹林,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你服用什么样的抗凝药？,氯吡格雷,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你服用什么样的抗凝药？,我不确定名字,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用华法林？,是的,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用华法林？,不,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用华法林？,我曾经但现在不再了,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用药物来控制你的糖尿病？,是 二甲双胍,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用药物来控制你的糖尿病？,我正在使用胰岛素,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+你是否服用药物来控制你的糖尿病？,"“
+我没有糖尿病
+”",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+你有服用任何药片来控制血压吗？,是雷米普利,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+你有服用任何药片来控制血压吗？,"“
+不是，我的血压很正常
+”",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+你有服用任何药片来控制血压吗？,阿米洛地平,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+您在手术后是否出现视力模糊的情况？,离得近就行,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+您在手术后是否出现视力模糊的情况？,离得近就行,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,离得近就行,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,在远处,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,在远处,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,在远处,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,"""""""
+是的，近距离
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,"""""""
+是的，近距离
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,"""""""
+是的，近距离
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,两者,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,两者,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,两者,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不远也看不近,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不远也看不近,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不远也看不近,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我近视不清,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我近视不清,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,我近视不清,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不到远处,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不到远处,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,我看不到远处,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,是的,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,两者,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+你在远处、近处或两者都看不清楚吗？,是的,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+你在远处、近处或两者都看不清楚吗？,是的,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+我想收集一些关于你眼睛愈合情况的信息，我会与你的医生分享。那么，你的手术后眼睛的情况怎么样？,嗯，我想我还行吧，有时候会有点痒，还有一些眼前漂浮的东西,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+我想收集一些关于你眼睛愈合情况的信息，我会与你的医生分享。那么，你的手术后眼睛的情况怎么样？,嗯，我想我还行吧，有时候会有点痒，还有一些眼前漂浮的东西,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+我想收集一些关于你眼睛愈合情况的信息，我会与你的医生分享。那么，你的手术后眼睛的情况怎么样？,嗯，我想我还行吧，有时候会有点痒，还有一些眼前漂浮的东西,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,"""""""
+是的 是的 我有 是的
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,我读得不太好,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,是的，当我读到时,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,是的，都有,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,只在远处,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你是否出现视力模糊的情况，无论是看远处的东西还是看近处的书籍？,"""""""
+是的，我看不到远处
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你是在看电视还是试图读点什么的时候更容易出现这种情况？,我的阅读视野,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+你是在看电视还是试图读点什么的时候更容易出现这种情况？,看电视,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+你是在看电视还是试图读点什么的时候更容易出现这种情况？,两者,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+你是在看电视还是试图读点什么的时候更容易出现这种情况？,阅读时更少,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+手术后您的视力有改善吗？,“它有了一定的改善，因为现在我可以看电视，但我不能读书”,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+手术后您的视力有改善吗？,视力稍微有一点改善。,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+手术后您的视力有改善吗？,“它有了一定的改善，因为现在我可以看电视，但我不能读书”,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+手术后您的视力有改善吗？,跟以前比起来真的很糟糕,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+白内障手术后你的眼睛怎么样了,“它曾经更好，但现在变得模糊”,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+白内障手术后你的眼睛怎么样了,我的视力越来越差,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,“只有第一周他们现在已经消失了”,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,我以前确实有过一些,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,当我第一次做的时候，是的，但现在已经不再了,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,是的，还有黑点什么的,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,我在视野中看到斑点,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,这里有很多这些小小的蛛网东西,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,一小撮小小的黑点，但不是很多，只是在早晨的第一时间，然后就消失了,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,我在手术前已经有了几年的眼部漂浮物。,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到视野中有小的黑点或像蛛网一样的东西？,我有小点,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,最近变得更糟糕了,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,它们比以前更令人烦恼,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,不是增加，我有眼浮沉，但没有比以前更多,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,我觉得我的眼花没有增加,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,我最近没有感觉到有更多的漂浮物,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,"""""""
+那些漂浮物肯定变得更糟了
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,那些黑点现在更令人烦恼了,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,不,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+那么，你是在说你在手术后在视野中注意到了一些小的黑点或蛛网状东西。可以告诉我它们是否已经改变或数量上有所增加吗？,是的，我以前没有他们,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+白内障手术后你的眼睛怎么样了,我有种类的小点，它们在我的身上四处移动，我都喜欢它们,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+白内障手术后你的眼睛怎么样了,我看到很多黑点,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,是的,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,“并不太痛，只知道那个地方痛，这个早上都很轻微”,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你眼部是否感到疼痛,只有当眼泪落下时，我的眼睛才会感到刺痛,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你眼部是否感到疼痛,是的，昨晚很痛，嗯，在我服完抗生素之后,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+白内障手术后你的眼睛怎么样了,很痛,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+白内障手术后你的眼睛怎么样了,它很嫩,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,这让我很烦恼,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,是的，我感到非常疼痛,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,比粗糙更痛苦,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你現在的眼睛很痛嗎？,我觉得总体上来说疼痛越来越少了,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,一直很痛苦,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,是的，有时候它会伤害我，我会感觉到它，当我以为我不应该这样的时候，我知道它，它给我带来一种钝痛,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,一直都很痛，尤其是在早晨,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,疼痛正在减轻,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你的眼睛疼痛是偶尔还是一直都有？,昨天很糟糕，但今天早上醒来后仍然很疼。,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,只有当水滴让它感到刺痛时,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你的眼睛疼痛是偶尔还是一直都有？,有时会有点痛,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+你眼部是否感到疼痛,我正在受苦,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你眼部是否感到疼痛,疼痛缓解了,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+你的眼睛疼痛是偶尔还是一直都有？,感觉很粗糙,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+谢谢。你感觉有点疼痛，疼痛时有时无。可以进一步描述这种疼痛吗——它主要是有一种粗糙或干燥的感觉，还是其他感觉？,是的，就是这样，是的，有时候有点干燥,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+好吧，你有时会感到眼睛有一点疼痛。你能告诉我疼痛的感觉是什么样的吗——主要是有粗糙或干燥的感觉，还是其他的感觉？,干燥感,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛感到疼痛吗？,有时候会有点干,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你現在的眼睛很痛嗎？,有时候稍微有点干,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛痛吗？,有时候稍微有点干,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛很痛吗？,它们只是有点粗糙,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛很痛吗？,它们只是有点粗糙,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛很痛吗？,它们只是有点粗糙,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛感到疼痛吗？,只有当眼泪落下时，我的眼睛才会感到刺痛,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你現在的眼睛很痛嗎？,只有当眼泪落下时，我的眼睛才会感到刺痛,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛痛吗？,只有当眼泪落下时，我的眼睛才会感到刺痛,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+你的眼睛感到疼痛吗？,是的,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你現在的眼睛很痛嗎？,是的,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你的眼睛痛吗？,是的,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你現在的眼睛很痛嗎？,我觉得总体上来说疼痛越来越少了,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你的眼睛痛吗？,我觉得总体上来说疼痛越来越少了,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你現在的眼睛很痛嗎？,一直很痛苦,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你的眼睛痛吗？,一直很痛苦,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+你眼部是否出现红肿,我的眼睛有点粉红，是的,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+你眼部是否出现红肿,眼睛的左边和右边都发红,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你眼部是否出现红肿,从头到尾都是红色的,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你眼部是否出现红肿,完全红色,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你眼部是否出现红肿,我眼睛有一点点红,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你眼部是否出现红肿,“好吧，它还有一点点粉红色”,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+你眼部是否出现红肿,边缘处呈红色,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,不是，只有角落是红色的，它是全部都是红色的,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,我眼睛的每个部分都是红的,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,“是的，它靠近鼻子，非常非常红，看起来好像有一个伤口”,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,红肿几乎完全消失了，除了角落里还有一点点。,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,不是完全如此。它更是血丝密布，外面是红色的，在眼睛下面变得红。,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是只在鼻子附近的一个角落？,我会说眼睛的一小部分是红色的,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+你的眼睛红的地方是整个眼睛，还是主要在鼻子旁边的眼角处？,不是很红，只是在角落里有一点点,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+白内障手术后你的眼睛怎么样了,它相当红,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+你是否经历过意外的体重减轻？,大约6个月减掉2石，我想,How much weight have you lost?,copd-screen@1.0.0,TRUE
+你是否经历过意外的体重减轻？,大约6个月减掉2石，我想,Over what time period did you lose this weight?,copd-screen@1.0.0,TRUE
+你是否经历过意外的体重减轻？,我减轻了一些体重,Over what time period did you lose this weight?,copd-screen@1.0.0,FALSE
+你是否经历过意外的体重减轻？,我减轻了一些体重,How much weight have you lost?,copd-screen@1.0.0,FALSE
+你有咳出血吗？,是的，不过这只是某些地方而已,How much blood have you coughed up?,copd-screen@1.0.0,TRUE
+你有咳出血吗？,是的，我确实看到了一些血,How much blood have you coughed up?,copd-screen@1.0.0,FALSE
+你有咳出血吗？,是的，但这只发生了一两次,How often has this happened?,copd-screen@1.0.0,TRUE
+你有咳出血吗？,是的，我确实看到了一些血,How often has this happened?,copd-screen@1.0.0,FALSE
+你耳朵里的压力问题有多严重？,这只是一个轻微的问题,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+你耳朵里的压力问题有多严重？,“好吧，我怎么解释呢……”,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+你耳朵里的压力问题有多严重？,压力总是存在,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+你的耳朵感觉被堵住或像在水下吗？,是的，但我想只有一点点,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+你的耳朵感觉被堵住或像在水下吗？,是的，这是一个严重的问题。,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+你的耳朵感觉被堵住或像在水下吗？,是的，就是这样,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+你的耳朵感觉被堵住或像在水下吗？,是的，一直都这样,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+你是否从药物中经历了任何副作用？,是的，我胃痛得很严重,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,TRUE
+你是否从药物中经历了任何副作用？,“好吧，从我摔倒后我就一直疼痛”,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,FALSE
+你是否从药物中经历了任何副作用？,是的，我遇到了一些问题,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+你是否从药物中经历了任何副作用？,是的，但是我想只有当我躺下后在吃了药之后,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+你是否从药物中经历了任何副作用？,是的，有些药片有点难吞。,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,TRUE
+我在这里想问你几个关于你骨骼健康药物使用情况的问题，可以吗？,是的，没问题,Are you able to swallow the tablet whole?,llm-fracture-liaison-service@1.0.0,FALSE
+我在这里想问你几个关于你骨骼健康药物使用情况的问题，可以吗？,“好吧，但是你应该知道我的全科医生已经更改了我的药物，因为我有一些副作用”,Has your GP tried you on a different medication or referred you back to the hospital?,llm-fracture-liaison-service@1.0.0,TRUE
+我在这里想问你几个关于你骨骼健康药物使用情况的问题，可以吗？,"“
+是的，我每天早上都会按时服用所有的药片，不吃早餐什么的，我一直都很认真地按照规定去做。",Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,TRUE
+我在这里想问你几个关于你骨骼健康药物使用情况的问题，可以吗？,当然，我确实有一些问题,Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,FALSE
+我在这里想问你几个关于你骨骼健康药物使用情况的问题，可以吗？,当然没问题,Do you remain sitting or standing for 30 minutes after taking the tablet?,llm-fracture-liaison-service@1.0.0,FALSE
+您在加入等待名单后是否经历过任何重大健康事件（例如心脏病发作或中风）？,我从那时就患有心脏病了,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,TRUE
+您在加入等待名单后是否经历过任何重大健康事件（例如心脏病发作或中风）？,是的，我已经在医院待了一周了,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+您在加入等待名单后是否经历过任何重大健康事件（例如心脏病发作或中风）？,请,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+您在加入等待名单后是否经历过任何重大健康事件（例如心脏病发作或中风）？,哦，是的,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+自从您最后一次被看到，您会说您的症状有了显著的变化（无论是好还是坏）？,是的，我的出血情况变得更糟了。,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,TRUE
+自从您最后一次被看到，您会说您的症状有了显著的变化（无论是好还是坏）？,是的。,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+自从您最后一次被看到，您会说您的症状有了显著的变化（无论是好还是坏）？,是的，我真的需要见某个人,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+你是否经历过新的或加重的呼吸困难？,是的,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+你是否经历过新的或加重的呼吸困难？,肯定是在恶化,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+你是否经历过新的或加重的呼吸困难？,是的，尤其是当我走路的时候,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,TRUE
+你是否经历过新的或加重的呼吸困难？,是的,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+你是否经历过新的或加重的呼吸困难？,是的，我一直都很自豪,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+你是否经历过新的或加重的呼吸困难？,是的，我觉得情况越来越糟糕,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,TRUE
+我想检查一下你的心脏状况，最近你感觉怎么样？,我太累了，现在甚至出不了门,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,TRUE
+我想检查一下你的心脏状况，最近你感觉怎么样？,我好累,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,FALSE
+我想检查一下你的心脏状况，最近你感觉怎么样？,最近我身体不是很好。,What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,FALSE
+我想检查一下你的心脏状况，最近你感觉怎么样？,不好，我的糖尿病病情严重，所以我必须去看我的全科医生,What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,TRUE
+你有没有出现过腹痛、不适或腹胀？,是的，已经差不多一年了。,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,TRUE
+你有没有出现过腹痛、不适或腹胀？,是的。,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,FALSE
+你有没有出现过腹痛、不适或腹胀？,是的，疼痛有时会出现，有时会消失。有些日子我还行。,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,TRUE
+你有没有出现过腹痛、不适或腹胀？,是的，我有一些疼痛,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,FALSE
+你是否出现了腹泻，包括夜间？,是的，而且里面还有一些血，这让人担心,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,TRUE
+你是否出现了腹泻，包括夜间？,是的，很水，甚至在晚上。,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+你是否出现了腹泻，包括夜间？,是的，腹泻的症状相当严重,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+对于这个问题，我要请你做一个简单的测试。可以请你站起来，然后把另一只手平放到你接受手术的腹股沟处。现在，请把电话放下，然后把这只手放在嘴边吹气。告诉我你做完了，我会问你是否感觉到了什么。,是的，我可以感觉到那个肿块，当我那样做的时候,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,TRUE
+对于这个问题，我要请你做一个简单的测试。可以请你站起来，然后把另一只手平放到你接受手术的腹股沟处。现在，请把电话放下，然后把这只手放在嘴边吹气。告诉我你做完了，我会问你是否感觉到了什么。,我做到了,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+对于这个问题，我要请你做一个简单的测试。可以请你站起来，然后把另一只手平放到你接受手术的腹股沟处。现在，请把电话放下，然后把这只手放在嘴边吹气。告诉我你做完了，我会问你是否感觉到了什么。,“好的”,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+您目前是否正在服用任何规律的药物，包括处方药或非处方药？,是的,Have you been advised to adjust or stop any medications before this procedure?,llm-preop-hvlc@1.0.0,FALSE
+您以前有接受全身麻醉或镇静的经历吗？,是的，我最近刚刚做了，进行得非常顺利,Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,TRUE
+您以前有接受全身麻醉或镇静的经历吗？,"""""""
+是的，我有
+""""""",Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,FALSE
+您是否服用任何抗凝血药物（例如华法林、阿匹沙班、利伐沙班、氯吡格雷或阿司匹林）？,是的，我服用华法林,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+您是否服用任何抗凝血药物（例如华法林、阿匹沙班、利伐沙班、氯吡格雷或阿司匹林）？,是的,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+您是否有任何已知的过敏，包括药物过敏（例如抗生素、乳胶或麻醉剂）？,我对乳胶过敏,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+您是否有任何已知的过敏，包括药物过敏（例如抗生素、乳胶或麻醉剂）？,是的，我有一些过敏症,What are you allergic to?,llm-preop-hvlc@1.0.0,FALSE
+您是否有任何已知的过敏，包括药物过敏（例如抗生素、乳胶或麻醉剂）？,青霉素,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+您有任何重大医疗史，包括慢性疾病或以前的手术，团队应该知道吗？,是的，我最近换了髋关节，大约是在6个月前,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,TRUE
+您有任何重大医疗史，包括慢性疾病或以前的手术，团队应该知道吗？,是的，我做过几件事,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,FALSE
+我在这里讨论你反复出现的尿路感染病史，你感觉怎么样？,我还行，但每次小便时都会感到灼热和刺痛。,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+我在这里讨论你反复出现的尿路感染病史，你感觉怎么样？,我还行，但我有一个问题，就是经常需要去厕所小便,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+我在这里讨论你反复出现的尿路感染病史，你感觉怎么样？,我还行，但我有一个问题，就是经常需要去厕所小便,Do you rush to the toilet?,llm-uti-recurrent-triage@1.0.0,FALSE
+我在这里讨论你反复出现的尿路感染病史，你感觉怎么样？,我还行，但我有一个问题，就是经常需要去厕所小便,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+我在这里讨论你反复出现的尿路感染病史，你感觉怎么样？,我还行，但每次小便时都会感到灼热和刺痛。,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+你患有尿路感染时会出现什么症状？,它总是燃烧着,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+你患有尿路感染时会出现什么症状？,需要很频繁地去,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+你患有尿路感染时会出现什么症状？,需要很频繁地去,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+你患有尿路感染时会出现什么症状？,它总是燃烧着,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+你患有尿路感染时会出现什么症状？,我必须赶紧去厕所。,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+那么，你正经历一些疼痛伴随着红肿，是吗？让我把这写下来。你现在的眼睛很痛吗？,而且实际上有点痛苦,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+谢谢，我想问一下您现在的视力。手术后您有没有注意到视力模糊？,是的，我在手术后发现我的视力有一些模糊。,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,两周前还很清楚，但之后就开始变得模糊起来了,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,老实说，自从做了手术后情况就一直不好,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,不,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,有点模糊,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,比我想象的要模糊，但正在慢慢改善,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,越来越糟糕了,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,有点模糊,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,更糟糕,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+你觉得模糊度是在变好还是变差？,比我想象的要模糊，但正在慢慢改善,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+你觉得模糊度是在变好还是变差？,越来越糟糕了,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+你觉得模糊度是在变好还是变差？,有点模糊,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+你觉得模糊度是在变好还是变差？,更糟糕,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+模糊的程度有多严重？,我觉得模糊度变得稍微严重了一点。,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+随着时间的推移 - 你认为模糊度是在改善还是恶化？,我觉得模糊度变得稍微严重了一点。,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+好吧，你最近经历了一些视力变化。现在，我只想问一下，你的视力稍微模糊，还是完全看不清？,我的视力有些模糊，但不是完全模糊。,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+好吧，你最近经历了一些视力变化。现在，我只想问一下，你的视力稍微模糊，还是完全看不清？,嗯，它完全模糊了。,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,不是，它有点模糊,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,有点模糊,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,完全模糊不清,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,完全模糊不清,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,不,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,不,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,是的,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,是的,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,“好吧，也许这并没有什么改善，但是可能是因为我戴着旧眼镜的缘故”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,“有没有戴旧眼镜，都一样糟糕”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+手术后，您的视力是否像预期的那样有所改善？,更糟糕,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+手术后，您的视力是否像预期的那样有所改善？,仍然模糊不清,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,两周前还很清楚，但之后就开始变得模糊起来了,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,老实说，自从做了手术后情况就一直不好,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,不,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,有点模糊,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+你是什么时候第一次注意到模糊的？,两周前还很清楚，但之后就开始变得模糊起来了,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+你是什么时候第一次注意到模糊的？,老实说，自从做了手术后情况就一直不好,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+你是什么时候第一次注意到模糊的？,不,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+你是什么时候第一次注意到模糊的？,有点模糊,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,更糟糕,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,“好吧，也许这并没有什么改善，但是可能是因为我戴着旧眼镜的缘故”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,“有没有戴旧眼镜，都一样糟糕”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+你在手术后有模糊视力的经历吗？,更糟糕,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+你在手术后有模糊视力的经历吗？,仍然模糊不清,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+模糊的视力只发生在你戴旧眼镜的时候吗？,“好吧，也许这并没有什么改善，但是可能是因为我戴着旧眼镜的缘故”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+模糊的视力只发生在你戴旧眼镜的时候吗？,“有没有戴旧眼镜，都一样糟糕”,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+模糊的视力只发生在你戴旧眼镜的时候吗？,更糟糕,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+模糊的视力只发生在你戴旧眼镜的时候吗？,仍然模糊不清,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何眼花？,自从手术后，我偶尔会看到他们。,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何眼花？,是的，但只是偶尔,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何眼花？,只有两天前,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何眼花？,"""""""
+是的，我有
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+好吧，那么，我想问一下关于你注意到的那些眼花。 你经常看到这些眼花还是偶尔看到？,自从手术后，我偶尔会看到他们。,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+好吧，那么，我想问一下关于你注意到的那些眼花。 你经常看到这些眼花还是偶尔看到？,是的，但只是偶尔,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+好吧，那么，我想问一下关于你注意到的那些眼花。 你经常看到这些眼花还是偶尔看到？,只有两天前,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+好吧，那么，我想问一下关于你注意到的那些眼花。 你经常看到这些眼花还是偶尔看到？,"""""""
+是的，我有
+""""""",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+“明白了，所以我只想问一下关于你的视力。你在手术后有没有注意到任何眼花？”,是的，我在手术后注意到有一些眼花。,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何眼花？,我有一些，黑点，是的,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何眼花？,只有两天前,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何眼花？,自从手术后，我偶尔会看到他们。,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何眼花？,"""""""
+是的，我有
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+你什么时候第一次注意到这些眼花？,我有一些，黑点，是的,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+你什么时候第一次注意到这些眼花？,只有两天前,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+你什么时候第一次注意到这些眼花？,自从手术后，我偶尔会看到他们。,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+你什么时候第一次注意到这些眼花？,"""""""
+是的，我有
+""""""",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，就像相机闪光一样,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,只有一条细亮的线,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,我有,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+好吧，那么，我想问一些关于闪烁的灯光的问题。你能描述一下它们吗 - 它们像相机闪光灯，还是一条细线，或者其他什么东西？,是的，就像相机闪光一样,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+好吧，那么，我想问一些关于闪烁的灯光的问题。你能描述一下它们吗 - 它们像相机闪光灯，还是一条细线，或者其他什么东西？,只有一条细亮的线,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+好吧，那么，我想问一些关于闪烁的灯光的问题。你能描述一下它们吗 - 它们像相机闪光灯，还是一条细线，或者其他什么东西？,是的,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+好吧，那么，我想问一些关于闪烁的灯光的问题。你能描述一下它们吗 - 它们像相机闪光灯，还是一条细线，或者其他什么东西？,我有,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,只有一条细亮的线,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，就像相机闪光一样,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,我有,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,只有一条细亮的线,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，比昨天还糟糕,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的，但正在变得更好,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,我有，但是今天似乎更好,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,"""""""
+是的，我是的，我想情况更糟糕
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,是的，我是，但它正在变得更好,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,"""""""
+是的，我是的，我想情况更糟糕
+""""""","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,绝对更糟糕,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+明白了，那么我想问一下关于那些闪烁的灯光。你还在注意到它们吗，它们随着时间的推移是变得更好还是更糟？,绝对更好,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,昨天才刚刚,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的，自从手术后我每天都看到他们,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,"""""""
+是的，我有
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，我有时会有新的闪现,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+"“
+好吧，你在手术后注意到了一些闪烁的灯光。闪烁的灯光可能像你视野中的间歇性相机闪光一样。当你开始注意到这些闪烁的灯光？",昨天才刚刚,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+"“
+好吧，你在手术后注意到了一些闪烁的灯光。闪烁的灯光可能像你视野中的间歇性相机闪光一样。当你开始注意到这些闪烁的灯光？",是的，自从手术后我每天都看到他们,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+"“
+好吧，你在手术后注意到了一些闪烁的灯光。闪烁的灯光可能像你视野中的间歇性相机闪光一样。当你开始注意到这些闪烁的灯光？","""""""
+是的，我有
+""""""",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+"“
+好吧，你在手术后注意到了一些闪烁的灯光。闪烁的灯光可能像你视野中的间歇性相机闪光一样。当你开始注意到这些闪烁的灯光？",是的，我有时会有新的闪现,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，我一直都看到他们,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的，但只有一两次,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+你在手术后有没有注意到任何闪烁的灯光？,是的，我一直都看到他们,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的，但只有一两次,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+你在手术后有没有注意到任何闪烁的灯光？,是的,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的，我一直都看到他们,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的，但只有一两次,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的，我一直都看到他们,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的，但只有一两次,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+对，所以我想问一下关于你注意到的闪烁灯光的问题。你是很少经历还是经常经历？,是的,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+你看亮光时会感到疼痛吗？,只有一点点,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+你看亮光时会感到疼痛吗？,是的，这是一种严重的疼痛,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+你看亮光时会感到疼痛吗？,你看亮光时会感到疼痛吗？,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+你看亮光时会感到疼痛吗？,是的，当我在阳光下时会很敏感,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+好吧，你在看亮光时感到一些疼痛。这可能是眼睛发炎的迹象，我们可能需要更仔细地检查。手术后有些轻微的光敏感是正常的，但看亮光时感到疼痛是不正常的。你能告诉我更多关于疼痛的信息吗？你会把它描述为轻微、适中、严重还是无法忍受？,只有一点点,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+好吧，你在看亮光时感到一些疼痛。这可能是眼睛发炎的迹象，我们可能需要更仔细地检查。手术后有些轻微的光敏感是正常的，但看亮光时感到疼痛是不正常的。你能告诉我更多关于疼痛的信息吗？你会把它描述为轻微、适中、严重还是无法忍受？,是的，这是一种严重的疼痛,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+好吧，你在看亮光时感到一些疼痛。这可能是眼睛发炎的迹象，我们可能需要更仔细地检查。手术后有些轻微的光敏感是正常的，但看亮光时感到疼痛是不正常的。你能告诉我更多关于疼痛的信息吗？你会把它描述为轻微、适中、严重还是无法忍受？,你看亮光时会感到疼痛吗？,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+好吧，你在看亮光时感到一些疼痛。这可能是眼睛发炎的迹象，我们可能需要更仔细地检查。手术后有些轻微的光敏感是正常的，但看亮光时感到疼痛是不正常的。你能告诉我更多关于疼痛的信息吗？你会把它描述为轻微、适中、严重还是无法忍受？,是的，当我在阳光下时会很敏感,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+你的视力怎么样？,是的,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+你的视力是否受到影响,是的,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+你正在服用任何,什么,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+你是吗？,对不起,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有一个全面了解，我需要询问您正在服用的任何药物。,"“
+好
+”",Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+为了确保我们对您的健康状况有一个全面了解，我需要询问您正在服用的任何药物。,"“
+好
+”",Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+什么,你好,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+“好吧，所以”,是的，自从手术后我每天都看到他们,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+对，所以，我想问一下关于你注意到的闪烁的灯光。,"“
+好
+”",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+好吧，你在看亮光时感到一些疼痛。这可能是眼睛发炎的迹象，我们可能需要更仔细地检查。手术后轻微的光敏感是正常的，但看亮光时感到疼痛是不正常的。,"“
+好
+”","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+好吧，我们开始吧。你能告诉我你的骨折是怎么发生的吗？你当时在做什么，它是怎么发生的？,我在洗碗的时候摔倒了,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+谢谢，那么，你是在洗碗的时候摔倒的，现在，你能确认一下骨折的位置在哪里吗？,“嗯，那是在我的左髋部”,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么首先，你可以告诉我关于你的骨折是如何发生的吗？你当时在做什么，它是如何发生的？,我从淋浴间出来时滑倒，摔到了我的臀部,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+好吧，我们开始吧。你能告诉我你的骨折是怎么发生的吗？你当时在做什么，它是怎么发生的？,我摔断了腿,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+好吧，那么让我们开始吧，可以告诉我你的骨折是怎么发生的吗？你当时在做什么，骨折是怎么发生的？,爬楼梯时失去了平衡,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+谢谢，所以为了澄清，你是在爬楼梯时失去平衡的。可以确认你骨折的位置吗？,"“
+是的，在家里”",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+谢谢，所以为了澄清，你是在爬楼梯时失去平衡的。可以告诉我，你的哪个身体部位受到骨折的影响？,是我的背,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么我们开始吧。首先，你能告诉我你的骨折是怎么发生的吗？你当时在做什么，骨折是怎么发生的？,我从浴缸里出来时摔了一跤,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+首先，你能告诉我你的骨折是怎么发生的吗？你当时在做什么，骨折是怎么发生的？,我当时只是走在街上，你知道的，那天挺冷的，我滑倒在一块被修补过的冰上，手腕着地挺用力的,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么首先，你可以告诉我关于你的骨折是如何发生的吗？你当时在做什么，它是如何发生的？,我只是出去遛狗，结果我滑倒在冰上，摔倒了，弄断了我的手臂,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么您之前曾经骨折过。可以确认您之前的骨折发生在哪里以及发生了什么吗？,嗯，是的，我摔断了手腕,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+谢谢，那么您之前曾经骨折过。可以确认您之前的骨折发生在哪里以及发生了什么吗？,嗯，是的，我摔断了手腕,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+谢谢，那么您之前曾经骨折过手腕，可以确认大约是什么时候发生的？,几年前，我遛狗的时候摔了一跤，着陆的姿势很不好。,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么您之前曾经骨折过手腕，可以确认大约是什么时候发生的？,几年前，我遛狗的时候摔了一跤，着陆的姿势很不好。,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+谢谢，你能确认中断发生在哪里以及发生了什么吗？,我在车祸中折断了两条腿,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+谢谢，你能确认中断发生在哪里以及发生了什么吗？,我在车祸中折断了两条腿,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+很抱歉听到这个消息。所以，你以前曾经骨折过。成年后曾经骨折是未来再次骨折的最强预测指标之一，因此这改变了我们评估风险和讨论预防的方式。你能大致确认这次车祸发生的时间吗？,我的邻居在开车时失去了控制,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+那么，你的邻居失控导致了一起车祸。那么，你以前曾经骨折过。成年后曾经骨折是未来再次骨折的最强预测指标之一，因此这改变了我们评估风险和讨论预防的方式。你能大致确认这次车祸发生的时间吗？,那已经是很多年前的事了，但我的腿从此再也恢复如初了,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+谢谢 那么，你之前已经有过几次休息了。可以告诉我更多关于那些休息的信息吗？,我小时候折过锁骨，几年前我滑倒还折过盆骨,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+谢谢 那么，你之前已经有过几次休息了。可以告诉我更多关于那些休息的信息吗？,我小时候折过锁骨，几年前我滑倒还折过盆骨,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么您可以确认中断发生在哪里以及发生了什么吗？,大约十五年前，我折了我的胫骨,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么您可以确认中断发生在哪里以及发生了什么吗？,大约十五年前，我折了我的胫骨,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+谢谢，所以为了澄清，你大约15年前骨折了你的胫骨。你能告诉我更多关于当时骨折发生时的情况吗？,真的很痛苦，我不得不坐救护车,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+那一定很可怕，谢谢。那麼，我只想问一下，你能确认一下那次骨折是怎么发生的，是由于跌倒还是其他原因？,我当时正在滑雪，跳跃时落地出了错,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+现在，我想问，你以前有没有骨折过？,是的，我七岁的时候，我在蹦床上玩，没接住，摔断了另一只手臂,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+成年后曾经发生过的骨折是未来再次发生骨折的最强预测指标之一，因此它改变了我们评估风险和讨论预防的方式。你能大致确认你最近一次骨折发生的时间吗？,一个月以前,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+好吧，我想问一个有些人觉得比较私人的问题，但这将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者目前正在经历它？,“是的，我正处于更年期”,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+好吧，我想问一个有些人觉得比较私人的问题，但这将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者目前正在经历它？,“是的，我正处于更年期”,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+谢谢，那么，你可以告诉我你大约什么年龄停止了月经？,我大概四十多岁了，我想，医生们去年给我注射了激素,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么，你可以告诉我你大约什么年龄停止了月经？,我大概四十多岁了，我想，医生们去年给我注射了激素,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"“
+好吧，我想问一个有些人觉得比较私人的问题，但它将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者你现在正在经历它？“",“嗯，是的，我已经很久没有来月经了”,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"“
+好吧，我想问一个有些人觉得比较私人的问题，但它将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者你现在正在经历它？“",“嗯，是的，我已经很久没有来月经了”,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+谢谢。你提到你的月经已经停止很长时间了。你还记得大约什么年龄的时候发生的吗？,我不是很确定,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+谢谢。你提到你的月经已经停止很长时间了。你还记得大约什么年龄的时候发生的吗？,我不是很确定,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"“
+好吧，我想问一个有些人觉得比较私人的问题，但它将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者你现在正在经历它？“","""""""
+是的，我目前正在经历更年期
+""""""",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+谢谢，所以为了澄清，你现在正在经历更年期。可以告诉我你大约什么年龄停止月经，或者如果还没有停止，什么时候开始出现更年期症状？,我会不规律地来月经，这个问题几年前开始出现,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+谢谢，所以为了澄清，你的月经已经不规律了几年了，你仍然会不定期地来月经。可以告诉我，你的月经大约什么时候开始变得不规律？,我当时47岁了,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么为了更好地了解你的情况，你是否曾经接受过激素替代疗法，有时也称为HRT？,不，我不这么认为,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+谢谢。你从五十多岁开始就没有再来过月经。现在，我只想问一下，你是否曾经接受过激素替代疗法，有时也称为HRT？,对不起，我不知道那是什么,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+所以你不确定什么是HRT？HRT是激素替代疗法的英文缩写，它是一种治疗方法，帮助替代你的身体在更年期后不能产生足够的激素。它可以帮助缓解如潮热和骨骼健康等问题。你以前有没有接受过这种治疗，或者医生有没有提到过它给你？,"“
+好，是的，我的医生提到了，但是她没有开激素给我
+”","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+谢谢。你大约在50岁左右经历了更年期。为了澄清，你在更年期后是否接受了任何激素替代疗法，有时称为HRT？,是的，我接受激素替代疗法（HRT）,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+好，我想问一个有些人可能觉得比较私人的问题，但它将真正帮助我们了解你的骨骼健康。你是否已经经历过更年期，或者目前正在经历它？,目前正在经历,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+谢谢 您目前正在经历更年期，大约记得您什么年龄时月经停止或变得不规律？,去年,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+谢谢。你大约一年前停止了月经。绝经后，雌激素水平会下降，这可能会影响骨骼健康。你是否曾经接受过激素替代疗法，有时也称为HRT？,是的,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+谢谢 那么您已经经历了更年期了。您还记得大约什么年龄您的月经停止了吗？,不，我不记得,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+“这样就好。你不确定你停经的年龄。这没关系，记不住也正常。为了确认一下，你是在五十岁之前还是之后停经的？,在之前,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+谢谢，现在我想问一下关于类固醇药物的问题。你曾经服用过类固醇药物吗？,是的，我已经使用类固醇霜几个月了,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+谢谢，现在我想问一下关于类固醇药物的问题。你曾经服用过类固醇药物吗？,是的，我已经使用类固醇霜几个月了,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+谢谢，现在我想问一下关于类固醇药物的问题。你曾经服用过类固醇药物吗？,是的，我已经使用类固醇霜几个月了,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+谢谢。你已经使用类固醇霜几个月了。我想了解更多关于这方面的信息。如果你目前正在服用任何类固醇药物，你能告诉我你服用多少以及多久服用一次吗？,目前我每隔一天使用一次,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+谢谢。你已经使用类固醇霜几个月了。我想了解更多关于这方面的信息。如果你目前正在服用任何类固醇药物，你能告诉我你服用多少以及多久服用一次吗？,目前我每隔一天使用一次,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+谢谢。你已经使用类固醇霜几个月了。我想了解更多关于这方面的信息。如果你目前正在服用任何类固醇药物，你能告诉我你服用多少以及多久服用一次吗？,目前我每隔一天使用一次,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+“好了，你每隔一天使用类固醇霜。你知道你最初为什么使用或者正在使用它们吗？”,我有一些湿疹，所以医生给我开了这个霜,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+“好了，你每隔一天使用类固醇霜。你知道你最初为什么使用或者正在使用它们吗？”,我有一些湿疹，所以医生给我开了这个霜,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+好吧，那么，我只想问一下，你有没有服用过类固醇药物？,是的，我从小就有哮喘，所以我大部分时间都在服用类固醇药物。,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+好吧，那么，我只想问一下，你有没有服用过类固醇药物？,是的，我从小就有哮喘，所以我大部分时间都在服用类固醇药物。,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+好吧，那么，我只想问一下，你有没有服用过类固醇药物？,是的，我从小就有哮喘，所以我大部分时间都在服用类固醇药物。,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+非常感谢。由于哮喘，您大部分时间都在服用类固醇药物。为了澄清一下，您目前是否正在服用任何类固醇药物，如果是的话，您每天服用多少次以及每次服用多少？,是的，我还保留着我的吸入器，大多数日子我都会用它,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+好吧，那么，我只想问一下关于类固醇药物的问题。你有没有服用过类固醇药物？,我想我以前是因为肚子才吃它们，但现在不再吃了,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+好吧，那么，我只想问一下关于类固醇药物的问题。你有没有服用过类固醇药物？,我想我以前是因为肚子才吃它们，但现在不再吃了,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+好吧，那么，我只想问一下关于类固醇药物的问题。你有没有服用过类固醇药物？,我想我以前是因为肚子才吃它们，但现在不再吃了,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+那么您已经服用过类固醇药物。对于您目前正在服用的任何类固醇药物，您每天服用多少量以及多久服用一次？,我认为大约每天一次，五百毫克,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+那么您已经服用过类固醇药物。对于您目前正在服用的任何类固醇药物，您每天服用多少量以及多久服用一次？,我认为大约每天一次，五百毫克,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+那么您已经服用过类固醇药物。对于您目前正在服用的任何类固醇药物，您每天服用多少量以及多久服用一次？,我认为大约每天一次，五百毫克,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+"“
+好吧，我只是想问关于关节炎的事。医生曾经告诉过你，你患有关节炎吗？
+”",是的，她说我患有风湿病,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+谢谢，那么为了澄清，医生说这是什么类型的关节炎吗？,“嗯，我不确定，我不知道有这么多种类”,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"“
+好吧，我只是想问一下关于你的健康状况。有没有医生告诉过你，你患有风湿病？",是的，我一段时间前就被诊断出来了,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+谢谢 你被诊断出患有风湿病，可以告诉我是什么类型的风湿病？,“嗯，有什么种类”,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"“
+好吧，我只是想问关于关节炎的事。医生曾经告诉过你，你患有关节炎吗？
+”",是的，我有风湿病，并且正在服用相关的药物,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+谢谢，那么，为了澄清，医生告诉你你得了什么样的风湿病吗？,我想他们说是类风湿病,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么，我只想问一下，有没有医生告诉过你，你患有风湿病？,一段时间前，我的医生诊断我患有类风湿性关节炎,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+谢谢，那么既然我们已经确定你确实喝酒，我想了解更多关于这方面的信息。你通常喝啤酒、葡萄酒、烈酒，还是其他东西？,我喝很多啤酒,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+谢谢，那么既然我知道你喝酒，现在可以告诉我你通常喝什么类型的酒，比如啤酒、葡萄酒、烈酒或者其他东西吗？,我喝葡萄酒，有时也喝烈酒,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+谢谢，那么既然我知道你喝葡萄酒，有时也喝烈酒，大约一周你会喝多少杯葡萄酒和多少杯烈酒？,通常一周喝几杯，周末再喝几杯烈酒,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+谢谢，那么既然我们已经确定你确实喝酒，我想了解更多关于这方面的信息。你通常喝啤酒、葡萄酒、烈酒，还是其他东西？,我会喝这三种，有时还会喝苹果酒,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+谢谢，所以你喝各种东西。只是为了更好地了解，大约一周你喝多少品脱的啤酒？,也许是3或者4,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+谢谢，那么既然我们已经确定你确实喝酒，现在可以告诉我你通常喝什么类型的酒，比如啤酒、葡萄酒、烈酒或者其他东西吗？,我喝葡萄酒,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+谢谢，那么当你喝酒的时候，你通常喝什么类型的酒，是啤酒、葡萄酒、烈酒，还是其他的东西？,我周末通常喝4或5杯酒。,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+那么，你告诉我你喝酒了，现在，我想了解更多关于这方面的信息。你通常喝啤酒、葡萄酒、烈酒，还是其他东西？,红色一灵,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+是什么原因让你停止服用药物或者没有按照医生指示开始服用？,我没有开始服用药物，因为我担心潜在的副作用，不想处理它们。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+那么，你决定不开始服用双磷酸盐片。你能告诉我是什么让你决定不服用它们吗？,说实话，我只是不明白怎么正确地服用，害怕服用过多或过少。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+是什么原因让你停止服用药物或者没有按照医生指示开始服用？,药物的费用太高，我承担不起，所以我甚至没有尝试去取药。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+你能分享一下是什么原因让你停止或没有开始服用药物吗？,我最近工作和个人事务都让我感到非常不知所措，所以我根本没机会考虑我的药物。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+是什么原因让你停止服用药物或者没有按照医生指示开始服用？,我曾经尝试去做，但后来我忙于其他事情，忘记了跟医生进行后续跟进。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+是什么原因让你停止服用药物或者没有按照医生指示开始服用？,我现在对自己的身体感到很困惑，最近出现了很多不同的症状，但不知道是什么原因引起的。,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+“好了，你还没有开始服用双磷酸盐片。你能告诉我是什么阻止你开始服用它们吗？”,我弄丢了它们,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我大约每周一次服用药片,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我通常在早晨和晚上各服一片， 每周一次或两次。,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我按照医生的指示每周服用三次药片,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我按需服用它们,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我的医生告诉我按照标签上的说明进行,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我试着记得每周都要吃它们，但是有时候我会忘记,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,是的，我一醒来就马上吃。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我一醒来就拿起平板电脑，所以，是的，一天的第一件事。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,一天早晨的第一件事就是吃它，它是我的早晨例行活动的一部分。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我尝试在吃饭时服用以避免胃部不适。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我的医生告诉我每周两次。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我已经服用这些药片几个月了，似乎有所帮助。,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,是的，我总是按照医生的指示在空腹时服用药片。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,不，我会在吃饭时服用，因为空腹服用会让我感到恶心。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我一早醒来就吃药，在还没吃早餐之前，所以，是在空腹的时候。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+你通常什么时候吃药？,我试着每天在同一时间服用药片，以保持一致性。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我的医生告诉我按照标签上的说明服用我的药物。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+你通常什么时候吃药？,我已经服用这些药片有一段时间了，已经习惯了这种日常。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+那么，为了澄清，当你服用药片时，是在早晨第一时间吗？,是的，我通常起床后不久,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+那么，为了澄清，当你服用药片时，是在早晨第一时间吗？,是的，我通常起床后不久,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+那么，你每个星期一都会服用药片。现在，可以告诉我，你是早上一醒来就吃，还是？,通常在午餐后不,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+那么，你每周一次，在早晨服用药片。你是在空腹的时候服用它们吗？,"""""""
+是的，我做
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+那么，你每周一次，在早晨服用药片。你是在空腹的时候服用它们吗？,不，我有时会先吃,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+好吧，那么，只是为了确保你正确服用药片，你能告诉我你是否在空腹时服用它们？,我在早上服用它们,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+谢谢 那么你每周都吃药吗？你是早上第一时间吃吗？,7点钟,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+那么，为了澄清，你每周都服用药片。你是早上第一时间服用吗？,是的,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+那么，我只是想问，你通常什么时候吃药？,每个星期六9点,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+谢谢。你已经开始服用药片了。你能告诉我你通常什么时候服用它们吗？,我通常一早就吃它们,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+“好了，现在你已经开始服用药片了，可以告诉我你通常什么时候服用它们吗？”,我一早就吃了。,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+你是怎么服用药片的？,我用一杯满满的水来吞下我的药片。,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+你是怎么服用药片的？,我总是带着食物服用药物，以避免胃部不适。,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+你是怎么服用药片的？,我按照医生的建议用水来服用药片。,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+你是怎么服用药片的？,我按照医生的指示服用药片。,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+你是怎么服用药片的？,我每天早上都服用这些药片。,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+你是怎么服用药片的？,我已经服用这些药片几个月了。,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+那么，为了确保你正确服用药片，可以告诉我你是怎么服用的吗？,通常带有一些水或果汁,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+那么，为了确保你正确服用药片，可以告诉我你是怎么服用的吗？,我喝它们,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+谢谢，那么现在你已经开始服用药片了，可以告诉我你是怎么服用的吗？,我把它们压碎，因为它们太大了,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+谢谢，那么现在你已经开始服用药片了，可以告诉我你是怎么服用的吗？,我在早晨喝咖啡的时候也会喝它们,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+明白了，所以我只想问一下，你是怎么服用药片的，是用水吞还是用其他东西吞？,那么什么时候吃饭？,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+你通常在服用药物后会做什么？,我会确保坐起来大约一个小时左右,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,吃了药后，我站起来走动了一会儿，以保持直立。,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我经常在带他们出去后小睡一会儿。,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我回到床上,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我通常在服完药后会读一本书。,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+你通常在服用药物后会做什么？,服用药物是我的早晨例行活动的一部分，正好在早餐之前。,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+你通常在服用药物后会做什么？,这取决于今天是星期几,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+谢谢，那么现在你已经开始服用药片了，你通常在服用后会做什么？,大多数早晨，我会在服用药物后带狗去散长步,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+谢谢，那么现在你已经开始服用药片了，你通常在服用后会做什么？,我不吃也不喝其他东西,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+你提到这取决于那一天。为了确保你安全地服用药片，你在服用后是否会至少保持坐着或站立的姿势30分钟？,是的，我通常会在接下来的一个小时内一直站着。,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你提到这取决于那一天。为了确保你安全地服用药片，你在服用后是否会至少保持坐着或站立的姿势30分钟？,不,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你提到这取决于那一天。为了确保你安全地服用药片，你在服用后是否会至少保持坐着或站立的姿势30分钟？,"“
+不，我不”","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你提到这取决于那一天。为了确保你安全地服用药片，你在服用后是否会至少保持坐着或站立的姿势30分钟？,我不,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你提到这取决于那一天。为了确保你安全地服用药片，你在服用后是否会至少保持坐着或站立的姿势30分钟？,我通常躺下,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我会尽量避免在服用处方药后半小时内食用任何食物、饮料和其他药物。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我有时会吃东西或喝饮料，但我尽量不吃太饱的饭。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,在那30分钟的时间里，我除了水什么都不摄入，以确保我的药物能够有效地发挥作用。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+你通常在服用药物后会做什么？,我总是用一杯满满的水来吞服。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+你通常在服用药物后会做什么？,我的医生说每天在同一时间服用。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+你通常在服用药物后会做什么？,我通常在服完药后会读一本书。,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+谢谢，那么现在你已经开始服用药片了，你通常在服用后会做什么？,大多数早晨，我会在服用药物后带狗去散长步,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+谢谢，那么现在你已经开始服用药片了，你通常在服用后会做什么？,我不吃也不喝其他东西,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+那么，为了确认，在服用药片后，你会避免一段时间内的其他食物、饮料或药物吗？,有时候我会吃一块水果,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+那么，为了确认，在服用药片后，你会避免食用所有其他食物、饮料或药物至少30分钟吗？,是的，这很可爱，我们真的很喜欢清新的早晨空气,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,是的，我开始服用双磷酸盐类药物后，胃灼热的症状变得更加严重了。,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,我不认为我的胃灼热或消化不良自从开始服用药物以来有所增加。,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,是的，我开始服用药片后，消化不良的情况真的很糟糕。,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,我已经服用这些药片几周了，注意到有时候吞咽起来有点困难。,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,"""""""
+这种药物似乎对我的骨骼有效，但我不确定其他的副作用。
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,我在开始服用药物之前有一些心burn,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,是的,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+您在服用双磷酸盐片后是否出现任何副作用，例如心灼热、消化不良或其他问题？,不,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+那么，现在让我们谈谈你在服用药片后遇到的任何问题。你是否出现了任何问题，如心burn、消化不良或其他问题？,没有一切都好,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+那么，现在让我们谈谈你在服用药片后遇到的任何问题。你是否出现了任何问题，如心burn、消化不良或其他问题？,是的，我遇到了一些问题,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+你在开始服用药片后出现了一些问题。可以告诉我你经历了什么吗？,最近我的消化不良情况变得更糟糕了,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+你在开始服用药片后出现了一些问题。可以告诉我你经历了什么吗？,"""""""
+我拿了药以来，感觉一直不太舒服
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+那么，我只想问一下，你在开始使用骨质疏松症药物后是否出现了其他症状或副作用，比如感到不适或者其他困扰你的事情？,我经常有心burn的問題，是的,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你在开始使用骨质疏松症药物后是否出现了其他症状或副作用，比如感到不适或者其他困扰你的事情？,我咳嗽得很厉害,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,我上周去看了我的全科医生，并告诉她关于我的胃灼热。,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,我上周去看了我的全科医生，并告诉她关于我的胃灼热。,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的，我的全科医生说我们现在还不需要做任何改变，我应该监测两周，如果情况没有改善就回来看他。,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的，我的全科医生说我们现在还不需要做任何改变，我应该监测两周，如果情况没有改善就回来看他。,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的，家庭医生决定让我服用另一種藥物,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+那么，你在服用双磷酸盐片后出现了心灼热。您已经将这种副作用告诉你的全科医生了吗？,是的，家庭医生决定让我服用另一種藥物,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+所以你一直在服用双磷酸盐片，并且注意到了一些问题，比如牙痛和轻微的消化不良。只是为了确认，你已经将这些副作用告诉你的全科医生了吗？,我做了，他决定送我去医院,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+所以你一直在服用双磷酸盐片，并且注意到了一些问题，比如牙痛和轻微的消化不良。只是为了确认，你已经将这些副作用告诉你的全科医生了吗？,我做了，他决定送我去医院,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+那么，您已经和您的全科医生讨论过您牙齿和消化不良的问题。您的全科医生是否建议您更改药物或将您转介给其他人来处理这些副作用？,是的，她让我回到医院,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+那么，您已经和您的全科医生讨论过您牙齿和消化不良的问题。您的全科医生是否建议您更改药物或将您转介给其他人来处理这些副作用？,是的，她让我回到医院,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经将加重的消化不良情况告知了你的全科医生，我只想确认一下，你的全科医生是否因为这个副作用采取了任何行动或者改变了你的治疗计划？,他说我们应该监测几周后再做任何改变,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经将加重的消化不良情况告知了你的全科医生，我只想确认一下，你的全科医生是否因为这个副作用采取了任何行动或者改变了你的治疗计划？,他说我们应该监测几周,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经将加重的消化不良情况告知了你的全科医生，我只想确认一下，你的全科医生是否因为这个副作用采取了任何行动或者改变了你的治疗计划？,“不，他没有”,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经将加重的消化不良情况告知了你的全科医生，我只想确认一下，你的全科医生是否因为这个副作用采取了任何行动或者改变了你的治疗计划？,“不，他没有”,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+你是否定期服用钙和/或维生素D补充剂？,是的，我一直都有定期服用，但是我發現有些胃部不適，我想可能是副作用。,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+你是否定期服用钙和/或维生素D补充剂？,我按照规定服用补充剂，幸运的是，我没有出现任何副作用或问题。,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+你是否定期服用钙和/或维生素D补充剂？,是的，从开始服用钙和维生素D以来，我经历了一些便秘，我的医生说这可能是钙的副作用。,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+你是否定期服用钙和/或维生素D补充剂？,我每天早上都在吃早餐的时候服用我的补充剂。,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+你是否定期服用钙和/或维生素D补充剂？,我的医生推荐我这样做，所以我就这样做了,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+你是否定期服用钙和/或维生素D补充剂？,是的，我是,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+那么，你正在服用钙和维生素D的补充剂。你是否出现过任何副作用或问题？,是的，我有时会感到有点不舒服,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+那么，你正在服用钙和维生素D的补充剂。你是否出现过任何副作用或问题？,它们有点贵,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+所以您已经开始服用骨质疏松症药物了。我只想确认一下，您是否定期服用钙和/或维生素D补充剂？,我吃，但它们让我非常便秘,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你在服用这些补充剂时有没有出现任何副作用或问题？,不,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你在服用这些补充剂时有没有出现任何副作用或问题？,是的,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+您在上次来诊所之后有没有摔倒过？,我在家门外的一块冰上滑倒，摔到了肘部，從那以後就一直很疼。,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+您在上次来诊所之后有没有摔倒过？,是的，我上周摔了一跤，我当时正在走楼梯，没踩到一步，现在我的膝盖都淤青了,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+您在上次来诊所之后有没有摔倒过？,我在浴室里摔倒了，我的脚从湿滑的地板上滑出，头撞到了水池上。,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+您在上次来诊所之后有没有摔倒过？,如果我曾经摔过几次，会很糟糕吗？,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+您在上次来诊所之后有没有摔倒过？,最近我有点头晕，可能跟那有关,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+您在上次来诊所之后有没有摔倒过？,我偶尔会摔倒,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+“好了，你能告诉我更多关于你摔倒时发生了什么吗？”,从商店回来的路上我被绊倒了,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+你上次来诊所后有没有摔倒过？,我有是的,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+你上次来诊所后有没有摔倒过？,几周前我摔了一跤,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+那么，你可以告诉我更多关于几周前你摔倒时发生了什么吗？,我刚刚失去了平衡,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+你上次来诊所后有没有骨折过？,我在冰上滑倒，摔倒了，重重地摔在了我的手腕上,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+那么，现在我们已经讨论了你的药物，我只想问一下，你自从上次来诊所以来，有没有骨折过？,我从楼梯上摔下来，浑身都淤青了，还折了脚踝。,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你自从上次来诊所以来，有没有骨折过？,是的，我曾经发生过一次严重的车祸，折断了我的锁骨,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+你上次来诊所后有没有骨折过？,是的，我有,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+您在上次来诊所之后就骨折了。您能告诉我更多关于发生了什么事情吗？,我在厨房里滑倒了，当我摔倒时，我的臀部着地，导致髋部骨折。,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+您在上次来诊所之后就骨折了。您能告诉我更多关于发生了什么事情吗？,是的,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+您在上次来诊所之后就骨折了。您能告诉我更多关于发生了什么事情吗？,不,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+那么，现在我们已经确定你开始服用药物了，我只想问一下，你自从上次来诊所以来，有没有骨折过？,我做了，医生说我需要更加小心,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+你上次来诊所后有没有骨折过？,不幸的是，我摔断了腿,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+对不起，你能告诉我更多关于你腿部发生了什么事吗？,那次事故真的很可怕,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+那么，为了澄清，你自从上次来诊所之后就骨折了腿。你能告诉我更多关于发生了什么的事情吗？,我从摩托车上摔下来，腿碰到了人行道边缘,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,我一直感到下颌处有尖锐的疼痛，尤其是在我咀嚼或说话时。,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经开始服用药物了，我只想检查一下你从开始治疗以来是否出现了任何牙齿问题，或者你是否需要去看牙医？,是的，我大约一个月前开始出现下颌疼痛，疼痛是隐隐作痛，时有时无，但最近一直持续不断。,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,自从开始以来，我从下巴到耳朵就一直感到一阵剧烈的疼痛,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,我有一些牙龈问题,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+那么，现在你已经开始服用药物了，我只想检查一下你从开始治疗以来是否出现了任何牙齿问题，或者你是否需要去看牙医？,我确实需要更换一个填充物，但没有什么大问题。,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,是的,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+那么，现在你已经开始服用药物了，我只想问一下，你在治疗过程中有没有出现牙齿问题或者需要看牙医？,我下巴疼,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+那么，你在开始治疗后出现了一些牙齿问题。可以告诉我更多关于这方面的信息吗？,我大多数日子都牙痛，但也就这样了,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你是否在下颌处感到任何疼痛，可能与你的牙龈问题有关？,不,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+那么，我只想问一下，你是否在下颌处感到任何疼痛，可能与你的牙龈问题有关？,是的,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,是的，我最近的下颌疼痛得很厉害，我已经告诉牙医我已经开始服用药物了。,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+那么，现在你已经开始服用药物了，我只想问一下，你在治疗过程中有没有出现牙齿问题或者需要看牙医？,我做了几处填充，但没有什么大问题，尽管牙医说由于我正在服用双磷酸盐，我需要小心。,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,我一直有一些下颌疼痛，但我不确定它是否与治疗有关。,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+开始治疗后，您是否出现了新的牙齿问题或需要看牙医？,我上周去看牙医，因为我的牙龈在出血。,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+那么，现在你已经开始服用药物了，我只想检查一下你从开始治疗以来是否出现了任何牙齿问题，或者你是否需要去看牙医？,我正尝试通过更频繁地刷牙和用牙线来更好地照顾我的牙齿，但自从开始治疗以来，我还没有注意到任何变化。,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+那么，现在你已经开始服用药物了，我只想问一下，你在治疗过程中有没有出现牙齿问题或者需要看牙医？,是的,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+那么，你正在经历下颌疼痛，这可能是使用双磷酸盐治疗时的一个问题。你的牙医知道你已经开始服用这种药物了吗？,是的,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+那么，我只是想确认，你的牙医知道你已经开始接受双磷酸盐治疗了吗？,不,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+那么，我只想问，你的牙医知道你开始接受双磷酸盐治疗了吗？,上周我去看牙医了,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+你上周去看牙医了吗？你有没有告诉牙医你开始接受双磷酸盐治疗？,我忘了告诉她,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+那么，为了澄清，你正在经历一些下颌疼痛，但你还没有去看牙医。你的牙医知道你已经开始接受双磷酸盐治疗了吗？,我还没告诉我的牙医任何事情,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True

@@ -1,0 +1,838 @@
+llm_question,response,context,topic_key,expected_output
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?","tak, już nie mogę czytać gazety",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?",tak i dwa razy już upadłem schodząc po schodach,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?","Mam trudności z rozpoznawaniem twarzy ludzi i czuję się niepewnie, gdy chodzę",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?",Czytanie staje się problemem,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?","tak, jest ciężko jeździć nocą i miałem kilka potknięć ostatnio",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+"Czy Twoje wzrok wpływa na Twoją zdolność do pracy, prowadzenia pojazdu, czytania, oglądania telewizji lub rozpoznawania twarzy?","Idę teraz wolniej, szczególnie po schodach",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"Tak, przyjmuję warfarynę z powodu choroby serca.",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,Biorę aspirynę codziennie,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"tak, ale nie wiem nazwy",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"""""""
+Biorę Ramipryl, czy to jest rozrzedzacz krwi
+""""""",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"tak, jestem na clopidogrelu",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,apiksaban,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,tak,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"Tak, przyjmuję warfarynę z powodu choroby serca.",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,Biorę aspirynę codziennie,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy przyjmujesz jakieś leki rozrzedzające krew?,"""""""
+Biorę Ramipryl, czy to jest rozrzedzacz krwi
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?","Tak, przyjmuję metforminę z powodu cukrzycy",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",Jestem na insulinie,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",tak dla mojego ciśnienia krwi,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",Biorę kilka leków dziennie,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?","""""""
+Jestem na ramiprilu z powodu wysokiego ciśnienia krwi
+""""""",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",tak dla mojego ciśnienia krwi,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",Biorę kilka leków dziennie,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?","""""""
+Jestem na ramiprilu z powodu wysokiego ciśnienia krwi i również przyjmuję suplementy witaminy D
+""""""",Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o przyjmowanych przez Ciebie lekach. Czy przyjmujesz jakieś regularne leki?",tak dla mojego ciśnienia krwi i poziomu cholesterolu,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy regularnie używasz wózka inwalidzkiego?,"Tak, potrzebuję pomocy, aby się do niego dostać i z niego wyjść",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy regularnie używasz wózka inwalidzkiego?,przepraszam co,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy regularnie używasz wózka inwalidzkiego?,"Używam go, gdy wychodzę na zakupy",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy regularnie używasz wózka inwalidzkiego?,"tak, mój opiekun pomaga mi w przesiadaniu",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy regularnie używasz wózka inwalidzkiego?,tak w ogóle nie mogę chodzić,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy regularnie używasz wózka inwalidzkiego?,tak,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy regularnie używasz wózka inwalidzkiego?,"""""""
+nie
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Czy zwykle potrzebujesz pomocy, wsiadając i wychodząc ze swojego krzesła?",tak,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy zwykle potrzebujesz pomocy, wsiadając i wychodząc ze swojego krzesła?","nie, dam sobie radę sam",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy zwykle potrzebujesz pomocy, wsiadając i wychodząc ze swojego krzesła?",Moja żona mnie wspiera,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy zwykle potrzebujesz pomocy, wsiadając i wychodząc ze swojego krzesła?","""""""
+czasami
+""""""",Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy Twoje wzrok powoduje upadki lub problemy z mobilnością?,"tak, kilka razy upadłem",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+Czy Twoje wzrok powoduje upadki lub problemy z mobilnością?,"nie, nie naprawdę",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+Czy Twoje wzrok powoduje upadki lub problemy z mobilnością?,"Czasem czuję się trochę niezrównoważony, gdy schodzę po schodach",Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+Czy Twoje wzrok powoduje upadki lub problemy z mobilnością?,Idę wolniej,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+Jakie rozrzedzające krew leki przyjmujesz?,warfaryna,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Jakie rozrzedzające krew leki przyjmujesz?,aspiryna,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Jakie rozrzedzające krew leki przyjmujesz?,klopidogrel,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Jakie rozrzedzające krew leki przyjmujesz?,Nie jestem pewien nazwy,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmuje pan/pani warfarynę?,tak,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmuje pan/pani warfarynę?,"""""""
+nie
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy przyjmuje pan/pani warfarynę?,"""""""
+Używałem, ale już nie 
+""""""",Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani leki, aby kontrolować swoją cukrzycę?",tak metformina,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani leki, aby kontrolować swoją cukrzycę?",Jestem na insulinie,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani leki, aby kontrolować swoją cukrzycę?","nie, nie mam cukrzycy",Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani jakieś tabletki, aby kontrolować ciśnienie krwi?",tak ramipril,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani jakieś tabletki, aby kontrolować ciśnienie krwi?","Nie, mój ciśnienie krwi jest w porządku",Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje pan/pani jakieś tabletki, aby kontrolować ciśnienie krwi?",amlodypina,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku po operacji?,"""""""
+blisko jest w porządku
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku po operacji?,"""""""
+blisko jest w porządku
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+blisko jest w porządku
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z oddali,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z oddali,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z oddali,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z bliska,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z bliska,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak z bliska,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",oba,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",oba,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",oba,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko ani blisko
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko ani blisko
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko ani blisko
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę z bliska
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę z bliska
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę z bliska
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko
+""""""","occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?","""""""
+nie widzę daleko
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",oba,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+"Masz trudności ze wzrokiem na odległość, z bliska lub z obu?",tak,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"Chcę zebrać pewne informacje na temat tego, jak się goi Twoje oko, które podzielę się z Twoim lekarzem. Jak więc się ma Twoje oko od czasu operacji?","Myślę, że wszystko jest w porządku, hmm, czasem trochę swędzi i pojawiają się jakieś plamki.",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"Chcę zebrać pewne informacje na temat tego, jak się goi Twoje oko, które podzielę się z Twoim lekarzem. Jak więc się ma Twoje oko od czasu operacji?","Myślę, że wszystko jest w porządku, hmm, czasem trochę swędzi i pojawiają się jakieś plamki.",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+"Chcę zebrać pewne informacje na temat tego, jak się goi Twoje oko, które podzielę się z Twoim lekarzem. Jak więc się ma Twoje oko od czasu operacji?","Myślę, że wszystko jest w porządku, hmm, czasem trochę swędzi i pojawiają się jakieś plamki.",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?",tak tak mam tak,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?",Nie potrafię czytać zbyt dobrze,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?",tak kiedy czytam,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?",tak oba,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?",tylko z oddali,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Czy doświadczasz jakiegokolwiek zaburzenia wzroku, zarówno gdy patrzysz na rzeczy z daleka, jak i gdy czytasz?","tak, nie widzę daleko",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Czy to jest więcej, kiedy oglądasz telewizję czy próbujesz coś przeczytać?",moja wizja czytania,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+"Czy to jest więcej, kiedy oglądasz telewizję czy próbujesz coś przeczytać?",oglądanie telewizji,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+"Czy to jest więcej, kiedy oglądasz telewizję czy próbujesz coś przeczytać?",oba,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+"Czy to jest więcej, kiedy oglądasz telewizję czy próbujesz coś przeczytać?",mniej podczas czytania,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+Czy Twoje widzenie poprawiło się od czasu operacji?,"""""""
+poprawiło się trochę, bo teraz mogę oglądać telewizję, ale nie mogę czytać
+""""""",ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+Czy Twoje widzenie poprawiło się od czasu operacji?,Widzenie poprawiło się trochę.,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+Czy Twoje widzenie poprawiło się od czasu operacji?,"""""""
+poprawiło się trochę, bo teraz mogę oglądać telewizję, ale nie mogę czytać
+""""""",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+Czy Twoje widzenie poprawiło się od czasu operacji?,to jest naprawdę złe w porównaniu z poprzednio,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+Jak się ma twoje oko po operacji zaćmy?,"Było lepiej, ale teraz jest niewyraźne",ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+Jak się ma twoje oko po operacji zaćmy?,Moją wzrok się pogarsza,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,"""""""
+tylko przez pierwszy tydzień, teraz zniknęły
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,Miałem trochę wcześniej,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,"""""""
+kiedy to zrobiłem po raz pierwszy, tak, ale teraz już nie 
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,tak i czarne plamy i tak dalej,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,Widzę plamki w moim polu widzenia,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,są wszystkie te małe pajęczynki,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,"kilka małych czarnych kropel, ale nie za wiele, tylko rano, zaraz po przebudzeniu, potem to mija",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,Miałem muchy w oczach przez parę lat przed operacją,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji?,Mam małe kropelki,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?",To ostatnio staje się gorsze,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?",Są bardziej denerwujący niż wcześniej,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","nie jest to wzrost, mam pływające plamy, ale nie więcej niż wcześniej",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","Nie myślę, że moje muchy w oku się zwiększyły",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","Nie myślę, żem miał ostatnio więcej much przed oczami",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?",Pływające plamy są zdecydowanie gorsze,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","""""""
+czarne kropki są teraz bardziej irytujące
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","""""""
+nie
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"Więc mówisz, że zauważyłeś jakieś małe ciemne plamki lub pajęczynę w polu widzenia od czasu operacji. Czy możesz mi powiedzieć, czy zmieniły się one lub zwiększyły liczbę od czasu operacji?","tak, nie miałem ich wcześniej",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+Jak się ma twoje oko po operacji zaćmy?,"Mam jakby małe kropelki, które się poruszają po moim, lubię je wszystkie",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Jak się ma twoje oko po operacji zaćmy?,Widzę dużo ciemnych kropek,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,tak,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,"""""""
+nie za bolesne wiem tylko miejsce bólu, a rano to było wszystko bardzo słabe
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,dopiero po kroplach swędzi mi oko,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,"Tak, bolało mnie ostatniej nocy, tak, po tym jak skończyłem antybiotyk.",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Jak się ma twoje oko po operacji zaćmy?,Boli bardzo,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Jak się ma twoje oko po operacji zaćmy?,to delikatne,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,To mnie denerwuje.,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,"Tak, mam bardzo dużo bólu",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,boli więcej niż szorstko,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy Twoje oko jest obecnie bolące?,"Myślę, że ogólnie staje się mniej bolesne",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","""""""
+bolące cały czas
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","tak czasem boli czuję to kiedy myślę, że nie powinienem jestem tego świadomy ono daje mi tępy ból",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","boli cały czas, a szczególnie rano",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?",ból maleje,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","Było całkiem źle wczoraj, ale dzisiaj rano, kiedy wstałem, wciąż bolało mnie to również.",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","tylko gdy krople sprawiają, że swędzi",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+"Czy ból w twoim oku występuje czasami, czy cały czas?","""""""
+czasami trochę bolesne
+""""""",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,Cierpię,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+Czy odczuwasz ból w oku?,ból ochładza się nad,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"Czy ból w twoim oku występuje czasami, czy cały czas?",czuje się szorstko,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"Dziękuję. Wydaje się, że czujesz się trochę boląco i to przychodzi i mija. Czy możesz opisać ten ból nieco bardziej - czy jest to głównie uczucie szorstkości lub suchości, czy coś innego?","tak, tak, to jest dokładnie tak, tak, trochę suche czasem","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+"W porządku, więc czasem odczuwasz ból w oku. Możesz mi powiedzieć, jak wygląda ten ból - czy jest to głównie uczucie piasku lub suchości, czy coś innego?",suchość,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,trochę za suchy czasem,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy Twoje oko jest obecnie bolące?,trochę za suchy czasem,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy twoje oczy bolą?,trochę za suchy czasem,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy twoje oczy są w ogóle bolesne?,są tylko trochę szorstkie,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy Twoje oczy bolą? w ogóle,są tylko trochę szorstkie,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy Twoje oczy bolą? w ogóle,są tylko trochę szorstkie,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,dopiero po kroplach swędzi mi oko,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy Twoje oko jest obecnie bolące?,dopiero po kroplach swędzi mi oko,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy twoje oczy bolą?,dopiero po kroplach swędzą mi oczy,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+Czy odczuwasz ból w oku?,tak,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy Twoje oko jest obecnie bolące?,tak,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy twoje oczy bolą?,tak,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy Twoje oko jest obecnie bolące?,"Myślę, że ogólnie staje się mniej bolesne","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy twoje oczy bolą?,"Myślę, że ogólnie staje się mniej bolesne","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy Twoje oko jest obecnie bolące?,"""""""
+bolące cały czas
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy twoje oczy bolą?,"""""""
+bolące cały czas
+""""""","description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+Czy odczuwasz zaczerwienienie oka?,"Moje oko jest trochę czerwone, tak",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+Czy odczuwasz zaczerwienienie oka?,Lewa i prawa część oka są obie czerwone,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+Czy odczuwasz zaczerwienienie oka?,to czerwone przez całą drogę,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+Czy odczuwasz zaczerwienienie oka?,całkowicie czerwony,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+Czy odczuwasz zaczerwienienie oka?,"""""""
+trochę mojego oka jest czerwone
+""""""",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+Czy odczuwasz zaczerwienienie oka?,"no cóż, wciąż jest trochę różowy",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+Czy odczuwasz zaczerwienienie oka?,czerwony wokół krawędzi,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?","nie, nie jest czerwony tylko w rogu, jest czerwony na całej powierzchni",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?",każda część mojego oka jest czerwona,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?","Tak, jest blisko nosa, jest bardzo, bardzo czerwony i wygląda jakby była tam rana.",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?","Czerwoność prawie całkowicie zniknęła, poza niewielką ilością w rogu.",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?","nie do końca. To jest bardziej zaczerwienione, i jest czerwone na zewnątrz, pod okiem staje się czerwone.",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy jest tylko w jednym rogu, blisko nosa?","Powiedziałbym, że mniejszość oka jest czerwona",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+"Czy zaczerwienienie obejmuje całe oko, czy raczej jest ono zlokalizowane w jego rogu, przy nosie?","nie jest bardzo czerwony, tylko trochę w rogu",location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+Jak się ma twoje oko po operacji zaćmy?,ono jest raczej czerwone,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+Czy doświadczyłeś nieoczekiwanej utraty wagi?,około 2 kamieni w 6 miesiącach myślę,How much weight have you lost?,copd-screen@1.0.0,TRUE
+Czy doświadczyłeś nieoczekiwanej utraty wagi?,około 2 kamieni w 6 miesiącach myślę,Over what time period did you lose this weight?,copd-screen@1.0.0,TRUE
+Czy doświadczyłeś nieoczekiwanej utraty wagi?,"""""""
+Utraciłem trochę wagi
+""""""",Over what time period did you lose this weight?,copd-screen@1.0.0,FALSE
+Czy doświadczyłeś nieoczekiwanej utraty wagi?,"""""""
+Utraciłem trochę wagi
+""""""",How much weight have you lost?,copd-screen@1.0.0,FALSE
+Czy wykrztusiłeś jakąś krew?,"Tak, ale to są naprawdę tylko jakieś plamy",How much blood have you coughed up?,copd-screen@1.0.0,TRUE
+Czy wykrztusiłeś jakąś krew?,"Tak, widzę trochę krwi",How much blood have you coughed up?,copd-screen@1.0.0,FALSE
+Czy wykrztusiłeś jakąś krew?,"Tak, ale to się zdarzyło tylko raz lub dwa razy",How often has this happened?,copd-screen@1.0.0,TRUE
+Czy wykrztusiłeś jakąś krew?,"Tak, widzę trochę krwi",How often has this happened?,copd-screen@1.0.0,FALSE
+Jaki był problem z ciśnieniem w uszach?,To jest tylko lekki problem.,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+Jaki był problem z ciśnieniem w uszach?,Cóż. Jak to wyjaśnić..,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+Jaki był problem z ciśnieniem w uszach?,"""""""
+ciśnienie zawsze jest obecne
+""""""","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+"Czy twoje uszy czują się zatkane lub ""pod wodą""?","Tak, ale tylko trochę myślę","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+"Czy twoje uszy czują się zatkane lub ""pod wodą""?","Tak, to jest poważny problem.","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+"Czy twoje uszy czują się zatkane lub ""pod wodą""?","Tak, to jest dokładnie to.","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+"Czy twoje uszy czują się zatkane lub ""pod wodą""?","Tak, cały czas","Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek skutków ubocznych leku?,"Tak, mam bardzo złe problemy z trawieniem",Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,TRUE
+Czy doświadczyłeś jakichkolwiek skutków ubocznych leku?,"Cóż, cały czas bolą mnie różne części ciała odkąd upadłem",Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek skutków ubocznych leku?,"Tak, miałem kilka problemów",Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek skutków ubocznych leku?,"Tak, ale myślę, że tylko wtedy, gdy kładę się po zażyciu tabletek.",Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek skutków ubocznych leku?,"Tak, niektóre z tych tabletek są trochę trudne do połknięcia",Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,TRUE
+"Jestem tutaj, aby zadać ci kilka pytań na temat twoich doświadczeń z lekami na zdrowie kości. Czy byłoby to w porządku?","Tak, wszystko w porządku",Are you able to swallow the tablet whole?,llm-fracture-liaison-service@1.0.0,FALSE
+"Jestem tutaj, aby zadać ci kilka pytań na temat twoich doświadczeń z lekami na zdrowie kości. Czy byłoby to w porządku?","Okej, ale powinieneś wiedzieć, że mój lekarz rodzinny zmienił moje leki, bo miałem pewne skutki uboczne.",Has your GP tried you on a different medication or referred you back to the hospital?,llm-fracture-liaison-service@1.0.0,TRUE
+"Jestem tutaj, aby zadać ci kilka pytań na temat twoich doświadczeń z lekami na zdrowie kości. Czy byłoby to w porządku?","Tak, biorę wszystkie moje tabletki, rano bez jedzenia i wszystkiego, byłam bardzo sumienna w tym.",Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,TRUE
+"Jestem tutaj, aby zadać ci kilka pytań na temat twoich doświadczeń z lekami na zdrowie kości. Czy byłoby to w porządku?","Oczywiście, mam kilka pytań",Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,FALSE
+"Jestem tutaj, aby zadać ci kilka pytań na temat twoich doświadczeń z lekami na zdrowie kości. Czy byłoby to w porządku?","""""""
+to jest w porządku
+""""""",Do you remain sitting or standing for 30 minutes after taking the tablet?,llm-fracture-liaison-service@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek poważnych zdarzeń zdrowotnych (na przykład zawału serca lub udaru mózgu) od czasu wpisania się na listę oczekujących?,"""""""
+Miałem zawał serca odkąd 
+""""""",details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,TRUE
+Czy doświadczyłeś jakichkolwiek poważnych zdarzeń zdrowotnych (na przykład zawału serca lub udaru mózgu) od czasu wpisania się na listę oczekujących?,"Tak, musiałem przebywać w szpitalu przez tydzień",details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek poważnych zdarzeń zdrowotnych (na przykład zawału serca lub udaru mózgu) od czasu wpisania się na listę oczekujących?,"Tak, proszę",details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+Czy doświadczyłeś jakichkolwiek poważnych zdarzeń zdrowotnych (na przykład zawału serca lub udaru mózgu) od czasu wpisania się na listę oczekujących?,O tak,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"Odkąd ostatni raz się widzieliśmy, powiedziałbyś, że Twoje objawy znacznie się zmieniły (na lepsze lub gorsze)?","Tak, moje krwawienie znacznie się nasiliło.",details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,TRUE
+"Odkąd ostatni raz się widzieliśmy, powiedziałbyś, że Twoje objawy znacznie się zmieniły (na lepsze lub gorsze)?",Tak.,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+"Odkąd ostatni raz się widzieliśmy, powiedziałbyś, że Twoje objawy znacznie się zmieniły (na lepsze lub gorsze)?","Tak, muszę zobaczyć kogoś.",details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,Tak,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,Zdecydowanie się pogarsza,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,"Tak, szczególnie gdy idę",Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,TRUE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,Tak,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,"Tak, jestem zawsze podniecony",Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+Czy doświadczyłeś jakiegokolwiek nowego lub nasilonego duszności?,"Tak i myślę, że to się pogarsza",Is it getting worse over time?,llm-heart-failure-triage@1.0.0,TRUE
+Chcę sprawdzić stan Twojego serca. Jak się ostatnio czujesz?,"Jestem tak zmęczony, że nawet nie mogę wyjść z domu teraz",Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,TRUE
+Chcę sprawdzić stan Twojego serca. Jak się ostatnio czujesz?,Jestem tak zmęczony,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,FALSE
+Chcę sprawdzić stan Twojego serca. Jak się ostatnio czujesz?,Ostatnio nie czułem się zbyt dobrze.,What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,FALSE
+Chcę sprawdzić stan Twojego serca. Jak się ostatnio czujesz?,"Nie najlepiej, mój poziom cukru we krwi był za wysoki i musiałem iść do lekarza rodzinnego.",What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,TRUE
+"Czy miałeś bóle brzucha, dyskomfort lub wzdęcia?","Tak, już prawie rok.",Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,TRUE
+"Czy miałeś bóle brzucha, dyskomfort lub wzdęcia?",Tak.,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,FALSE
+"Czy miałeś bóle brzucha, dyskomfort lub wzdęcia?","Tak, ból w jakimś sensie pojawia się i znika. Niektóre dni są w porządku.",Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,TRUE
+"Czy miałeś bóle brzucha, dyskomfort lub wzdęcia?","Tak, miałem pewne bóle",Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,FALSE
+"Czy doświadczyłeś biegunki, w tym także w nocy?","Tak, i jest tam również trochę krwi, co jest niepokojące",Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,TRUE
+"Czy doświadczyłeś biegunki, w tym także w nocy?","Tak, bardzo wodniste, nawet w nocy.",Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+"Czy doświadczyłeś biegunki, w tym także w nocy?","Tak, dość sporo biegunki",Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+"Dla tego pytania, poproszę cię o wykonanie prostego testu. Czy mógłbyś/mogłabyś wstać i położyć swoją drugą rękę płasko na operowanej części pachwiny? Teraz proszę odłożyć telefon i przyłożyć tę rękę do ust i dmuchnąć. Powiedz mi, kiedy to zrobisz, a ja zapytam, czy coś poczułeś/poczułaś.","tak, czuję guz w tym miejscu, kiedy to robię",Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,TRUE
+"Dla tego pytania, poproszę cię o wykonanie prostego testu. Czy mógłbyś/mogłabyś wstać i położyć swoją drugą rękę płasko na operowanej części pachwiny? Teraz proszę odłożyć telefon i przyłożyć tę rękę do ust i dmuchnąć. Powiedz mi, kiedy to zrobisz, a ja zapytam, czy coś poczułeś/poczułaś.",zrobiłem to,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+"Dla tego pytania, poproszę cię o wykonanie prostego testu. Czy mógłbyś/mogłabyś wstać i położyć swoją drugą rękę płasko na operowanej części pachwiny? Teraz proszę odłożyć telefon i przyłożyć tę rękę do ust i dmuchnąć. Powiedz mi, kiedy to zrobisz, a ja zapytam, czy coś poczułeś/poczułaś.",ok,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+"Czy obecnie przyjmujesz jakiekolwiek regularne leki, w tym leki na receptę lub jakiekolwiek leki bez recepty?",Tak,Have you been advised to adjust or stop any medications before this procedure?,llm-preop-hvlc@1.0.0,FALSE
+Czy miałeś wcześniej znieczulenie ogólne lub sedację?,"Tak, miałem to niedawno, wszystko poszło absolutnie gładko",Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,TRUE
+Czy miałeś wcześniej znieczulenie ogólne lub sedację?,"tak, mam",Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,FALSE
+"Czy przyjmuje Pan/Pani jakieś leki rozrzedzające krew (np. Warfarynę, Apiksaban, Rywaroksaban, Klopidogrel lub Kwas acetylosalicylowy)?","tak, przyjmuję warfarynę",What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+"Czy przyjmuje Pan/Pani jakieś leki rozrzedzające krew (np. Warfarynę, Apiksaban, Rywaroksaban, Klopidogrel lub Kwas acetylosalicylowy)?",Tak,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Czy ma Pan/Pani znane alergie, w tym alergie na leki (np. antybiotyki, lateks lub środki znieczulające)?",Jestem uczulony na lateks,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+"Czy ma Pan/Pani znane alergie, w tym alergie na leki (np. antybiotyki, lateks lub środki znieczulające)?","Tak, mam pewne alergie",What are you allergic to?,llm-preop-hvlc@1.0.0,FALSE
+"Czy ma Pan/Pani znane alergie, w tym alergie na leki (np. antybiotyki, lateks lub środki znieczulające)?",penicylina,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+"Czy ma Pan/Pani jakąś znaczącą historię medyczną, w tym przewlekłe choroby lub wcześniejsze operacje, o których zespół powinien wiedzieć?","Tak, niedawno miałem wymienione biodro, około 6 miesięcy temu",What previous surgeries have you had?,llm-preop-hvlc@1.0.0,TRUE
+"Czy ma Pan/Pani jakąś znaczącą historię medyczną, w tym przewlekłe choroby lub wcześniejsze operacje, o których zespół powinien wiedzieć?","tak, miałem kilka rzeczy zrobionych",What previous surgeries have you had?,llm-preop-hvlc@1.0.0,FALSE
+"Jestem tutaj, aby omówić Twoją historię nawracających infekcji dróg moczowych. Jak się czujesz?","""""""
+Jestem w porządku, ale miałem te piekące i kłujące bóle podczas oddawania moczu
+""""""",Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+"Jestem tutaj, aby omówić Twoją historię nawracających infekcji dróg moczowych. Jak się czujesz?","""""""
+Czuję się dobrze, ale mam problemy z częstym oddawaniem moczu
+""""""",Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+"Jestem tutaj, aby omówić Twoją historię nawracających infekcji dróg moczowych. Jak się czujesz?","""""""
+Czuję się dobrze, ale mam problemy z częstym oddawaniem moczu
+""""""",Do you rush to the toilet?,llm-uti-recurrent-triage@1.0.0,FALSE
+"Jestem tutaj, aby omówić Twoją historię nawracających infekcji dróg moczowych. Jak się czujesz?","""""""
+Czuję się dobrze, ale mam problemy z częstym oddawaniem moczu
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+"Jestem tutaj, aby omówić Twoją historię nawracających infekcji dróg moczowych. Jak się czujesz?","""""""
+Jestem w porządku, ale miałem te piekące i kłujące bóle podczas oddawania moczu
+""""""",Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"Jakie objawy występują, gdy masz zakażenie moczu?",zawsze pali,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+"Jakie objawy występują, gdy masz zakażenie moczu?",to raczej potrzeba częstego wychodzenia,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+"Jakie objawy występują, gdy masz zakażenie moczu?",to raczej potrzeba częstego wychodzenia,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+"Jakie objawy występują, gdy masz zakażenie moczu?",zawsze pali,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"Jakie objawy występują, gdy masz zakażenie moczu?",Muszę pobiec do toalety.,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+Zatem doświadczasz pewnego bólu wraz z zaczerwienieniem, hmm. Pozwól, że to zanotuję. Czy twoje oko jest obecnie bolesne?
+""""""","i trochę to boli, właściwie",frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"Dziękuję, chciałbym teraz zapytać o Twoje widzenie. Zauważasz jakąś niewyraźność po operacji?","Tak, zauważyłem pewne niewyraźności w moim widzeniu od czasu operacji.",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","było klarowne aż do dwóch tygodni temu, potem zaczęło się zamulać",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","Od czasu operacji wszystko jest źle, szczerze mówiąc.",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","""""""
+nie
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",to jest trochę niewyraźne,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","jest bardziej niewyraźne niż myślałem, ale powoli się poprawia",change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","""""""
+to staje się coraz gorsze i gorsze
+""""""",change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",to jest trochę niewyraźne,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",to jest gorsze,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"Czy uważasz, że niewyraźność się poprawia czy pogarsza?","jest bardziej niewyraźne niż myślałem, ale powoli się poprawia",change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"Czy uważasz, że niewyraźność się poprawia czy pogarsza?","""""""
+to staje się coraz gorsze i gorsze
+""""""",change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"Czy uważasz, że niewyraźność się poprawia czy pogarsza?",to jest trochę niewyraźne,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+"Czy uważasz, że niewyraźność się poprawia czy pogarsza?",to jest gorsze,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+jak bardzo jest nieostrość?
+""""""","Myślę, że niewyraźność staje się trochę gorsza.","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"Zmiana w czasie - czy uważasz, że niewyraźność się poprawia czy pogarsza?","Myślę, że niewyraźność staje się trochę gorsza.","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"W porządku, więc doświadczasz pewnych zmian w swoim widzeniu. Teraz, chcę tylko zapytać, czy twoje widzenie jest nieco mgliste, czy całkowicie zamazane?",Moje widzenie jest raczej lekko mgliste niż całkowicie niewyraźne.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"W porządku, więc doświadczasz pewnych zmian w swoim widzeniu. Teraz, chcę tylko zapytać, czy twoje widzenie jest nieco mgliste, czy całkowicie zamazane?",„ehmm jest zupełnie rozmyty.”,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","nie, jest trochę mgliście","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,To jest trochę mgliste.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","""""""
+jest zupełnie rozmyty
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"""""""
+jest zupełnie rozmyty
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","""""""
+nie
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"""""""
+nie
+""""""","blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",tak,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,tak,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","no to nie jest lepiej, ale może to dlatego, że noszę stare okulary",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?","to jest gorsze, z moimi starymi okularami lub bez nich",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",to jest gorsze,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"Czy Twoje widzenie poprawiło się tak, jak oczekiwałeś po operacji?",nadal jest niewyraźne,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"było klarowne aż do dwóch tygodni temu, potem zaczęło się zamulać",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"Od czasu operacji wszystko jest źle, szczerze mówiąc.",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"""""""
+nie
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,to jest trochę niewyraźne,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+Kiedy po raz pierwszy zauważyłeś nieostrość?,"było klarowne aż do dwóch tygodni temu, potem zaczęło się zamulać",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+Kiedy po raz pierwszy zauważyłeś nieostrość?,"Od czasu operacji wszystko jest źle, szczerze mówiąc.",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+Kiedy po raz pierwszy zauważyłeś nieostrość?,"""""""
+nie
+""""""",onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+Kiedy po raz pierwszy zauważyłeś nieostrość?,to jest trochę niewyraźne,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,to jest gorsze,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"no to nie jest lepiej, ale może to dlatego, że noszę stare okulary",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,"to jest gorsze, z moimi starymi okularami lub bez nich",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,to jest gorsze,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+Czy doświadczasz jakiegokolwiek zaburzenia wzroku od czasu operacji?,nadal jest niewyraźne,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"Czy niewyraźność występuje tylko wtedy, gdy nosisz swoje stare okulary?","no to nie jest lepiej, ale może to dlatego, że noszę stare okulary",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"Czy niewyraźność występuje tylko wtedy, gdy nosisz swoje stare okulary?","to jest gorsze, z moimi starymi okularami lub bez nich",is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"Czy niewyraźność występuje tylko wtedy, gdy nosisz swoje stare okulary?",to jest gorsze,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"Czy niewyraźność występuje tylko wtedy, gdy nosisz swoje stare okulary?",nadal jest niewyraźne,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,od czasu operacji widzę ich od czasu do czasu,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,"tak, ale tylko okazjonalnie",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,dopiero od dwóch dni,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,"tak, mam",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"Ok, chciałbym zapytać o te plamki, które zauważyłeś. Często widzisz te plamki, czy tylko okazjonalnie?",od czasu operacji widzę ich od czasu do czasu,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+"Ok, chciałbym zapytać o te plamki, które zauważyłeś. Często widzisz te plamki, czy tylko okazjonalnie?","tak, ale tylko okazjonalnie",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+"Ok, chciałbym zapytać o te plamki, które zauważyłeś. Często widzisz te plamki, czy tylko okazjonalnie?",dopiero od dwóch dni,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"Ok, chciałbym zapytać o te plamki, które zauważyłeś. Często widzisz te plamki, czy tylko okazjonalnie?","tak, mam",how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"Rozumiem, więc chcę tylko zapytać o Twoje widzenie. Zauważyłeś jakieś plamki od czasu operacji?","Tak, zauważyłem jakieś plamki od czasu operacji.",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,"Miałem jakieś, ciemne plamki tak",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,dopiero od dwóch dni,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,od czasu operacji widzę ich od czasu do czasu,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakiekolwiek plamki od czasu operacji?,"tak, mam",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+Kiedy po raz pierwszy zauważyłeś te plamki?,"Miałem jakieś, ciemne plamki tak",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+Kiedy po raz pierwszy zauważyłeś te plamki?,dopiero od dwóch dni,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+Kiedy po raz pierwszy zauważyłeś te plamki?,od czasu operacji widzę ich od czasu do czasu,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+Kiedy po raz pierwszy zauważyłeś te plamki?,"tak, mam",onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, jak błyski lamp błyskowych","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tylko cienka, jasna linia","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,tak,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,Mam,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+"W porządku, chciałbym spytać nieco więcej o tych migających światłach. Czy możesz je opisać - czy są one podobne do błysków aparatu, czy to cienka linia, czy coś innego?","tak, jak błyski lamp błyskowych","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+"W porządku, chciałbym spytać nieco więcej o tych migających światłach. Czy możesz je opisać - czy są one podobne do błysków aparatu, czy to cienka linia, czy coś innego?","tylko cienka, jasna linia","description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+"W porządku, chciałbym spytać nieco więcej o tych migających światłach. Czy możesz je opisać - czy są one podobne do błysków aparatu, czy to cienka linia, czy coś innego?",tak,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+"W porządku, chciałbym spytać nieco więcej o tych migających światłach. Czy możesz je opisać - czy są one podobne do błysków aparatu, czy to cienka linia, czy coś innego?",Mam,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tylko cienka, jasna linia","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, jak błyski lamp błyskowych","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,Mam,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,tak,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?","tylko cienka, jasna linia","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, jest gorzej niż wczoraj","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, ale się poprawia","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"Mam tak, ale dzisiaj wydaje się lepiej","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?","tak jestem, myślę, że to jeszcze gorsze","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?","tak jestem, ale to się poprawia","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?","tak jestem, myślę, że to jeszcze gorsze","change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?",zdecydowanie gorsze,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+"Rozumiem, więc chciałbym zapytać o te migające światła. Nadal je zauważasz i czy są lepsze, czy gorsze z upływem czasu?",zdecydowanie lepiej,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,dopiero wczoraj,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, od operacji widzę ich codziennie",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, mam",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, miałem nowe błyski czasami",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+"Ok, więc zauważyłeś pewne migające światła od czasu operacji. Migające światła mogą przypominać przerywane błyski aparatu w twoim polu widzenia. Kiedy zacząłeś zauważać te migające światła?",dopiero wczoraj,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+"Ok, więc zauważyłeś pewne migające światła od czasu operacji. Migające światła mogą przypominać przerywane błyski aparatu w twoim polu widzenia. Kiedy zacząłeś zauważać te migające światła?","tak, od operacji widzę ich codziennie",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+"Ok, więc zauważyłeś pewne migające światła od czasu operacji. Migające światła mogą przypominać przerywane błyski aparatu w twoim polu widzenia. Kiedy zacząłeś zauważać te migające światła?","tak, mam",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+"Ok, więc zauważyłeś pewne migające światła od czasu operacji. Migające światła mogą przypominać przerywane błyski aparatu w twoim polu widzenia. Kiedy zacząłeś zauważać te migające światła?","tak, miałem nowe błyski czasami",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"Tak, widzę ich cały czas",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, ale tylko raz lub dwa razy",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,tak,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"Tak, widzę ich cały czas",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,"tak, ale tylko raz lub dwa razy",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+Czy zauważyłeś jakieś migające światła od czasu operacji?,tak,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?","Tak, widzę ich cały czas",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?","tak, ale tylko raz lub dwa razy",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?",tak,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?","Tak, widzę ich cały czas",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?","tak, ale tylko raz lub dwa razy",timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+"„Dobrze, więc chciałbym spytać nieco więcej o tych migających światłach, które zauważyłeś. Czy doświadczasz ich rzadko, czy często?",tak,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+"Czy odczuwasz ból, gdy patrzysz na jasne światła?",troszeczkę,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+"Czy odczuwasz ból, gdy patrzysz na jasne światła?","Tak, to jest silny ból","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+"Czy odczuwasz ból, gdy patrzysz na jasne światła?","Czy odczuwasz ból, gdy patrzysz na jasne światła?","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+"Czy odczuwasz ból, gdy patrzysz na jasne światła?","Tak, jest wrażliwe, kiedy jestem na słońcu","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+"W porządku, więc doświadczasz bólu, gdy patrzysz na jasne światła. To może być oznaką stanu zapalnego w oku i być może będziemy musieli przyjrzeć się temu bliżej. Lekka wrażliwość na światło jest normalna po operacji, ale ból przy patrzeniu na jasne światła nie jest. Możesz mi powiedzieć więcej o bólu - czy opisałbyś go jako lekki, umiarkowany, silny czy nieznośny?",troszeczkę,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+"W porządku, więc doświadczasz bólu, gdy patrzysz na jasne światła. To może być oznaką stanu zapalnego w oku i być może będziemy musieli przyjrzeć się temu bliżej. Lekka wrażliwość na światło jest normalna po operacji, ale ból przy patrzeniu na jasne światła nie jest. Możesz mi powiedzieć więcej o bólu - czy opisałbyś go jako lekki, umiarkowany, silny czy nieznośny?","Tak, to jest silny ból","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+"W porządku, więc doświadczasz bólu, gdy patrzysz na jasne światła. To może być oznaką stanu zapalnego w oku i być może będziemy musieli przyjrzeć się temu bliżej. Lekka wrażliwość na światło jest normalna po operacji, ale ból przy patrzeniu na jasne światła nie jest. Możesz mi powiedzieć więcej o bólu - czy opisałbyś go jako lekki, umiarkowany, silny czy nieznośny?","Czy odczuwasz ból, gdy patrzysz na jasne światła?","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+"W porządku, więc doświadczasz bólu, gdy patrzysz na jasne światła. To może być oznaką stanu zapalnego w oku i być może będziemy musieli przyjrzeć się temu bliżej. Lekka wrażliwość na światło jest normalna po operacji, ale ból przy patrzeniu na jasne światła nie jest. Możesz mi powiedzieć więcej o bólu - czy opisałbyś go jako lekki, umiarkowany, silny czy nieznośny?","Tak, jest wrażliwe, kiedy jestem na słońcu","severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+Czy Twoje wzrok,tak,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+Czy Twoje wzrok wpływa na,tak,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+Czy bierzesz jakieś,co,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+Czy ty,przepraszam,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o wszelkich lekach, które przyjmujesz.",ok,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Aby mieć pełny obraz Twojego zdrowia, muszę zapytać o wszelkich lekach, które przyjmujesz.",ok,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+Co,cześć,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+"Ok, więc","tak, od operacji widzę ich codziennie",onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+"„Dobrze, więc chciałbym dowiedzieć się nieco więcej o tych migających światłach, które zauważyłeś.”",ok,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+"W porządku, więc doświadczasz bólu, gdy patrzysz na jasne światła. To może być oznaką stanu zapalnego w oku i być może będziemy musieli przyjrzeć się temu bliżej. Nieznaczna wrażliwość na światło jest normalna po operacji, ale ból podczas patrzenia na jasne światła nie jest.",ok,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+"W porządku, aby zacząć, możesz mi powiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?","Upadłem, gdy myłem naczynia",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc potknąłeś się podczas mycia naczyń. Czy możesz teraz potwierdzić, gdzie wystąpiła u ciebie złamanina?","„hm, to był mój lewy bioder”",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc aby zacząć, możesz mi powiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?",""""""" 
+pośliznąłem się, wychodząc spod prysznica i upadłem na biodro 
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"W porządku, aby zacząć, możesz mi powiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?",Złamałem nogę,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"Dobrze, więc aby zacząć, możesz mi opowiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?","""""""
+straciłem równowagę wchodząc po schodach
+""""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, straciłeś równowagę podczas wchodzenia po schodach. Czy możesz potwierdzić, gdzie wystąpiła u ciebie złamanina?","tak, to było w domu",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, straciłeś równowagę podczas wchodzenia po schodach. Możesz mi powiedzieć, jaka część twojego ciała została dotknięta przez złamanie?",był mój tył,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc zacznijmy. Aby rozpocząć, możesz mi opowiedzieć, jak doszło do twojej kontuzji? Co robisz i jak to się stało?",Upadłem wychodząc z wanny,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+"Aby zacząć, możesz mi opowiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?","Byłem właściwie po prostu, no wiesz, szedłem wzdłuż ulicy i to był dość zimny dzień, i poślizgnąłem się na kawałku takiego załatanego lodu i wylądowałem dość mocno na nadgarstku.",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc aby zacząć, możesz mi powiedzieć, jak doszło do twojego złamania? Co robisz i jak to się stało?","Byłem właśnie na spacerze z psem i pośliznąłem się na lodzie, upadłem i złamałem rękę",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc miałeś już kiedyś złamanie. Czy możesz potwierdzić, gdzie wystąpiło Twoje poprzednie złamanie i co się wtedy stało?","Eee tak, złamałem nadgarstek",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc miałeś już kiedyś złamanie. Czy możesz potwierdzić, gdzie wystąpiło Twoje poprzednie złamanie i co się wtedy stało?","Eee tak, złamałem nadgarstek",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc złamałeś nadgarstek w wyniku poprzedniego urazu. Czy możesz potwierdzić, kiedy to się przytrafiło?","Zatem kilka lat temu potknąłem się, gdy szedłem z psem i źle upadłem",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc złamałeś nadgarstek w wyniku poprzedniego urazu. Czy możesz potwierdzić, kiedy to się przytrafiło?","Zatem kilka lat temu potknąłem się, gdy szedłem z psem i źle upadłem",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję. Czy możesz potwierdzić, gdzie nastąpiła ta przerwa i co się stało?",Złamałem obie nogi w wypadku samochodowym,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję. Czy możesz potwierdzić, gdzie nastąpiła ta przerwa i co się stało?",Złamałem obie nogi w wypadku samochodowym,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"Przepraszam, że to słyszę. Zatem miałeś już w przeszłości złamanie. Poprzednie złamanie jako dorosły jest jednym z najsilniejszych wskaźników wystąpienia kolejnego złamania w przyszłości, więc zmienia to sposób, w jaki oceniamy ryzyko i dyskutujemy o profilaktyce. Czy możesz potwierdzić mniej więcej, kiedy miało miejsce to wypadku samochodowego?",Mój sąsiad jechał i stracił panowanie nad pojazdem,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"Zatem, wypadek samochodowy spowodowany utratą kontroli przez Twojego sąsiada. Zatem, miałeś już złamanie w przeszłości. Poprzednie złamanie jako dorosły jest jednym z najsilniejszych wskaźników kolejnego złamania w przyszłości, więc zmienia to, w jaki sposób oceniamy ryzyko i dyskutujemy o profilaktyce. Czy możesz potwierdzić mniej więcej, kiedy nastąpił ten wypadek samochodowy?","To było lata temu, ale moje nogi nigdy nie były już takie same.",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc miałeś już kilka przerw wcześniej. Możesz mi więcej powiedzieć o tym, co się wtedy stało?","Złamałem obojczyk jako dziecko, a kilka lat temu pośliznąłem się i złamałem miednicę.",when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc miałeś już kilka przerw wcześniej. Możesz mi więcej powiedzieć o tym, co się wtedy stało?","Złamałem obojczyk jako dziecko, a kilka lat temu pośliznąłem się i złamałem miednicę.",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc możesz potwierdzić, gdzie nastąpiła ta przerwa i co się stało?",Złamałem kość piszczelową około piętnaście lat temu,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc możesz potwierdzić, gdzie nastąpiła ta przerwa i co się stało?",Złamałem kość piszczelową około piętnaście lat temu,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, złamałeś kość piszczelową około 15 lat temu. Możesz mi powiedzieć trochę więcej o tym, co się stało, kiedy doszło do tego złamania?","To było naprawdę bolesne, musiałem jechać karetką.",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"To musiało być straszne, dziękuję. Więc, chcę tylko zapytać, czy możesz potwierdzić, jak doszło do tego złamania, czy było to spowodowane upadkiem, czy czymś innym?","""""""
+byłem na nartach i popełniłem błąd podczas lądowania po skoku
+""""""",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"Teraz chciałbym zapytać, czy kiedykolwiek złamałeś kość?","tak miałem siedem lat i skakałem na trampolinie, przegapiłem, złamałem drugą rękę",how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"Poprzednia złamania jako dorosły jest jednym z najsilniejszych predykatorów kolejnego złamania w przyszłości, więc zmienia to sposób, w jaki oceniamy ryzyko i dyskutujemy o profilaktyce. Czy możesz potwierdzić mniej więcej, kiedy wystąpiło twoje najnowsze złamania?",było to miesiąc temu,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+"Okej, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia Twoich kości. Przeszłaś już menopauzę, czy aktualnie ją przechodzisz?","Tak, przechodzę menopauzę",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"Okej, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia Twoich kości. Przeszłaś już menopauzę, czy aktualnie ją przechodzisz?","Tak, przechodzę menopauzę","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc możesz mi powiedzieć mniej więcej w jakim wieku u ciebie przestały występować miesiączki?","Byłem około czterdziestki z górą, myślę, lekarze podali mi hormony w zeszłym roku",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc możesz mi powiedzieć mniej więcej w jakim wieku u ciebie przestały występować miesiączki?","Byłem około czterdziestki z górą, myślę, lekarze podali mi hormony w zeszłym roku","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"W porządku, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia Twoich kości. Przeszłaś już menopauzę lub aktualnie ją przechodzisz?","„hm, tak, moje okresy przestały dawno temu”",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"W porządku, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia Twoich kości. Przeszłaś już menopauzę lub aktualnie ją przechodzisz?","„hm, tak, moje okresy przestały dawno temu”","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"""""""
+Dziękuję  Wspomniałeś, że Twoje okresy przestały dawno temu. Pamiętasz mniej więcej w jakim wieku to się stało?
+""""""",Nie jestem zbyt pewien,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"""""""
+Dziękuję  Wspomniałeś, że Twoje okresy przestały dawno temu. Pamiętasz mniej więcej w jakim wieku to się stało?
+""""""",Nie jestem zbyt pewien,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"W porządku, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia Twoich kości. Przeszłaś już menopauzę lub aktualnie ją przechodzisz?","Tak, przechodzę właśnie przez menopauzę.",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, przechodzisz właśnie przez menopauzę. Możesz mi powiedzieć mniej więcej w jakim wieku u Ciebie miesiączki się zatrzymały, lub jeśli jeszcze się nie zatrzymały, kiedy zaczęłaś odczuwać objawy menopauzy?","""""""
+mam okresy od czasu do czasu, zaczęło się to nieco nierówno kilka lat temu
+""""""",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, twoje okresy były nierównomierne przez kilka lat i nadal masz niektóre okresy od czasu do czasu. Możesz mi powiedzieć mniej więcej w jakim wieku twoje okresy zaczęły się stawać nierównomierne?","Cóż, miałem 47",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc aby lepiej zrozumieć Twoją sytuację, czy kiedykolwiek stosowałeś hormonoterapię zastępczą, czasem nazywaną HRT?","Nie, nie myślę, że tak.","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc nie miałaś okresów od połowy pięćdziesiątki. Teraz chcę tylko zapytać, czy kiedykolwiek przyjmowałaś hormonoterapię zastępczą, czasem nazywaną HRT?","Przepraszam, nie wiem co to jest","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+"""""""
+Więc nie jesteś pewien, co to jest HRT. HRT oznacza hormonoterapię zastępczą, jest to leczenie, które pomaga uzupełnić hormony, których Twoje ciało nie wytwarza już tak dużo po menopauzie. Może pomóc w rzeczach takich jak uderzenia gorąca i zdrowie kości. Czy kiedykolwiek brałeś coś podobnego, czy lekarz kiedykolwiek wspomniał o tym? 
+""""""","ok tak, mój lekarz wspomniał o tym, ale nie wystawił mi hormonów","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"Dziękuję. Więc przeszła Pani przez menopauzę w okolicach 50 roku życia. Po prostu, aby wyjaśnić, czy przyjmowała Pani terapię hormonalną, czasem nazywaną HRT, po menopauzie?","""""""
+tak stosuję hrt
+""""""","hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"Ok, chciałbym zadać pytanie, które niektórzy ludzie uważają za dość osobiste, ale naprawdę pomoże nam zrozumieć stan zdrowia twoich kości. Przeszłaś już przez menopauzę, czy aktualnie ją przechodzisz?",obecnie doświadczam,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+Dziękuję. Przechodzisz obecnie przez menopauzę. Pamiętasz mniej więcej w jakim wieku Twoje okresy się zatrzymały lub stały się mniej regularne?,w zeszłym roku,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję. Przestałaś miesiączkować około rok temu. Po menopauzie poziom estrogenów spada, co może wpłynąć na zdrowie kości. Czy kiedykolwiek przyjmowałaś hormonoterapię zastępczą, czasem nazywaną HRT?",tak,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+"""""""
+Dziękuję Więc już przeszłaś przez menopauzę. Pamiętasz mniej więcej w jakim wieku u ciebie przestały występować miesiączki?
+""""""","nie, nie pamiętam",age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"W porządku, więc nie jesteś pewna, w jakim wieku przestały ciś się zatrzymać miesiączki. To OK, może być trudno pamiętać. Po prostu, aby wyjaśnić, czy to było przed czy po tym, jak skończyłaś pięćdziesiąt lat, przestały ci się zatrzymać miesiączki?",przed,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+Dziękuję. Teraz chciałbym zapytać o leki sterydowe. Czy kiedykolwiek przyjmowałeś leki sterydowe?,"tak, używałem kremu ze sterydami przez ostatnie kilka miesięcy","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+Dziękuję. Teraz chciałbym zapytać o leki sterydowe. Czy kiedykolwiek przyjmowałeś leki sterydowe?,"tak, używałem kremu ze sterydami przez ostatnie kilka miesięcy",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+Dziękuję. Teraz chciałbym zapytać o leki sterydowe. Czy kiedykolwiek przyjmowałeś leki sterydowe?,"tak, używałem kremu ze sterydami przez ostatnie kilka miesięcy",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję. Wiem, że używałeś kremu ze sterydami przez kilka miesięcy. Chciałbym dowiedzieć się trochę więcej na ten temat. Jeśli obecnie przyjmujesz jakiekolwiek leki sterydowe, to ile i jak często je przyjmujesz?",Na razie używam go co drugi dzień,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"Dziękuję. Wiem, że używałeś kremu ze sterydami przez kilka miesięcy. Chciałbym dowiedzieć się trochę więcej na ten temat. Jeśli obecnie przyjmujesz jakiekolwiek leki sterydowe, to ile i jak często je przyjmujesz?",Na razie używam go co drugi dzień,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję. Wiem, że używałeś kremu ze sterydami przez kilka miesięcy. Chciałbym dowiedzieć się trochę więcej na ten temat. Jeśli obecnie przyjmujesz jakiekolwiek leki sterydowe, to ile i jak często je przyjmujesz?",Na razie używam go co drugi dzień,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+"W porządku, więc używasz kremu ze sterydami co drugi dzień. Czy wiesz, dlaczego to robisz lub robiłeś to w pierwszej kolejności?","miałem jakieś wypryski, więc lekarz dał mi maść",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"W porządku, więc używasz kremu ze sterydami co drugi dzień. Czy wiesz, dlaczego to robisz lub robiłeś to w pierwszej kolejności?","miałem jakieś wypryski, więc lekarz dał mi maść",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"""Alright, więc, chcę tylko zapytać, czy kiedykolwiek brałeś leki sterydowe?""","tak, miałem astmę od kiedy byłem młody, więc brałem leki sterydowe przez większość mojego życia","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+"""Alright, więc, chcę tylko zapytać, czy kiedykolwiek brałeś leki sterydowe?""","tak, miałem astmę od kiedy byłem młody, więc brałem leki sterydowe przez większość mojego życia",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+"""Alright, więc, chcę tylko zapytać, czy kiedykolwiek brałeś leki sterydowe?""","tak, miałem astmę od kiedy byłem młody, więc brałem leki sterydowe przez większość mojego życia",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc przez większość życia przyjmowałeś leki sterydowe z powodu astmy. Po prostu, by wyjaśnić, czy obecnie przyjmujesz jakiekolwiek leki sterydowe i jeśli tak, to jaką ilość i jak często je przyjmujesz?","Tak, wciąż mam inhalator, używam go większości dni.","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""Alright, więc, chcę tylko zapytać o leki sterydowe. Czy kiedykolwiek brałeś leki sterydowe?""","Myślę, że kiedyś brałam je dla brzucha, ale już nie.","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""Alright, więc, chcę tylko zapytać o leki sterydowe. Czy kiedykolwiek brałeś leki sterydowe?""","Myślę, że kiedyś brałam je dla brzucha, ale już nie.",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+"""Alright, więc, chcę tylko zapytać o leki sterydowe. Czy kiedykolwiek brałeś leki sterydowe?""","Myślę, że kiedyś brałam je dla brzucha, ale już nie.",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"""""""
+Więc więc przyjmowałeś leki sterydowe. W przypadku każdego leku sterydowego, który obecnie przyjmujesz, ile i jak często go przyjmujesz? 
+""""""","""""""
+założę, że jest to rodzaj raz dziennie około pięciuset miligramów
+""""""","current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""""""
+Więc więc przyjmowałeś leki sterydowe. W przypadku każdego leku sterydowego, który obecnie przyjmujesz, ile i jak często go przyjmujesz? 
+""""""","""""""
+założę, że jest to rodzaj raz dziennie około pięciuset miligramów
+""""""",past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"""""""
+Więc więc przyjmowałeś leki sterydowe. W przypadku każdego leku sterydowego, który obecnie przyjmujesz, ile i jak często go przyjmujesz? 
+""""""","""""""
+założę, że jest to rodzaj raz dziennie około pięciuset miligramów
+""""""",why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+"""Niech się dzieje, więc, tylko chcę zapytać o zapalenie stawów. Czy kiedykolwiek lekarz powiedział ci, że masz zapalenie stawów?""","tak, powiedziała, że mam zapalenie stawów",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, czy lekarz powiedział, jaki to rodzaj zapalenia stawów?","""""""
+częściowo nie jestem pewien, nie wiedziałem, że są różne rodzaje
+""""""",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"W porządku, chcę tylko zapytać o twoje zdrowie. Czy kiedykolwiek lekarz powiedział ci, że masz zapalenie stawów?","tak, zostałem zdiagnozowany jakiś czas temu",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc zostałeś zdiagnozowany z zapaleniem stawów. Możesz mi powiedzieć, jaki rodzaj zapalenia stawów to było?","„czym, jakie rodzaje są”",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"""Niech się dzieje, więc, tylko chcę zapytać o zapalenie stawów. Czy kiedykolwiek lekarz powiedział ci, że masz zapalenie stawów?""","Tak, mam zapalenie stawów i jestem na lekach z tego powodu",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc aby wyjaśnić, czy lekarz powiedział ci, jaki rodzaj zapalenia stawów masz?","Myślę, że powiedzieli, że to jest reumatoidalne",rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc chcę tylko zapytać, czy kiedykolwiek lekarz powiedział ci, że masz zapalenie stawów?",Mój lekarz zdiagnozował u mnie reumatoidalne zapalenie stawów jakiś czas temu,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc skoro już ustaliliśmy, że pijesz alkohol, chciałbym dowiedzieć się nieco więcej na ten temat. Czy zwykle pijesz piwo, wino, spirytusy, czy coś innego?","""""""
+piję dużo piwa
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc teraz, gdy wiem, że pijesz alkohol, możesz mi powiedzieć, jaki rodzaj alkoholu zwykle pijesz, jak piwo, wino, spirytusy czy coś innego?","""""""
+piję wino i czasem spirytusy
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc teraz, kiedy już wiem, że pijesz wino i czasem spirytusy, mogę zapytać, ile szklanek wina i kieliszków spirytusu spożywasz w ciągu tygodnia?",Zwykle kilka szklanek w tygodniu i kilka strzałów w weekend.,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc skoro już ustaliliśmy, że pijesz alkohol, chciałbym dowiedzieć się nieco więcej na ten temat. Czy zwykle pijesz piwo, wino, spirytusy, czy coś innego?",Wypiję wszystkie trzy i czasem cydr,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc pijesz różne rzeczy. Po prostu, aby lepiej zrozumieć, mniej więcej ile pint piwa pijesz w tygodniu?",może 3 lub 4,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"Dziękuję, więc teraz, gdy ustaliliśmy, że pijesz alkohol, możesz mi powiedzieć, jaki rodzaj alkoholu zwykle pijesz, jak piwo, wino, spirytusy, czy coś innego?","""""""
+piję wino
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"Dziękuję, więc kiedy pijesz, jaki rodzaj alkoholu zwykle spożywasz, jest to piwo, wino, spirytusy, czy coś innego?","""""""
+Piję 4 lub 5 shotów większości weekendów
+""""""",if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"""""""
+Więc powiedziałeś mi, że pijesz alkohol. Teraz chciałbym dowiedzieć się trochę więcej na ten temat. Czy zwykle pijesz piwo, wino, spirytusy, czy coś innego?
+""""""",czerwone duchy,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+"Co spowodowało, że przestałeś brać leki lub nie zacząłeś ich przyjmować zgodnie z zaleceniami?","Nie zacząłem brać leków, bo martwiłem się o potencjalne skutki uboczne i nie chciałem się z nimi zmagać.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Zatem, zdecydowałeś się nie rozpoczynać przyjmowania tabletek bisfosfonianowych. Możesz mi powiedzieć, co skłoniło cię do podjęcia tej decyzji?","Szczerze mówiąc, po prostu nie rozumiałem jak to prawidłowo brać i bałem się, że wezmę za dużo lub za mało.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Co spowodowało, że przestałeś brać leki lub nie zacząłeś ich przyjmować zgodnie z zaleceniami?","Koszt leku był zbyt wysoki i nie mogłem sobie na to pozwolić, więc nawet nie próbowałem realizować recepty.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Czy podzieliłbyś się tym, co spowodowało, że przestałeś brać leki lub nie zacząłeś ich brać?","Czułem się naprawdę przytłoczony pracą i sprawami osobistymi, więc po prostu nie miałem okazji pomyśleć o moich lekach.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Co spowodowało, że przestałeś brać leki lub nie zacząłeś ich przyjmować zgodnie z zaleceniami?","Próbowałem to zrobić, ale potem zajęło mnie coś innego i zapomniałem skontaktować się z moim lekarzem.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Co spowodowało, że przestałeś brać leki lub nie zacząłeś ich przyjmować zgodnie z zaleceniami?","Po prostu nie jestem pewien, co się teraz dzieje z moim ciałem, miałem wiele różnych objawów i nie wiem, co je powoduje.","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Ok, więc nie zacząłeś jeszcze brać tabletek bisfosfonianowych. Możesz mi powiedzieć, co cię powstrzymuje od rozpoczęcia ich przyjmowania?","""""""
+straciłem je
+""""""","more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Biorę tabletki mniej więcej raz w tygodniu
+""""""","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?",Zwykle biorę tabletkę rano i jeszcze jedną nocą raz lub dwa razy w tygodniu,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Biorę tabletki trzy razy w tygodniu, zgodnie z zaleceniami mojego lekarza
+""""""","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Brałem je według potrzeb
+""""""","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Mój lekarz powiedział mi, żebym postępował zgodnie z instrukcjami na etykiecie.","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Staram się pamiętać, aby je brać co tydzień, ale czasem zapominam","how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Tak, biorę to pierwszą rzeczą rano, zaraz po obudzeniu się.","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Biorę tabletkę zaraz po wstaniu z łóżka, więc tak, pierwszą rzeczą rano.","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Pierwszą rzeczą rano, kiedy to robię, jest częścią mojej porannej rutyny.","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Staram się brać to z jedzeniem, aby uniknąć dolegliwości żołądka.","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Mój lekarz powiedział mi, abym to brał dwa razy w tygodniu.","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Brałem już tabletki przez kilka miesięcy i wydaje się, że one pomagają.
+""""""","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Tak, zawsze przyjmuję tabletki na pusty żołądek, zgodnie z zaleceniami mojego lekarza.",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Nie, biorę je z jedzeniem, bo przyjmowanie ich na pusty żołądek sprawia, że czuję się niedobrze.",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Biorę tabletki pierwszą rzeczą rano, zanim coś zjem, więc tak, robię to na pusty żołądek.
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Staram się brać tabletki o tej samej porze każdego dnia, dla zachowania spójności.",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","Mój lekarz powiedział mi, abym przestrzegał instrukcji na etykiecie przy przyjmowaniu leków.",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, kiedy zwykle przyjmujesz tabletki?","""""""
+Jeszcze jakiś czas temu zacząłem brać te tabletki i przyzwyczaiłem się do rutyny.
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Czyli, po prostu, aby wyjaśnić, kiedy bierzesz tabletkę, jest to pierwszą rzeczą rano?","Tak, zwykle zaraz po tym, jak wstaję","when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"Czyli, po prostu, aby wyjaśnić, kiedy bierzesz tabletkę, jest to pierwszą rzeczą rano?","Tak, zwykle zaraz po tym, jak wstaję",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+Zatem, przyjmujesz tabletki co poniedziałek. Czy możesz mi teraz powiedzieć, czy przyjmujesz ją pierwszą rzeczą rano?",zwykle po lunchu,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"""""""
+Zatem, zażywasz tabletki raz w tygodniu, rano. Czy zażywasz je na pusty żołądek?","tak, robię",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"""""""
+Zatem, zażywasz tabletki raz w tygodniu, rano. Czy zażywasz je na pusty żołądek?","""""""
+i czasem jem przed 
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"Dobrze, więc po to, by się upewnić, że przyjmujesz tabletki prawidłowo, możesz mi powiedzieć, czy przyjmujesz je na pusty żołądek?","""""""
+biorę je rano
+""""""",take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+Dziękuję. Zatem przyjmujesz tabletki co tydzień. Czy przyjmujesz je pierwszą rzeczą rano? 
+""""""",7 rano,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+Więc, po prostu by wyjaśnić, bierzesz tabletkę co tydzień. Bierzesz ją pierwszą rzeczą rano?",tak,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Czyli, chcę tylko zapytać, kiedy zwykle przyjmujesz tabletki?",9 rano każdej soboty,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Dziękuję, więc zacząłeś brać tabletki. Możesz mi powiedzieć, kiedy zwykle je przyjmujesz?",Zwykle biorę je pierwszą rzeczą rano,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"W porządku, więc teraz, gdy zacząłeś brać tabletki, możesz mi powiedzieć, kiedy zwykle je przyjmujesz?",Biorę je pierwszą rzeczą rano.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?",Biorę tabletki z pełnym szklankiem wody.,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?","Zawsze przyjmuję leki z jedzeniem, aby uniknąć dolegliwości żołądka.",substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?","Woda jest tym, czym używam, aby zażywać moje tabletki, zgodnie z zaleceniami mojego lekarza.",substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?","""""""
+Biorę tabletki zgodnie z zaleceniami mojego lekarza.
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?","""""""
+Moje tabletki są przyjmowane każdego ranka.
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, jak bierzesz tabletki?","""""""
+Brałem już tabletki przez kilka miesięcy.
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"Czy możesz mi powiedzieć, jak przyjmujesz tabletki, aby upewnić się, że robisz to prawidłowo?",Zwykle z wodą lub sokiem owocowym,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"Czy możesz mi powiedzieć, jak przyjmujesz tabletki, aby upewnić się, że robisz to prawidłowo?",Piję je,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, możesz mi powiedzieć, jak je przyjmujesz?","""""""
+Zgniatałem je, są za duże
+""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, możesz mi powiedzieć, jak je przyjmujesz?",Piję je z moją poranną kawą,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"Rozumiem, więc chcę tylko zapytać, jak bierzesz tabletki, bierzesz je z wodą czy z czymś innym?","""""""A jaka godzina z jedzeniem?""""""",substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+Co zwykle robisz po zażyciu leków?,"Uprawiam się, aby siedzieć prosto przez około godzinę lub nieco dłużej","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,"Po zażyciu leków wstaję i chodziłem trochę, aby pozostać w pionie.","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,"Często kładę się po tym, jak je zabieram.","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,Wracam do łóżka,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,Zwykle czytam książkę po zażyciu leków.,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+Co zwykle robisz po zażyciu leków?,"""""""
+Pobieranie moich leków jest częścią mojej porannej rutyny, tuż przed śniadaniem.
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+Co zwykle robisz po zażyciu leków?,"Zależy od tego, jaki jest dzień","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, co zwykle robisz po ich przyjęciu?",Większość poranków zabieram psa na długie spacery po zażyciu leków,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, co zwykle robisz po ich przyjęciu?",nie jem i nie pijam niczego innego,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"Więc wspomniałeś, że to zależy od dnia. Po prostu, aby upewnić się, że zażywasz tabletki bezpiecznie, czy pozostajesz w pozycji siedzącej lub stojącej przez co najmniej 30 minut po ich zażyciu?","Tak, zwykle stoję na nogach przez następną godzinę","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"Więc wspomniałeś, że to zależy od dnia. Po prostu, aby upewnić się, że zażywasz tabletki bezpiecznie, czy pozostajesz w pozycji siedzącej lub stojącej przez co najmniej 30 minut po ich zażyciu?","""""""
+nie
+""""""","remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"Więc wspomniałeś, że to zależy od dnia. Po prostu, aby upewnić się, że zażywasz tabletki bezpiecznie, czy pozostajesz w pozycji siedzącej lub stojącej przez co najmniej 30 minut po ich zażyciu?",nie i nie,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"Więc wspomniałeś, że to zależy od dnia. Po prostu, aby upewnić się, że zażywasz tabletki bezpiecznie, czy pozostajesz w pozycji siedzącej lub stojącej przez co najmniej 30 minut po ich zażyciu?",i nie,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"Więc wspomniałeś, że to zależy od dnia. Po prostu, aby upewnić się, że zażywasz tabletki bezpiecznie, czy pozostajesz w pozycji siedzącej lub stojącej przez co najmniej 30 minut po ich zażyciu?",zwykle kładę się,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,"Staram się unikać wszelkich pokarmów, napojów i innych leków przez pół godziny po zażyciu przepisanych mi leków.","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,"Czasami jem lub piję, ale staram się nie jeść dużych posiłków","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,"Unikam wszystkiego poza wodą przez ten 30-minutowy okres, aby upewnić się, że moje leki działają skutecznie.","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+Co zwykle robisz po zażyciu leków?,Zawsze biorę to z pełną szklanką wody.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+Co zwykle robisz po zażyciu leków?,"Mój lekarz powiedział, abym zażywał to o tej samej godzinie każdego dnia.","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+Co zwykle robisz po zażyciu leków?,Zwykle czytam książkę po zażyciu leków.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, co zwykle robisz po ich przyjęciu?",Większość poranków zabieram psa na długie spacery po zażyciu leków,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"Dziękuję, więc teraz, gdy zacząłeś brać tabletki, co zwykle robisz po ich przyjęciu?",nie jem i nie pijam niczego innego,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+"Czyli, po prostu aby upewnić się, po zażyciu tabletki, unikasz wszystkich innych pokarmów, napojów lub leków przez jakiś czas?",Czasem będę miał kawałek owocu,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+"Czyli, po prostu aby upewnić się, po zażyciu tabletki, unikasz wszystkich innych pokarmów, napojów lub leków przez co najmniej 30 minut?","tak jest pięknie, bardzo lubimy świeże poranne powietrze","avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","Tak, mój refluks żołądkowy nasilił się, odkąd zacząłem przyjmować bisfosfoniany.","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","Nie sądzę, aby mój zgaga lub niestrawność nasiliły się od momentu rozpoczęcia przyjmowania leku.","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","Tak, mój dyskomfort żołądkowy był naprawdę zły, odkąd zacząłem brać tabletki.","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","""""""
+Brałem tabletki przez kilka tygodni i zauważyłem, że czasem są trudne do połknięcia
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","Lek wydaje się działać na moje kości, ale nie jestem pewien co do innych skutków ubocznych.","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?",Miałem problemy z paleniem się żołądka przed rozpoczęciem przyjmowania leku,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?",tak,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Czy doświadczyłeś jakichkolwiek skutków ubocznych, takich jak zgaga, niestrawność lub jakiekolwiek inne problemy, odkąd zażywasz tabletki bisfosfonianowe?","""""""
+nie
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz porozmawiajmy o jakichkolwiek problemach, które wystąpiły u ciebie od czasu przyjmowania tabletek. Czy miałeś jakieś problemy, takie jak zgaga, niestrawność lub coś innego?","""""""
+nie wszystko w porządku
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz porozmawiajmy o jakichkolwiek problemach, które wystąpiły u ciebie od czasu przyjmowania tabletek. Czy miałeś jakieś problemy, takie jak zgaga, niestrawność lub coś innego?",tak miałem pewne problemy,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+Więc miałeś pewne problemy od czasu rozpoczęcia przyjmowania tabletek. Możesz mi więcej powiedzieć o tym, czego doświadczyłeś? 
+""""""","""""""
+mój dyskomfort żołądkowy był ostatnio znacznie gorszy
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+Więc miałeś pewne problemy od czasu rozpoczęcia przyjmowania tabletek. Możesz mi więcej powiedzieć o tym, czego doświadczyłeś? 
+""""""",Czułem się ostatnio często źle od kiedy dostałem leki,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Czy więc chciałbym zapytać, czy doświadczyłeś jakichkolwiek innych objawów lub skutków ubocznych od momentu rozpoczęcia leczenia osteoporozy, jak np. uczucie choroby lub czegoś, co cię niepokoi?","""""""
+miałem dużo zgagi, tak
+""""""","heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"Czy więc chciałbym zapytać, czy doświadczyłeś jakichkolwiek innych objawów lub skutków ubocznych od momentu rozpoczęcia leczenia osteoporozy, jak np. uczucie choroby lub czegoś, co cię niepokoi?",Mam dość zły kaszel,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?",tak,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?",tak,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?",Widziałem się z moim lekarzem rodzinnym w zeszłym tygodniu i powiedziałem jej o zgadze.,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?",Widziałem się z moim lekarzem rodzinnym w zeszłym tygodniu i powiedziałem jej o zgadze.,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?","tak, mój lekarz rodzinny powiedział, że nie powinniśmy niczego zmieniać na razie i powinienem obserwować to przez dwa tygodnie i wrócić, jeśli nie poprawi się","gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?","tak, mój lekarz rodzinny powiedział, że nie powinniśmy niczego zmieniać na razie i powinienem obserwować to przez dwa tygodnie i wrócić, jeśli nie poprawi się","gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?","tak, lekarz pierwszego kontaktu zdecydował, że będę brał inne lekarstwo","gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"Zatem, miałeś problemy z paleniem się w przełyku od czasu przyjmowania tabletek bisfosfonianowych. Czy już poinformowałeś swojego lekarza rodzinnego o tym skutku ubocznym?","tak, lekarz pierwszego kontaktu zdecydował, że będę brał inne lekarstwo","gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"""""""
+Więc brałeś tabletki bisfosfonianowe i zauważyłeś pewne problemy, takie jak ból zębów i lekki dyskomfort żołądka. Po prostu, by wyjaśnić, czy już poinformowałeś swojego lekarza rodzinnego o tych skutkach ubocznych?
+""""""",zrobiłem i on zdecydował się wysłać mnie do szpitala,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""""""
+Więc brałeś tabletki bisfosfonianowe i zauważyłeś pewne problemy, takie jak ból zębów i lekki dyskomfort żołądka. Po prostu, by wyjaśnić, czy już poinformowałeś swojego lekarza rodzinnego o tych skutkach ubocznych?
+""""""",zrobiłem i on zdecydował się wysłać mnie do szpitala,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+"""""""
+Więc już rozmawiałeś ze swoim lekarzem rodzinnym o problemach, które masz z zębami i niestrawnością. Czy twój lekarz rodziny zasugerował jakieś zmiany w twojej medykacji lub skierował cię do kogoś innego w sprawie tych skutków ubocznych?
+""""""","tak, odesłała mnie z powrotem do szpitala","gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""""""
+Więc już rozmawiałeś ze swoim lekarzem rodzinnym o problemach, które masz z zębami i niestrawnością. Czy twój lekarz rodziny zasugerował jakieś zmiany w twojej medykacji lub skierował cię do kogoś innego w sprawie tych skutków ubocznych?
+""""""","tak, odesłała mnie z powrotem do szpitala","gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy poinformowałeś swojego lekarza rodzinnego o nasilonym nieżycie, chciałbym sprawdzić, czy twój lekarz podjął jakieś działania lub zmienił plan leczenia z powodu tego skutku ubocznego?","On powiedział, że powinniśmy obserwować to przez kilka tygodni, zanim cokolwiek zmienimy.","gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy poinformowałeś swojego lekarza rodzinnego o nasilonym nieżycie, chciałbym sprawdzić, czy twój lekarz podjął jakieś działania lub zmienił plan leczenia z powodu tego skutku ubocznego?","On powiedział, że powinniśmy obserwować to przez kilka tygodni","gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy poinformowałeś swojego lekarza rodzinnego o nasilonym nieżycie, chciałbym sprawdzić, czy twój lekarz podjął jakieś działania lub zmienił plan leczenia z powodu tego skutku ubocznego?",nie zrobił tego,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy poinformowałeś swojego lekarza rodzinnego o nasilonym nieżycie, chciałbym sprawdzić, czy twój lekarz podjął jakieś działania lub zmienił plan leczenia z powodu tego skutku ubocznego?",nie zrobił tego,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,"Tak, przyjmowałem je regularnie, ale zauważyłem pewne dolegliwości żołądka, które uważam za możliwy skutek uboczny.","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,"""""""
+Biorę suplementy zgodnie z zaleceniami i na szczęście nie miałem żadnych skutków ubocznych ani problemów z nimi.
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,"Tak, i odkąd zacząłem przyjmować wapń i witaminę D, doświadczam pewnych problemów z zaparciami, co moja lekarka mówi, że może być skutkiem ubocznym wapnia.","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,Biorę swoje suplementy każdego ranka z śniadaniem.,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,"Mój lekarz polecił, abym je zażywał, więc to robię","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+Czy regularnie przyjmujesz suplementy wapnia i/lub witaminy D?,"Tak, jestem","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"""""""
+Zatem przyjmujesz suplementy wapnia i witaminy D. Czy wystąpiły u ciebie jakieś skutki uboczne lub problemy z nimi?
+""""""","tak, czasem czuję się trochę chory","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+"""""""
+Zatem przyjmujesz suplementy wapnia i witaminy D. Czy wystąpiły u ciebie jakieś skutki uboczne lub problemy z nimi?
+""""""","no cóż, są trochę drogie","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"Zacząłeś więc brać leki na osteoporozę. Chcę tylko sprawdzić, czy regularnie przyjmujesz suplement wapnia i/lub witaminy D?","""""""
+i tak, ale one mnie naprawdę zapierają 
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś skutki uboczne lub problemy z suplementami?,"""""""
+nie
+""""""","supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś skutki uboczne lub problemy z suplementami?,tak,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,"""""""
+Wysunąłem się na płatku lodu przed moim domem i upadłem na łokieć, od tego czasu bolał mnie on
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,"Tak, miałem upadek w zeszłym tygodniu, szedłem po schodach i przeskoczyłem stopień, teraz moje kolano jest obtłuczone.","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,"Upadłem w łazience, moje stopy wyleciały spod mnie na mokrej podłodze i uderzyłem głową w umywalkę","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,"Czy byłoby źle, gdybym miał kilka upadków?","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,"""""""
+Czuję się ostatnio trochę zawrotami głowy, może to jest z tym związane
+""""""","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+Czy miałeś jakieś upadki od Twojej ostatniej wizyty w klinice?,Czasem się potykam,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""Nieźle, możesz mi powiedzieć więcej o tym, co się stało, kiedy się przewróciłeś?""","Potknąłem się, gdy wracałem ze sklepów","what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy miałeś jakieś upadki od czasu Twojej ostatniej wizyty w klinice?,Mam tak,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+Czy miałeś jakieś upadki od czasu Twojej ostatniej wizyty w klinice?,Przewróciłem się kilka tygodni temu,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Więc, możesz mi powiedzieć więcej o tym, co się stało, kiedy parę tygodni temu potknąłeś się?",straciłem równowagę,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy złamałeś jakieś kości od Twojej ostatniej wizyty w klinice?,"""""""
+Pociąłem się na lodzie i upadłem, uderzając mocno nadgarstkiem.
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz gdy omówiliśmy twoje leki, chciałbym tylko zapytać, czy złamałeś jakieś kości od twojej ostatniej wizyty w klinice?","Upadłem ze schodów i obtłukłem się na całym ciele, a także złamałem kostkę.","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"Czy więc chcę zapytać, czy złamałeś jakieś kości od czasu Twojej ostatniej wizyty w klinice?","tak, byłem w dużym wypadku samochodowym i złamałem obojczyk","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+Czy złamałeś jakieś kości od Twojej ostatniej wizyty w klinice?,"Tak, mam","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Zatem miałeś złamanie od twojej ostatniej wizyty w klinice. Możesz mi powiedzieć więcej o tym, co się stało?","""""""
+pośliznąłem się w kuchni i złamałem biodro, gdy upadłem na niego
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"Zatem miałeś złamanie od twojej ostatniej wizyty w klinice. Możesz mi powiedzieć więcej o tym, co się stało?",tak,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Zatem miałeś złamanie od twojej ostatniej wizyty w klinice. Możesz mi powiedzieć więcej o tym, co się stało?","""""""
+nie
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Więc, teraz gdy ustaliliśmy, że zacząłeś brać leki, chciałbym tylko zapytać, czy złamałeś jakieś kości od Twojej ostatniej wizyty w klinice?","Zrobiłem, i lekarz powiedział, że muszę być bardziej ostrożny","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+Czy złamałeś jakieś kości od Twojej ostatniej wizyty w klinice?,"Niestety, złamałem nogę","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Przepraszam, możesz mi powiedzieć więcej o tym, co się stało z twoją nogą?","To było naprawdę straszne, wypadek.","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"Więc, po prostu by wyjaśnić, złamałeś nogę od czasu Twojej ostatniej wizyty w klinice. Możesz mi powiedzieć więcej o tym, co się stało?","""""""
+zjechałem z motocyklu i uderzyłem nogą w krawężnik 
+""""""","more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?","""""""
+Odczuwam ostry ból w żuchwie, szczególnie gdy żuję lub mówię.
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy zacząłeś brać leki, tylko chcę sprawdzić, czy miałeś jakieś problemy ze zębami, odkąd rozpocząłeś leczenie, czy też musiałeś udać się do dentysty z jakiegoś powodu?","Tak, miałem ból szczęki, który rozpoczął się około miesiąc temu i jest to tępy ból, który pojawia się i znika, ale ostatnio jest stały.","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?","""""""
+Odczuwam ból strzelający od żuchwy do ucha, odkąd zacząłem 
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?",Miałem pewne problemy z dziąsłami.,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"Więc, teraz, gdy zacząłeś brać leki, tylko chcę sprawdzić, czy miałeś jakieś problemy ze zębami, odkąd rozpocząłeś leczenie, czy też musiałeś udać się do dentysty z jakiegoś powodu?","Musiałem wymienić wypełnienie, ale nic poważnego.","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?",Tak,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"Więc, teraz, gdy zacząłeś brać leki, chciałbym tylko zapytać, czy miałeś jakieś problemy ze zębami lub potrzebowałeś wizyty u dentysty, odkąd rozpocząłeś leczenie?",Boli mnie żuchwa,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"Więc, miałeś pewne problemy ze zębami od rozpoczęcia leczenia. Możesz mi więcej o tym powiedzieć?","boli mnie ząb większość dni, ale to wszystko","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Czyli, chcę tylko zapytać, czy doświadczyłeś jakiegokolwiek bólu w szczęce, może związanego z problemami ze dziąsłami?","""""""
+nie
+""""""","more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"Czyli, chcę tylko zapytać, czy doświadczyłeś jakiegokolwiek bólu w szczęce, może związanego z problemami ze dziąsłami?",tak,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?","Tak, ostatnio miałem bardzo bolącą szczękę i wspomniałem dentystce, że zacząłem przyjmować lekarstwo","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"Więc, teraz, gdy zacząłeś brać leki, chciałbym tylko zapytać, czy miałeś jakieś problemy ze zębami lub potrzebowałeś wizyty u dentysty, odkąd rozpocząłeś leczenie?","Miałem kilka wypełnień, ale nic poważnego, chociaż dentysta powiedział, że ponieważ przyjmuję bisfosfoniany, muszę być ostrożny.","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?","""""""
+Odczuwam ból szczęki, ale nie jestem pewien, czy jest to związane z leczeniem.
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"Od rozpoczęcia leczenia, czy wystąpiły u Ciebie jakieś nowe problemy z zębami lub potrzebujesz wizyty u dentysty?",Poszłem do dentysty w zeszłym tygodniu z powodu krwawiących dziąseł.,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"Więc, teraz, gdy zacząłeś brać leki, tylko chcę sprawdzić, czy miałeś jakieś problemy ze zębami, odkąd rozpocząłeś leczenie, czy też musiałeś udać się do dentysty z jakiegoś powodu?","Staram się lepiej dbać o swoje zęby, częściej szczotkując i nitkując, ale nie zauważyłem żadnych zmian od rozpoczęcia leczenia.","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"Więc, teraz, gdy zacząłeś brać leki, chciałbym tylko zapytać, czy miałeś jakieś problemy ze zębami lub potrzebowałeś wizyty u dentysty, odkąd rozpocząłeś leczenie?",tak,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"Zatem, doświadczasz bólu szczęki. To może być powodem do niepokoju podczas przyjmowania leczenia bisfosfonianami. Czy twój dentysta wie, że zacząłeś przyjmować ten lek?",tak,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"Czyli, chcę tylko sprawdzić, czy twój dentysta wie, że rozpocząłeś leczenie bisfosfonianami?","""""""
+nie
+""""""","getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"Czy więc chcę zapytać, czy twój dentysta wie, że rozpocząłeś leczenie bisfosfonianami?",Poszłem do dentysty w zeszłym tygodniu,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""""""
+Więc tyś był u dentysty w zeszłym tygodniu. Czy wspomniałeś swojemu dentystce, że zacząłeś przyjmować leczenie bisfosfonianami?",zapomniałem jej powiedzieć,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"Więc, aby wyjaśnić, doświadczasz bólu szczęki, ale jeszcze nie widziałeś się z dentystą w tej sprawie. Czy twój dentysta wie, że rozpocząłeś leczenie bisfosfonianami?",Nie powiedziałem swojemu dentystowi nic.,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True

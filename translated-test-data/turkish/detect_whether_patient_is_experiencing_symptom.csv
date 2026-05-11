@@ -1,0 +1,1805 @@
+llm_question,response,symptom,topic_key,expected_output
+Bisfosfonat tabletlerinizi almaya başladı mı?,Evet,medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,"""""""
+Evet
+""""""",medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,"""""""
+mm evet
+""""""",medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Evet, geçen hafta onları almaya başladım.",medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,Doktorumun verdiği talimat doğrultusunda ilaç tedavisine başladım.,medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Evet, birkaç gündür bisfosfonat tabletlerimi alıyorum.",medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,Dün ilacı kullanmaya başladım.,medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Evet, başladım ve tabletleri almamdaki ikinci haftadayım.",medication_started,llm-fls-adherence@1.0.0,True
+Bisfosfonat tabletlerinizi almaya başladı mı?,Hayır,medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,"""""""
+Henüz hayır
+""""""",medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Hayır, henüz onları almaya başlamadım.",medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,Osteoporoz için herhangi bir ilaç kullanmıyorum.,medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Henüz değil, seçeneklerimi hala düşünüyorum.",medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Hayır, doktorum onları reçete etti ama reçeteyi henüz doldurmadım.",medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,Bisfosfonat tabletlerini almaya henüz başlamadım.,medication_started,llm-fls-adherence@1.0.0,False
+Bisfosfonat tabletlerinizi almaya başladı mı?,"""""""
+Belki, gerçekten emin değilim.
+""""""",medication_started,llm-fls-adherence@1.0.0,Unsure
+Bisfosfonat tabletlerinizi almaya başladı mı?,"""""""
+Hemen hemen eminim ki başladım, ama onaylayayım.
+""""""",medication_started,llm-fls-adherence@1.0.0,Unsure
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Muhtemelen, ilaç takvimime bakmam gerekecek.",medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,Sanırım başlamak benim işimdi ama gerçekten başladığımdan emin değilim.,medication_started,llm-fls-adherence@1.0.0,Unsure
+Bisfosfonat tabletlerinizi almaya başladı mı?,İlaç listemi kontrol etmek için bana izin verin.,medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Sanırım öyle, ama ilaç kutumu kontrol etmeliyim.",medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,Eczanemi arayıp onaylamam gerekiyor.,medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Bu iyi bir soru, buna dair geri dönüş yapacağım.",medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,"Takvime bakmam lazım, hatırlayabileyim.",medication_started,llm-fls-adherence@1.0.0,Inconclusive
+Bisfosfonat tabletlerinizi almaya başladı mı?,İlaç ne için tekrar hatırlatır mısın?,medication_started,llm-fls-adherence@1.0.0,Inconclusive
+İlaçlarını almaya başladı mı?,"""""""
+evet
+""""""",medication_started,llm-fls-adherence@1.0.0,Inconclusive
+İlaçlarını almaya başladı mı?,Ben,medication_started,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Yan etkiler yaşadığım için ilaçlarımı kullanmayı bıraktım,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Yan etkileri yaşadım,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Maliyet benim için çok yüksekti ve karşılayamadım,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"İlaçların işe yaramadığını hissettim, bu yüzden onları almayı bıraktım",non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Uzun vadeli etkiler konusunda endişeliydim,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Reçetemi yenilemeyi unuttum ve asla tekrar rayına giremedim,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"Alternatif tedavileri düşünüyorum, ancak ne yapacağıma henüz karar vermedim",non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"İlaçla devam edip etmemem gerektiğini bilmiyorum, bazı şüphelerim var",non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,İlaçların faydalarının bana olan maliyetlerinden daha ağır bastığını kesin olarak bilemiyorum,non_adherence_reasons,llm-fls-adherence@1.0.0,True
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Reçete edildiği gibi ilaçlarımı kullanıyorum ve hiçbir doz atlamadım,non_adherence_reasons,llm-fls-adherence@1.0.0,False
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,İlaçlarımı almaya başladım ve onlara karşı tutarlıyım,non_adherence_reasons,llm-fls-adherence@1.0.0,False
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,İlaç benim için iyi çalışıyor ve bırakmama hiçbir sebep görmüyorum,non_adherence_reasons,llm-fls-adherence@1.0.0,False
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,İlaçlarımın önemini anlıyor ve her zaman talimat edildiği şekilde alıyorum,non_adherence_reasons,llm-fls-adherence@1.0.0,False
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Doktorumla potansiyel yan etkileri tartıştık ve ilaçımı devam ettirmek konusunda rahatım.,non_adherence_reasons,llm-fls-adherence@1.0.0,False
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"Bir veya iki doz kaçırmış olabilirim, ama gerçekten emin değilim",non_adherence_reasons,llm-fls-adherence@1.0.0,Unsure
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,İlaçlarımı bırakmayı düşünüyorum ama henüz karar vermedim,non_adherence_reasons,llm-fls-adherence@1.0.0,Unsure
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"İlaç kaydımı kontrol etmem lazım, doğru şekilde alıyor muyum diye görmek için",non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,Bir sonraki randevumuzda doktorumla endişelerimi tartışacağım,non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"Şu anda söylemek istemiyorum, başka bir şey konuşabilir miyiz?",non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı almaktan vazgeçmenize veya hiç başlamamanıza ne sebep oldu?,"İlaç rejimimi eczacımla birlikte gözden geçirmeyi planlıyorum, böylece daha iyi bir anlayış elde edebilirim.",non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+Sizi durduran veya başlamadan alıkoyan şey neydi?,"""""""
+evet
+""""""",non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+Sizi durduran veya başlamadan alıkoyan şey neydi?,Ben,non_adherence_reasons,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Kahvaltımdan sonra her sabah tabletimi alıyorum,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Benim alışkın olduğum zaman, öğle yemeğinden hemen önce
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Sabah 8'de ve akşam 8'de alacağım """"""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"Doktor bana yiyeceklerle birlikte almayı söyledi, bu yüzden akşam yemeği sırasında alıyorum",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Her gün tabletimi alacağım için her gün 7'de hatırlatma ayarladım,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Sabah hiçbir tablet almıyorum,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"Tableti sadece hasta hissettiğimde alıyorum, bir takvime göre değil",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Belki onu öğle yemeğiyle alırlar, zamanları hep karıştırırım
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Geçen hafta o hapları almaktan vazgeçtim,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,False
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Hiçbirini almıyorum
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,False
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Hiçbir zaman tabletleri almıyorum,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,False
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"Sanırım onu sabah almak zorundayım, ama emin değilim",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Unsure
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"Talimatların onu yemekten önce almayı söylediğini sanıyorum, ama yanılabilirim",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Unsure
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Gece alabilirim, programıma bakmam lazım
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Hap kutumu kontrol edeyim,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"Tabletimi ne zaman alacağım gerçekten emin değilim, kontrol etmeliyim",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Reçeteye bakmam lazım, hatırlamak için
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,"""""""
+Doktor zamanlama konusunda ne dediğini hatırlatabilir misin? 
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Eczacımı arayarak doğrulatmak zorundayım,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle ne zaman aldığınızı bana söyleyebilir misiniz?,Hatırlatma için telefonumu kontrol edeceğim,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Bana genellikle ne zaman aldığını söyleyebilir misin?,"""""""
+evet
+""""""",when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Bana genellikle ne zaman aldığını söyleyebilir misin?,Ben,when_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,sadece su ile,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+sadece boş bir mideyle su ile 
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,sadece sabahın ilk ışıklarında su ile,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Kahvaltımdan sonra tabletimi suyla alıyorum,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Onu bir bardak meyve suyu ile yutuyorum
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Onu ezer ve yemeğime karıştırırım
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"Doktorumun talimatlarına uygun olarak, bir bardak su ile alıyorum",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Onu suya karıştırır ve sonra içiyorum
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"Tabletimi suyla değil, soda ile alıyorum",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Sabahları tabletimi asla almıyorum,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Tamamını yutmadan önce çiğnerim
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Hatırladığım zaman alırım
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Suyla çözmüyorum, kuru olarak yutuyorum
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"Sanırım sabah alırım, ama akşam da olabilir",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,True
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Hiçbir tablet almıyorum,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,False
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,dediğim gibi tabletleri almıyorum,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,False
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"Sanırım onu suyla birlikte almam gerekiyor, ama emin değilim",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Unsure
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Doğru aldığımdan emin değilim, bana söyleyebilir misin? 
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Unsure
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Ezmem mi yoksa bütün olarak yutup mı geçirmem gerektiğini emin değilim
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Unsure
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Gördüğüm talimatları hızlıca kontrol edeyim,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Bununla ilgili doktoruma sormam lazım,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,Etiketi gidip bakacağım ve ne dediğini göreceğim,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi nasıl aldığınızı bana söyleyebilir misiniz?,"""""""
+Alırken nasıl yapmam gerektiğini bana hatırlatabilir misin? 
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Anladım O halde, sadece nasıl tabletleri aldığınızı sormak istiyorum, onları suyla mı yoksa başka bir şeyle mi alıyorsunuz? """"""","""""""
+Yemekle ilgili olarak saat kaç?
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Çayınızı nasıl içtiğinizi söyleyebilir misiniz 
+""""""","""""""
+evet
+""""""",how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Çayınızı nasıl içtiğinizi söyleyebilir misiniz 
+""""""",Ben,how_do_you_take_the_tablet,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+hepsini yutuyor musun? 
+""""""",Evet,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""","Evet, yaparım",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""",Evet her zaman,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""","Evet, her zaman tabletlerimi bütün olarak yutuyorum.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""",Doktorumun talimatlarına uyarak tableti bütün olarak yutuyorum.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""",Tablet bütün olarak yutulmak üzere tasarlandığı için ben de öyle yapıyorum.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""",Tabletin doğru çalışmasını sağlamak için tableti bütün olarak yuttuğuma dikkat ediyorum.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,True
+"""""""
+hepsini yutuyor musun? 
+""""""","Hayır, yapmam.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""","Hayır, genellikle yutmadan önce tabletlerimi çiğnerim.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""","Tabletleri bütün olarak yutmakta zorlanıyorum, bu yüzden onları kırıyorum.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""",Doktorum bana yutmadan önce tableti ikiye ayırmanın sorun olmadığını söyledi.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""","Tableti bütün olarak yutmuyorum, önce eziyorum.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""","Tabletleri bütün olarak yutlamak benim için zor, bu yüzden yapmıyorum.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,False
+"""""""
+hepsini yutuyor musun? 
+""""""","Sanırım tableti bütün olarak yutuyorum, ama tamamen emin değilim.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Unsure
+"""""""
+hepsini yutuyor musun? 
+""""""","Bazen tamamını yutarım, bazen de parçalara ayırarak yiyebilirim.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Unsure
+"""""""
+hepsini yutuyor musun? 
+""""""",Tableti bütün olarak yutup yutmayacağımdan emin değilim.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Unsure
+"""""""
+hepsini yutuyor musun? 
+""""""","Farklı doktorlar bana farklı şeyler söyledi, bu yüzden emin değilim.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Unsure
+"""""""
+hepsini yutuyor musun? 
+""""""",İlaç talimatlarımı doğrulamak için kontrol edeceğim.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+hepsini yutuyor musun? 
+""""""",Eczacımı tableti en iyi nasıl alacağım hakkında sormama izin verin.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+hepsini yutuyor musun? 
+""""""",İlaçlarımı doğru şekilde nasıl alacağım konusunda doktorumla görüşmem gerekiyor.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+hepsini yutuyor musun? 
+""""""","İlaçlarım hakkında hala bilgi ediniyorum, bu nedenle bu konuda sana geri döneceğim.",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+hepsini yutuyor musun? 
+""""""",Bu iyi bir soru; daha derinlemesine bakmam lazım.,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"sen sw yapar mısın,","""""""
+evet
+""""""",do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"sen sw yapar mısın,",Ben,do_you_swallow_the_tablet_whole,llm-fls-adherence@1.0.0,Inconclusive
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?",Genellikle hapları yutmadan önce daha küçük parçalara ayırırım.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle nasıl aldığınızı bana söyleyebilir misiniz? Mesela onları kırar mıydınız yoksa önce öğütür müydünüz?,"İlaçlarımı almak için önce onları ezerim, sonra suyla karıştırırım.",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","""""""
+Tam tabletleri yutmak zor olduğu için onları ikiye bölüyorum.
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?",Tableti genellikle bir bardak suya koyup eriterek içiyorum.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle nasıl aldığınızı bana söyleyebilir misiniz? Mesela onları kırar mıydınız yoksa önce öğütür müydünüz?,Onları öğütür ve yiyecek veya içeceklerle karıştırır,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?",Tabletlerimi bütün olarak yutarken hiçbir sorun yaşamıyorum.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,False
+O halde tabletleri nasıl alıyorsunuz? Örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?,Tabletleri bütün yutmak benim için hiç sorun olmadı.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,False
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?",Aslında onları bütün yutuyorum,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,False
+Tabletlerinizi genellikle nasıl aldığınızı bana söyleyebilir misiniz? Mesela onları kırar mıydınız yoksa önce öğütür müydünüz?,Tabletlerimi kırmam veya öğütmem çünkü onları neredeyse bütün olarak yutabilirim.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,False
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?",Onları bütün olarak yutuyorum.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,False
+O halde tabletleri nasıl alıyorsunuz? Örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?,"""""""
+Aslında emin değilim, bazen onları kahveye erittiğimi düşünüyorum, ama genellikle doktorun dediği gibi bütün olarak yutuyorum.
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","Tabletlerimi ezebilirim ya da belki de onları bütün olarak yutuyorum, gerçekten hatırlamıyorum.",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Unsure
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","""""""
+Değişiyor, bazen onları kırmam gerektiğini hissediyorum, ancak bazen de bütün olarak yutmanın sorun olmadığını düşünüyorum.
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,True
+Tabletlerinizi genellikle nasıl aldığınızı bana söyleyebilir misiniz? Mesela onları kırar mıydınız yoksa önce öğütür müydünüz?,"""""""Fikrim yok, hafızam çok iyi değil""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Unsure
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","""""""
+Onları şu an nasıl yapmak istersem öyle yaparım.
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Unsure
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","İlaç talimatlarımı kontrol edeceğim, ne önerdiklerine bakacağım.",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+Tabletlerinizi genellikle nasıl aldığınızı bana söyleyebilir misiniz? Mesela onları kırar mıydınız yoksa önce öğütür müydünüz?,Doktoruma tabletlerimi en iyi nasıl alabileceğimi sorayım.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+O halde tabletleri nasıl alıyorsunuz? Örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?,İlaçlarımı almak için farklı yöntemleri araştırmam gerekiyor.,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","Onları nasıl aldığımı değiştirmeyi düşünüyorum, ancak henüz karar vermedim.",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+"Tabletleri nasıl alıyorsunuz, örneğin onları öğütüyor musunuz yoksa ikiye bölüyor musunuz?","""""""
+Bu tabletlerle bunu doğru yapmak gerçekten zor
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+Bana通常 nasıl yaptığınızı söyleyebilir misiniz?,"""""""
+evet
+""""""",not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+Nasıl alırsınız,Ben,not_swallow_tablet_whole_how_take,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,su iç,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,sadece 30 dakika oturun,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,oturmayı sürdürüyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Doktorun dediği gibi yarım saat boyunca sadece dik duruyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Her zaman bir bardak su içiyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Genellikle yürüyüşe çıkıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Tabletımı alır ve sonra yatağa giderim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Tableti aldıktan hemen sonra bir atıştırmalık yerim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,"Bir şeyler yiyebilirim, ama bir alışkanlık değil",after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Biraz oturup dinleniyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Tableti aldıktan sonra özel bir şey yapmıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,İlaçlarımı almıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,False
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,su iç,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,sadece 30 dakika oturun,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,oturmayı sürdürüyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Doktorun dediği gibi yarım saat boyunca sadece dik duruyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Her zaman bir bardak su içiyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Genellikle yürüyüşe çıkıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Tabletımı alır ve sonra yatağa giderim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Tableti aldıktan hemen sonra bir atıştırmalık yerim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,"Bir şeyler yiyebilirim, ama bir alışkanlık değil",after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Biraz oturup dinleniyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,Tableti aldıktan sonra özel bir şey yapmıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,True
+Tabletlerinizi aldıktan sonra genellikle ne yaparsınız?,İlaçlarımı almıyorum,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,False
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,"Aslında emin değilim, su içebilirim diye düşünüyorum",after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Unsure
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,"Belki bir yürüyüşe çıkacağım, ama emin değilim",after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Unsure
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Tableti aldıktan sonra herhangi bir özel şey yaptığımdan emin değilim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Unsure
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Rutinimi kontrol etmek zorundayım ve sana geri döneceğim,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Inconclusive
+İlaçınızı aldıktan sonra genellikle ne yaparsınız?,Bir dakika düşünmeme izin verin,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Inconclusive
+Normalde sonra ne yaparsınız?,"""""""
+evet
+""""""",after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Inconclusive
+Normalde sonra ne yaparsınız?,Ben,after_taking_tablet_or_medication,llm-fls-adherence@1.0.0,Inconclusive
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Evet,side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Evet, var.",side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+bazıları duyuyor evet
+""""""",side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Evet, biraz hazımsızlık",side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Evet, bazı mide ağrısı",side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Evet, ilacı almaya başladığımdan beri bazı mide yanmaları yaşıyorum.",side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Bisfosfonatlarımı aldıktan sonra hazımsızlık olduğunu fark ettim.,side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Tabletleri kullanmaya başladığımdan beri ara sıra yutkunma güçlüğüne sahip oldum.,side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Bu tabletleri aldıktan sonra daha önce yaşamadığım uyluk ağrısı yaşamaya başladım.,side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Bulantı ve mide rahatsızlığı hissediyorum ve bunun ilaca bağlı olabileceğini düşünüyorum.,side_effects_general,llm-fls-adherence@1.0.0,True
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Hayır, bisfosfonatlar nedeniyle herhangi bir yan etki görmedim.",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+hayır belum
+""""""",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+hayır hiç değil
+""""""",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+hayır hiçbir şey değil
+""""""",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","İlaçları kullanmaya başladığımdan beri kendimi mükemmel hissediyorum, hiç sorun yaşamadım.",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Herhangi bir olağanüstü şey fark etmedim.,side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+Hiçbir şey fark etmedim, hayır.
+""""""",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Tabletler bana uygun gibi görünüyor, hiçbir sorun yok.",side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Farkında olduğum hiçbir yan etki yaşamadığımı düşünmüyorum.,side_effects_general,llm-fls-adherence@1.0.0,False
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",İlaçla ilgili olup olmadığını bilmiyorum ama biraz garip hissediyorum.,side_effects_general,llm-fls-adherence@1.0.0,Unsure
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Belki de bazı mide yanmaları yaşadım, ama başka bir şeyden de olabilir.",side_effects_general,llm-fls-adherence@1.0.0,Unsure
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Sanırım biraz hazımsızlık çekmiş olabilirim, ama kesin olarak söylemek zor.",side_effects_general,llm-fls-adherence@1.0.0,Unsure
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Uyluklarımda bazı ağrılar oldu, ama bu ağrının tabletlerden kaynaklandığından emin değilim.",side_effects_general,llm-fls-adherence@1.0.0,Unsure
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Yan etkiler yaşayabileceğimi hissediyorum ama neye dikkat etmem gerektiğini gerçekten bilmiyorum.,side_effects_general,llm-fls-adherence@1.0.0,Unsure
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?",Onu gözetleyeceğim ve bir değişiklik olup olmadığını görmek için bekleyeceğim.,side_effects_general,llm-fls-adherence@1.0.0,Inconclusive
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Belirtilerimi kaydettiğim günlüğü kontrol edeyim, belki bir şeyler not etmişimdir.",side_effects_general,llm-fls-adherence@1.0.0,Inconclusive
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Sonraki randevuda doktoruma bunu söyleyecektim, ancak henüz fırsat bulamadım.",side_effects_general,llm-fls-adherence@1.0.0,Inconclusive
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","Eczacıma olası yan etkiler hakkında soru sormayı düşünüyordum, bana daha fazla bilgi verebilir misiniz?",side_effects_general,llm-fls-adherence@1.0.0,Inconclusive
+"Şimdi, tabletlerinizi aldıktan bu yana yaşadığınız herhangi bir sorunu konuşalım. Kalp yanması, hazımsızlık veya başka herhangi bir sorun gibi yan etkiler yaşadınız mı?","""""""
+Hiçbiri
+""""""",side_effects_general,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Evet, bu yan etki hakkında already doktorumla konuşmuşum ve onlar benim ilaçlarımı ayarladılar.",side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Evet,side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Evet, var.",side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Evet, doktoruma söyledim",side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Geçen hafta doktorumla konuştum ve durumunuzu izleyin ve kötüleşirse geri gelin dediler.,side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Doktorum haberdar ve bir sonraki adımı kararlaştırmak için test sonuçlarını bekliyoruz.,side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Aile hekimime bilgi verdim ve yan etkiyi yönetmeme yardımcı olmak için bana bir şey yazdılar.,side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Doktorumun bildiğini düşünüyorum, ancak herhangi bir işlem yapma konusunda konuşmadık.",side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Evet, doktorum biliyor ve alternatif tedavileri araştırıyoruz.",side_effect_informed_gp,llm-fls-adherence@1.0.0,True
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Hayır, henüz bunu doktorumla konuşma fırsatım olmadı.",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"""""""
+Henüz değil
+""""""",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Hayır, yapmadım",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"""""""
+Henüz değil
+""""""",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Bu yan etki hakkında doktoruma bilgi vermenin gerekli olmadığını düşünmüyorum.,side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Doktorumu bu konuda rahatsız etmeli miyim bilemiyorum, belki kendi kendine geçer.",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"""""""
+Bu başladıktan beri doktorumu görmedim, yani hayır, haberdar değiller.
+""""""",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"""""""
+Henüz değil, bir sonraki randevumda bundan bahsetmeyi planlıyorum.
+""""""",side_effect_informed_gp,llm-fls-adherence@1.0.0,False
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Sanırım bundan bahsetmiştim ama doktorumun hatırlayıp hatırlamadığını bilmiyorum.,side_effect_informed_gp,llm-fls-adherence@1.0.0,Unsure
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Doktorumun haberdar olup olmadığını bilmiyorum, ziyaret sırasında birçok şey hakkında konuştuk.",side_effect_informed_gp,llm-fls-adherence@1.0.0,Unsure
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Belki, bu yan etkisinin konuşmamızın bir parçası olup olmadığını hatırlamıyorum.",side_effect_informed_gp,llm-fls-adherence@1.0.0,Unsure
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Bunu doktorumla görüşmek için randevu alacağım.,side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Tıbbi kayıtlarımı kontrol edeyim, bahsedilip bahsedilmediğine bakayım.",side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Doktorun ofisine arayarak ne önerdiklerini öğrenmem lazım.,side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,"Bu iyi bir soru, muhtemelen bunu araştırmalıyım.",side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Bu yan etki hakkında zaten aile hekiminize bilgi verdiniz mi?,Doktorun ofisinden semptomlarımı tartışmak için geri aranmayı bekliyorum.,side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Sen onlara konuştuğun mu?,"""""""
+evet
+""""""",side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Sen onlara konuştuğun mu?,Ben,side_effect_informed_gp,llm-fls-adherence@1.0.0,Inconclusive
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"""""""
+evet
+""""""",swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Son zamanlarda yutkunurken çok fazla sorun yaşıyorum, yemeklerin takıldığını hissediyorum.",swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Yutkunmak bana özellikle katı gıdalarla çok ağrılı hale geldi.,swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Yediğim her defasında neredeyse yutkunurken zorlanıyorum.,swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Bazen yutkunduğumda yemek boğazımın içinde takılıymış gibi geliyor.,swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Yutkunmadan önce yiyeceğimi uzun süre çiğnemem gerekiyor, yoksa takılacağından korkuyorum.",swallowing_difficulty,llm-fls-adherence@1.0.0,True
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Hayır,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"""""""
+Hayır, hiç de değil
+""""""",swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Yutkunurken herhangi bir sorun yaşamadım.,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Yutkunmak bana mükemmel şekilde normal geliyor.,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Yutkunurken hiçbir ağrı veya zorluk yaşamıyorum.,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Her şey yediğimde veya içtiğimde düzgün bir şekilde geçiyor.,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,Hiçbir şekilde yutma problemi yaşamadım.,swallowing_difficulty,llm-fls-adherence@1.0.0,False
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"""""""Emin değilim, bazen normalden biraz daha yutkunması zor gibi geliyor, ancak tutarlı değil.""""""",swallowing_difficulty,llm-fls-adherence@1.0.0,Unsure
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Farklı geliyor, ama gerçekten yutması daha zor mu yoksa değil mi, emin değilim.",swallowing_difficulty,llm-fls-adherence@1.0.0,Unsure
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Bazen her şeyi yutmak için birkaç kez yutkunmam gerektiğini hissediyorum, ama bunun normal olup olmadığını bilmiyorum.",swallowing_difficulty,llm-fls-adherence@1.0.0,Unsure
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"İlgili olup olmadığını bilmiyorum ama yemek yerken biraz rahatsızlık hissediyorum, yutkunma ile ilgili olabilir, emin değilim.",swallowing_difficulty,llm-fls-adherence@1.0.0,Unsure
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"""""""
+Bir sonraki öğünümde buna daha fazla dikkat etmeye çalışacağım, bakalım bir şey fark edecek miyim.
+""""""",swallowing_difficulty,llm-fls-adherence@1.0.0,Inconclusive
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Muayene için randevu almak üzereydim, ancak henüz gitmedim.",swallowing_difficulty,llm-fls-adherence@1.0.0,Inconclusive
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Bu iyi bir soru, muhtemelen bunu doktoruma sormalıyım.",swallowing_difficulty,llm-fls-adherence@1.0.0,Inconclusive
+Yutkunurken herhangi bir zorluk veya ağrı yaşadın mı?,"Bunu araştırmayı düşünüyordum, ama şimdiye kadar fırsat bulamadım.",swallowing_difficulty,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Teşekkürler, öyleyse sadece kontrol etmek istiyorum, yutkunurken herhangi bir zorluk veya ağrı yaşadın mı? 
+""""""","""""""
+Hiçbiri
+""""""",swallowing_difficulty,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Evet,thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","""""""
+Evet çok ağrı
+""""""",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Evet, bazı kalça ağrısı",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Evet, ilacı kullanmaya başladığımdan beri uyluklarımda keskin bir ağrı yaşıyorum.",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Tedaviye başlamadan önce olmayan, kalçamda yeni bir ağrı fark ettim.",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaçları aldıktan sonra, gitmeyen kasıklarımda bir ağrı oluştu.",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaç, uyluk ağrısına neden oluyor gibi görünüyor, geçen haftadan beri sürekli devam ediyor.",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaçla ilgili olup olmadığını bilmiyorum, ama uyluklarımda bazı rahatsızlıklar yaşamaktayım.",thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Yeni ilacı kullanmaya başladıktan birkaç gün sonra uyluklarımda ağrı hissetmeye başladım ve durum kötüleşiyor.,thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Belki de ilaçların etkisi ama kalça bölgesimde ara sıra bazı ağrılar yaşamaktayım.,thigh_pain,llm-fls-adherence@1.0.0,True
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Hayır,thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","""""""
+Hayır, öyle bir şey yok
+""""""",thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaçları kullanmaya başladıktan bu yana uyluk, kalça veya kasık bölgemde yeni bir ağrı yaşamadım.",thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Uyluklarımda veya kalçamda hiçbir fark hissetmiyorum, hiç yeni ağrı yok.",thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaç, uyluk ağrısı ile ilgili olarak bana hiçbir sorun yaratmadı.",thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",O bölgelerde herhangi bir ağrı yaşamadığım için ilacın sorun olmadığını düşünüyorum.,thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Uyluk veya kalça bölgesimde hiçbir değişiklik olmadı, her şey normal geliyor.",thigh_pain,llm-fls-adherence@1.0.0,False
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Sanırım kasıklarımda bir şeyler hissediyorum ama bunun ilacın etkisi olup olmadığını söylemek zor.,thigh_pain,llm-fls-adherence@1.0.0,Unsure
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Önce uyluk ağrım vardı, bu yüzden bunun yeni bir şey olup olmadığını ya da eski bir sorunun yeniden ortaya çıkıp çıkmadığını bilmiyorum.",thigh_pain,llm-fls-adherence@1.0.0,Unsure
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","İlaç baldırmımın ağrımasına neden oluyor olabilir, ama gerçekten emin değilim.",thigh_pain,llm-fls-adherence@1.0.0,Unsure
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","Acının nedenini tam olarak bilmiyorum, ancak nedenini daha derinlemesine araştırmak için bir takip randevusu ayarlamayı planlıyorum.",thigh_pain,llm-fls-adherence@1.0.0,Unsure
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?",Ona dikkat edeceğim,thigh_pain,llm-fls-adherence@1.0.0,Inconclusive
+"İlaçınızı kullanmaya başladıktan bu yana yeni bir uyluk, kalça veya kasık ağrısı yaşadınız mı?","""""""
+Hiçbiri
+""""""",thigh_pain,llm-fls-adherence@1.0.0,False
+Yeni bir şey yaşadın mı?,"""""""
+evet
+""""""",thigh_pain,llm-fls-adherence@1.0.0,Inconclusive
+Yeni bir şey yaşadın mı?,Ben,thigh_pain,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Evet,supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Evet, her gün doktorun verdiği talimata uygun olarak kalsiyum ve D vitamini takviyelerimi alıyorum.",supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Kalsiyum ve D vitamini takviyeleri almak konusunda çok tutarlıyım.,supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Doktorum onları günlük olarak almayı söyledi ve ben de öyle yapıyorum.,supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Her sabah kahvaltımla birlikte takviyelerimi alıyorum, böylece unutmayı da engelliyorum.",supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Evet, sağlık hizmetleri sağlayıcım tarafından yönlendirildiği şekilde hem kalsiyum hem de D vitamini takviyelerimi alıyorum.",supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Hayır,supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Hayır, kalsiyum ve D vitamini takviyelerimi almıyorum.",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Onları birkaç hafta önce bıraktım çünkü gerekli olmadıklarını hissettim.,supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Dürüst olmak gerekirse, doktorumun yazdığı takviyeleri asla kullanmaya başlamadım.",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","""""""
+Onları sadece ara sıra alırım, düzenli olarak değil.
+""""""",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Hayır, kalsiyum ve D vitamini dahil hiçbir takviye kullanmıyorum.",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Birkaç günü kaçırmış olabilirim, ama tekrar rayına girmeye çalışıyorum.",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Bu iyi bir soru; muhtemelen onları daha düzenli olarak almaya başlamalıyım.,supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","""""""
+Yakında tekrar almaya başlamayı planlıyorum, ancak henüz başlamadım.
+""""""",supplements_check,llm-fls-adherence@1.0.0,False
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Sanırım onları alıyorum ama tamamen emin değilim.,supplements_check,llm-fls-adherence@1.0.0,Unsure
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""","Kahvaltıda onları aldığımdan oldukça eminim, ama dün kaçırmış olabilirim.",supplements_check,llm-fls-adherence@1.0.0,True
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",İlaç listemi hızlıca kontrol edeyim.,supplements_check,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",İlaçlarımı yöneten aile üyesine sormam lazım.,supplements_check,llm-fls-adherence@1.0.0,Inconclusive
+"""""""
+Kalsiyum ve/veya D vitamini takviyenizi düzenli olarak alıyor musunuz?
+""""""",Onları ne zaman son kez aldığımı görmek için takvimime bakmak zorundayım.,supplements_check,llm-fls-adherence@1.0.0,Inconclusive
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Onları almayı unuttum,why_not_taking_supplements,llm-fls-adherence@1.0.0,True
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"Onların çalışmadığından öyle düşündüm, bu yüzden durdum",why_not_taking_supplements,llm-fls-adherence@1.0.0,True
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Yan etkileri benim için çok fazlaydı,why_not_taking_supplements,llm-fls-adherence@1.0.0,True
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Artık onlara ihtiyacım olmadığını hissettim,why_not_taking_supplements,llm-fls-adherence@1.0.0,True
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Zaten çok fazla ilaç alıyordum,why_not_taking_supplements,llm-fls-adherence@1.0.0,True
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Onları her gün reçete edildiği gibi alıyorum,why_not_taking_supplements,llm-fls-adherence@1.0.0,False
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Ek takviyelerimi almaktan asla vazgeçmedim,why_not_taking_supplements,llm-fls-adherence@1.0.0,False
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,İlaçlarıma karşı çok dikkatliyim,why_not_taking_supplements,llm-fls-adherence@1.0.0,False
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Haplarımı zamanında alıyorum,why_not_taking_supplements,llm-fls-adherence@1.0.0,False
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"""""""
+Haftalardır doz kaçırmadım
+""""""",why_not_taking_supplements,llm-fls-adherence@1.0.0,False
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"""""""Emin değilim, birkaç günü kaçırmış olabilirim""""""",why_not_taking_supplements,llm-fls-adherence@1.0.0,Unsure
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"Hatırlamaya çalışıyorum, ama emin değilim",why_not_taking_supplements,llm-fls-adherence@1.0.0,Unsure
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"Belki bir süre durakladım, ama emin değilim",why_not_taking_supplements,llm-fls-adherence@1.0.0,Unsure
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Hap kutumu kontrol edeyim,why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"Takvime bakmam lazım, hatırlayabileyim.",why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"""""""
+Bana almanız gereken takviyeleri hatırlatabilir misiniz? 
+""""""",why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,Ailemdeki bir kişiye soracağım.,why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Anladım. İnsanların zaman içinde takviyelerle devam etmesi konusunda zorlandıklarını biliyorum. Onları almaktan neden vazgeçtin?,"""""""
+Buna dair sana geri dönmek zorundayım
+""""""",why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Seni durduran ne oldu?,"""""""
+evet
+""""""",why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Seni durduran ne oldu?,Ben,why_not_taking_supplements,llm-fls-adherence@1.0.0,Inconclusive
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Evet, geçen hafta düşmüştüm",falls_since_clinic,llm-fls-adherence@1.0.0,True
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,Son randevumdan bu yana iki kez düşmüşümdür,falls_since_clinic,llm-fls-adherence@1.0.0,True
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,Maalesef birkaç gün önce buzun üzerinde düştüm,falls_since_clinic,llm-fls-adherence@1.0.0,True
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Evet, banyoda kayıp düştüm",falls_since_clinic,llm-fls-adherence@1.0.0,True
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,Merdivenlerden aşağı inerken düştüm,falls_since_clinic,llm-fls-adherence@1.0.0,True
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Hayır, son randevumdan bu yana herhangi bir düşme yaşamadım",falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,Düşme olmadı diye mutlu bir şekilde rapor verebilirim,falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Her şey yolunda, rapor edilecek düşüş yok",falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"""""""
+Dikkatliydim, bu yüzden benim için hiçbir düşüş olmadı
+""""""",falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Son ziyaretimden bu yana, şükür ki",falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"""""""
+Düşme olarak adlandırmayı bilmiyorum ama tökezledim
+""""""",falls_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Muhtemelen, bir miktar baş dönmesi geçirdim",falls_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"Bu iyi bir soru, bir an düşünmeme ihtiyacım var",falls_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"""""""
+Emin değilim, son randevum ne zaman olduğunu hatırlatabilir misiniz?
+""""""",falls_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son klinik ziyaretinizden bu yana herhangi bir düşme yaşadınız mı?,"""""""
+Hiçbiri
+""""""",falls_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Evet, geçen hafta kolumu kırdım.",fractures_since_clinic,llm-fls-adherence@1.0.0,True
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Son randevumdan bu yana düştüm ve kalçamı kırdım.,fractures_since_clinic,llm-fls-adherence@1.0.0,True
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Maalesef, son doktoru gördüğümden bu yana iki yeni kırık yaşadım.",fractures_since_clinic,llm-fls-adherence@1.0.0,True
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Birkaç gün önce buz üzerinde kayıp, bileğimi kırdım.",fractures_since_clinic,llm-fls-adherence@1.0.0,True
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Evet, son klinik ziyaretimden bu yana bacağımda yeni bir kırık oluştu.",fractures_since_clinic,llm-fls-adherence@1.0.0,True
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Hayır,fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,kesinlikle değil,fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Hayır, son randevumdan bu yana hiçbir kemiğimi kırmadım.",fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Dikkatli davrandım ve yeni hiçbir kırık yaşamadım.,fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"""""""
+Şükür ki bana yeni kırıklar olmadı.
+""""""",fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Son ziyaretimden bu yana yeni kırıklar veya kemik çatlamaları olmadıktan memnunum.,fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"""""""Kötü bir düşme geçirdim ama bir şeyin kırıldığından emin değilim.""""""",fractures_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Sanırım kaburgamdan biri kırılmış olabilir, ama emin değilim.",fractures_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Ağrı çekiyorum ama bunun kırık olup olmadığını veya başka bir şey olup olmadığını bilmiyorum.,fractures_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Doktor onaylayana kadar bekliyorum ama sanki bir şeyimi kırmışım gibi geliyor.,fractures_since_clinic,llm-fls-adherence@1.0.0,Unsure
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Röntgen çektirdim, ancak sonuçları henüz almadım.",fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Röntgen çektirmeye gideceğim, böylece yakında öğreneceğim.",fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Kayıtlarımı hızlıca kontrollememe izin verin.,fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"Ailemdeki kişiye sormam lazım, belki onlar daha iyi bilir.",fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Bunu tartışmak için bir takip randevusu aldım.,fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,Doktorumla konuşduktan sonra size geri arayabilir miyim?,fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Son ziyaretinizden bu yana herhangi bir kemiğinizi kırdınız mı?,"""""""
+Hiçbiri
+""""""",fractures_since_clinic,llm-fls-adherence@1.0.0,False
+Bir şey mi kırdın?,"""""""
+evet
+""""""",fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Bir şey mi kırdın?,Ben,fractures_since_clinic,llm-fls-adherence@1.0.0,Inconclusive
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"""""""
+Evet var.
+""""""",new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Evet.,new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Çok fazla diş ağrım var,new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Evet, tedaviye başladığımdan beri keskin çene ağrısı yaşıyorum.",new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Dişlerimdeki yeni bir sorun nedeniyle diş hekimimi görmem gerekti.,new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Çenem最近 çok ağrıyordu, tedaviye başladığım zaman başladı.",new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Öncesinde çene problemlerim yoktu, ancak şimdi önemli ölçüde ağrıya sahip olduğumu fark ediyorum.",new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Tedaviye başladığımdan beri, çenemde tıkama sesi gelişti ve çiğnerken ağrıyor.",new_dental_problems,llm-fls-adherence@1.0.0,True
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Hayır.,new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Hayır, tedaviye başladığımdan beri dişlerim veya çenem ile ilgili yeni hiçbir sorun yaşamadım.",new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Diş hekimim dişlerimin iyi olduğunu, hiçbir sorunun olmadığını söylüyor.",new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Son zamanlarda dişçiye gittim ve çenemde hiçbir sorun bulamadılar.,new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Çenemde veya dişlerimde herhangi bir ağrı veya sorun yaşamıyorum.,new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Tedavi başladıktan bu yana herhangi bir yeni sorun için diş hekimimi görmem için hiçbir sebep olmadı.,new_dental_problems,llm-fls-adherence@1.0.0,False
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Tedavi ile ilgili olup olmadığını bilmiyorum, ama bazı çene rahatsızlıkları yaşıyorum.",new_dental_problems,llm-fls-adherence@1.0.0,Unsure
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Çenemde bir sorunum olabileceğini düşünüyorum, ancak emin olmak için diş hekimimi görmem gerekiyor.",new_dental_problems,llm-fls-adherence@1.0.0,Unsure
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Bazen çene ağrım oluyor, ama bu gece diş gıcırdatmaktan da olabilir.",new_dental_problems,llm-fls-adherence@1.0.0,Unsure
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Çene ağrımın yeni olup olmadığını veya önce hiç fark etmediğimi bilmiyorum.,new_dental_problems,llm-fls-adherence@1.0.0,Unsure
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"Çene problemlerim olabilir, ancak diş hekimimle randevuma kadar bekliyorum, böylece doğrulayacağım.",new_dental_problems,llm-fls-adherence@1.0.0,Unsure
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Çeneğimi kontrol ettirmek için diş hekimimle randevu alacağım.,new_dental_problems,llm-fls-adherence@1.0.0,Inconclusive
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,Çenemdeki durumun ne olduğunu anlamak için daha fazla araştırma yapmam gerekiyor.,new_dental_problems,llm-fls-adherence@1.0.0,Inconclusive
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"""""""
+Çene ağrımın nedenini bilmiyorum, daha derinlemesine bakmam gerekiyor.
+""""""",new_dental_problems,llm-fls-adherence@1.0.0,Inconclusive
+Tedaviye başladığınızdan beri dişlerinizde yeni sorunlar oluştu mu veya diş hekiminizi görmek zorunda kaldınız mı?,"""""""
+Hiçbiri
+""""""",new_dental_problems,llm-fls-adherence@1.0.0,False
+Yeni bir sorun geliştirdiniz mi?,"""""""
+evet
+""""""",new_dental_problems,llm-fls-adherence@1.0.0,Inconclusive
+Yeni bir sorun geliştirdiniz mi?,Ben,new_dental_problems,llm-fls-adherence@1.0.0,Inconclusive
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Dışarıda yürürken düştüm...,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","Kaldırıma kaydım ve sadece düştüm... kalçama çarptım, kırdım.",fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Mutfak yönüne yürürken halıya takıldım ve düştüm,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Banyodan çıkarken düştüm,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","Aslında sadece bilirsin, sokakta yürüyordum ve oldukça soğuk bir gündü ve bir parça yamalı buzun üzerine kaydım ve bileğimi oldukça sert bir şekilde yere çarptım",fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Evinin dışında bazı buzlar üzerinde kaydım.,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Yapraklara kaydım,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","Gerçekten hiçbir şey olmadı, sadece dengemi kaybettim.",fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",bir araba kazasıydı,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Eve geldiğimde yaklaşık on merdiven aşağıya düştüm,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Futbol oynuyordum ve biri beni oldukça sert bir şekilde yere serdi,fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","""Ah, yüksek bir raftan bir şey almak için uzanıyordum ve dengemi kaybettim""",fracture_cause,llm-fls-initial@1.0.0,True
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","""""""
+hiçbir şeyimi kırmadım
+""""""",fracture_cause,llm-fls-initial@1.0.0,False
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","""""""
+kırığım yok
+""""""",fracture_cause,llm-fls-initial@1.0.0,False
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",geçen hafta perşembe günüydü,fracture_cause,llm-fls-initial@1.0.0,Inconclusive
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?",Oğlumun doğum gününde onun evindeydim,fracture_cause,llm-fls-initial@1.0.0,Inconclusive
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","Kolum, çok çok ağrılı.",fracture_cause,llm-fls-initial@1.0.0,Inconclusive
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","""işte düşünmeme izin ver, sana daha sonra dönebilir miyim""",fracture_cause,llm-fls-initial@1.0.0,Inconclusive
+"Başlamak için, kırığınızın nasıl meydana geldiğini bana anlatır mısınız? Ne yapıyordunuz ve nasıl oldu?","""""""Dürüst olmak gerekirse gerçekten hatırlamıyorum""""""",fracture_cause,llm-fls-initial@1.0.0,Unsure
+"Başlamak için, kırığın nasıl meydana geldiğini bana anlatır mısın?","""""""İyi, tamamen emin değilim""""""",fracture_cause,llm-fls-initial@1.0.0,Unsure
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+evet
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+evet bu benim ilk kemik kırığım
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+evet ilk kez
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+bu, bir şeyi kırmamdaki ilk deneyim evet
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+önceden hiçbir şeyi kırmamıştım
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""",hayır,first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","Hayır, yaklaşık 40 yaşımdayken yıllarca önce bileğimi kırdım",first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","""""""
+Hayır, maalesef daha önce kemiklerim kırıldı
+""""""",first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""",Yirmili yaşlarımda iken ayak bileğimi kırdım,first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""","Öncesinde kırıklar yaşayıp yaşamadığımı hatırlayamıyorum, emin değilim",first_fracture,llm-fls-initial@1.0.0,Unsure
+"""""""
+Kemik kırdığın ilk defa mı? 
+""""""",Çocukken belki bir şeyi kırmışım ama gerçekten bilmiyorum,first_fracture,llm-fls-initial@1.0.0,Unsure
+"""""""
+Bu ilk defa mı oluyor
+""""""","""""""
+evet öyle
+""""""",first_fracture,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Bu ilk defa mı oluyor
+""""""",hayır,first_fracture,llm-fls-initial@1.0.0,Inconclusive
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Hayır, daha önce hiç kırık yaşamadım.",first_fracture,llm-fls-initial@1.0.0,True
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","""""""
+hiçbir şeyi daha önce kırmadım
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Hayır, bu benim bir kemiği kırdığım ilk kez.",first_fracture,llm-fls-initial@1.0.0,True
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Evet, birkaç yıl önce bacağımdan yaralandım",first_fracture,llm-fls-initial@1.0.0,False
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Evet, yıllarca önce, yaklaşık 40 yaşındayken bileğimi kırdım",first_fracture,llm-fls-initial@1.0.0,False
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Evet, kolumu iki kez, belki de ayağımı kırdım sanırım",first_fracture,llm-fls-initial@1.0.0,False
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?",Çocukken belki bir kemiğimi kırmıştım ama gerçekten bilmiyorum,first_fracture,llm-fls-initial@1.0.0,Unsure
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","""""""Dürüst olmak gerekirse gerçekten hatırlayamıyorum""""""",first_fracture,llm-fls-initial@1.0.0,Unsure
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?",Aslında emin değilim,first_fracture,llm-fls-initial@1.0.0,Unsure
+"Öyleyse, sadece şunu sorarak başlamak istiyorum, hiç 
+
+(Not: Cümle tamamlanmadığı için çeviride de cümle tamamlanmamış şekilde bırakılmıştır.)","Evet, sanırım öyle.",first_fracture,llm-fls-initial@1.0.0,Inconclusive
+"Öyleyse, sadece şunu sorarak başlamak istiyorum, hiç 
+
+(Not: Cümle tamamlanmadığı için çeviride de cümle tamamlanmamış şekilde bırakılmıştır.)","""""""
+hayır gerçekten değil
+""""""",first_fracture,llm-fls-initial@1.0.0,Inconclusive
+"Öyleyse, başlamak için sadece sormak istiyorum, daha önce bir kemiği kırdınız mı?","Üzgünüm, soruyu tam olarak anlamadım",first_fracture,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""","Evet, maalesef öyle.",first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""","""""""
+evet
+""""""",first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""",Maalesef,first_fracture,llm-fls-initial@1.0.0,False
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""","""""""
+şanslıyım ki yapmadım
+""""""",first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""",hayır,first_fracture,llm-fls-initial@1.0.0,True
+"""""""
+Teşekkür ederim, öyleyse sadece发生 olan şeyin anlaşılmasını sağlamak istiyorum. Kemik kırığınızla ilgili olarak ne olduğunu bana anlatabilir misiniz? Daha önce bir kemiğinizi kırdınız mı? 
+""""""",şanslıyım ki,first_fracture,llm-fls-initial@1.0.0,True
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""""""
+yaklaşık üç yıl önce bahçede düşmüştüm ve bileğimi incitmiştim
+""""""",previous_fracture,llm-fls-initial@1.0.0,True
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,Yaklaşık 5 yıl önce evde düştüm ve kalçamı kırdım,previous_fracture,llm-fls-initial@1.0.0,True
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"kırdığım bilek, kışın buz üzerinde kaydım",previous_fracture,llm-fls-initial@1.0.0,True
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""oh, benim kürek kemiğim, bisikletten düştüm""",previous_fracture,llm-fls-initial@1.0.0,True
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,Önceden hiç kemik kırmadım,previous_fracture,llm-fls-initial@1.0.0,False
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""""""
+hayır hayır aslında daha önce hiçbir kemiğimi kırmadım
+""""""",previous_fracture,llm-fls-initial@1.0.0,False
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""""""
+hayır hayır hiçbirini kırmadım
+""""""",previous_fracture,llm-fls-initial@1.0.0,False
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""""""Doğruyu söylemek gerekirse tam olarak nerede olduğunu hatırlamıyorum""""""",previous_fracture,llm-fls-initial@1.0.0,Unsure
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""eh sanırım bilmiyorum""",previous_fracture,llm-fls-initial@1.0.0,Unsure
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""""eh sanırım hatırlayamıyorum""""",previous_fracture,llm-fls-initial@1.0.0,Unsure
+Önceki kırığınızın nerede meydana geldiğini ve ne olduğunu doğrulayabilir misiniz?,"""Sanırım, belki kolum ya da bileğim""",previous_fracture,llm-fls-initial@1.0.0,Unsure
+Onaylayabilir misiniz nerede,sol tarafımda bir yerlerdeydi,previous_fracture,llm-fls-initial@1.0.0,Inconclusive
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"Evet, annem yetmişli yaşlarında iken kalçasını kırdı",family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,Babam birkaç yıl önce kalça kemiğinde bir kırık yaşamıştı,family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,Her iki ebeveynimde kalça problemleri vardı evet,family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,Kız kardeşim geçen yıl kalçasını kırdı,family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"evet, kardeşim",family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+evet
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,evet hmm sanırım kardeşim uh evet,family_history_hip_fracture,llm-fls-initial@1.0.0,True
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+hayır bildiğim kadarıyla hayır
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,hayır,family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+hayır kimse
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+ailemde kimse böyle bir şey yaşamamış
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+bildiğim kadarıyla değil
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"halamı bir şey kırdı ama ne olduğunu tam olarak bilemiyorum, kalçası mı yoksa başka bir şey mi",family_history_hip_fracture,llm-fls-initial@1.0.0,Unsure
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+Aslında emin değilim, belki annem ama hatırlayamıyorum
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,Unsure
+Yakın akrabalarınızdan herhangi biri ileri yaşta kalçasını kırdı mı?,"""""""
+Hiçbiri
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,False
+Yakınlarınızdan herhangi biri,"""""""
+evet annem yaptı
+""""""",family_history_hip_fracture,llm-fls-initial@1.0.0,Inconclusive
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","Evet, menopoza yıllar önce ellili yaşların başlarında girdim",menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?",şu anda deneyimlemektedir,menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?",Şu anda aslında bunu yaşıyorum,menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","Evet, sanırım 5 yıl önce başladı",menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","""""""
+Evet, bunu yaşadım
+""""""",menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","""""""
+evet var
+""""""",menopause_status,llm-fls-initial@1.0.0,True
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","""""""
+henüz değil, hala adet görüyorum
+""""""",menopause_status,llm-fls-initial@1.0.0,False
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","""""""
+henüz onu geçmedim
+""""""",menopause_status,llm-fls-initial@1.0.0,False
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","""""""Şaka değil, gerçekten geçip geçmediğimi bilmiyorum""""""",menopause_status,llm-fls-initial@1.0.0,Unsure
+"Bazı insanların oldukça kişisel bulduğu bir soru sormak istiyorum, ancak bu gerçekten kemik sağlığınızı anlamamıza yardımcı olacak. Menopoza girdiniz mi veya şu anda deneyimiyor musunuz?","Aslında dönemlerim biraz düzensiz, bilmiyorum.",menopause_status,llm-fls-initial@1.0.0,Unsure
+Geçtin mi?,"""""""
+evet benim
+""""""",menopause_status,llm-fls-initial@1.0.0,Inconclusive
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+evet
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+evet var
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"Evet, romatoid artritim için steroid hapları alıyorum",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+Astım için steroid inhaler kullanıyorum evet
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"Evet, egzamam için bir steroid kremim var",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,Günlük prednizolon alıyorum,steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,Şu an steroid kullanıyorum,steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,evet tabletler alıyorum,steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"Evet, bazı kremler ve tabletler alıyorum",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+eski zamanlarda 
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+eskiden yapardim ama artik yapmiyorum
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+Onları alırdım ama artık değil, geçen yıl bırakmıştım
+""""""",steroid_medication,llm-fls-initial@1.0.0,True
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,hayır,steroid_medication,llm-fls-initial@1.0.0,False
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,hiçbir şeyim yok,steroid_medication,llm-fls-initial@1.0.0,False
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+hayır, hiçbir şeyin içinde değilim hayır
+""""""",steroid_medication,llm-fls-initial@1.0.0,False
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+hayır hiçbir şey değil
+""""""",steroid_medication,llm-fls-initial@1.0.0,False
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"İlaçımın steroid olup olmadığını bilmiyorum, kontrol etmem lazım",steroid_medication,llm-fls-initial@1.0.0,Unsure
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,Belki de steroid olarak neyin sayılacağını bilmiyorum,steroid_medication,llm-fls-initial@1.0.0,Unsure
+Herhangi bir zaman steroid ilaçları kullanmış mıydınız?,"""""""
+Hiçbiri
+""""""",steroid_medication,llm-fls-initial@1.0.0,False
+"""""""
+Hiç
+""""""","""""""
+evet her gün
+""""""",steroid_medication,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Hiç
+""""""","""""""
+evet her gün
+""""""",steroid_medication,llm-fls-initial@1.0.0,Inconclusive
+Sen,"""""""
+evet her gün
+""""""",steroid_medication,llm-fls-initial@1.0.0,Inconclusive
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+evet
+""""""",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,onayladılar evet,arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+evet evet yaparım
+""""""",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+evet yaparım evet
+""""""",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"Evet, ellerimde romatoid artrit var.",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+evet dizlerimde yaparım
+""""""",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"Evet, birkaç yıl önce romatoid artrit teşhisi konuldu.",arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,Osteoartritim var,arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,Artiritim var evet,arthritis,llm-fls-initial@1.0.0,True
+Bir doktor size ever artrit olduğunuzu söyledi mi?,hayır,arthritis,llm-fls-initial@1.0.0,False
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+hayır asla
+""""""",arthritis,llm-fls-initial@1.0.0,False
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+Hayır, romatizmal hastalığımdan değil
+""""""",arthritis,llm-fls-initial@1.0.0,False
+Bir doktor size ever artrit olduğunuzu söyledi mi?,hayır yapmam,arthritis,llm-fls-initial@1.0.0,False
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+bildiğim kadarıyla değil
+""""""",arthritis,llm-fls-initial@1.0.0,False
+Bir doktor size ever artrit olduğunuzu söyledi mi?,Eklem ağrım var ama bunun romatizma olup olmadığını bilmiyorum,arthritis,llm-fls-initial@1.0.0,Unsure
+Bir doktor size ever artrit olduğunuzu söyledi mi?,"""""""
+Onunla teşhis edilmediğimden emin değilim
+""""""",arthritis,llm-fls-initial@1.0.0,Unsure
+"""""""
+Sende var mı
+""""""","""""""
+evet yaparım
+""""""",arthritis,llm-fls-initial@1.0.0,Inconclusive
+Diyabetik misiniz?,"""""""
+evet ben
+""""""",diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,"""""""
+evet
+""""""",diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,evet,diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,"Evet, diyabetim var. Yaklaşık on yıldır diyabetim var.",diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,evet tip 2 diyabet,diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,Gençliğimden beri tip 1 diyabet hastasıyım,diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,"Evet, diyabetim var",diabetes_history,llm-fls-initial@1.0.0,True
+Diyabetik misiniz?,hayır,diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,"Hayır, ama ailem hepsi böyle olduğu için endişelendiğim bir şey.",diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,hayır değilim,diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,"Hayır, diyabetli değilim",diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,"Hayır, diyabetim yok",diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,"""""""
+hayır hiç değil
+""""""",diabetes_history,llm-fls-initial@1.0.0,False
+Diyabetik misiniz?,"""""""sanmıyorum ama emin değilim""""""",diabetes_history,llm-fls-initial@1.0.0,Unsure
+Sen misin,"""""""
+evet ben
+""""""",diabetes_history,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+evet
+""""""",smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+Evet sigara içiyorum
+""""""",smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+evet ama sadece bir kez
+""""""",smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",her gün evet,smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","Evet, günde yaklaşık on sigara içiyorum",smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Sigara içiyorum evet,smoking_history,llm-fls-initial@1.0.0,True
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Eskiden sigara içiyordum ama yaklaşık beş yıl önce bırakmıştım,smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Yıllar önce sigara içiyordum ama kırklı yaşlarımda bırakmıştım,smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Hayır ama daha gençken sigara içiyordum,smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Yirmi yıl sigara içiyordum ama bıraktım,smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?",Yıllar önce bir kez sigara içtim,smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","Hayır, asla sigara içmedim",smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+asla yok
+""""""",smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+hiç sigara içmedi
+""""""",smoking_history,llm-fls-initial@1.0.0,False
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","Bir veya iki kez denedim ama düzenli olarak değil, bu yüzden sayılır mı bilmiyorum",smoking_history,llm-fls-initial@1.0.0,Unsure
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+Vapingle sayıp sayılmadığını bilmiyorum
+""""""",smoking_history,llm-fls-initial@1.0.0,Unsure
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+kast ettiğiniz türüne bağlı
+""""""",smoking_history,llm-fls-initial@1.0.0,Unsure
+"""""""
+Geçtiğimiz hafta içtiğiniz sigara var mı?","""""""
+bir e-sigara sayılır mı?
+""""""",smoking_history,llm-fls-initial@1.0.0,Unsure
+Şu anda,"""""""
+evet yaparım
+""""""",smoking_history,llm-fls-initial@1.0.0,Inconclusive
+Alkol içiyor musun?,"""""""
+evet
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,"""""""
+evet yaparım
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,"""""""
+Evet, düzenli olarak yaparım
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,"""""""
+hafta sonları ara sıra evet
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,sadece ara sıra bira,alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,Akşamları çoğu akşam yemeğinde şarap içiyorum,alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,Sosyal olarak içiyorum evet,alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,"neredeyse hiç, sadece özel günlerde",alcohol_consumption,llm-fls-initial@1.0.0,True
+Alkol içiyor musun?,hayır,alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,hayır yapmam,alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,"Hayır, sağlık nedenleriyle yıllarca önce içmeyi bıraktım",alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,"""""""
+artık değil, bıraktım
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,artık değil,alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,"""""""
+Eskiden 
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,Asla içmem,alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,asla,alcohol_consumption,llm-fls-initial@1.0.0,False
+Alkol içiyor musun?,çok nadir belki bir yılın bir kez öyle ki sayılır mı bilmiyorum,alcohol_consumption,llm-fls-initial@1.0.0,Unsure
+Alkol içiyor musun?,"""""""
+Hiçbiri
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,False
+Sen,"""""""
+evet içiyorum
+""""""",alcohol_consumption,llm-fls-initial@1.0.0,Inconclusive
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?","""""""
+Çoğunlukla bira içiyorum, özellikle de pilsner
+""""""",alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",bira,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",şarap,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",viski,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",ruhlar,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",çoğunlukla bira,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",çoğunlukla şarap,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",çoğunlukla şarap,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?","""""""
+genellikle kırmızı şarap
+""""""",alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Viski gibi içki içiyorum,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Viski içen biriyim,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Aslında her şeyin bir parçası,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?","""""""
+hepsi evet
+""""""",alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Gündelik tür şey muhtemelen biraz bira biraz şarap,alcohol_consumption_type,llm-fls-initial@1.0.0,True
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Artık alkol içmiyorum,alcohol_consumption_type,llm-fls-initial@1.0.0,False
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",İçmeyi bıraktım,alcohol_consumption_type,llm-fls-initial@1.0.0,False
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?",Hiç içki içmiyorum,alcohol_consumption_type,llm-fls-initial@1.0.0,False
+"Genellikle bira, şarap, içki veya başka bir şey içiyor musunuz?","""""""Aslında buna bağlı olduğunu söyleyemem""""""",alcohol_consumption_type,llm-fls-initial@1.0.0,Unsure
+Genellikle dr...,"""""""
+evet çoğunlukla bira
+""""""",alcohol_consumption_type,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""","""""""
+evet
+""""""",born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""","""""""
+evet, İngiltere'de doğdum
+""""""",born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",evettim,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",her zaman uk'de yaşadım,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",İngiltere evet,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",evet iskoçya,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",Galler'de doğdum,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",İngiltere'de doğdum,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",İskoçya'da doğdum,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",Kuzey İrlanda'da doğdum,born_in_the_uk,llm-fls-initial@1.0.0,True
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",hayır,born_in_the_uk,llm-fls-initial@1.0.0,False
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",Hayatımın çoğunu burada geçirdim ancak aslında güney afrika'da doğdum,born_in_the_uk,llm-fls-initial@1.0.0,False
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",Avustralya'da doğdum ama hayatımın çoğunu İngiltere'de geçirdim,born_in_the_uk,llm-fls-initial@1.0.0,False
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",İspanya'da doğdum ama çok gençken taşındım,born_in_the_uk,llm-fls-initial@1.0.0,False
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""",Ben burada doğdum,born_in_the_uk,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+Bu yüzden sadece sormak istiyorum, bazen doğduğunuz ve büyüdüğünüz yer gelecekte kırık geçirme riskinizi etkileyebilir. İngiltere'de doğdunuz mu?
+""""""","""""""
+üzgünüm neden bunu bilmeye ihtiyacın var
+""""""",born_in_the_uk,llm-fls-initial@1.0.0,Inconclusive
+"""""""
+sen bo mu idin
+""""""","""""""
+evet öyleydim
+""""""",born_in_the_uk,llm-fls-initial@1.0.0,Inconclusive
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,Güney Afrika,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,True
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,pakistan,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,True
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,Avustralya,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,True
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,İspanya,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,True
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,Hindistan'da doğdum,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,True
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,çok güneşli bir yerdi,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,Inconclusive
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,"""""""
+kırsal alanda bir yerlerde
+""""""",if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,Inconclusive
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,Aslında bilmiyorum,if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,Unsure
+Doğduğunuz ülkeyi paylaşmak ister misiniz?,"""""""
+üzgünüm neden bunu bilmeye ihtiyacın var
+""""""",if_outside_uk_country_of_birth,llm-fls-initial@1.0.0,Inconclusive
+Genellikle araba sürer misin?,"Evet, her gün işe araba kullanıyorum.",patient_normally_drives,llm-cataract-pre-assessment@1.0.0,True
+Genellikle araba sürer misin?,"""""""
+evet yaparım
+""""""",patient_normally_drives,llm-cataract-pre-assessment@1.0.0,True
+Genellikle araba sürer misin?,"hayır, sürüşü bıraktım",patient_normally_drives,llm-cataract-pre-assessment@1.0.0,False
+Genellikle araba sürer misin?,"Hayır, araba kullanmam.",patient_normally_drives,llm-cataract-pre-assessment@1.0.0,False
+Genellikle araba sürer misin?,"""""""
+Eskiden yapardım ama artık yapmıyorum
+""""""",patient_normally_drives,llm-cataract-pre-assessment@1.0.0,False
+Genellikle araba sürer misin?,Oğlum her yere beni götürüyor,patient_normally_drives,llm-cataract-pre-assessment@1.0.0,False
+Genellikle araba sürer misin?,Otobüse biniyorum,patient_normally_drives,llm-cataract-pre-assessment@1.0.0,False
+"Görme durumunuz, çalışmanıza, araç kullanmanıza, okumanıza, TV izlemenize veya yüzleri tanımınıza engel oluyor mu?","""""""
+evet şimdi okumak zor
+""""""",cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,True
+"Görme durumunuz, çalışmanıza, araç kullanmanıza, okumanıza, TV izlemenize veya yüzleri tanımınıza engel oluyor mu?",Artık insanların yüzlerini tanıyamıyorum,cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,True
+"Görme durumunuz, çalışmanıza, araç kullanmanıza, okumanıza, TV izlemenize veya yüzleri tanımınıza engel oluyor mu?","""""""
+hayır gerçekten değil
+""""""",cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,False
+"Görme durumunuz, çalışmanıza, araç kullanmanıza, okumanıza, TV izlemenize veya yüzleri tanımınıza engel oluyor mu?",Gece sürüş yapmak giderek zorlaşıyor,cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,True
+Görme durumunuz düşmelere veya mobilite sorunlarına neden oluyor mu?,"""""""
+evet iki kez düştüm
+""""""",cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,True
+Görme durumunuz düşmelere veya mobilite sorunlarına neden oluyor mu?,Şimdi daha yavaş gidiyorum,cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,True
+Görme durumunuz düşmelere veya mobilite sorunlarına neden oluyor mu?,"""""""
+hayır hayır düşer
+""""""",cataract_has_negative_impact_on_life,llm-cataract-pre-assessment@1.0.0,False
+Görme duygunuzu iyileştirmek için lazer göz ameliyatı geçirdiniz mi?,"""""""
+evet LASIK yaklaşık 10 yıl önce
+""""""",had_laser_eye_surgery,llm-cataract-pre-assessment@1.0.0,True
+Görme duygunuzu iyileştirmek için lazer göz ameliyatı geçirdiniz mi?,2015 yılında lazer ameliyatı oldum,had_laser_eye_surgery,llm-cataract-pre-assessment@1.0.0,True
+Görme duygunuzu iyileştirmek için lazer göz ameliyatı geçirdiniz mi?,"""""""
+hayır asla
+""""""",had_laser_eye_surgery,llm-cataract-pre-assessment@1.0.0,False
+Görme duygunuzu iyileştirmek için lazer göz ameliyatı geçirdiniz mi?,Göz ameliyatı oldum ama lazer değil,had_laser_eye_surgery,llm-cataract-pre-assessment@1.0.0,False
+Görme duygunuzu iyileştirmek için lazer göz ameliyatı geçirdiniz mi?,Hangi tür lazer ameliyatı?,had_laser_eye_surgery,llm-cataract-pre-assessment@1.0.0,Inconclusive
+"Katarakt ameliyatından başka, gözünüzden herhangi birine başka göz ameliyatı oldu mu?","Evet, glokom ameliyatı oldum",had_other_eye_operations,llm-cataract-pre-assessment@1.0.0,True
+"Katarakt ameliyatından başka, gözünüzden herhangi birine başka göz ameliyatı oldu mu?",Ayrılmış retinamı düzelttirdim,had_other_eye_operations,llm-cataract-pre-assessment@1.0.0,True
+"Katarakt ameliyatından başka, gözünüzden herhangi birine başka göz ameliyatı oldu mu?","""""""
+hayır başka işlemler yok
+""""""",had_other_eye_operations,llm-cataract-pre-assessment@1.0.0,False
+"Katarakt ameliyatından başka, gözünüzden herhangi birine başka göz ameliyatı oldu mu?",Göz muayeneleri yaptırdım ama ameliyat olmadı.,had_other_eye_operations,llm-cataract-pre-assessment@1.0.0,False
+"Ve hiç ciddi bir göz yaralanması geçirdin mi, iki gözünden herhangi birine?","Evet, yıllar önce kimyasal yanığı geçirdim",had_previous_eye_injury,llm-cataract-pre-assessment@1.0.0,True
+"Ve hiç ciddi bir göz yaralanması geçirdin mi, iki gözünden herhangi birine?",Bir kez tenis topuyla gözüme vuruldum,had_previous_eye_injury,llm-cataract-pre-assessment@1.0.0,True
+"Ve hiç ciddi bir göz yaralanması geçirdin mi, iki gözünden herhangi birine?","""""""
+asla gözlerimi incitmedi
+""""""",had_previous_eye_injury,llm-cataract-pre-assessment@1.0.0,False
+"Ve hiç ciddi bir göz yaralanması geçirdin mi, iki gözünden herhangi birine?","Sadece usual sinir bozucuları, şiddetli değil.",had_previous_eye_injury,llm-cataract-pre-assessment@1.0.0,False
+Başka herhangi bir göz rahatsızlığı için muayene ediliyor veya tedavi ediliyor musunuz?,"Evet, glokom hastasıyım",has_other_eye_conditions,llm-cataract-pre-assessment@1.0.0,True
+Başka herhangi bir göz rahatsızlığı için muayene ediliyor veya tedavi ediliyor musunuz?,Makula dejenerasyonu tedavisi görüyorum,has_other_eye_conditions,llm-cataract-pre-assessment@1.0.0,True
+Başka herhangi bir göz rahatsızlığı için muayene ediliyor veya tedavi ediliyor musunuz?,sadece kataraktlar,has_other_eye_conditions,llm-cataract-pre-assessment@1.0.0,False
+Başka herhangi bir göz rahatsızlığı için muayene ediliyor veya tedavi ediliyor musunuz?,Gözlerim kuru ama ciddi bir şey değil,has_other_eye_conditions,llm-cataract-pre-assessment@1.0.0,True
+"Aşağıdakilerden herhangi birine sahip misiniz, ciddi bir kalp problemi, ciddi bir solunum problemi veya implante edilebilir bir defibrilatör?","Evet, bir defibrilatörüm var",has_heart_breathing_problem_defibrillator,llm-cataract-pre-assessment@1.0.0,True
+"Aşağıdakilerden herhangi birine sahip misiniz, ciddi bir kalp problemi, ciddi bir solunum problemi veya implante edilebilir bir defibrilatör?",Şiddetli KOAH'im var,has_heart_breathing_problem_defibrillator,llm-cataract-pre-assessment@1.0.0,True
+"Aşağıdakilerden herhangi birine sahip misiniz, ciddi bir kalp problemi, ciddi bir solunum problemi veya implante edilebilir bir defibrilatör?","""""""
+hiçbiri değil
+""""""",has_heart_breathing_problem_defibrillator,llm-cataract-pre-assessment@1.0.0,False
+"Aşağıdakilerden herhangi birine sahip misiniz, ciddi bir kalp problemi, ciddi bir solunum problemi veya implante edilebilir bir defibrilatör?",Hafif astımım var ama kontrol altında.,has_heart_breathing_problem_defibrillator,llm-cataract-pre-assessment@1.0.0,False
+Kan inceltici herhangi bir ilaç alıyor musunuz?,"Evet, warfarin kullanıyorum",takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,True
+Kan inceltici herhangi bir ilaç alıyor musunuz?,Günlük olarak aspirin kullanıyorum,takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,True
+Kan inceltici herhangi bir ilaç alıyor musunuz?,"""""""
+hayır hayır kan incelticileri
+""""""",takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,False
+Kan inceltici herhangi bir ilaç alıyor musunuz?,Bunun ne olduğunu bilmiyorum,takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,Unsure
+Hangi kan incelticilerini kullanıyorsunuz?,Apiksaban kullanıyorum,takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,True
+Hangi kan incelticilerini kullanıyorsunuz?,klopidogrel,takes_blood_thinners,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak herhangi bir ilaç alıyor musunuz?,"""""""
+Kan basıncım için evet
+""""""",takes_medications,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak herhangi bir ilaç alıyor musunuz?,Günlük olarak birkaç ilaç alıyorum,takes_medications,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak herhangi bir ilaç alıyor musunuz?,sadece vitaminler değil,takes_medications,llm-cataract-pre-assessment@1.0.0,False
+Düzenli olarak herhangi bir ilaç alıyor musunuz?,hiçbir şey reçete edilmedi,takes_medications,llm-cataract-pre-assessment@1.0.0,False
+Tamsulosin veya Doxazosin kullanmış mıydınız?,"Evet, prostatım için Tamsulosin kullanıyorum",been_on_tamsulosin_or_doxazosin,llm-cataract-pre-assessment@1.0.0,True
+Tamsulosin veya Doxazosin kullanmış mıydınız?,Doxazosin kullanıyordum ama geçen yıl bıraktım,been_on_tamsulosin_or_doxazosin,llm-cataract-pre-assessment@1.0.0,True
+Tamsulosin veya Doxazosin kullanmış mıydınız?,"""""""
+hiç öyle şeyler yapılmamış
+""""""",been_on_tamsulosin_or_doxazosin,llm-cataract-pre-assessment@1.0.0,False
+Tamsulosin veya Doxazosin kullanmış mıydınız?,"""""""
+O isimlere aşinayım değilim
+""""""",been_on_tamsulosin_or_doxazosin,llm-cataract-pre-assessment@1.0.0,False
+Herhangi bir alerjiniz var mı?,penisiline evet,has_allergies,llm-cataract-pre-assessment@1.0.0,True
+Herhangi bir alerjiniz var mı?,Latekten alerjiyim,has_allergies,llm-cataract-pre-assessment@1.0.0,True
+Herhangi bir alerjiniz var mı?,Bildiğim kadarıyla herhangi bir alerjim yok,has_allergies,llm-cataract-pre-assessment@1.0.0,False
+Herhangi bir alerjiniz var mı?,sadece mevsimsel saman nezlesi,has_allergies,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak tekerlekli sandalye kullanıyor musunuz?,"""""""
+her zaman evet
+""""""",is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak tekerlekli sandalye kullanıyor musunuz?,"""""""
+Çıkarken birini kullanıyorum
+""""""",is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,True
+Düzenli olarak tekerlekli sandalye kullanıyor musunuz?,hayır yapmam,is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,False
+Düzenli olarak tekerlekli sandalye kullanıyor musunuz?,Yürüme çerçevesi kullanıyorum,is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,False
+Genellikle koltuğunuza girip çıkmak için yardımınıza ihtiyacınız olur mu?,"Evet, aktarma konusunda yardımınıza ihtiyacım var",is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,True
+Genellikle koltuğunuza girip çıkmak için yardımınıza ihtiyacınız olur mu?,Kendim başıma yönetebilirim,is_wheelchair_user,llm-cataract-pre-assessment@1.0.0,False
+Genellikle operasyon yerel anestezik altında ve yüzünüz örtülü olarak ayıkken yapılır. Çoğu hasta herhangi bir ağrı hissetmez. Bunu yönetebileceğinizi düşünüyor musunuz?,"evet, olur",happy_with_local_anaesthetics_and_face_coverage,llm-cataract-pre-assessment@1.0.0,True
+Genellikle operasyon yerel anestezik altında ve yüzünüz örtülü olarak ayıkken yapılır. Çoğu hasta herhangi bir ağrı hissetmez. Bunu yönetebileceğinizi düşünüyor musunuz?,Sanırım bunu halledebilirim,happy_with_local_anaesthetics_and_face_coverage,llm-cataract-pre-assessment@1.0.0,True
+Genellikle operasyon yerel anestezik altında ve yüzünüz örtülü olarak ayıkken yapılır. Çoğu hasta herhangi bir ağrı hissetmez. Bunu yönetebileceğinizi düşünüyor musunuz?,Kapalı alan korkum var,happy_with_local_anaesthetics_and_face_coverage,llm-cataract-pre-assessment@1.0.0,False
+Genellikle operasyon yerel anestezik altında ve yüzünüz örtülü olarak ayıkken yapılır. Çoğu hasta herhangi bir ağrı hissetmez. Bunu yönetebileceğinizi düşünüyor musunuz?,Uyuyormuşum daha iyi olurdu,happy_with_local_anaesthetics_and_face_coverage,llm-cataract-pre-assessment@1.0.0,False
+Ameliyat sırasında yaklaşık 30 dakika boyunca düz ve hareketsiz yatmaya rahat olur musunuz?,"""""""
+evet sorun değil
+""""""",can_stay_still_during_operation,llm-cataract-pre-assessment@1.0.0,True
+Ameliyat sırasında yaklaşık 30 dakika boyunca düz ve hareketsiz yatmaya rahat olur musunuz?,Bunu yapabilirim,can_stay_still_during_operation,llm-cataract-pre-assessment@1.0.0,True
+Ameliyat sırasında yaklaşık 30 dakika boyunca düz ve hareketsiz yatmaya rahat olur musunuz?,Bel ağrım dümdüz yatmamı zorlaştırıyor,can_stay_still_during_operation,llm-cataract-pre-assessment@1.0.0,False
+Ameliyat sırasında yaklaşık 30 dakika boyunca düz ve hareketsiz yatmaya rahat olur musunuz?,Çok huzursuzlaşıyorum,can_stay_still_during_operation,llm-cataract-pre-assessment@1.0.0,False
+İlaç damlalarını koymak için bir bölge hemşiresinden ek yardımınıza ihtiyacınız olacağını düşünüyor musunuz?,"""""""
+evet bana yardım lazım
+""""""",needs_eye_drop_support,llm-cataract-pre-assessment@1.0.0,True
+İlaç damlalarını koymak için bir bölge hemşiresinden ek yardımınıza ihtiyacınız olacağını düşünüyor musunuz?,Kendime damla koyamıyorum,needs_eye_drop_support,llm-cataract-pre-assessment@1.0.0,True
+İlaç damlalarını koymak için bir bölge hemşiresinden ek yardımınıza ihtiyacınız olacağını düşünüyor musunuz?,"Hayır, ben idare ederim",needs_eye_drop_support,llm-cataract-pre-assessment@1.0.0,False
+İlaç damlalarını koymak için bir bölge hemşiresinden ek yardımınıza ihtiyacınız olacağını düşünüyor musunuz?,Karımla bana yardım edecek.,needs_eye_drop_support,llm-cataract-pre-assessment@1.0.0,False
+Hastaneye ziyaretler için genellikle doktorunuz aracılığıyla hasta taşıma hizmetlerini kullanıyor musunuz?,"""""""
+evet her zaman hasta taşımacılığını kullanıyorum
+""""""",needs_transport_to_hospital,llm-cataract-pre-assessment@1.0.0,True
+Hastaneye ziyaretler için genellikle doktorunuz aracılığıyla hasta taşıma hizmetlerini kullanıyor musunuz?,Hastaların taşınmasına güveniyorum,needs_transport_to_hospital,llm-cataract-pre-assessment@1.0.0,True
+Hastaneye ziyaretler için genellikle doktorunuz aracılığıyla hasta taşıma hizmetlerini kullanıyor musunuz?,"Hayır, kızım beni sürüyor",needs_transport_to_hospital,llm-cataract-pre-assessment@1.0.0,False
+Hastaneye ziyaretler için genellikle doktorunuz aracılığıyla hasta taşıma hizmetlerini kullanıyor musunuz?,Taksiye biniyorum,needs_transport_to_hospital,llm-cataract-pre-assessment@1.0.0,False
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+uzaktan evet 
+""""""",blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+evet yakından
+""""""",blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""",her iki,blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+Uzakları veya yakını göremiyorum
+""""""",blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""",Yakından göremiyorum,blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+Uzakları göremiyorum
+""""""",blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+evet
+""""""",blurry_vision,llm-cataract@1.0.0,True
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+hayır bulanık bir görüşüm yok
+""""""",blurry_vision,llm-cataract@1.0.0,False
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""",yakın olması sorun değil,blurry_vision,llm-cataract@1.0.0,Inconclusive
+"""""""
+Uzaktan, yakından veya her ikisinden net bir şekilde görmek konusunda zorlanıyor musunuz?
+""""""","""""""
+uzak iyidir
+""""""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+"Tamam, gözünüzde kızarıklık yaşamıyorsunuz. Şimdi, hissettiğiniz herhangi bir rahatsızlık hakkında soru sormak isterim. Gözünüz şu anda ağrılı mı?","""uh sadece biraz kaşındırıcı ve biraz kaşıntılı""",eye_pain,llm-cataract@1.0.0,True
+"""""""Bu rahatsız edici görünüyor Gözünüz şu anda ağrılı mı?""""""",Dedğim gibi biraz kaşındırıcı ve kaşıntılı.,eye_pain,llm-cataract@1.0.0,True
+Bulanyor musunuz herhangi bir bulanık görüş?,"""uh bir saniye beklememe izin verin""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz herhangi bir bulanık görüş?,"""""""
+bilmiyorum kontrol edeyim
+""""""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz herhangi bir bulanık görüş?,"""""""
+Aynada kontrol etmek için gideceğim
+""""""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz herhangi bir bulanık görüş?,"""""""
+Bilmiyorum belki. Gidip aynada kontrol edeyim
+""""""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz herhangi bir bulanık görüş?,"""""""
+bilmiyorum belki
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+"Öyleyse, sadece gözünüz hakkında soru sormak istiyorum. Gözünüz şu anda kırmızı mı?","""uh bir saniye beklememe izin verin""",eye_redness,llm-cataract@1.0.0,Inconclusive
+"Görmeme izin ver... Yani, sadece kontrol ediyordun... senin","Tamam evet sadece uh öyle yani uh öyle değil, değil, olur.",eye_redness,llm-cataract@1.0.0,False
+"Gözünüzün iyileşme durumu hakkında bilgi almak ve bizim hemşirelerimizden herhangi bir destek ihtiyacınız olup olmadığını öğrenmek için arıyorum. Birkaç dakika sürecek bazı sorularım var, ardından sizin de sormak istediğiniz bir şey olup olmadığını kontrol edeceğim. Bilginiz olsun diye, bu konuşma hemen kontrol edilmeyecek, bu nedenle acil bir sorun olduğunu düşünüyorsanız hastaneye ulaşmanız önemlidir. Şimdi, ameliyatınızdan sonra gözünüz nasıl gidiyor?","Merhaba, kontrol için teşekkür ederim. Ameliyattan sonra gözüm oldukça iyi gidiyor. Kırmızılık, ağrı, bulanık görme, uçuşan noktalar veya yanıp sönen ışıklar yaşamıyorum. Ayrıca sadece bir gözüme ameliyat oldu, ikisine değil.",eye_pain,llm-cataract@1.0.0,False
+"Gözünüzün iyileşme durumu hakkında bilgi almak ve bizim hemşirelerimizden herhangi bir destek ihtiyacınız olup olmadığını öğrenmek için arıyorum. Birkaç dakika sürecek bazı sorularım var, ardından sizin de sormak istediğiniz bir şey olup olmadığını kontrol edeceğim. Bilginiz olsun diye, bu konuşma hemen kontrol edilmeyecek, bu nedenle acil bir sorun olduğunu düşünüyorsanız hastaneye ulaşmanız önemlidir. Şimdi, ameliyatınızdan sonra gözünüz nasıl gidiyor?","Merhaba, kontrol için teşekkür ederim. Ameliyattan sonra gözüm oldukça iyi gidiyor. Kırmızılık, ağrı, bulanık görme, uçuşan noktalar veya yanıp sönen ışıklar yaşamıyorum. Ayrıca sadece bir gözüme ameliyat oldu, ikisine değil.",eye_redness,llm-cataract@1.0.0,False
+"Gözünüzün iyileşme durumu hakkında bilgi almak ve bizim hemşirelerimizden herhangi bir destek ihtiyacınız olup olmadığını öğrenmek için arıyorum. Birkaç dakika sürecek bazı sorularım var, ardından sizin de sormak istediğiniz bir şey olup olmadığını kontrol edeceğim. Bilginiz olsun diye, bu konuşma hemen kontrol edilmeyecek, bu nedenle acil bir sorun olduğunu düşünüyorsanız hastaneye ulaşmanız önemlidir. Şimdi, ameliyatınızdan sonra gözünüz nasıl gidiyor?","Merhaba, kontrol için teşekkür ederim. Ameliyattan sonra gözüm oldukça iyi gidiyor. Kırmızılık, ağrı, bulanık görme, uçuşan noktalar veya yanıp sönen ışıklar yaşamıyorum. Ayrıca sadece bir gözüme ameliyat oldu, ikisine değil.",flashing_lights,llm-cataract@1.0.0,False
+"Gözünüzün iyileşme durumu hakkında bilgi almak ve bizim hemşirelerimizden herhangi bir destek ihtiyacınız olup olmadığını öğrenmek için arıyorum. Birkaç dakika sürecek bazı sorularım var, ardından sizin de sormak istediğiniz bir şey olup olmadığını kontrol edeceğim. Bilginiz olsun diye, bu konuşma hemen kontrol edilmeyecek, bu nedenle acil bir sorun olduğunu düşünüyorsanız hastaneye ulaşmanız önemlidir. Şimdi, ameliyatınızdan sonra gözünüz nasıl gidiyor?","Merhaba, kontrol için teşekkür ederim. Ameliyattan sonra gözüm oldukça iyi gidiyor. Kırmızılık, ağrı, bulanık görme, uçuşan noktalar veya yanıp sönen ışıklar yaşamıyorum. Ayrıca sadece bir gözüme ameliyat oldu, ikisine değil.",floaters,llm-cataract@1.0.0,False
+"Gözünüzün iyileşme durumu hakkında bilgi almak ve bizim hemşirelerimizden herhangi bir destek ihtiyacınız olup olmadığını öğrenmek için arıyorum. Birkaç dakika sürecek bazı sorularım var, ardından sizin de sormak istediğiniz bir şey olup olmadığını kontrol edeceğim. Bilginiz olsun diye, bu konuşma hemen kontrol edilmeyecek, bu nedenle acil bir sorun olduğunu düşünüyorsanız hastaneye ulaşmanız önemlidir. Şimdi, ameliyatınızdan sonra gözünüz nasıl gidiyor?","Merhaba, kontrol için teşekkür ederim. Ameliyattan sonra gözüm oldukça iyi gidiyor. Kırmızılık, ağrı, bulanık görme, uçuşan noktalar veya yanıp sönen ışıklar yaşamıyorum. Ayrıca sadece bir gözüme ameliyat oldu, ikisine değil.",blurry_vision,llm-cataract@1.0.0,False
+Gözünüz şu anda kırmızı mı?,oh hayır,eye_redness,llm-cataract@1.0.0,False
+Gözün mü?,"""""""sanırım evet""""""",eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözün mü?,"""""""sanırım evet""""""",blurry_vision,llm-cataract@1.0.0,Inconclusive
+Gözün mü?,"""""""sanırım evet""""""",floaters,llm-cataract@1.0.0,Inconclusive
+Gözün mü?,"""""""sanırım evet""""""",eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözün mü?,"""""""sanırım evet""""""",flashing_lights,llm-cataract@1.0.0,Inconclusive
+deneyimiyor musun,"""""""
+evet benim
+""""""",flashing_lights,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda kırmızı mı?,oh hayır,eye_redness,llm-cataract@1.0.0,False
+Bulanyor musunuz bulanık görme,"""""""
+katarakt olanında evet
+""""""",blurry_vision,llm-cataract@1.0.0,True
+Bulanyor musunuz bulanık görme,"""""""o doğru o doğru evet""""""",blurry_vision,llm-cataract@1.0.0,True
+Bulanyor musunuz bulanık görme,"""""""
+evet
+""""""",blurry_vision,llm-cataract@1.0.0,True
+Bulanyor musunuz bulanık görme,Sanırım büyük çoğunlukla daha iyidir,blurry_vision,llm-cataract@1.0.0,False
+Bulanyor musunuz bulanık görme,Gözlerimi yaptırdığımdan beri görüşüm çok daha net. Tabii ki yeni gözlükler için optisyene gitmem ve damlaları bitirmem gerekiyor.,blurry_vision,llm-cataract@1.0.0,False
+Bulanyor musunuz bulanık görme,"""""""
+çok daha kötü
+""""""",blurry_vision,llm-cataract@1.0.0,True
+Bulanyor musunuz bulanık görme,gözüme küçük bir taş takılmış gibi geliyor,blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz bulanık görme,Görme alanımmda yüzen noktalar görüyorum,blurry_vision,llm-cataract@1.0.0,Inconclusive
+Bulanyor musunuz bulanık görme,en azından daha net görebiliyorum kesinlikle,blurry_vision,llm-cataract@1.0.0,False
+Bulanyor musunuz bulanık görme,Bilmiyorum,blurry_vision,llm-cataract@1.0.0,Unsure
+Bulanyor musunuz bulanık görme,"""""""şaka maka emin değilim""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+Bulanyor musunuz bulanık görme,"""""""
+Ameliyattan önce görme durumum kötü değildi, bu yüzden söylemesi zor, diğer gözüm de yapıldığında daha iyi olacağını umuyorum
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+Ameliyattan sonra görüşünüz iyileşti mi?,"""""""
+Gerçekten düzelip düzelmediğinden emin değilim
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+Ameliyattan sonra görüşünüz iyileşti mi?,"""""""
+Ameliyattan önce görme durumum kötü değildi, bu yüzden zor söyleyebilirim. Diğer gözümde de yaptırdığımda daha iyi olacağını umuyorum
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+Ameliyattan sonra görüşünüz iyileşti mi?,"""""""
+kesinlikle evet hiç şüphesi yok 
+""""""",blurry_vision,llm-cataract@1.0.0,False
+Ameliyattan sonra görüşünüz iyileşti mi?,Görüşümde noktalara benziyor şeyler görüyorum,blurry_vision,llm-cataract@1.0.0,Inconclusive
+Ameliyattan sonra görüşünüz beklendiği gibi iyileşti mi?,"""""""
+evet
+""""""",blurry_vision,llm-cataract@1.0.0,False
+Ameliyattan sonra görüşünüz beklendiği gibi iyileşti mi?,bunda vardır,blurry_vision,llm-cataract@1.0.0,False
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"""""""
+çok iyi çok iyi çok daha iyi görebiliyorum
+""""""",blurry_vision,llm-cataract@1.0.0,False
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"Sanırım sorun değil, gerçekten bilmiyorum",blurry_vision,llm-cataract@1.0.0,Unsure
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?",Bu öyle.,blurry_vision,llm-cataract@1.0.0,True
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?","Daha iyiydi, ama şimdi bulanık.",blurry_vision,llm-cataract@1.0.0,True
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?","""Şey, beklentinin ne olacağını bilmiyorum. Mükemmel değil ama sanki sorun yok.""",blurry_vision,llm-cataract@1.0.0,Unsure
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?","""""""
+Bilmiyorum çünkü buydu
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?",bir dereceye kadar iyileşti çünkü şimdi televizyon izleyebiliyorum ama okuyamıyorum,blurry_vision,llm-cataract@1.0.0,True
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?","""""""
+hayır, hayır değil, hiç değil.
+""""""",blurry_vision,llm-cataract@1.0.0,False
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?",daha az ağrılı oluyor,blurry_vision,llm-cataract@1.0.0,Inconclusive
+"Gözünüz okurken mi, yoksa televizyon izlerken mi bulanık?","""""""
+zor çünkü önceden gözüm kötü değildi
+""""""",blurry_vision,llm-cataract@1.0.0,Unsure
+Parlak ışıklar deneyimiyor musunuz?,"""""""doğru evet""""""",flashing_lights,llm-cataract@1.0.0,True
+Parlak ışıklar deneyimiyor musunuz?,"""""""
+evet bu yanıp sönen ışıklar ameliyattan beri yeni
+""""""",flashing_lights,llm-cataract@1.0.0,True
+Parlak ışıklar deneyimiyor musunuz?,Bu yanıp sönen ışıklar sadece geçen hafta başladı,flashing_lights,llm-cataract@1.0.0,True
+Parlak ışıklar deneyimiyor musunuz?,Sanmıyorum,flashing_lights,llm-cataract@1.0.0,False
+Parlak ışıklar deneyimiyor musunuz?,asla,flashing_lights,llm-cataract@1.0.0,False
+Parlak ışıklar deneyimiyor musunuz?,"""""""
+hayır, hiçbirini hatırlamıyorum
+""""""",flashing_lights,llm-cataract@1.0.0,False
+Parlak ışıklar deneyimiyor musunuz?,"""şey, belki biraz sağ tarafta, ama şimdi gitti.""",flashing_lights,llm-cataract@1.0.0,False
+Parlak ışıklar deneyimiyor musunuz?,"operasyonun hemen ardından olduğu kadar değil, çok daha az.",flashing_lights,llm-cataract@1.0.0,False
+Parlak ışıklar deneyimiyor musunuz?,"""""""
+katarakt olanında evet
+""""""",flashing_lights,llm-cataract@1.0.0,True
+Parlak ışıklar deneyimiyor musunuz?,Sanırım gerçekten emin değilim,flashing_lights,llm-cataract@1.0.0,Unsure
+Parlak ışıklar deneyimiyor musunuz?,Belki,flashing_lights,llm-cataract@1.0.0,Unsure
+Parlak ışıklar deneyimiyor musunuz?,Görüşümde noktalara benziyor şeyler görüyorum,flashing_lights,llm-cataract@1.0.0,Inconclusive
+Parlak ışıklar deneyimiyor musunuz?,"""""""
+her yerde bu küçük ağ benzeri şeyler var
+""""""",flashing_lights,llm-cataract@1.0.0,Inconclusive
+Parlak ışıklar deneyimiyor musunuz?,sadece ilk iki haftada,flashing_lights,llm-cataract@1.0.0,False
+Görüşünüzde yanıp sönen ışıklar deneyimiyor musunuz?,Baştadır böyle yaptım ama şimdi hiç yok.,flashing_lights,llm-cataract@1.0.0,False
+Gözünüzde ışık çakmaları görüyor musunuz,kesinlikle daha fazla yanıp sönen ışık var,flashing_lights,llm-cataract@1.0.0,True
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"""""""
+zor çünkü önceden gözüm kötü değildi
+""""""",flashing_lights,llm-cataract@1.0.0,Inconclusive
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,ne demek istiyorsun?,flashing_lights,llm-cataract@1.0.0,Inconclusive
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+Biri vardı ama o bir hafta önceydi, o daha bir hafta önceydi, şu anda değil
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+hayır gerçekten hayır onları sahip olmak vardı ama onlar uzaklaştı
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+Evet, vardı ama hepsi gitti
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+hayır artık değil
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,Baştan yaptım ama最近 değil.,floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+artık onu sahip olmadığım için çok rahatladım
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,Görüşümde noktalara benziyor şeyler görüyorum,floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+her yerde bu küçük ağ benzeri şeyler var
+""""""",floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+evet görmemde sürekli olarak küçük ve koyu noktalardan oluşmuş bir sürü şey belirebilir, sonra da kaybolabilir
+""""""",floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,Görme alanımın sol tarafında bir siyah çizgi var,floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+katarakt olanında evet
+""""""",floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,Kıvranmalarım şimdi daha sinir bozucu.,floaters,llm-cataract@1.0.0,True
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+kesinlikle emin değilim
+""""""",floaters,llm-cataract@1.0.0,False
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"Sanırım cevabı tahmin ediyorum, muhtemelen hayır.",floaters,llm-cataract@1.0.0,Unsure
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,Yüzen noktalar nedir?,floaters,llm-cataract@1.0.0,Inconclusive
+cobweb gibi gezinenler ve küçük koyu noktalar gibi experience ediyor musunuz,"""""""
+hayır hayır sadece bir veya iki yüzen cisim hepsi bu
+""""""",floaters,llm-cataract@1.0.0,True
+Gözünüzde yüzen cisimler var mı?,"Evet, küçük noktalar vardı.",floaters,llm-cataract@1.0.0,True
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"""""""
+evet iltihaplanmış ve oldukça kırmızı
+""""""",floaters,llm-cataract@1.0.0,Inconclusive
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"Kuşkusuz iyileştirdi ama çünkü ben bir ilk yazarım ve bu baskıya karşıyım, bu soldaki baskıya karşıyım, doğru zaman çok parlaktı, çok hastaydım ve bu iyi ama sağdaki kadar iyi değil.",floaters,llm-cataract@1.0.0,Inconclusive
+Gözünüzde ağrı hissediyor musunuz,sadece ilk iki haftada,eye_pain,llm-cataract@1.0.0,False
+Gözünüzde ağrı hissediyor musunuz,sadece ameliyattan sonraki ilk haftada,eye_pain,llm-cataract@1.0.0,False
+Gözünüzde ağrı hissediyor musunuz,"""acısız yemek""",eye_pain,llm-cataract@1.0.0,False
+Gözünüzde ağrı hissediyor musunuz,Yapılan gözümde bir kıtlama hissi var,eye_pain,llm-cataract@1.0.0,True
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"yaklaşık yeterli, her geçen gün daha da iyiye gidiyor",eye_pain,llm-cataract@1.0.0,Inconclusive
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,daha iyiye gitmek,eye_pain,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda ağrılı mı?,"""""""
+katarakt olanında evet
+""""""",eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,Bu öyle.,eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,""""""" 
+biraz ağrılı ama acı verici değil
+""""""",eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,Aslında değil ama arada sırada hala hafif bir rahatsızlık duyuyorum,eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,biraz ağrıyor,eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,"""""""
+sadece biraz rahatsız
+""""""",eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,"""""""
+acısız
+""""""",eye_pain,llm-cataract@1.0.0,False
+Gözünüz şu anda ağrılı mı?,gözüme bir kirpiğin takılı gibi geliyor,eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,Göz damlaları sonrası gözüm yanıyor,eye_pain,llm-cataract@1.0.0,True
+Gözünüz şu anda ağrılı mı?,"""""""
+şimdi hiç acı vermiyor
+""""""",eye_pain,llm-cataract@1.0.0,False
+Gözünüz şu anda ağrılı mı?,"""""""
+biraz acıtıyor evet, acıyı biraz kumlu bir his olarak tanımlardım
+""""""",eye_pain,llm-cataract@1.0.0,True
+gözünüz ağrıyor mu,Sanırım gerçekten emin değilim,eye_pain,llm-cataract@1.0.0,Unsure
+Gözünüzde kızarıklık yaşıyor musunuz?,"""""""
+bunun kadar değil artık düşmeyecek şimdi bunun kadar değil ama geriye bir şey kalmadı
+""""""",eye_redness,llm-cataract@1.0.0,False
+Gözünüzde kızarıklık yaşıyor musunuz?,Kırmızılık şimdi köşedeki küçük bir parçadan başka tamamen ortadan kalktı.,eye_redness,llm-cataract@1.0.0,True
+Gözünüzde kızarıklık yaşıyor musunuz?,"Kırmızılık neredeyse tamamen gitmiş, köşedeki bir parça hariç.",eye_redness,llm-cataract@1.0.0,True
+Gözünüzde kızarıklık yaşıyor musunuz?,"Hayır, sanmıyorum.",eye_redness,llm-cataract@1.0.0,False
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,Sanırım iyileşti.,eye_redness,llm-cataract@1.0.0,Inconclusive
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"Kuşkusuz iyileştirdi ama çünkü ben bir ilk yazarım ve bu baskıya karşıyım, bu soldaki baskıya karşıyım, doğru zaman çok parlaktı, çok hastaydım ve bu iyi ama sağdaki kadar iyi değil.",eye_redness,llm-cataract@1.0.0,Inconclusive
+Katarakt ameliyatından sonra gözünüz nasıl gidiyor?,"""""""
+evet çok iyileştirdi çok iyileştirdi
+""""""",eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda kırmızı mı?,Başlangıçta öyle yaptım ama artık değil,eye_redness,llm-cataract@1.0.0,False
+Gözünüz şu anda kırmızı mı?,"""""""
+katarakt olanında evet
+""""""",eye_redness,llm-cataract@1.0.0,True
+Gözünüz şu anda kırmızı mı?,"""""""
+iltihap neredeyse orada kaybolmuş, köşede biraz kızarıklık var ama çok da bir şey değil
+""""""",eye_redness,llm-cataract@1.0.0,True
+Gözünüz şu anda kırmızı mı?,"""""""
+kanlıydı ama artık değil
+""""""",eye_redness,llm-cataract@1.0.0,False
+Gözünüz şu anda kırmızı mı?,"""""""
+hayır önce kırmızıydı ama şimdi değil
+""""""",eye_redness,llm-cataract@1.0.0,False
+Gözünüz şu anda kırmızı mı?,gözlerim okumuyor,eye_redness,llm-cataract@1.0.0,False
+Gözünüz şu anda kırmızı mı?,"Hayır, bir köşesinde kanlı gibi hafif kırmızı renge ihtiyacım var",eye_redness,llm-cataract@1.0.0,True
+Gözünüz şu anda kırmızı mı?,gözüm tahriş oldu,eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda kırmızı mı?,"""""""
+evet gözüm ağrıyor
+""""""",eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda kırmızı mı?,Hafif kırmızımsı,eye_redness,llm-cataract@1.0.0,True
+Gözünüz şu anda kırmızı mı?,Bakayım,eye_redness,llm-cataract@1.0.0,Inconclusive
+Gözünüz şu anda kırmızı mı?,"Sanırım sorun değil, gerçekten bilmiyorum",eye_redness,llm-cataract@1.0.0,Unsure
+Gözünüz şu anda kırmızı mı?,"Özür dilerim, gerçekten söyleyemem",eye_redness,llm-cataract@1.0.0,Unsure
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"""""""
+evet var
+""""""",weight_loss,llm-ibd-screening@1.0.0,True
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,Aslında 6 ay önce olduğumdan yaklaşık 2 taş daha hafifim,weight_loss,llm-ibd-screening@1.0.0,True
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"Evet, kıyafetlerim üzerimden sarkıyor",weight_loss,llm-ibd-screening@1.0.0,True
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"""""""
+hayır yapmadım
+""""""",weight_loss,llm-ibd-screening@1.0.0,False
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"Evet, ama bir diyetin parçası ve sadece küçük bir miktar.",weight_loss,llm-ibd-screening@1.0.0,False
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,Son zamanlarda oldukça zor bir süreden geçiyorum,weight_loss,llm-ibd-screening@1.0.0,Inconclusive
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"""""""
+beklenmedik demişsin, ne demek istiyorsun? 
+""""""",weight_loss,llm-ibd-screening@1.0.0,Inconclusive
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,Kendimi最近 tartmadım,weight_loss,llm-ibd-screening@1.0.0,Unsure
+Beklenmedik bir şekilde kilo kaybı yaşadınız mı?,"var ama emin değilim, kilo vermeye çalışıyorum",weight_loss,llm-ibd-screening@1.0.0,Unsure
+Kan kusmuştun?,"""""""
+evet giderek daha fazla
+""""""",coughing_blood,copd-screen@1.0.0,True
+Kan kusmuştun?,"""""""
+Kan lekeleri sayılır mı?
+""""""",coughing_blood,copd-screen@1.0.0,True
+Kan kusmuştun?,"""""""
+hiç kan yok, sadece yeşil şeyler
+""""""",coughing_blood,copd-screen@1.0.0,True
+Kan kusmuştun?,"""""""
+lekelere benziyor, ama kan olduğundan emin değilim
+""""""",coughing_blood,copd-screen@1.0.0,Unsure
+Kan kusmuştun?,Yeşil şeyler öksürdüm,coughing_blood,copd-screen@1.0.0,Inconclusive
+Kan kusmuştun?,her zaman öksürüyorum,coughing_blood,copd-screen@1.0.0,Inconclusive
+Kulaklarınızdaki basınç ne kadar sorun oldu?,büyük bir sorun,ear_pressure,llm-ent-demo@1.0.0,True
+Kulaklarınızdaki basınç ne kadar sorun oldu?,şimdi neredeyse her zaman böyle,ear_pressure,llm-ent-demo@1.0.0,True
+Kulaklarınızdaki basınç ne kadar sorun oldu?,asla bir sorun değil,ear_pressure,llm-ent-demo@1.0.0,False
+Kulaklarınızdaki basınç ne kadar sorun oldu?,baskı olarak adlandırmazdım,ear_pressure,llm-ent-demo@1.0.0,False
+Kulaklarınızdaki basınç ne kadar sorun oldu?,"""""""
+baskı olarak adlandırmayı bilmiyorum
+""""""",ear_pressure,llm-ent-demo@1.0.0,Unsure
+Kulaklarınızdaki basınç ne kadar sorun oldu?,"Evet, kulağımda bu keskin ağrılar var",ear_pressure,llm-ent-demo@1.0.0,Inconclusive
+Kulaklarınızdaki basınç ne kadar sorun oldu?,her zaman su altında olduğum hissine kapılıyorum,ear_pressure,llm-ent-demo@1.0.0,Inconclusive
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,Evet,clogged_sensation,llm-ent-demo@1.0.0,True
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,her zaman,clogged_sensation,llm-ent-demo@1.0.0,True
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,asla değil,clogged_sensation,llm-ent-demo@1.0.0,False
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,"""""""bunu öyle adlandırmazdım, daha çok keskindir""""""",clogged_sensation,llm-ent-demo@1.0.0,False
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,"""""""
+ne demek tıkanmış? 
+""""""",clogged_sensation,llm-ent-demo@1.0.0,Inconclusive
+Kulaklarınız tıkanmış veya 'suda' gibi mi hissediyor?,"Evet, kulağımda bu keskin ağrılar var",clogged_sensation,llm-ent-demo@1.0.0,Inconclusive
+İlaçtan herhangi bir yan etki yaşadınız mı?,sanırım,medication_side_effects,llm-fracture-liaison-service@1.0.0,True
+İlaçtan herhangi bir yan etki yaşadınız mı?,onu durdurmak zorunda kaldım,medication_side_effects,llm-fracture-liaison-service@1.0.0,True
+İlaçtan herhangi bir yan etki yaşadınız mı?,"şey, son zamanlarda artan oranda mide yanması yaşıyorum",medication_side_effects,llm-fracture-liaison-service@1.0.0,True
+İlaçtan herhangi bir yan etki yaşadınız mı?,hayır,medication_side_effects,llm-fracture-liaison-service@1.0.0,False
+İlaçtan herhangi bir yan etki yaşadınız mı?,"""Hiç de değil, onlar benim insülinimden çok daha az sorun teşkil ediyorlar""",medication_side_effects,llm-fracture-liaison-service@1.0.0,False
+İlaçtan herhangi bir yan etki yaşadınız mı?,Son zamanlarda kan testi yaptırdım,medication_side_effects,llm-fracture-liaison-service@1.0.0,Inconclusive
+İlaçtan herhangi bir yan etki yaşadınız mı?,"Bazı sorunlarım var, ama bunun ilaca bağlı olup olmadığını bilmiyorum",medication_side_effects,llm-fracture-liaison-service@1.0.0,Unsure
+"""""""
+Kemik sağlığı ilaçlarınızla nasıl ilerlediğiniz hakkında size birkaç soru sormak için buradayım. Bu olur mu?
+""""""","İyi değil, bazı yan etkileri yaşadım ve ilaçlarımı bıraktım",medication_side_effects,llm-fracture-liaison-service@1.0.0,True
+"""""""
+Kemik sağlığı ilaçlarınızla nasıl ilerlediğiniz hakkında size birkaç soru sormak için buradayım. Bu olur mu?
+""""""","Evet, iyiyim, hiç yan etki yaşamadım!",medication_side_effects,llm-fracture-liaison-service@1.0.0,False
+"""""""
+Kemik sağlığı ilaçlarınızla nasıl ilerlediğiniz hakkında size birkaç soru sormak için buradayım. Bu olur mu?
+""""""",emin,medication_side_effects,llm-fracture-liaison-service@1.0.0,Inconclusive
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,Evet lütfen,still_waiting,llm-gynaecology-waitlist@1.0.0,True
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,elbette,still_waiting,llm-gynaecology-waitlist@1.0.0,True
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,Yaklaşık 6 aydır bekliyorum,still_waiting,llm-gynaecology-waitlist@1.0.0,Inconclusive
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,başka seçenekler var mı?,still_waiting,llm-gynaecology-waitlist@1.0.0,Inconclusive
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,"Teşekkür ederim, hayır",still_waiting,llm-gynaecology-waitlist@1.0.0,False
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,başka yerlerde yapılmıştır,still_waiting,llm-gynaecology-waitlist@1.0.0,False
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,"Aslında emin değilim, seçeneklerim neler?",still_waiting,llm-gynaecology-waitlist@1.0.0,Unsure
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,"""""""
+artık ihtiyacım olup olmadığını bilmiyorum
+""""""",still_waiting,llm-gynaecology-waitlist@1.0.0,Unsure
+Ameliyatınızın bizim hastanemizde yapılması için hala beklemeye devam etmek ister misiniz?,özel kaldım,still_waiting,llm-gynaecology-waitlist@1.0.0,False
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",şeyler biraz daha iyi gidiyor derdim,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,False
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?","""""""
+çok çok daha kötü
+""""""",gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,True
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",Son birkaç ayda adetlerimin daha ağır olduğunu söyleyebilirim,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,True
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",şimdi kanama neredeyse her gün oluyor,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,True
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",aslında hiçbir değişiklik yok,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,False
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?","""""""
+bununla aynı
+""""""",gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,False
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",Ameliyatım ne zaman?,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,Inconclusive
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",çok uzun zamandır bekliyorum,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,Inconclusive
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?",emin değilim,gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,Unsure
+"Son görülmenizden bu yana, belirtilerinizin daha da kötüleştiğini söyleyebilir misiniz?","""""""
+bilmem 
+""""""",gynae_symptom_change,llm-gynaecology-waitlist@1.0.0,Unsure
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""","""""""
+evet
+""""""",breathlessness,llm-heart-failure-triage@1.0.0,True
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""","""""""
+yeni değil, ama daha kötü
+""""""",breathlessness,llm-heart-failure-triage@1.0.0,True
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""",Aslında aynı şey,breathlessness,llm-heart-failure-triage@1.0.0,False
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""",asla değil,breathlessness,llm-heart-failure-triage@1.0.0,False
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""",bekle,breathlessness,llm-heart-failure-triage@1.0.0,Inconclusive
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""",Ağrılarım var,breathlessness,llm-heart-failure-triage@1.0.0,Inconclusive
+"""""""
+Yeni veya artan nefes darlığı yaşadınız mı? 
+""""""","""""""
+gerçekten bunun daha kötü olup olmadığını bilmiyorum
+""""""",breathlessness,llm-heart-failure-triage@1.0.0,Unsure
+Kalp durumunuzu kontrol etmek istiyorum. Son zamanlarda nasıl hissediyorsunuz?,Son zamanlarda gerçekten çok yorgunum.,fatigue,llm-heart-failure-triage@1.0.0,True
+Kalp durumunuzu kontrol etmek istiyorum. Son zamanlarda nasıl hissediyorsunuz?,"Son zamanlarda göğüs enfeksiyonu geçirdim maalesef, biraz hasta hissettim ama iyileşiyorum.",recent_illness,llm-heart-failure-triage@1.0.0,True
+Kalp durumunuzu kontrol etmek istiyorum. Son zamanlarda nasıl hissediyorsunuz?,Sanırım bacak şişliği kötüleşiyor,leg_swelling,llm-heart-failure-triage@1.0.0,True
+Kalp durumunuzu kontrol etmek istiyorum. Son zamanlarda nasıl hissediyorsunuz?,İyiyim! Hiç nefes nefese değilim!,breathlessness,copd-screen@1.0.0,False
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?","""""""
+evet çok şişkinlik
+""""""",abdominal_pain,llm-ibd-screening@1.0.0,True
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?",oldukça fazla,abdominal_pain,llm-ibd-screening@1.0.0,True
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?",""""" 
+o benim temel sorunum değil 
+""""""",abdominal_pain,llm-ibd-screening@1.0.0,False
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?",hayır,abdominal_pain,llm-ibd-screening@1.0.0,False
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?",ishal olmuşum,abdominal_pain,llm-ibd-screening@1.0.0,Inconclusive
+"Karın ağrısı, rahatsızlık veya şişkinlik yaşadın mı?","""""""
+bilmiyorum
+""""""",abdominal_pain,llm-ibd-screening@1.0.0,Unsure
+"""""""
+Gece dahil ishal geçiriyor musunuz?","""""""
+evet
+""""""",persistent_diarrhoea,llm-ibd-screening@1.0.0,True
+"""""""
+Gece dahil ishal geçiriyor musunuz?","""""""
+gece değil, ama evet
+""""""",persistent_diarrhoea,llm-ibd-screening@1.0.0,True
+"""""""
+Gece dahil ishal geçiriyor musunuz?","""""""
+değişir, ancak oldukça suludur
+""""""",persistent_diarrhoea,llm-ibd-screening@1.0.0,True
+"""""""
+Gece dahil ishal geçiriyor musunuz?",hayır,persistent_diarrhoea,llm-ibd-screening@1.0.0,False
+"""""""
+Gece dahil ishal geçiriyor musunuz?","""""""
+eskiden öyle yapardım, ama artık değil
+""""""",persistent_diarrhoea,llm-ibd-screening@1.0.0,False
+"""""""
+Gece dahil ishal geçiriyor musunuz?",Mide kasılmaları yaşıyorum,persistent_diarrhoea,llm-ibd-screening@1.0.0,Inconclusive
+Rutin herni operasyonunuzdan sonra iyileşmenizin nasıl gittiğini kontrol etmek istiyorum. Herhangi bir komplikasyon belirtisi olup olmadığını görmek için birkaç hızlı soru soracağım. Bu sorun olmaz mı?,"İyiyim gidiyor, ama herniya olan yerde bir tümsek hissettiğimi düşünüyorum.",noticed_changes,llm-hernia-postop-check@1.0.0,True
+Rutin herni operasyonunuzdan sonra iyileşmenizin nasıl gittiğini kontrol etmek istiyorum. Herhangi bir komplikasyon belirtisi olup olmadığını görmek için birkaç hızlı soru soracağım. Bu sorun olmaz mı?,"İyiyim, ama operasyonu yaptıkları yerin biraz ağrıdığını düşünüyorum",groin_symptoms,llm-hernia-postop-check@1.0.0,True
+Rutin herni operasyonunuzdan sonra iyileşmenizin nasıl gittiğini kontrol etmek istiyorum. Herhangi bir komplikasyon belirtisi olup olmadığını görmek için birkaç hızlı soru soracağım. Bu sorun olmaz mı?,"Evet, sanırım iyi iyileşiyorum, bana söylenen gibi siteyi kontrol ediyorum ve hiçbir tümör veya benzeri şey yok",noticed_changes,llm-hernia-postop-check@1.0.0,False
+Ameliyat olduğunuz kasık bölgenizde herhangi bir semptom mevcut mu?,"""""""
+evet, bazen orada bazı ağrılar hissediyorum
+""""""",groin_symptoms,llm-hernia-postop-check@1.0.0,True
+Ameliyat olduğunuz kasık bölgenizde herhangi bir semptom mevcut mu?,Ameliyattan sonra genel olarak çok daha iyi oldu sanırım,groin_symptoms,llm-hernia-postop-check@1.0.0,Inconclusive
+Ameliyat olduğunuz kasık bölgenizde herhangi bir semptom mevcut mu?,hiç de değil,groin_symptoms,llm-hernia-postop-check@1.0.0,False
+Ameliyat olduğunuz kasık bölgenizde herhangi bir semptom mevcut mu?,"Orada bir şeyler var, ama operasyonun orada olduğundan emin değilim",groin_symptoms,llm-hernia-postop-check@1.0.0,Unsure
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,"Evet, tansiyon ilaçları kullanıyorum",current_medications,llm-preop-hvlc@1.0.0,True
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,warfarin,current_medications,llm-preop-hvlc@1.0.0,True
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,"""""""
+kolesterol sadece
+""""""",current_medications,llm-preop-hvlc@1.0.0,True
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,"Hayır, değilim.",current_medications,llm-preop-hvlc@1.0.0,False
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,Vitamin önemli mi?,current_medications,llm-preop-hvlc@1.0.0,Inconclusive
+Şu anda reçeteli ilaçlar veya reçetesiz satılan herhangi bir ilaç dahil olmak üzere düzenli olarak herhangi bir ilaç alıyor musunuz?,"Evet, kan incelticiler alıyorum",blood_thinners,llm-preop-hvlc@1.0.0,True
+Warfarin veya Aspirin gibi kan incelticileri alıyor musunuz?,"Evet, warfarin kullanıyorum",blood_thinners,llm-preop-hvlc@1.0.0,True
+Warfarin veya Aspirin gibi kan incelticileri alıyor musunuz?,sadece asprin,blood_thinners,llm-preop-hvlc@1.0.0,True
+Warfarin veya Aspirin gibi kan incelticileri alıyor musunuz?,"""""""
+bildiğim kadarıyla değil
+""""""",blood_thinners,llm-preop-hvlc@1.0.0,False
+Warfarin veya Aspirin gibi kan incelticileri alıyor musunuz?,emin değilim,blood_thinners,llm-preop-hvlc@1.0.0,Unsure
+Warfarin veya Aspirin gibi kan incelticileri alıyor musunuz?,"""""""
+yutması zor olan evet
+""""""",blood_thinners,llm-preop-hvlc@1.0.0,True
+İdrar enfeksiyonlarına ne zaman başladınız?,yaklaşık 2 yıl önce.,onset_of_infections,llm-uti-recurrent-triage@1.0.0,True
+İdrar enfeksiyonlarına ne zaman başladınız?,"""""""
+Tekrarlayabilir misin? 
+""""""",onset_of_infections,llm-uti-recurrent-triage@1.0.0,Inconclusive
+İdrar enfeksiyonlarına ne zaman başladınız?,6 ay önce düşündüğümü sanıyorum.,onset_of_infections,llm-uti-recurrent-triage@1.0.0,True
+İdrar enfeksiyonlarına ne zaman başladınız?,"Hayır, idrar enfeksiyonları geçirmedim",onset_of_infections,llm-uti-recurrent-triage@1.0.0,False
+İdrar enfeksiyonu olduğunuzda hangi belirtileri yaşarsınız?,Çok sık gitmem gerekiyor ve bu çok sinir bozucu.,infection_symptoms,llm-uti-recurrent-triage@1.0.0,True
+İdrar enfeksiyonu olduğunuzda hangi belirtileri yaşarsınız?,Ne demek istiyorsun?,infection_symptoms,llm-uti-recurrent-triage@1.0.0,Inconclusive
+İdrar enfeksiyonu olduğunuzda hangi belirtileri yaşarsınız?,her zaman yanıyor ve gittikçe kötüleşiyor,infection_symptoms,llm-uti-recurrent-triage@1.0.0,True
+İdrar enfeksiyonu olduğunuzda hangi belirtileri yaşarsınız?,yanma,infection_symptoms,llm-uti-recurrent-triage@1.0.0,True
+İdrar enfeksiyonu olduğunuzda hangi belirtileri yaşarsınız?,"""""""
+Aslında emin değilim - her defasında farklı
+""""""",infection_symptoms,llm-uti-recurrent-triage@1.0.0,Unsure
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?","Evet, bu mantıklı.",intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,True
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?",Anladım.,intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,True
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?","Tamam, anladım.",intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,True
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?","""""""
+Hayır, ne demek istediğini anlamıyorum.
+""""""",intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,Inconclusive
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?",Ne? Bunu tekrar edebilir misin?,intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,Inconclusive
+"Bu araştırma denemesine katıldığınız için teşekkür ederim! Bilgileri paylaşmak ve genel sorulara cevap vermek için buradayım, ancak tıbbi tavsiye, teşhis veya tedavi sağlayamam. Acil bir durum olduğunu düşünüyorsanız, lütfen doktorunuzu arayınız veya hemen dokuz bir bir'i arayınız. Anlaşılır mı?",Evet efendim,intro_and_safety_netting,llm-cataract-hpi-us@1.0.0,True
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,"Evet, gözlüklerim artık bana yardım etmiyor.",vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,True
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,Yeni gözlüklerle bile iyi göremiyorum.,vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,True
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,Yeni gözlükler aldım ve hiç yardımcı olmadılar.,vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,True
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,"Hayır, gözlüğüm gayet iyi çalışıyor.",vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,False
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,Gözlüklerim aslında çok yardımcı oluyor.,vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,False
+Şu anki gözlükleriniz veya düzeltici merceklerinizle bile görüş problemleriniz devam ediyor mu?,Gözlük takmıyorum.,vision_problems_even_with_lens_use,llm-cataract-hpi-us@1.0.0,Inconclusive
+Gözünüzde herhangi bir ağrı var mı?,"Evet, gözüm ağrıyor.",eye_pain,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde herhangi bir ağrı var mı?,Gözümde sürekli bir ağrı var.,eye_pain,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde herhangi bir ağrı var mı?,Aydınlatılmış ışığında özellikle çok ağrılı.,eye_pain,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde herhangi bir ağrı var mı?,Hiçbir ağrı yok.,eye_pain,llm-cataract-hpi-us@1.0.0,False
+Gözünüzde herhangi bir ağrı var mı?,"""""""
+Hayır, acıtmaz.
+""""""",eye_pain,llm-cataract-hpi-us@1.0.0,False
+Gözünüzde herhangi bir ağrı var mı?,Bazen sadece biraz rahatsızlık.,eye_pain,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde herhangi bir ağrı var mı?,"Özür dilerim, soru neydi tekrar?",eye_pain,llm-cataract-hpi-us@1.0.0,Inconclusive
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,"Evet, bazen çift görüyorum.",double_vision,llm-cataract-hpi-us@1.0.0,True
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,Metin okurken metin etrafında hayaletleme olduğunu fark ediyorum.,double_vision,llm-cataract-hpi-us@1.0.0,True
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,"Kesinlikle çift görme var, özellikle geceleyin.",double_vision,llm-cataract-hpi-us@1.0.0,True
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,"""""""
+Hayır, çift görmüyorum.
+""""""",double_vision,llm-cataract-hpi-us@1.0.0,False
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,Hiçbir hayalet görüntü veya çift görüş yoktur.,double_vision,llm-cataract-hpi-us@1.0.0,False
+Şeylere baktığınızda çift gördüğünüz veya hayalet görüntüleri fark ettiğiniz oluyor mu?,"""""""
+Hayalet görüntülerden ne kastettiğinizi anlamadım. Bu ne anlama geliyor?
+""""""",double_vision,llm-cataract-hpi-us@1.0.0,Inconclusive
+Görüşünüz sürme yeteneğinizi etkiledi mi?,"Evet, gece sürüşü bırakıyorum.",driving_difficulty,llm-cataract-hpi-us@1.0.0,True
+Görüşünüz sürme yeteneğinizi etkiledi mi?,Başka araçlardan gelen far ışıklarından rahatsız oluyorum.,driving_difficulty,llm-cataract-hpi-us@1.0.0,True
+Görüşünüz sürme yeteneğinizi etkiledi mi?,Sokak tabelalarını artık okuyamıyorum.,driving_difficulty,llm-cataract-hpi-us@1.0.0,True
+Görüşünüz sürme yeteneğinizi etkiledi mi?,Tamamen araç sürmeyi bırakmak zorunda kaldım.,driving_difficulty,llm-cataract-hpi-us@1.0.0,True
+Görüşünüz sürme yeteneğinizi etkiledi mi?,"Hayır, sürüşüm gayet iyi.",driving_difficulty,llm-cataract-hpi-us@1.0.0,False
+Görüşünüz sürme yeteneğinizi etkiledi mi?,Araç kullanmak benim için bir sorun değil.,driving_difficulty,llm-cataract-hpi-us@1.0.0,False
+Görüşünüz sürme yeteneğinizi etkiledi mi?,Araba kullanmam.,driving_difficulty,llm-cataract-hpi-us@1.0.0,False
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,"Evet, ilaç şişelerindeki etiketleri okuyamıyorum.",difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,True
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,Her şeyi okumak için bir büyütece ihtiyacım var.,difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,True
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,"""""""
+Küçük yazılar benim için çok zor.
+""""""",difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,True
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,"Hayır, küçük yazıları gayet iyi okuyabilirim.",difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,False
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,Okumak benim için bir sorun değil.,difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,False
+İlaç şişeleri veya gıda etiketleri gibi küçük yazıları okumakta zorlanıyor musunuz?,Son zamanlarda gerçekten denedim değil.,difficulty_reading_at_close_distance,llm-cataract-hpi-us@1.0.0,Unsure
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,"Evet, televizyon yakından oturduğum zaman bile bulanık.",difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,True
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,Televizyondaki altyazıları artık okuyamıyorum.,difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,True
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,Bilgisayar çalışması benim gözlerim için çok zor.,difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,True
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,"Hayır, televizyonu ve bilgisayarı gayet iyi görebiliyorum.",difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,False
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,Ekranlar bir sorun değil.,difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,False
+Televizyonu net bir şekilde görmek veya bilgisayarda metin okumakta herhangi bir zorluk yaşıyor musunuz?,Aslında televizyon izlemiyorum ya da bilgisayar kullanmıyorum.,difficulty_reading_screens_at_medium_distance,llm-cataract-hpi-us@1.0.0,Unsure
+Merdivenleri veya kaldırımları değerlendirmede herhangi bir sorun yaşıyor musunuz veya görüşünüzle ilgili herhangi bir düşme yaşadınız mı?,"Evet, birkaç kez kaldırımlara takıldım.",difficulty_judging_steps_or_curbs,llm-cataract-hpi-us@1.0.0,True
+Merdivenleri veya kaldırımları değerlendirmede herhangi bir sorun yaşıyor musunuz veya görüşünüzle ilgili herhangi bir düşme yaşadınız mı?,Merdivenleri yanlış hesapladım ve bazı merdivenlerden düştüm.,difficulty_judging_steps_or_curbs,llm-cataract-hpi-us@1.0.0,True
+Merdivenleri veya kaldırımları değerlendirmede herhangi bir sorun yaşıyor musunuz veya görüşünüzle ilgili herhangi bir düşme yaşadınız mı?,Eşit olmayan zeminde kendimi güvensiz hissediyorum.,difficulty_judging_steps_or_curbs,llm-cataract-hpi-us@1.0.0,True
+Merdivenleri veya kaldırımları değerlendirmede herhangi bir sorun yaşıyor musunuz veya görüşünüzle ilgili herhangi bir düşme yaşadınız mı?,"""""""
+Merdivenle ilgili hiç sorun yok.
+""""""",difficulty_judging_steps_or_curbs,llm-cataract-hpi-us@1.0.0,False
+Merdivenleri veya kaldırımları değerlendirmede herhangi bir sorun yaşıyor musunuz veya görüşünüzle ilgili herhangi bir düşme yaşadınız mı?,"""""""Emin değilim, aslında hiç dikkat etmedim.""""""",difficulty_judging_steps_or_curbs,llm-cataract-hpi-us@1.0.0,Unsure
+"Görme nedeniyle dikiş, örgü, marangozluk veya el yazısı gibi ayrıntılı görevlerle herhangi bir sorun yaşıyor musunuz?","Evet, yeterince iyi göremediğim için örmeyi bırakmak zorunda kaldım.",difficulty_with_fine_motor_tasks,llm-cataract-hpi-us@1.0.0,True
+"Görme nedeniyle dikiş, örgü, marangozluk veya el yazısı gibi ayrıntılı görevlerle herhangi bir sorun yaşıyor musunuz?",İğneyi delmek şimdi imkansız.,difficulty_with_fine_motor_tasks,llm-cataract-hpi-us@1.0.0,True
+"Görme nedeniyle dikiş, örgü, marangozluk veya el yazısı gibi ayrıntılı görevlerle herhangi bir sorun yaşıyor musunuz?","El yazım, çizgileri göremediğim için daha da kötüleşti.",difficulty_with_fine_motor_tasks,llm-cataract-hpi-us@1.0.0,True
+"Görme nedeniyle dikiş, örgü, marangozluk veya el yazısı gibi ayrıntılı görevlerle herhangi bir sorun yaşıyor musunuz?","""""""
+Hayır, hala ayrıntılı işleri iyi yapabilirim.
+""""""",difficulty_with_fine_motor_tasks,llm-cataract-hpi-us@1.0.0,False
+"Görme nedeniyle dikiş, örgü, marangozluk veya el yazısı gibi ayrıntılı görevlerle herhangi bir sorun yaşıyor musunuz?","""""""
+O aktivitelerin hiçbirini yapmam.
+""""""",difficulty_with_fine_motor_tasks,llm-cataract-hpi-us@1.0.0,Unsure
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,"Evet, yaklaşık 10 yıl önce LASIK yaptırdım.",laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,Her iki gözüme de PRK yaptırdım.,laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,90'lı yıllarda radial keratotomi geçirdim.,laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,"Hayır, hiç lazer göz ameliyatı olmadı.",laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,False
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,"""""""
+Benim için hiçbir kırıcı cerrahi yok.
+""""""",laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,False
+LASIK veya PRK gibi lazer göz ameliyatı veya radyal keratotomi olarak adlandırılan eski bir prosedür geçirdiniz mi?,"""""""
+Emin değilim, çok uzun zaman önceydi.
+""""""",laser_eye_surgery_history,llm-cataract-hpi-us@1.0.0,Unsure
+Şu anda kontakt lens takıyor musunuz?,"Evet, yumuşak kontakt lens takıyorum.",contact_lenses,llm-cataract-hpi-us@1.0.0,True
+Şu anda kontakt lens takıyor musunuz?,Sert gaz geçirgen merceklere kullanıyorum.,contact_lenses,llm-cataract-hpi-us@1.0.0,True
+Şu anda kontakt lens takıyor musunuz?,"Evet, günlük atılabilirler.",contact_lenses,llm-cataract-hpi-us@1.0.0,True
+Şu anda kontakt lens takıyor musunuz?,"Hayır, lens takmıyorum.",contact_lenses,llm-cataract-hpi-us@1.0.0,False
+Şu anda kontakt lens takıyor musunuz?,Sadece gözlük takıyorum.,contact_lenses,llm-cataract-hpi-us@1.0.0,False
+Şu anda kontakt lens takıyor musunuz?,Eskiden yapar ancak birkaç yıl önce bırakmıştım.,contact_lenses,llm-cataract-hpi-us@1.0.0,False
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,"Evet, glokom hastasıyım ve buna karşı damla kullanıyorum.",glaucoma,llm-cataract-hpi-us@1.0.0,True
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,Yüksek göz tansiyonum olduğu söylendi.,glaucoma,llm-cataract-hpi-us@1.0.0,True
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,Glokom için lazer tedavisi gördüm.,glaucoma,llm-cataract-hpi-us@1.0.0,True
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,"Hayır, hiç glokom veya yüksek göz tansiyonu geçirmedim.",glaucoma,llm-cataract-hpi-us@1.0.0,False
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,Göz tansiyonum her zaman normaldi.,glaucoma,llm-cataract-hpi-us@1.0.0,False
+Glokom veya yüksek göz tansiyonu teşhisi konuldu mu size hiç?,"""""""
+Hatırlamıyorum, kayıtlarımı kontrol etmem lazım.
+""""""",glaucoma,llm-cataract-hpi-us@1.0.0,Unsure
+Diyabet teşhisi konuldu mu?,"Evet, Tip 2 diyabetim var.",diabetes,llm-cataract-hpi-us@1.0.0,True
+Diyabet teşhisi konuldu mu?,Diyabetim var ve insülin kullanıyorum.,diabetes,llm-cataract-hpi-us@1.0.0,True
+Diyabet teşhisi konuldu mu?,Diyabetimi diyet ve ilaçla kontrol ediyorum.,diabetes,llm-cataract-hpi-us@1.0.0,True
+Diyabet teşhisi konuldu mu?,"Hayır, diyabetim yok.",diabetes,llm-cataract-hpi-us@1.0.0,False
+Diyabet teşhisi konuldu mu?,Kan şekerim her zaman normaldi.,diabetes,llm-cataract-hpi-us@1.0.0,False
+Diyabet teşhisi konuldu mu?,"Ön diyabetim var, bu sayılır mı?",diabetes,llm-cataract-hpi-us@1.0.0,Unsure
+Gözünüzde önemli bir yaralanma oldu mu?,"Evet, yıllar önce metal parça yaralanması geçirdim.",eye_trauma,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde önemli bir yaralanma oldu mu?,Spor yaparken gözüme vuruldum ve ameliyat olmam gerekti.,eye_trauma,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde önemli bir yaralanma oldu mu?,Çocukken ciddi bir göz yarası almıştım.,eye_trauma,llm-cataract-hpi-us@1.0.0,True
+Gözünüzde önemli bir yaralanma oldu mu?,"Hayır, hiç gözüme zarar vermedim.",eye_trauma,llm-cataract-hpi-us@1.0.0,False
+Gözünüzde önemli bir yaralanma oldu mu?,Göz yaralanmaları yok.,eye_trauma,llm-cataract-hpi-us@1.0.0,False
+Gözünüzde önemli bir yaralanma oldu mu?,"""""""
+Hatırladığım kadarıyla önemli bir şey yok.
+""""""",eye_trauma,llm-cataract-hpi-us@1.0.0,False
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?","Evet, çocukken tembel görmüşlüğüm vardı.",amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,True
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?",Gençken şaşılık ameliyatı oldum.,amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,True
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?",Gözlerim her zaman birlikte çalışmıyor.,amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,True
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?","Hayır, hiç tembel gözüm olmadı.",amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,False
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?",Göz kası problemleri yok.,amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,False
+"""""""
+Uzun görmüşlüğün veya göz kaslarına ameliyat olmuşluğun var mı?","""""""
+Tembel gözden ne anlıyorsunuz?
+""""""",amblyopia_strabismus,llm-cataract-hpi-us@1.0.0,Inconclusive
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,"Evet, makula dejenerasyonu için enjeksiyonlar yaptırdım.",prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,Retina dekolmanı ameliyatı oldum.,prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,Geçen yıl vitrektomi ameliyatı oldum.,prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,True
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,"Hayır, başka hiçbir göz ameliyatı.",prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,False
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,Bu benim ilk göz ameliyatım olurdu.,prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,False
+Retinal cerrahisi veya göz enjeksiyonları gibi diğer herhangi bir göz ameliyatı veya prosedür geçirdiniz mi?,Yaptırdığım tüm işlemleri hatırlayamıyorum.,prior_eye_surgery_history,llm-cataract-hpi-us@1.0.0,Unsure
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,"Evet, prostatım için Flomax kullanıyorum.",alpha_blocker_history,llm-cataract-hpi-us@1.0.0,True
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,Tamsulosin kullanıyorum.,alpha_blocker_history,llm-cataract-hpi-us@1.0.0,True
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,Flomax kullanıyordum ama geçen yıl bıraktım.,alpha_blocker_history,llm-cataract-hpi-us@1.0.0,True
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,"Hayır, herhangi bir prostat ilacı kullanmıyorum.",alpha_blocker_history,llm-cataract-hpi-us@1.0.0,False
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,Ben hiç böyle bir şey yapmadım.,alpha_blocker_history,llm-cataract-hpi-us@1.0.0,False
+Prostat sorunları veya idrar problemleri için Flomax veya tamsulosin gibi herhangi bir ilaç alıyor musunuz?,İlaçımın adını tam olarak bilmiyorum.,alpha_blocker_history,llm-cataract-hpi-us@1.0.0,Unsure
+"Peki, ameliyattan sonra sol gözün nasıl gidiyor?","İyiyim, teşekkür ederim. Bulanıklık yok, yüzen noktalar yok, ağrı yok, kızarıklık yok. Diğer göz ameliyatımı da yakın zamanda yaptırmak istiyorum.",eye_pain,llm-cataract@1.0.0,False

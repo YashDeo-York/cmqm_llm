@@ -1,0 +1,10 @@
+openpyxl
+pandas
+requests
+tqdm
+streamlit
+matplotlib
+seaborn
+scipy
+scikit-learn
+numpy

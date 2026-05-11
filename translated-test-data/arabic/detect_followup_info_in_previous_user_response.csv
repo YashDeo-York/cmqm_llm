@@ -1,0 +1,751 @@
+llm_question,response,context,topic_key,expected_output
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,نعم، لا أستطيع قراءة الجريدة بعد الآن,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,نعم وسقطت مرتين أثناء النزول من الدرج,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,أواجه صعوبة في التعرف على وجوه الناس وأشعر بالتردد عند المشي,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,القراءة أصبحت مشكلة,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,نعم من الصعب القيادة في الليل وقد تعرضت لبعض الانزلاقات مؤخرًا,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يتأثر بصرك بقدرتك على العمل أو القيادة أو القراءة أو مشاهدة التلفزيون أو التعرف على الأشخاص؟,أذهب ببطء أكبر الآن خاصة على الدرج,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,نعم، آخذ وارفارين لمرضي القلب,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,أنا آخذ الأسبرين يوميًا,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,نعم ولكن لا أعرف الإسم,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,أنا آخذ راميبيريل، هل هو من مزيلات الدم؟,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,نعم أنا على كلوپيدوجريل,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,أبيكسابان,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,نعم,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تتناول أي من مزيلات الدم؟,نعم، آخذ وارفارين لمرضي القلب,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول أي من مزيلات الدم؟,أنا آخذ الأسبرين يوميًا,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تتناول أي من مزيلات الدم؟,أنا آخذ راميبيريل، هل هو من مزيلات الدم؟,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,نعم، آخذ ميتفورمين لمرض السكري الخاص بي,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,أنا على إنسولين,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,نعم من أجل ضغط الدم,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,أتناول العديد من الأدوية يوميًا,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,أنا أتناول راميبيريل لارتفاع ضغط الدم,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,نعم من أجل ضغط الدم,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,أتناول العديد من الأدوية يوميًا,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,أنا آخذ راميبيريل لضغط الدم المرتفع وأتناول أيضًا مكملات فيتامين د,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها. هل تتناول أي دواء منتظم؟,نعم من أجل ضغط الدم والكوليسترول,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تستخدم كرسيًا متحركًا بانتظام؟,نعم أنا أحتاج إلى مساعدة للخروج والدخول منه,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تستخدم كرسيًا متحركًا بانتظام؟,عذرًا ماذا,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تستخدم كرسيًا متحركًا بانتظام؟,أستخدم واحدًا عندما أذهب للتسوق,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تستخدم كرسيًا متحركًا بانتظام؟,نعم، قائمتي الرعاية يساعدني في النقل,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تستخدم كرسيًا متحركًا بانتظام؟,نعم لا أستطيع المشي على الإطلاق,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تستخدم كرسيًا متحركًا بانتظام؟,نعم,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تستخدم كرسيًا متحركًا بانتظام؟,لا,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل تحتاج عادةً إلى مساعدة للجلوس والوقوف من كرسيك؟,نعم,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تحتاج عادةً إلى مساعدة للجلوس والوقوف من كرسيك؟,لا، أستطيع التعامل مع الأمر بنفسي,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تحتاج عادةً إلى مساعدة للجلوس والوقوف من كرسيك؟,زوجتي تساعدني,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تحتاج عادةً إلى مساعدة للجلوس والوقوف من كرسيك؟,في بعض الأحيان,Do you usually need assistance getting in and out of your chair?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل يسبب ضعف البصر لديك السقوط أو مشاكل في الحركة؟,نعم سقطت عدة مرات,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يسبب ضعف البصر لديك السقوط أو مشاكل في الحركة؟,لا، ليس حقًا,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يسبب ضعف البصر لديك السقوط أو مشاكل في الحركة؟,أشعر أحيانًا بعدم التوازن قليلاً عند النزول بالدرج,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+هل يسبب ضعف البصر لديك السقوط أو مشاكل في الحركة؟,أذهب ببطء أكبر,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,TRUE
+ما هو منظمات الدم التي تتناولها؟,وارفارين,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+ما هو منظمات الدم التي تتناولها؟,أسبيرين,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+ما هو منظمات الدم التي تتناولها؟,كلوپيدوجريل,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+ما هو منظمات الدم التي تتناولها؟,لست متأكدا من الاسم,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول حبوب وارفارين؟,نعم,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول حبوب وارفارين؟,لا,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تتناول حبوب وارفارين؟,كنت أفعل ولكن لا الآن,Do you take warfarin?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أدوية لمراقبة السكر في دمك؟ 
+""""""",نعم ميتفورمين,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أدوية لمراقبة السكر في دمك؟ 
+""""""",أنا على إنسولين,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أدوية لمراقبة السكر في دمك؟ 
+""""""",لا، ليس لدي داء السكري,Do you take medication to control your diabetes?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أي أقراص لمراقبة ضغط الدم؟
+""""""",نعم راميبيريل,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أي أقراص لمراقبة ضغط الدم؟
+""""""",لا، ضغط الدم لديّ جيد,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أي أقراص لمراقبة ضغط الدم؟
+""""""",أملوديبين,Do you take any tablets to control your blood pressure?,llm-cataract-pre-assessment@1.0.0,TRUE
+هل تعاني من رؤية مُتَضحِّفة بعد عملية الجراحة؟,قريب كفاية,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية مُتَضحِّفة بعد عملية الجراحة؟,قريب كفاية,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,قريب كفاية,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على بعد,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على بعد,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على بعد,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على مقربة,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على مقربة,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم على مقربة,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,كلا,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,كلا,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,كلا,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع رؤية بعيدًا أو قريبًا,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع رؤية بعيدًا أو قريبًا,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع رؤية بعيدًا أو قريبًا,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع الرؤية من القرب,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع الرؤية من القرب,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع الرؤية من القرب,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع أن أرى بعيداً,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع أن أرى بعيداً,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,لا أستطيع أن أرى بعيداً,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,كلا,"occurrence of blurry vision - are you having trouble seeing clearly at a distance, up close, or both?",llm-cataract@1.0.0,TRUE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+هل تواجه صعوبة في الرؤية بوضوح على مسافة، أو من القرب، أو كلاهما؟,نعم,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+أريد جمع بعض المعلومات حول كيفية شفاء عينك، والتي سأشاركها مع طبيبك.，所以، كيف حال عينك منذ عملية الجراحة؟,أنا أعتقد أنني أحسن حالا قليلا أحيانا أشعر بالحكة و أحيانا تظهر أمامي بقع طافية,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+أريد جمع بعض المعلومات حول كيفية شفاء عينك، والتي سأشاركها مع طبيبك.，所以، كيف حال عينك منذ عملية الجراحة؟,أنا أعتقد أنني أحسن حالا قليلا أحيانا أشعر بالحكة و أحيانا تظهر أمامي بقع طافية,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+أريد جمع بعض المعلومات حول كيفية شفاء عينك، والتي سأشاركها مع طبيبك.，所以، كيف حال عينك منذ عملية الجراحة؟,أنا أعتقد أنني أحسن حالا قليلا أحيانا أشعر بالحكة و أحيانا تظهر أمامي بقع طافية,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,نعم نعم لدي نعم,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,لا أستطيع القراءة جيداً,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,نعم عندما أقرأ,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,نعم كلا,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,فقط على بعد,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة، سواء عند النظر إلى الأشياء من بعيد أو عند القراءة؟,نعم لا أستطيع أن أرى من بعيد,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل هو أكثر عندما تشاهد التلفزيون أو تحاول قراءة شيء ما؟,رؤيتي القرائية,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل هو أكثر عندما تشاهد التلفزيون أو تحاول قراءة شيء ما؟,مشاهدة التلفزيون,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل هو أكثر عندما تشاهد التلفزيون أو تحاول قراءة شيء ما؟,كلا,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل هو أكثر عندما تشاهد التلفزيون أو تحاول قراءة شيء ما؟,أقل عند القراءة,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تحسنت رؤيتك منذ الجراحة,حسناً قد تحسنت إلى حد ما لأنني الآن أستطيع مشاهدة التلفزيون لكن لا أستطيع القراءة,ability to see close up - while reading,llm-cataract@1.0.0,TRUE
+هل تحسنت رؤيتك منذ الجراحة,حسنت الرؤية قليلا.,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل تحسنت رؤيتك منذ الجراحة,حسناً قد تحسنت إلى حد ما لأنني الآن أستطيع مشاهدة التلفزيون لكن لا أستطيع القراءة,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,TRUE
+هل تحسنت رؤيتك منذ الجراحة,إنه سيئ حقًا بالمقارنة مع ما قبل ذلك,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+كيف حال عينك بعد عملية إزالة الساد؟,كان أفضل، لكنه الآن غامض,ability to see - at a distance such as watching TV,llm-cataract@1.0.0,FALSE
+كيف حال عينك بعد عملية إزالة الساد؟,رؤيتي تزداد سوءاً,ability to see close up - while reading,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,"""""""
+فقط خلال الأسبوع الأول الآن قد اختفوا
+""""""",increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,كان لدي بعض من قبل,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,عندما فعلته لأول مرة نعم ولكن الآن لم يعد كذلك,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,نعم والبقع السوداء وأمور من هذا القبيل,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,أرى بقعا في رؤيتي,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,هناك كل هذه الأشياء الصغيرة الشبكية,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,نقاط صغيرة سوداء قليلاً ولكن ليس كثيراً فقط في بداية الصباح ثم تختفي,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,لدي عوامات منذ بضع سنوات قبل الجراحة,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي بقع داكنة صغيرة أو شبكات عنكبوتية في رؤيتك منذ الجراحة؟,لدي نقاط صغيرة,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",أصبح الأمر في الآونة الأخيرة أسوأ,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",هم أكثر إزعاجا من ذي قبل,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",ليس هناك زيادة لديّ أشياء عائمة لكن ليس أكثر مما كان من قبل,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",لا أظن أن عوامتي قد زادت,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",لا أظن أنني قد عانيت من المزيد من العوامات مؤخرًا,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",الجسيمات العائمة تتدهور بالتأكيد,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",النقاط السوداء أكثر إزعاجًا الآن,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",لا,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+"""""""
+إذاً أنت تقول إنك لاحظت بعض البقع الداكنة الصغيرة أو شبكات العنكبوت في رؤيتك منذ الجراحة. هل يمكنك أن تخبرني إذا تغيرت أو увеличت في العدد منذ العملية؟",نعم لم يكن لديهم من قبل,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,TRUE
+كيف حال عينك بعد عملية إزالة الساد؟,لدي شيء مثل النقاط الصغيرة التي تتحرك قليلاً على جهازي وأنا أحبهم جميعاً,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+كيف حال عينك بعد عملية إزالة الساد؟,أرى الكثير من النقاط الداكنة,increase or change in floaters - are they changing or increasing?,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,نعم,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,لا ألم شديد، أعرف فقط موقع الألم، وصبيحة اليوم كان كل شيء خفيف جداً,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل تعاني من ألم في عينك,فقط بعد قطرات تشنج عيني,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل تعاني من ألم في عينك,نعم كان مؤلمًا ليلة الأمس نعم بعد أن انتهيت من المضاد الحيوي,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+كيف حال عينك بعد عملية إزالة الساد؟,يؤلم كثيرًا,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+كيف حال عينك بعد عملية إزالة الساد؟,رقيق,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,من المزعج لي,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,نعم لدي الكثير من الألم,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,يؤلم أكثر من القسوة,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل عينك مؤلمة حاليًا,أعتقد أنه يصبح أقل ألمًا بشكل عام,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,مؤلم دائمًا,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,نعم أحيانًا يؤلمني أشعر به عندما أعتقد أنني لا يجب أن أشعر به أنا على دراية به إنه يمنحني ألمًا خفيفًا,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,ألم دائم وخاصة في الصباح,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,الألم يتناقص,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,كان الأمر سيئًا جدًا الأمس، ولكن اليوم صباحًا عندما استيقظت ما زلت أشعر بالألم أيضًا,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,فقط عندما تجعل القطراتها حارقة,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,من حين لآخر قليلاً مؤلم,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,TRUE
+هل تعاني من ألم في عينك,أنا أعاني,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل تعاني من ألم في عينك,الألم يبرد أكثر,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+هل الألم في عينك بعض الوقت أو كل الوقت؟,يبدو قاسياً,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+شكراً أنت تشعر بشيء من الألم ويتكرر ثم يزول. هل يمكنك وصف هذا الألم بشكل أكثر - هل هو في الغالب شعور خشن أو جاف، أو شيء آخر؟,نعم أجل هذا صحيح تماما نعم قليلا جاف في بعض الأحيان,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+حسناً، أنت تشعر بألم خفيف في عينك في بعض الأحيان. هل يمكنك أن تخبرني عن ماهية هذا الألم - هل هو شعور رملية أو جاف في الغالب، أو شيء آخر؟,حس جاف,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تشعر بألم في عينك؟,قليلاً جافاً في بعض الأحيان,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل عينك مؤلمة حاليًا؟,قليلاً جافاً في بعض الأحيان,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل عيناك مؤلمتان؟,قليلاً جافاً في بعض الأحيان,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تؤلمك عيناك على الإطلاق؟,هم فقط قليلاً خشنون,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تعاني من ألم في عينيك على الإطلاق؟,هم فقط قليلاً خشنون,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تعاني من ألم في عينيك على الإطلاق؟,هم فقط قليلاً خشنون,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تشعر بألم في عينك؟,فقط بعد قطرات تشنج عيني,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل عينك مؤلمة حاليًا؟,فقط بعد قطرات تشنج عيني,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل عيناك مؤلمتان؟,فقط بعد قطرات تشنج عيني,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,TRUE
+هل تشعر بألم في عينك؟,نعم,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عينك مؤلمة حاليًا؟,نعم,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عيناك مؤلمتان؟,نعم,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عينك مؤلمة حاليًا؟,أعتقد أنه يصبح أقل ألمًا بشكل عام,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عيناك مؤلمتان؟,أعتقد أنه يصبح أقل ألمًا بشكل عام,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عينك مؤلمة حاليًا؟,مؤلم دائمًا,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل عيناك مؤلمتان؟,مؤلم دائمًا,"description of the pain - is it mostly a gritty or dry sensation, or something else?",llm-cataract@1.0.0,FALSE
+هل تعاني من احمرار في عينك,عيني حمراء قليلا نعم,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+هل تعاني من احمرار في عينك,الجزء الأيسر والأيمن من العين كلاهما أحمر,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل تعاني من احمرار في عينك,أحمر طوال المسافة,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل تعاني من احمرار في عينك,كاملًا أحمر,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل تعاني من احمرار في عينك,قليلاً من عيني أحمر,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل تعاني من احمرار في عينك,حسناً، لا يزال لونها وردي قليلاً,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+هل تعاني من احمرار في عينك,أحمر حول الحواف,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,لا، ليس أحمر في الزاوية، إنه أحمر في كل مكان,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,كل جزء من عيني أحمر,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,نعم إنه بالقرب من الأنف وهو أحمر جدًا ويبدو وكأنه جروح,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,الاحمرار قد زال تقريباً بالكامل، باستثناء قليل منه في الزاوية,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,ليس تماما. إنه أكثر احمرارًا، وهو أحمر من الخارج، وتحت العين يصبح أحمر.,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها موجودة فقط في زاوية واحدة ، بالقرب من أنفك؟,أنا أقول أن أقلية العين حمراء,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+هل الحمرة تغطي عينك بالكامل أم أنها أكثر في الزاوية بالقرب من أنفك؟,لا، ليس أحمر جدا، بل قليلا في الزاوية,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,TRUE
+كيف حال عينك بعد عملية إزالة الساد؟,إنه بالأحرى أحمر,location of redness - all over or just in the corner by the nose,llm-cataract@1.0.0,FALSE
+هل تعرضت لفقدان وزن غير متوقع؟,حوالي 2 ستون في 6 أشهر أعتقد,How much weight have you lost?,copd-screen@1.0.0,TRUE
+هل تعرضت لفقدان وزن غير متوقع؟,حوالي 2 ستون في 6 أشهر أعتقد,Over what time period did you lose this weight?,copd-screen@1.0.0,TRUE
+هل تعرضت لفقدان وزن غير متوقع؟,لقد خسرت بعض الوزن,Over what time period did you lose this weight?,copd-screen@1.0.0,FALSE
+هل تعرضت لفقدان وزن غير متوقع؟,لقد خسرت بعض الوزن,How much weight have you lost?,copd-screen@1.0.0,FALSE
+هل سعلت دمًا؟,نعم، ولكن الأمر ليس أكثر من بعض البقع,How much blood have you coughed up?,copd-screen@1.0.0,TRUE
+هل سعلت دمًا؟,نعم أنا أرى بعض الدم,How much blood have you coughed up?,copd-screen@1.0.0,FALSE
+هل سعلت دمًا؟,نعم، ولكن حدث ذلك مرة أو مرتين,How often has this happened?,copd-screen@1.0.0,TRUE
+هل سعلت دمًا؟,نعم أنا أرى بعض الدم,How often has this happened?,copd-screen@1.0.0,FALSE
+كم كان الضغط في أذنيك مشكلة؟,إنه مجرد مشكلة خفيفة,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+كم كان الضغط في أذنيك مشكلة؟,خير. كيف أُفَسِّرُه...,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+كم كان الضغط في أذنيك مشكلة؟,الضغط دائمًا ما يكون موجودًا,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+هل تشعر أذناك بالانسداد أو كأنك تحت الماء؟,نعم، ولكن قليلاً أعتقد,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+هل تشعر أذناك بالانسداد أو كأنك تحت الماء؟,نعم، هذا مشكلة خطيرة.,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,TRUE
+هل تشعر أذناك بالانسداد أو كأنك تحت الماء؟,نعم هذا هو بالضبط,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+هل تشعر أذناك بالانسداد أو كأنك تحت الماء؟,نعم، في كل وقت,"Exact severity of problem - mild problem, moderate problem, or severe problem - must be in exact wording",llm-ent-demo@1.0.0,FALSE
+هل تعرضت لأي أعراض جانبية من العلاج؟,نعم، أنا أشعر بآلام في المعدة,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,TRUE
+هل تعرضت لأي أعراض جانبية من العلاج؟,حسنا، أنا دائماً أشعر بالألم منذ سقوطي,Have you experienced any worsening heartburn or indigestion?,llm-fracture-liaison-service@1.0.0,FALSE
+هل تعرضت لأي أعراض جانبية من العلاج؟,نعم، لقد واجهت بعض المشاكل,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+هل تعرضت لأي أعراض جانبية من العلاج؟,نعم لكن أعتقد عندما أستلقي بعد تناولي الحبوب,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,FALSE
+هل تعرضت لأي أعراض جانبية من العلاج؟,نعم بعض الحبوب صعبة البلع قليلاً,Have you experienced any difficulty swallowing?,llm-fracture-liaison-service@1.0.0,TRUE
+أنا هنا لأسألك بعض الأسئلة حول كيفية تقدمك مع أدوية صحة العظام. هل يكون ذلك موافقًا؟,نعم هذا جيد,Are you able to swallow the tablet whole?,llm-fracture-liaison-service@1.0.0,FALSE
+أنا هنا لأسألك بعض الأسئلة حول كيفية تقدمك مع أدوية صحة العظام. هل يكون ذلك موافقًا؟,حسنا، لكن يجب أن تعرف أن طبيبي العام قد غير أدويتي لأنني كنت أتعرض لبعض الآثار الجانبية,Has your GP tried you on a different medication or referred you back to the hospital?,llm-fracture-liaison-service@1.0.0,TRUE
+أنا هنا لأسألك بعض الأسئلة حول كيفية تقدمك مع أدوية صحة العظام. هل يكون ذلك موافقًا؟,نعم، آخذ جميع أدويتي، في الصباح بدون طعام وكل ذلك، كنت متيقظًا جدًا بشأن ذلك.,Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,TRUE
+أنا هنا لأسألك بعض الأسئلة حول كيفية تقدمك مع أدوية صحة العظام. هل يكون ذلك موافقًا؟,بالتأكيد، لدي بعض الأسئلة,Do you take the tablet first thing in the morning after an overnight fast? - you should take it after an overnight fast.,llm-fracture-liaison-service@1.0.0,FALSE
+أنا هنا لأسألك بعض الأسئلة حول كيفية تقدمك مع أدوية صحة العظام. هل يكون ذلك موافقًا؟,بالتأكيد هذا جيد,Do you remain sitting or standing for 30 minutes after taking the tablet?,llm-fracture-liaison-service@1.0.0,FALSE
+"""""""
+هل تعرضت لأي أحداث صحية كبيرة (على سبيل المثال ، احتشاء عضلة القلب أو سكتة دماغية) منذ انضمامك إلى قائمة الانتظار؟
+""""""",لقد عانيت من نوبة قلبية منذ,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,TRUE
+"""""""
+هل تعرضت لأي أحداث صحية كبيرة (على سبيل المثال ، احتشاء عضلة القلب أو سكتة دماغية) منذ انضمامك إلى قائمة الانتظار؟
+""""""",نعم لقد اضطررت إلى النزول في المستشفى لمدة أسبوع,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+هل تعرضت لأي أحداث صحية كبيرة (على سبيل المثال ، احتشاء عضلة القلب أو سكتة دماغية) منذ انضمامك إلى قائمة الانتظار؟
+""""""",نعم من فضلك,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+"""""""
+هل تعرضت لأي أحداث صحية كبيرة (على سبيل المثال ، احتشاء عضلة القلب أو سكتة دماغية) منذ انضمامك إلى قائمة الانتظار؟
+""""""",نعم,details about what were the major health events?,llm-gynaecology-waitlist@1.0.0,FALSE
+منذ آخر مرة شوهدت فيها، هل تقول إن أعراضك تغيرت بشكل كبير (لأفضل أو أسوأ)?,نعم، نزيفي قد أسوأ بشكل كبير.,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,TRUE
+منذ آخر مرة شوهدت فيها، هل تقول إن أعراضك تغيرت بشكل كبير (لأفضل أو أسوأ)?,نعم,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+منذ آخر مرة شوهدت فيها، هل تقول إن أعراضك تغيرت بشكل كبير (لأفضل أو أسوأ)?,نعم فعلت، أنا حقا أحتاج أن أرى شخص ما,details about how have your symptoms changed?,llm-gynaecology-waitlist@1.0.0,FALSE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,نعم,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,من المؤكد أن الأمور تزداد سوءًا,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,FALSE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,نعم، خاصة عندما أمشي,Does it happen at rest or only when moving?,llm-heart-failure-triage@1.0.0,TRUE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,نعم,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,نعم، أنا منتفخ طوال الوقت,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,FALSE
+هل واجهت أي صعوبة في التنفس جديدة أو تدهور فيها؟,نعم وأعتقد أنها تصبح أسوأ,Is it getting worse over time?,llm-heart-failure-triage@1.0.0,TRUE
+أريد التحقق من حالة قلبك. كيف كنت تشعر مؤخرًا؟,أنا متعب جدًا، لا أستطيع حتى الخروج من المنزل الآن,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,TRUE
+أريد التحقق من حالة قلبك. كيف كنت تشعر مؤخرًا؟,أنا متعب جداً,Is the fatigue affecting your daily activities?,llm-heart-failure-triage@1.0.0,FALSE
+أريد التحقق من حالة قلبك. كيف كنت تشعر مؤخرًا؟,لقد كنت مؤخرًا لا أكون جيدًا.,What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,FALSE
+أريد التحقق من حالة قلبك. كيف كنت تشعر مؤخرًا؟,لم يكن جيدًا، فكانت نسبة السكر في دمي مرتفعة جدًا واضطررت للذهاب لزيارة طبيبي العام,What were the reasons you visited the doctor or nurse for?,llm-heart-failure-triage@1.0.0,TRUE
+هل كنت تعاني من ألم في البطن أو انزعاج أو انتفاخ؟,نعم، منذ ما يقرب من عام الآن.,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,TRUE
+هل كنت تعاني من ألم في البطن أو انزعاج أو انتفاخ؟,نعم,Has this lasted for at least 6 weeks?,llm-ibd-screening@1.0.0,FALSE
+هل كنت تعاني من ألم في البطن أو انزعاج أو انتفاخ؟,نعم، الألم يأتي ويزول. هناك أيام تكون جيدة.,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,TRUE
+هل كنت تعاني من ألم في البطن أو انزعاج أو انتفاخ؟,نعم، لقد عانيت من بعض الألم,Is the pain persistent or does it come and go?,llm-ibd-screening@1.0.0,FALSE
+"""""""
+هل كنت تعاني من الإسهال، بما في ذلك في الليل؟
+""""""",نعم، وهناك أيضا بعض الدم فيه وهو ما يثير القلق,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,TRUE
+"""""""
+هل كنت تعاني من الإسهال، بما في ذلك في الليل؟
+""""""",نعم، مائي جدا، حتى في الليل.,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+"""""""
+هل كنت تعاني من الإسهال، بما في ذلك في الليل؟
+""""""",نعم الكثير من الإسهال,Have you noticed any blood or mucus in your stool?,llm-ibd-screening@1.0.0,FALSE
+من أجل هذا السؤال، سأطلب منك أن تقوم باختبار بسيط. هل يمكنك من فضلك الوقوف ووضع يدك الأخرى مسطحة على منطقة الحشفة التي تم فيها العمليات. الآن من فضلك ضع الهاتف و ضع هذه اليد على فمك و استنشق. أخبرني عندما تفعل ذلك وسأسألك إذا شعرت بأي شيء.,نعم أستطيع الشعور بالورم هناك عندما أفعل ذلك,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,TRUE
+من أجل هذا السؤال، سأطلب منك أن تقوم باختبار بسيط. هل يمكنك من فضلك الوقوف ووضع يدك الأخرى مسطحة على منطقة الحشفة التي تم فيها العمليات. الآن من فضلك ضع الهاتف و ضع هذه اليد على فمك و استنشق. أخبرني عندما تفعل ذلك وسأسألك إذا شعرت بأي شيء.,فعلت ذلك,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+من أجل هذا السؤال، سأطلب منك أن تقوم باختبار بسيط. هل يمكنك من فضلك الوقوف ووضع يدك الأخرى مسطحة على منطقة الحشفة التي تم فيها العمليات. الآن من فضلك ضع الهاتف و ضع هذه اليد على فمك و استنشق. أخبرني عندما تفعل ذلك وسأسألك إذا شعرت بأي شيء.,حسناً,Did you feel anything in your operated groin?,llm-hernia-postop-check@1.0.0,FALSE
+هل تتناول حاليًا أي أدوية منتظمة، بما في ذلك الأدوية الموصوفة أو أي شيء من دون وصفة طبية؟,نعم,Have you been advised to adjust or stop any medications before this procedure?,llm-preop-hvlc@1.0.0,FALSE
+"""""""
+هل خضعت من قبل لتخدير عام أو镇ية؟ 
+""""""",نعم لقد حصلت عليه مؤخرًا، وذهب كل شيء على ما يرام,Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,TRUE
+"""""""
+هل خضعت من قبل لتخدير عام أو镇ية؟ 
+""""""",نعم لدي,Issues or complications with sedation or anaesthesia?,llm-preop-hvlc@1.0.0,FALSE
+"""""""
+هل تتناول أي من مشتقات منظمات التخثر (مثل وارفارين، أبكسابان، ريفاروكسابان، كلوبيدوغريل، أو الأسبرين)?
+""""""",نعم، آخذ وارفارين,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,TRUE
+"""""""
+هل تتناول أي من مشتقات منظمات التخثر (مثل وارفارين، أبكسابان، ريفاروكسابان، كلوبيدوغريل، أو الأسبرين)?
+""""""",نعم,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل لديك أي حساسية معروفة ، بما في ذلك حساسية الأدوية (على سبيل المثال المضادات الحيوية أو اللاتكس أو مخدر عام )؟,أنا عالج من المطاط الطبي,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+هل لديك أي حساسية معروفة ، بما في ذلك حساسية الأدوية (على سبيل المثال المضادات الحيوية أو اللاتكس أو مخدر عام )؟,نعم لدي بعض الحساسية,What are you allergic to?,llm-preop-hvlc@1.0.0,FALSE
+هل لديك أي حساسية معروفة ، بما في ذلك حساسية الأدوية (على سبيل المثال المضادات الحيوية أو اللاتكس أو مخدر عام )؟,بنسلين,What are you allergic to?,llm-preop-hvlc@1.0.0,TRUE
+هل لديك أي تاريخ طبي هام، بما في ذلك الحالات المزمنة أو العمليات الجراحية السابقة، التي يجب على الفريق أن يكون على دراية بها؟,نعم، قمت مؤخرًا بتبديل الورك، منذ حوالي 6 أشهر,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,TRUE
+هل لديك أي تاريخ طبي هام، بما في ذلك الحالات المزمنة أو العمليات الجراحية السابقة، التي يجب على الفريق أن يكون على دراية بها؟,نعم، قمت ببضعة أشياء,What previous surgeries have you had?,llm-preop-hvlc@1.0.0,FALSE
+أنا هنا لمناقشة تاريخك في الإصابات المتكررة بالتهاب المسالك البولية. كيف حالك؟,أنا بخير، لكنني كنت أشعر بألم حارق ولسع عندما أتميمص,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+أنا هنا لمناقشة تاريخك في الإصابات المتكررة بالتهاب المسالك البولية. كيف حالك؟,أنا بخير، لكن لدي مشاكل مع التبول بانتظام شديد,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+أنا هنا لمناقشة تاريخك في الإصابات المتكررة بالتهاب المسالك البولية. كيف حالك؟,أنا بخير، لكن لدي مشاكل مع التبول بانتظام شديد,Do you rush to the toilet?,llm-uti-recurrent-triage@1.0.0,FALSE
+أنا هنا لمناقشة تاريخك في الإصابات المتكررة بالتهاب المسالك البولية. كيف حالك؟,أنا بخير، لكن لدي مشاكل مع التبول بانتظام شديد,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+أنا هنا لمناقشة تاريخك في الإصابات المتكررة بالتهاب المسالك البولية. كيف حالك؟,أنا بخير، لكنني كنت أشعر بألم حارق ولسع عندما أتميمص,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+ما هي الأعراض التي تظهر عند الإصابة بعدوى البول؟,دائمًا ما يحترق,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,TRUE
+ما هي الأعراض التي تظهر عند الإصابة بعدوى البول؟,إنها أكثر حاجة للذهاب كثيرًا,Have you had burning or stinging when or after passing urine?,llm-uti-recurrent-triage@1.0.0,FALSE
+ما هي الأعراض التي تظهر عند الإصابة بعدوى البول؟,إنها أكثر حاجة للذهاب كثيرًا,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,TRUE
+ما هي الأعراض التي تظهر عند الإصابة بعدوى البول؟,دائمًا ما يحترق,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+ما هي الأعراض التي تظهر عند الإصابة بعدوى البول؟,عليّ أن أسرع إلى الحمام.,Do you pass urine frequently?,llm-uti-recurrent-triage@1.0.0,FALSE
+"""""""
+إذاً أنت تشعر بألم مع الحمرة، هم. دعني أكتب ذلك. هل عينك مؤلمة حاليًا؟
+""""""",ومن المؤلم أيضا في الواقع,frequency of pain - some of the time or all the time,llm-cataract@1.0.0,FALSE
+"شكراً, أريد أن أسأل عن رؤيتك الآن. هل لاحظت أي غموض بعد الجراحة؟",نعم، لقد لاحظت بعض الغموض في رؤيتي منذ الجراحة.,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",كان واضحًا حتى قبل أسبوعين، ثم بدأ يصبح غامضًا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",كان الأمر سيئًا منذ الجراحة، للأسف.,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",لا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",من الممكن أن يكون غير واضح قليلا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",إنه غامق أكثر مما كنت أظن، لكنه يتحسن ببطء,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",يصبح الأمر أسوأ وأسوأ,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",من الممكن أن يكون غير واضح قليلا,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",سيء أكثر,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+هل تعتقد أن الضبابية تتحسن أو تزداد سوءا؟,إنه غامق أكثر مما كنت أظن، لكنه يتحسن ببطء,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+هل تعتقد أن الضبابية تتحسن أو تزداد سوءا؟,يصبح الأمر أسوأ وأسوأ,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+هل تعتقد أن الضبابية تتحسن أو تزداد سوءا؟,من الممكن أن يكون غير واضح قليلا,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+هل تعتقد أن الضبابية تتحسن أو تزداد سوءا؟,سيء أكثر,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,TRUE
+كَم يُعتبر الضبابية سيئة؟,أعتقد أن الغموض يزداد سوءًا قليلًا.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+التغيير مع مرور الوقت - هل تعتقد أن الغموض يتحسن أو يزداد سوءًا؟,أعتقد أن الغموض يزداد سوءًا قليلًا.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+حسناً، لذلك كنت تعاني من بعض التغييرات في رؤيتك. الآن، أريد فقط أن أسأل، هل رؤيتك مشوشة قليلاً، أو غامضة تماماً؟,رؤيتي غامضة قليلاً بدلاً من كونها مُبهمة تماماً.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+حسناً، لذلك كنت تعاني من بعض التغييرات في رؤيتك. الآن، أريد فقط أن أسأل، هل رؤيتك مشوشة قليلاً، أو غامضة تماماً؟,مهمة، إنه مشوش تمامًا.,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",لا، إنها غامضة بعض الشيء,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,من الممكن أن يكون الغموض قليلاً,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",مُتَمَزَّقٌ كُلِّيًّا,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,مُتَمَزَّقٌ كُلِّيًّا,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",لا,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,لا,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",نعم,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,نعم,"blurriness severity - is your vision slightly hazy, or completely blurred?",llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",حسناً ليس أفضل، ولكن ربما هذا بسبب ارتدادي لنظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",من الأسوأ، مع أو بدون نظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",سيء أكثر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"""""""
+هل تحسنت رؤيتك كما توقع منذ الجراحة؟
+""""""",ما زال غامضًا,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,كان واضحًا حتى قبل أسبوعين، ثم بدأ يصبح غامضًا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,كان الأمر سيئًا منذ الجراحة، للأسف.,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,لا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,من الممكن أن يكون غير واضح قليلا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+متى لاحظت الغموض لأول مرة؟,كان واضحًا حتى قبل أسبوعين، ثم بدأ يصبح غامضًا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+متى لاحظت الغموض لأول مرة؟,كان الأمر سيئًا منذ الجراحة، للأسف.,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,TRUE
+متى لاحظت الغموض لأول مرة؟,لا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+متى لاحظت الغموض لأول مرة؟,من الممكن أن يكون غير واضح قليلا,onset - when exactly did you first notice the blurriness?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,سيء أكثر,change over time - do you think the blurriness is getting better or worse?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,حسناً ليس أفضل، ولكن ربما هذا بسبب ارتدادي لنظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,من الأسوأ، مع أو بدون نظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,سيء أكثر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+هل تعاني من رؤية غير واضحة منذ عملية الجراحة؟,ما زال غامضًا,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+هل الغموض موجود فقط عند ارتدائك لنظاراتك القديمة؟,حسناً ليس أفضل، ولكن ربما هذا بسبب ارتدادي لنظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+هل الغموض موجود فقط عند ارتدائك لنظاراتك القديمة؟,من الأسوأ، مع أو بدون نظاراتي القديمة,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,TRUE
+هل الغموض موجود فقط عند ارتدائك لنظاراتك القديمة؟,سيء أكثر,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+هل الغموض موجود فقط عند ارتدائك لنظاراتك القديمة؟,ما زال غامضًا,is the blurriness only when you are wearing your old glasses?,llm-cataract@1.0.0,FALSE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",منذ العملية أراهم من حين لآخر,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",نعم، ولكن فقط من وقت لآخر,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",منذ يومين فقط,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",نعم لدي,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+حسناً، أريد أن أسأل عن تلك الأشياء العائمة التي لاحظتها. هل ترى هذه الأشياء العائمة بانتظام أو من وقت إلى آخر؟,منذ العملية أراهم من حين لآخر,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+حسناً، أريد أن أسأل عن تلك الأشياء العائمة التي لاحظتها. هل ترى هذه الأشياء العائمة بانتظام أو من وقت إلى آخر؟,نعم، ولكن فقط من وقت لآخر,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,TRUE
+حسناً، أريد أن أسأل عن تلك الأشياء العائمة التي لاحظتها. هل ترى هذه الأشياء العائمة بانتظام أو من وقت إلى آخر؟,منذ يومين فقط,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+حسناً، أريد أن أسأل عن تلك الأشياء العائمة التي لاحظتها. هل ترى هذه الأشياء العائمة بانتظام أو من وقت إلى آخر؟,نعم لدي,how often - are you seeing these floaters frequently or occasionally?,llm-cataract@1.0.0,FALSE
+فهمت، 所ذا أريد فقط أن أسأل عن رؤيتك. هل لاحظت أي طوافات منذ الجراحة؟,نعم، لقد لاحظت بعض العوامات منذ الجراحة.,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",لقد كان لدي بعض، بقع داكنة نعم,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",منذ يومين فقط,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",منذ العملية أراهم من حين لآخر,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+"""""""
+هل لاحظت أي طوافات منذ الجراحة؟
+""""""",نعم لدي,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+متى لاحظت لأول مرة هذه العوامات؟,لقد كان لدي بعض، بقع داكنة نعم,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+متى لاحظت لأول مرة هذه العوامات؟,منذ يومين فقط,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+متى لاحظت لأول مرة هذه العوامات؟,منذ العملية أراهم من حين لآخر,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,TRUE
+متى لاحظت لأول مرة هذه العوامات؟,نعم لدي,onset - when exactly did you first notice the floaters?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم، مثل وميض الكاميرا,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,خط رفيع ساطع فقط,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,أنا لدي,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+حسناً، أود أن أسأل المزيد عن الأضواء الوامضة. هل يمكنك وصفها - هل هي مثل فلاش الكاميرا، أو خط رفيع، أو شيء آخر؟,نعم، مثل وميض الكاميرا,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+حسناً، أود أن أسأل المزيد عن الأضواء الوامضة. هل يمكنك وصفها - هل هي مثل فلاش الكاميرا، أو خط رفيع، أو شيء آخر؟,خط رفيع ساطع فقط,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,TRUE
+حسناً، أود أن أسأل المزيد عن الأضواء الوامضة. هل يمكنك وصفها - هل هي مثل فلاش الكاميرا، أو خط رفيع، أو شيء آخر؟,نعم,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+حسناً، أود أن أسأل المزيد عن الأضواء الوامضة. هل يمكنك وصفها - هل هي مثل فلاش الكاميرا، أو خط رفيع، أو شيء آخر؟,أنا لدي,"description of the flashing lights - are they like camera flashes, or a thin line, or something else?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,خط رفيع ساطع فقط,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم، مثل وميض الكاميرا,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,أنا لدي,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,خط رفيع ساطع فقط,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم، إنها أسوأ مما كانت عليه بالأمس,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم ولكن الأمر يتحسن,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,لدي نعم ولكن اليوم يبدو أفضل,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,نعم أنا، أعتقد أنها أسوأ,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,نعم أنا لكنه يتحسن,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,نعم أنا، أعتقد أنها أسوأ,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,بالتأكيد أسوأ,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+فهمت، لذا أريد أن أسأل عن تلك الأضواء المتألقة. هل ما زلت تلاحظها، وهل هي تتحسن أو تزداد سوءًا مع مرور الوقت؟,أفضل بالتأكيد,"change over time - are you still noticing these flashing lights, are they getting better or worse?",llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,لم يكن إلا بالأمس,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم منذ العملية أراهم يومياً,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم لدي,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم لقد كان لدي فلاشات جديدة في بعض الأحيان,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+حسناً، لذلك لاحظت بعض الأضواء الوميضية منذ الجراحة. يمكن أن تكون الأضواء الوميضية مثل فلاشات الكاميرا المتقطعة في رؤيتك. متى بدأت في ملاحظة هذه الأضواء الوميضية؟,لم يكن إلا بالأمس,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+حسناً، لذلك لاحظت بعض الأضواء الوميضية منذ الجراحة. يمكن أن تكون الأضواء الوميضية مثل فلاشات الكاميرا المتقطعة في رؤيتك. متى بدأت في ملاحظة هذه الأضواء الوميضية؟,نعم منذ العملية أراهم يومياً,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,TRUE
+حسناً، لذلك لاحظت بعض الأضواء الوميضية منذ الجراحة. يمكن أن تكون الأضواء الوميضية مثل فلاشات الكاميرا المتقطعة في رؤيتك. متى بدأت في ملاحظة هذه الأضواء الوميضية؟,نعم لدي,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+حسناً، لذلك لاحظت بعض الأضواء الوميضية منذ الجراحة. يمكن أن تكون الأضواء الوميضية مثل فلاشات الكاميرا المتقطعة في رؤيتك. متى بدأت في ملاحظة هذه الأضواء الوميضية؟,نعم لقد كان لدي فلاشات جديدة في بعض الأحيان,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم أراهم دائمًا,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم، ولكن مرة أو مرتين فقط,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم أراهم دائمًا,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم، ولكن مرة أو مرتين فقط,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+هل لاحظت أي أضواء مومضة منذ الجراحة؟,نعم,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم أراهم دائمًا,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم، ولكن مرة أو مرتين فقط,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم أراهم دائمًا,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم، ولكن مرة أو مرتين فقط,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,TRUE
+حسنا، أود أن أسأل أكثر قليلا حول الأضواء المتألقة التي لاحظتها. هل تتكرر هذه الأضواء نادراً أم بشكل متكرر؟,نعم,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,قليلا فقط,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,نعم، إنه ألم شديد,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,نعم إنه حساس عندما أكون في الشمس,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+حسناً، لذا أنت تعاني من بعض الألم عند النظر إلى الأضواء الساطعة. يمكن أن يكون ذلك علامة على التهاب في العين، وربما نحتاج إلى النظر بشكل أوثق. يمكن أن يكون الحساسية الخفيفة للضوء طبيعية بعد الجراحة، ولكن الألم عند النظر إلى الأضواء الساطعة ليس كذلك. هل يمكنك أن تخبرني المزيد عن الألم - هل ستوصف إياه بأنه خفيف، معتدل، شديد، أو لا يطاق؟,قليلا فقط,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+حسناً، لذا أنت تعاني من بعض الألم عند النظر إلى الأضواء الساطعة. يمكن أن يكون ذلك علامة على التهاب في العين، وربما نحتاج إلى النظر بشكل أوثق. يمكن أن يكون الحساسية الخفيفة للضوء طبيعية بعد الجراحة، ولكن الألم عند النظر إلى الأضواء الساطعة ليس كذلك. هل يمكنك أن تخبرني المزيد عن الألم - هل ستوصف إياه بأنه خفيف، معتدل، شديد، أو لا يطاق؟,نعم، إنه ألم شديد,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,TRUE
+حسناً، لذا أنت تعاني من بعض الألم عند النظر إلى الأضواء الساطعة. يمكن أن يكون ذلك علامة على التهاب في العين، وربما نحتاج إلى النظر بشكل أوثق. يمكن أن يكون الحساسية الخفيفة للضوء طبيعية بعد الجراحة، ولكن الألم عند النظر إلى الأضواء الساطعة ليس كذلك. هل يمكنك أن تخبرني المزيد عن الألم - هل ستوصف إياه بأنه خفيف، معتدل، شديد، أو لا يطاق؟,هل تشعر بالألم عند النظر إلى الأضواء الساطعة؟,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+حسناً، لذا أنت تعاني من بعض الألم عند النظر إلى الأضواء الساطعة. يمكن أن يكون ذلك علامة على التهاب في العين، وربما نحتاج إلى النظر بشكل أوثق. يمكن أن يكون الحساسية الخفيفة للضوء طبيعية بعد الجراحة، ولكن الألم عند النظر إلى الأضواء الساطعة ليس كذلك. هل يمكنك أن تخبرني المزيد عن الألم - هل ستوصف إياه بأنه خفيف، معتدل، شديد، أو لا يطاق؟,نعم إنه حساس عندما أكون في الشمس,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+هل بصرك,نعم,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+هل يؤثر بصرك على,نعم,Is your eyesight causing falls or mobility problems?,llm-preop-cataract@1.0.0,FALSE
+هل تتناول أي شيء؟,ما,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+هل أنت,آسف,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها.,حسناً,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+لضمان حصولنا على صورة كاملة لصحتك، أحتاج إلى سؤال عن أي أدوية تتناولها.,حسناً,Do you take any diabetes or blood pressure medication?,llm-cataract-pre-assessment@1.0.0,FALSE
+ما,مرحبا,What blood thinners do you take?,llm-cataract-pre-assessment@1.0.0,FALSE
+حسناً لذا,نعم منذ العملية أراهم يومياً,onset - when did you start noticing these flashing lights?,llm-cataract@1.0.0,FALSE
+حسنا، أود أن أسأل قليلا أكثر عن الأضواء المتألقة التي لاحظتها.,حسناً,timing - frequency of flashing lights - rarely or frequently,llm-cataract@1.0.0,FALSE
+حسناً، أنت تعاني من بعض الألم عند النظر إلى الأضواء الساطعة. يمكن أن يكون ذلك علامة على التهاب في العين، وربما نحتاج إلى النظر بشكل أوثق. قد يكون الحساسية الخفيفة للضوء طبيعية بعد الجراحة، لكن الألم عند النظر إلى الأضواء الساطعة ليس كذلك.,حسناً,"severity of pain - would you describe it as mild, moderate, severe, or unbearable?",llm-cataract@1.0.0,FALSE
+حسناً لكي نبدأ، هل يمكنك أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,سقطت أثناء غسل الأطباق,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+شكرا، لقد وقعت أثناء غسل الأطباق. هل يمكنك الآن التأكد من مكان الكسر؟,"""""إهم كان فخذي الأيسر""""",where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+شكراً. لكي نبدأ، هل يمكن أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,انزلقت أثناء خروجي من الحمام ووقعت على وركي,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+حسناً لكي نبدأ، هل يمكنك أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,كسرت ساقي,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+حسناً، لكي نبدأ، هل يمكنك أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,فقدت توازني أثناء صعود الدرج,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، فقدت توازنك أثناء صعود الدرج. هل يمكنك التأكيد على مكان الكسر؟,نعم كان في المنزل,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، فقدت توازنك أثناء صعود الدرج. هل يمكنك أن تخبرني أي جزء من جسمك تأثر بالكسر؟,كان ظهري,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+شكراً دعنا نبدأ إذًا. لكي نبدأ، هل يمكنك أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,سقطت عند خروجي من الحمام,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,FALSE
+لنبدأ، هل يمكن أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,كنت في الواقع مجرد، أنت تعرف، سائرًا في الشارع وكان يومًا باردًا جدًا، وانزلقت على قطعة من الجليد المتصلب ووقعت بضربة قوية على معصمي.,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+شكراً. لكي نبدأ، هل يمكن أن تخبرني عن كيفية حدوث الكسر؟ ماذا كنت تفعل وكيف حدث ذلك؟,كنت مجرد خروج للمشي مع الكلب و انزلقت على بعض الجليد و سقطت و كسرت ذراعي,where on body the fracture occurred - Can you confirm where on your body you've had the fracture?,llm-fls-initial@1.0.0,TRUE
+شكرا، لذلك كنت قد تعرضت للكسر من قبل. هل يمكنك التأكيد على مكان الكسر السابق الخاص بك وماذا حدث؟,إيه نعم كسرت معصمي,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+شكرا، لذلك كنت قد تعرضت للكسر من قبل. هل يمكنك التأكيد على مكان الكسر السابق الخاص بك وماذا حدث؟,إيه نعم كسرت معصمي,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+شكرا، لذلك كسرت معصمك في كسر سابق. هل يمكنك التأكيد تقريبا متى حدث ذلك؟,منذ بضع سنوات تعثرتُ وأنا أمشي مع الكلب وسقطتُ بشكل سيء,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+شكرا، لذلك كسرت معصمك في كسر سابق. هل يمكنك التأكيد تقريبا متى حدث ذلك؟,منذ بضع سنوات تعثرتُ وأنا أمشي مع الكلب وسقطتُ بشكل سيء,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+شكراً. هل يمكنك التأكد من مكان حدوث ذلك الانقطاع وما الذي حدث؟,كسرت ساقي في حادث سيارة,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+شكراً. هل يمكنك التأكد من مكان حدوث ذلك الانقطاع وما الذي حدث؟,كسرت ساقي في حادث سيارة,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+""" آسف لسماع ذلك، لذا، كنت قد عانيت من كسر قبل ذلك. إن الكسر السابق كشخص بالغ هو واحد من أقوى المؤشرات على حدوث كسر آخر في المستقبل، لذلك يغير ذلك كيف نقيّم المخاطر ونناقش الوقاية. هل يمكنك التأكيد تقريباً متى حدث هذا الحادث السياري؟""",جاري كان يقود السيارة وفقد السيطرة,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,FALSE
+"إذاً, حادث سيارة بسبب خسارة جارك للسيطرة. إذاً, كنت قد عانيت من كسر قبل ذلك. الكسر السابق كشخص بالغ هو واحد من أقوى المؤشرات على كسر آخر في المستقبل, لذلك يغير كيف نقييم المخاطر ونناقش الوقاية. هل يمكنك التأكيد تقريباً متى حدث هذا الحادث؟",كان ذلك منذ سنوات ولكن ساقاي لم تعودا كما كانتا,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+شكراً لذلك كنت قد أخذت عدة استراحات من قبل. هل يمكنك أن تخبرني المزيد عن ما حدث مع تلك؟,كسرت عظم القصية عندما كنت طفلاً، ومنذ بضع سنوات انزلقت وكسرت حوضي,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+شكراً لذلك كنت قد أخذت عدة استراحات من قبل. هل يمكنك أن تخبرني المزيد عن ما حدث مع تلك؟,كسرت عظم القصية عندما كنت طفلاً، ومنذ بضع سنوات انزلقت وكسرت حوضي,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+شكرا، هل يمكنك التأكيد من حيث حدث ذلك الانقطاع وما الذي حدث؟,كسرت عظم الساق قبل حوالي خمسة عشر عاما,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+شكرا، هل يمكنك التأكيد من حيث حدث ذلك الانقطاع وما الذي حدث؟,كسرت عظم الساق قبل حوالي خمسة عشر عاما,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، كنت قد كسرت عظم الشين قبل حوالي 15 عاما. هل يمكنك أن تخبرني المزيد عن ما حدث عندما حدث هذا الكسر؟,كان الأمر مؤلمًا حقًا، كان عليّ الذهاب في سيارة إسعاف,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,FALSE
+"""ذلك يجب أن يكون مخيفًا، شكرًا. لذا، أريد فقط أن أسأل، هل يمكنك أن تؤكد كيف حدث هذا الكسر، هل كان من سقطة أو شيء آخر؟""",كنت أتزلج وخطئت عند هبوطي من القفزة,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+الآن، أود أن أسأل، هل كسرت عظمًا من قبل؟,نعم كنت في السابعة من عمري وكنت أقمط مع صديقي، فخفت وكسرت ذراعي الأخرى,how the fracture happened - Can you confirm how the fracture happened?,llm-fls-initial@1.0.0,TRUE
+"""""""
+الكسور السابقة كشخص بالغ هي واحدة من أقوى المؤشرات على حدوث كسر آخر في المستقبل، لذلك فهي تغير كيف نقيّم المخاطر ونناقش الوقاية. هل يمكنك التأكيد تقريباً متى حدث آخر كسر لك؟
+""""""",كان ذلك منذ شهر,when the fracture occurred - Can you confirm roughly when this occurred?,llm-fls-initial@1.0.0,TRUE
+حسنا، أريد أن أطرح سؤالا يعتبره بعض الناس شخصيا إلى حد ما، لكنه سيساعدنا كثيرا على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعانين منها حاليا؟,نعم أنا في سن اليأس,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+حسنا، أريد أن أطرح سؤالا يعتبره بعض الناس شخصيا إلى حد ما، لكنه سيساعدنا كثيرا على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعانين منها حاليا؟,نعم أنا في سن اليأس,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+شكرا، هل يمكن أن تخبرني تقريبا عند أي عمر توقفت عن الحصول على الدورة الشهرية؟,كنت حول نهاية الأربعينيات من عمري أعتقد، أعطاني الأطباء الهرمونات في العام الماضي,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+شكرا، هل يمكن أن تخبرني تقريبا عند أي عمر توقفت عن الحصول على الدورة الشهرية؟,كنت حول نهاية الأربعينيات من عمري أعتقد، أعطاني الأطباء الهرمونات في العام الماضي,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+حسناً، أود أن أطرح سؤالاً يعتبره بعض الناس شخصياً، لكنه سيساعدنا كثيراً على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعيشينها حالياً؟,إمٌّ نعم توقفت عن الحصول على عاداتي منذ وقت طويل,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+حسناً، أود أن أطرح سؤالاً يعتبره بعض الناس شخصياً، لكنه سيساعدنا كثيراً على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعيشينها حالياً؟,إمٌّ نعم توقفت عن الحصول على عاداتي منذ وقت طويل,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+شكرا، لقد ذكرت أن دوراتك توقفت منذ وقت طويل. هل تتذكر تقريبا عند أي عمر حدث ذلك؟,لست متأكداً جداً,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+شكرا، لقد ذكرت أن دوراتك توقفت منذ وقت طويل. هل تتذكر تقريبا عند أي عمر حدث ذلك؟,لست متأكداً جداً,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+حسناً، أود أن أطرح سؤالاً يعتبره بعض الناس شخصياً، لكنه سيساعدنا كثيراً على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعيشينها حالياً؟,نعم أنا أعاني من انقطاع الطمث في الوقت الحالي,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، أنت تمر بمرحلة انقطاع الطمث الآن. هل يمكنك أن تخبرني تقريبا حول ما هي السن التي توقفت فيها عن الحصول على الدورة الشهرية أو إذا لم تتوقف بعد، متى بدأت في 경험 أعراض انقطاع الطمث؟,أحصل على بعض الفترات من حين لآخر، وأصبحت غير منتظمة منذ بضع سنوات,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، كانت دوراتك غير منتظمة منذ بضع سنوات الآن وما زلت تحصلين على بعض الدورات من وقت لآخر. هل يمكنك أن تخبريني تقريبا في أي عمر بدأت دوراتك في أن تصبح غير منتظمة؟,حسناً كنت 47,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+شكرا، فقط لفهم وضعك بشكل أفضل قليلا، هل سبق لك أن تناولت علاجاً بديلاً للهرمونات، والذي يُسمى أحياناً العلاج البديل بالهرمونات؟,لا أعتقد ذلك,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+شكراً. لم تتوقف عن الحمل منذ منتصف الخمسينات. الآن، أريد فقط أن أسأل، هل سبق لك أن أخذت علاج الاستبدال الهرموني، والذي يسمى أحياناً HRT؟,آسف لا أعرف ما هذا,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,FALSE
+إذاً أنت لست متأكداً مما هو HRT، هورمون ريبليسمنت ثيرابي (علاج بالهرمونات البديلة) هو علاج يساعد على استبدال الهرمونات التي لا تنتجها جسمك بعد انقطاع الطمث. يمكن أن يساعد في أشياء مثل الهبات الساخنة وصحة العظام. هل سبق لك أن تناولت شيئاً مثل ذلك، أو هل ذكر لك الطبيب ذلك من قبل؟,نعم طبيبتي ذكرت ذلك لكنها لم توفر لي هرمونات,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+شكراً لذلك، لقد مررت بمرحلة انقطاع الطمث حول سن الخمسين. فقط للتأكيد، هل كنت تتناولين أي علاج بديل للهرمونات، والذي يسمى أحياناً العلاج البديل للهرمونات، بعد انقطاع الطمث؟,نعم، أنا آخذ العلاج بالهرمونات,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+حسنا، أريد أن أطرح سؤالا قد يعتبره بعض الناس شخصيا، لكنه سيساعدنا كثيرا على فهم صحة عظامك. هل مررت بمرحلة انقطاع الطمث، أو أنك تعيشينها حاليا؟,تجربة حاليا,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+شكراً. أنتِ تمرين حاليًا بمرحلة انقطاع الطمث. هل تتذكرين تقريبًا في أي عمر توقفت أو أصبحت فتراتك الشهرية أقل انتظامًا؟,السنة الماضية,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+شكراً. لقد توقفت عن الحصول على دورات شهرية منذ حوالي عام. بعد انقطاع الطمث، تنخفض مستويات الإستروجين، مما يمكن أن يؤثر على صحة العظام. هل سبق لك أن أخذت العلاج بالهرمونات البديلة، والذي يسمى أحياناً العلاج بالهرمونات البديلة؟,نعم,"hormone replacement therapy - Have you ever taken hormone replacement therapy, sometimes called HRT?",llm-fls-initial@1.0.0,TRUE
+شكراً لذلك لقد مررت بالانقطاع بالفعل. هل تتذكر تقريباً في أي سن توقفت عن الحصول على الدورة الشهرية؟,لا لا أتذكر,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,FALSE
+"حسناً, لذلك أنت لست متأكدة من العمر الذي توقفت فيه عن الحصول على الدورة الشهرية. هذا.Ok, يمكن أن يكون من الصعب تذكر ذلك. فقط لتوضيح, هل كان ذلك قبل أو بعد بلوغك الخمسين عندما توقفت عن الحصول على الدورة الشهرية؟",قبل,age of menopause - Do you remember roughly around what age your periods stopped?,llm-fls-initial@1.0.0,TRUE
+شكرا، الآن أريد أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,نعم، لقد كنت أستخدم كريم ستيرويد لمدة بضعة أشهر الماضية,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+شكرا، الآن أريد أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,نعم، لقد كنت أستخدم كريم ستيرويد لمدة بضعة أشهر الماضية,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+شكرا، الآن أريد أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,نعم، لقد كنت أستخدم كريم ستيرويد لمدة بضعة أشهر الماضية,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+شكراً لذلك لقد كنت تستخدم كريم ستيرويدي لمدة بضعة أشهر. أريد أن أعرف المزيد قليلاً عن ذلك. إذا كنت تأخذ حاليًا أي أدوية ستيرويد، كم وكيف تأخذها؟,في الوقت الحالي أستخدمه كل يومين,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+شكراً لذلك لقد كنت تستخدم كريم ستيرويدي لمدة بضعة أشهر. أريد أن أعرف المزيد قليلاً عن ذلك. إذا كنت تأخذ حاليًا أي أدوية ستيرويد، كم وكيف تأخذها؟,في الوقت الحالي أستخدمه كل يومين,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+شكراً لذلك لقد كنت تستخدم كريم ستيرويدي لمدة بضعة أشهر. أريد أن أعرف المزيد قليلاً عن ذلك. إذا كنت تأخذ حاليًا أي أدوية ستيرويد، كم وكيف تأخذها؟,في الوقت الحالي أستخدمه كل يومين,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+حسناً، أنت تستخدم كريم الستيرويد كل يومين. هل تعرف لماذا كنت تأخذها أو ما زلت تأخذها في المقام الأول؟,كان لدي بعض الحكة الشديدة لذا أعطاني الطبيب كريمًا.,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+حسناً، أنت تستخدم كريم الستيرويد كل يومين. هل تعرف لماذا كنت تأخذها أو ما زلت تأخذها في المقام الأول؟,كان لدي بعض الحكة الشديدة لذا أعطاني الطبيب كريمًا.,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+حسناً، أريد فقط أن أسأل، هل سبق لك أن تناولت أدوية من الاستيرويد؟,نعم، كنت أعاني من الربو منذ صغري، لذا كنت أتناول دواء الستيرويد معظم حياتي,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,FALSE
+حسناً، أريد فقط أن أسأل، هل سبق لك أن تناولت أدوية من الاستيرويد؟,نعم، كنت أعاني من الربو منذ صغري، لذا كنت أتناول دواء الستيرويد معظم حياتي,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+حسناً، أريد فقط أن أسأل، هل سبق لك أن تناولت أدوية من الاستيرويد؟,نعم، كنت أعاني من الربو منذ صغري، لذا كنت أتناول دواء الستيرويد معظم حياتي,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+شكرا، لقد كنت تتناول أدوية الستيرويد لمعظم حياتك بسبب الربو. فقط لتوضيح، هل تتناول حاليا أي أدوية من الستيرويدات، وإذا كان الأمر كذلك، فكم وكيف تتناولها؟,نعم، ما زلت أحمل معي جهازي للاستنشاق، وأستخدمه معظم الأيام,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+حسناً، أريد فقط أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,أعتقد أنني كنت آخذهم لمعدتي ولكن لا أستخدمهم الآن,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+حسناً، أريد فقط أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,أعتقد أنني كنت آخذهم لمعدتي ولكن لا أستخدمهم الآن,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,TRUE
+حسناً، أريد فقط أن أسأل عن الأدوية الستيرويدية. هل سبق لك أن تناولت أدوية ستيرويدية؟,أعتقد أنني كنت آخذهم لمعدتي ولكن لا أستخدمهم الآن,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,TRUE
+"""""""
+إذاً أنت تتناول أدوية منشطات الستيرويد. بالنسبة لأي أدوية منشطات الستيرويد تتناولها حاليًا، كم量 وكيف تكرار تناولها؟ 
+""""""",أفترض أنه نوع من مرة واحدة في اليوم حوالي خمسمائة مليغرام,"current usage of steroid medication - For any steroid medications you are currently taking, how much and how often do you take them?",llm-fls-initial@1.0.0,TRUE
+"""""""
+إذاً أنت تتناول أدوية منشطات الستيرويد. بالنسبة لأي أدوية منشطات الستيرويد تتناولها حاليًا، كم量 وكيف تكرار تناولها؟ 
+""""""",أفترض أنه نوع من مرة واحدة في اليوم حوالي خمسمائة مليغرام,past usage of steroid medication - Did you take steroid medications in the past?,llm-fls-initial@1.0.0,FALSE
+"""""""
+إذاً أنت تتناول أدوية منشطات الستيرويد. بالنسبة لأي أدوية منشطات الستيرويد تتناولها حاليًا، كم量 وكيف تكرار تناولها؟ 
+""""""",أفترض أنه نوع من مرة واحدة في اليوم حوالي خمسمائة مليغرام,why taking steroid medication - Do you know why you are or were taking them?,llm-fls-initial@1.0.0,FALSE
+حسناً، أريد فقط أن أسأل عن التهاب المفاصل. هل أخبرك طبيب على الإطلاق أنك مصاب بالتهاب المفاصل؟,نعم قالت إن لديّ التهاب المفاصل,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لتوضيح، هل قال الطبيب ما هو نوع الارتريت؟,أنا لا أعرف، لم أكن أعلم أن هناك أنواعًا مختلفة,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+حسناً أنا فقط أريد أن أسأل عن صحتك. هل أخبرك الطبيب يوماً ما أنك مصاب بالتهاب المفاصل؟,نعم لقد تم تشخيصي منذ فترة,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+شكراً لذلك لقد تم تشخيص إصابتك بالتهاب المفاصل. هل يمكنك أن تخبرني ما نوع التهاب المفاصل كان؟,أيّها، ما هي الأنواع الموجودة,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+حسناً، أريد فقط أن أسأل عن التهاب المفاصل. هل أخبرك طبيب على الإطلاق أنك مصاب بالتهاب المفاصل؟,نعم، لدي التهاب المفاصل وأنا آخذ دواء له,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,FALSE
+شكرا، فقط لأوضح، هل أخبرك الطبيب ما نوع الذئبة التي لديك؟,أعتقد أنهم قالوا إنه التهاب المفاصل الروماتويدي,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+شكرا، 所ذا أريد فقط أن أسأل، هل أخبرك طبيب في أي وقت مضى أنك مصاب بالتهاب المفاصل؟,أشخص طبيبي إصابتي بالتهاب المفاصل الرثياني منذ فترة,rheumatoid arthritis diagnosis - Did they tell you what kind of arthritis it was?,llm-fls-initial@1.0.0,TRUE
+شكرا، الآن بعد أن أصبح واضحا أنك تشرب الكحول، أود أن أعرف المزيد عن ذلك. هل تشرب عادة البيرة أو النبيذ أو المشروبات الروحية أو شيء آخر؟,أشرب الكثير من البيرة,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+شكرا، الآن بعد أن عرفت أنك تشرب الكحول، هل يمكنك أن تخبرني ما نوع الكحول الذي تشرب عادة، مثل البيرة أو النبيذ أو المشروبات الروحية أو شيء آخر؟,أشرب النبيذ وأحيانًا المشروبات الروحية,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+شكرا، الآن بعد أن عرفت أنك تشرب النبيذ وأحياناً المشروبات الروحية، كم عدد كؤوس النبيذ والملعقات من المشروبات الروحية التي تشربها في الأسبوع؟,عادةً زوج من الكؤوس في الأسبوع وعدد قليل من المخدرات في عطلة نهاية الأسبوع,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+شكرا، الآن بعد أن أصبح واضحا أنك تشرب الكحول، أود أن أعرف المزيد عن ذلك. هل تشرب عادة البيرة أو النبيذ أو المشروبات الروحية أو شيء آخر؟,سأشرب جميع الثلاثة وسometimes سايدر,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+شكرا، أنت تشرب مجموعة متنوعة من الأشياء. فقط للحصول على فكرة أفضل، ما عدد البينتس من البيرة التي تشربها في الأسبوع؟,ربما 3 أو 4,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+شكرا، الآن بعد أن أصبح واضحا أنك تشرب الكحول، هل يمكنك أن تخبرني ما النوع من الكحول الذي تشرب عادة، مثل البيرة، النبيذ، المشروبات الروحية، أو شيء آخر؟,أشرب النبيذ,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+شكرا،，所以 عندما تشرب، ما النوع من الكحول الذي تشرب عادة، هل هو بيرة، نبيذ، مشروبات روحية، أو شيء آخر؟,أشرب 4 أو 5 مشروبات كحولية معظم عطلات نهاية الأسبوع,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,TRUE
+"""""""
+لقد أخبرتني أنك تشرب الكحول. الآن، أريد أن أعرف المزيد قليلاً عن ذلك. هل تشرب عادة البيرة أو النبيذ أو المشروبات الروحية أو شيء آخر؟
+""""""",الأرواح الحمراء,if they drink beer -> Roughly how many pints a week? or else if they drink wine -> Roughly how many glasses a week? or else if they drink spirits -> Roughly how many shots a week? or else for other drinks or a combination of drinks -> Roughly how many units a week?. For all cases ideally requires a specific numerical quantity like 3 pints or about 5 rather than vague terms like a lot or just the drink type.,llm-fls-initial@1.0.0,FALSE
+ما الذي جعلك تتوقف عن تناول دوائك أو لا تبدأ به حسب الوصفة الطبية؟,لم أبدأ في تناول الدواء لأنني كنت قلقًا من الآثار الجانبية المحتملة ولم أرد التعامل معها.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+إذًا، قررت ألا تبدأ في تناول أقراص البيسفوسفونات. هل يمكنك أن تخبرني بما دفعك إلى اتخاذ هذا القرار بعدم تناولها؟,لقد كنت صريحا، لم أفهم كيفية تناوله بشكل صحيح و كنت خائفا من تناول كمية كبيرة أو صغيرة جدا.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+ما الذي جعلك تتوقف عن تناول دوائك أو لا تبدأ به حسب الوصفة الطبية؟,كانت تكلفة الدواء مرتفعة جداً ولم أستطع تحملها، لذلك لم أحاول حتى ملء الوصفة الطبية.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+هل ستشاركني ما جعلك تتوقف أو لا تبدأ في تناول دوائك؟,شعرت بالارتباك الشديد بسبب العمل والأمور الشخصية، لذلك لم أكن قد لدي فرصة للتفكير في دوائي.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+ما الذي جعلك تتوقف عن تناول دوائك أو لا تبدأ به حسب الوصفة الطبية؟,حاولت حقا أن آخذه، لكن بعد ذلك أصبحت مشغولاً بأمور أخرى ونسيت متابعة الأمر مع طبيبي.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+ما الذي جعلك تتوقف عن تناول دوائك أو لا تبدأ به حسب الوصفة الطبية؟,أنا فقط لا أعرف ماذا يحدث مع جسدي الآن، لقد كنت أختبر العديد من الأعراض المختلفة ولا أعرف ما الذي يسببها.,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"حسناً, لم تبدأ بعد في تناول أقراص البيسفوسفونات. هل يمكنك أن تخبرني ما الذي يمنعك من البدء في تناولها؟",خسرتهم,"more info on why not started - ""Could you tell me more about that?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أخذ أقراصي تقريبا مرة واحدة في الأسبوع,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,غالبًا ما آخذ حبة في الصباح وآخرى في الليل مرة أو مرتين في الأسبوع,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أنا آخذ أدويتي ثلاث مرات في الأسبوع كما يصفها لي طبيبي,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,لقد كنت آخذهما حسب الحاجة,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,قَالَ دُكتُورِي لِي أَن أَتَبَعَ الإرشادات الموجودة على العلبة,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أحاول أن أتذكر أخذهم كل أسبوع ولكن في بعض الأحيان أنسى,"how often - ""How often are you taking your tablets?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,نعم، آخذه أول شيء في الصباح، مباشرة بعد استيقاظي.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أتناول حبوبي بمجرد خروجي من الفراش،，所以 نعم، في الصباح الباكر.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,الأمر الأول في الصباح هو عندما آخذه، إنه جزء من روتيني الصباحي.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أحاول أن آخذه مع الطعام لتجنب الإزعاج المعدة.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,قَالَ دُكتُورِي لِي أَنْ أَخُذَهُ مَرَّتَيْنِ فِي الْأُسْبُوعِ.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,لقد كنت آخذ أدويتي منذ بضعة أشهر الآن، ويبدو أنها تساعدني.,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,نعم، أنا آخذ دائما حبوبي على معدة فارغة حسب توجيهات طبيبي.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,لا، أنا آخذه مع الطعام لأن أخذهم على معدة فارغة يجعلني أشعر بالغثيان.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أخذ أدويتي أول شيء في الصباح قبل أن آكل أي شيء، لذا نعم، هذا على معدة فارغة.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,أحاول تناول أدويتي في نفس الوقت كل يوم من أجل الاستمرارية.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,قَالَ دُكتُورِي لِي أَن أَتَبَعَ الإرشادات المُدَوَّنَة عَلَى العَلَاقَة لِأخذِ دَوَائِي.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني متى تأخذ عادة حبوبك؟,لقد كنت آخذ هذه الحبوب منذ فترة الآن، وأنا اعتمدت على الروتين.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""حسنا، فقط لتوضيح، عندما تأخذ حبوبك، هل هي في أول شيء في الصباح؟""""",نعم عادة بعد قليل من استيقاظي,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"""""حسنا، فقط لتوضيح، عندما تأخذ حبوبك، هل هي في أول شيء في الصباح؟""""",نعم عادة بعد قليل من استيقاظي,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""إذاً، تأخذ أقراصك كل يوم اثنين. الآن، هل يمكنك أن تخبرني، هل تأخذها أول شيء في الصباح؟""",لا عادة بعد الغداء,"when do you take it - ""Do you take it first thing in the morning?""",llm-fls-adherence@1.0.0,True
+"""""""
+إذاً, أنت تأخذ حبوبك مرة واحدة في الأسبوع, في الصباح. هل تأخذها على معدة فارغة؟",نعم أفعل,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+"""""""
+إذاً, أنت تأخذ حبوبك مرة واحدة في الأسبوع, في الصباح. هل تأخذها على معدة فارغة؟",لا أحيانًا آكل قبل,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,True
+حسناً، فقط للتأكد من أنك تأخذ أقراصك بشكل صحيح، هل يمكنك أن تخبرني إذا كنت تأخذها على معدة فارغة؟,أخذهم في الصباح,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"شكراً, هل تأخذ حبوبك كل أسبوع؟ هل تأخذها أول شيء في الصباح؟",الساعة 7 صباحاً,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+"""""""
+إذاً، فقط لتوضيح، أنت تأخذ حبوبك كل أسبوع. هل تأخذها أول شيء في الصباح؟",نعم,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+إذًا، أريد فقط أن أسأل، متى تأخذ عادةً حبوبك؟,الساعة 9 صباحا كل سبت,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+شكراً. لقد بدأت تاخذ حبوبك. هل يمكنك أن تخبرني متى كنت تأخذها عادةً؟,أنا عادةً آخذهم في الصباح الباكر,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+حسناً، الآن بعد أن بدأت تاخذ أدويةك، هل يمكنك أن تخبرني متى كنت تأخذها عادةً؟,أخذتهم أول شيء في الصباح.,take on empty stomach - Do you take the tablets on an empty stomach?. Do not infer empty stomach from timing alone - responses like first thing in the morning or times of day are not sufficient answers to this follow-up question,llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,أتناول أدويتي مع كأس ماء كامل.,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,أنا آخذ دائما دوائي مع الطعام لتجنب الإزعاج المعدة.,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,الماء هو ما أستخدمه لأخذ حبوبي، كما أوصى بي طبيبي.,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,أتناول أدويتي كما يُصرفها لي الطبيب.,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,أخذت حبوبي كل صباح.,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+هل يمكنك أن تخبرني كيف تأخذ أقراصك؟,لقد كنت آخذ أدويتي منذ بضعة أشهر الآن.,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+لذا، فقط للتأكد من أنك تأخذ الحبوب بشكل صحيح، هل يمكنك أن تخبرني كيف تأخذها؟,عادة مع بعض الماء أو عصير الفاكهة,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+لذا، فقط للتأكد من أنك تأخذ الحبوب بشكل صحيح، هل يمكنك أن تخبرني كيف تأخذها؟,أشربهم,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+شكرا، الآن بعد أن بدأت تاخذ الحبوب، هل يمكنك أن تخبرني كيف تأخذهم؟,أضغطهم هم كبير جدا,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+شكرا، الآن بعد أن بدأت تاخذ الحبوب، هل يمكنك أن تخبرني كيف تأخذهم؟,أشربهم مع قهوة الصباح,substance - what do you take it with?,llm-fls-adherence@1.0.0,True
+"""""""
+فهمت، إذًا أنا فقط أريد أن أسأل، كيف تأخذ الحبوب، هل تأخذها مع الماء أو مع شيء آخر؟",ما هي الوقت مع الطعام؟,substance - what do you take it with?,llm-fls-adherence@1.0.0,False
+ماذا تفعل عادة بعد تناول دوائك؟,أحرص على الجلوس لمدة ساعة أو نحو ذلك,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,بعد تناولي للدواء، أقوم و أمشي قليلاً لأبقى مستقيماً.,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,غالبًا ما أستلقى بعد أن آخذهم.,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أرجع إلى الفراش,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أنا عادة ما أقرأ كتابا بعد تناولي للأدوية.,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+ماذا تفعل عادة بعد تناول دوائك؟,أخذ دوائي هو جزء من روتيني الصباحي، مباشرة قبل الإفطار.,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+ماذا تفعل عادة بعد تناول دوائك؟,يعتمد على أي يوم هو,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+شكرا، الآن بعد أن بدأت تاخذ أقراصك، ماذا تفعل عادة بعد أخذها؟,معظم الصباحات سأخرج مع الكلب في نزهة طويلة بعد تناول الأدوية,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+شكرا، الآن بعد أن بدأت تاخذ أقراصك، ماذا تفعل عادة بعد أخذها؟,أنا لا آكل أو أشرب أي شيء آخر,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,False
+"""""""
+لذلك ذكرت أنها تعتمد على اليوم. فقط للتأكد من أنك تتناول الحبوب بأمان، هل تظل جالسًا أو واقفًا لمدة 30 دقيقة على الأقل بعد تناولها؟
+""""""",نعم عادة ما أبقى على قدمي للساعة القادمة,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك ذكرت أنها تعتمد على اليوم. فقط للتأكد من أنك تتناول الحبوب بأمان، هل تظل جالسًا أو واقفًا لمدة 30 دقيقة على الأقل بعد تناولها؟
+""""""",لا,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك ذكرت أنها تعتمد على اليوم. فقط للتأكد من أنك تتناول الحبوب بأمان، هل تظل جالسًا أو واقفًا لمدة 30 دقيقة على الأقل بعد تناولها؟
+""""""",لا أنا لا أفعل,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك ذكرت أنها تعتمد على اليوم. فقط للتأكد من أنك تتناول الحبوب بأمان، هل تظل جالسًا أو واقفًا لمدة 30 دقيقة على الأقل بعد تناولها؟
+""""""",أنا لا,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك ذكرت أنها تعتمد على اليوم. فقط للتأكد من أنك تتناول الحبوب بأمان، هل تظل جالسًا أو واقفًا لمدة 30 دقيقة على الأقل بعد تناولها؟
+""""""",أنا عادة ما أستلقي,"remain upright - ""Do you remain sitting or standing for at least 30 minutes afterwards?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أبذل جهداً لتفادي جميع الأطعمة والمشروبات والأدوية الأخرى لنصف ساعة بعد تناولي الدواء الموصوف لي.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أنا أتناول أحيانًا طعامًا أو شرابًا، لكني أحاول ألا آكل وجبة كبيرة,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أتجنب كل شيء باستثناء الماء خلال تلك الفترة من 30 دقيقة لضمان عمل دوائي بشكل فعال.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+ماذا تفعل عادة بعد تناول دوائك؟,أنا آخذه دائمًا مع كأس ماء كامل.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+ماذا تفعل عادة بعد تناول دوائك؟,قَالَ دَكتُوري أَن أَتَخَذَهُ فِي نَفْسِ الْوَقْتِ كُلَ يَوْم.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+ماذا تفعل عادة بعد تناول دوائك؟,أنا عادة ما أقرأ كتابا بعد تناولي للأدوية.,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+شكرا، الآن بعد أن بدأت تاخذ أقراصك، ماذا تفعل عادة بعد أخذها؟,معظم الصباحات سأخرج مع الكلب في نزهة طويلة بعد تناول الأدوية,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+شكرا، الآن بعد أن بدأت تاخذ أقراصك، ماذا تفعل عادة بعد أخذها؟,أنا لا آكل أو أشرب أي شيء آخر,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+إذاً، فقط للتأكد، بعد تناولك الحبوب، هل تتجنب جميع الأطعمة أو المشروبات أو الأدوية الأخرى لفترة قصيرة؟,أحيانًا سأكون لديّ قطعة من الفاكهة,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,True
+إذاً، فقط للتأكد، بعد تناولك الحبوب، هل تتجنب جميع الأطعمة أو المشروبات أو الأدوية الأخرى لمدة 30 دقيقة على الأقل؟,نعم إنه جميل، نحن حقاً نحب هواء الصباح النقي,"avoid food, drinks, or medications - ""Do you avoid all other food, drinks, or medications for that 30-minute period?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",نعم، أصبحت حرقة المعدة لدي أسوأ منذ بدأت في تناول البيسفوسفونات.,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",لا أعتقد أن حرقان الحلق أو عسر الهضم قد زادا منذ بدئي في تناول الدواء.,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",نعم، كان لدي مشاكل في الهضم سيئة للغاية منذ أن بدأت في تناول الحبوب.,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",لقد كنت آخذ هذه الحبوب منذ بضعة أسابيع الآن، ولاحظت أن من الصعب في بعض الأحيان بلعها,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",يبدو أن الدواء يعمل لصالح عظامي، لكنني لست متأكداً من الآثار الجانبية الأخرى.,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",كان لدي حرقة في المعدة قبل البدء في تناول الدواء,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",نعم,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل تعرضت لأي أعراض جانبية، مثل حرقة المعدة أو عسر الهضم أو أي مشاكل أخرى منذ تناولك أقراص البيسفوسفونات؟",لا,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""حسنا، دعنا نتحدث الآن عن أي مشاكل قد واجهتها منذ تناولك للأقراص. هل واجهت أي مشاكل مثل حرقة المعدة أو عسر الهضم أو أي شيء آخر؟""",لا كل شيء على ما يرام,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""حسنا، دعنا نتحدث الآن عن أي مشاكل قد واجهتها منذ تناولك للأقراص. هل واجهت أي مشاكل مثل حرقة المعدة أو عسر الهضم أو أي شيء آخر؟""",نعم، لقد واجهت بعض المشاكل,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+"""""""
+لذلك كنت تعاني من بعض المشاكل منذ بدء تناولك للأقراص. هل يمكنك أن تخبرني المزيد عن ما كنت تعانيه؟ 
+""""""",عاني من عسر الهضم بشكل أسوأ مؤخرًا,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك كنت تعاني من بعض المشاكل منذ بدء تناولك للأقراص. هل يمكنك أن تخبرني المزيد عن ما كنت تعانيه؟ 
+""""""",لقد كنت أشعر بالمرض كثيرًا منذ حصلت على الأدوية,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+إذًا، أريد فقط أن أسأل، هل تعرضت لأي أعراض أخرى أو آثار جانبية منذ بدء تناول دوائك لمرض هشاشة العظام، مثل الشعور بالمرض أو أي شيء يزعجك؟,لقد عانيت من حرقة في المعدة كثيرًا نعم,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل تعرضت لأي أعراض أخرى أو آثار جانبية منذ بدء تناول دوائك لمرض هشاشة العظام، مثل الشعور بالمرض أو أي شيء يزعجك؟,عندي سعال سيء جداً,"heartburn or indigestion - ""Have you experienced any worsening heartburn or indigestion since starting?""",llm-fls-adherence@1.0.0,False
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,رأيت طبيبي العام الأسبوع الماضي وأخبرته عن حرقة المعدة,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,False
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,رأيت طبيبي العام الأسبوع الماضي وأخبرته عن حرقة المعدة,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم، قال طبيبي العام أنه لا ينبغي لنا تغيير أي شيء بعد، وينبغي عليّ مراقبته لمدة أسبوعين والعودة إذا لم يتحسن.,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم، قال طبيبي العام أنه لا ينبغي لنا تغيير أي شيء بعد، وينبغي عليّ مراقبته لمدة أسبوعين والعودة إذا لم يتحسن.,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم قرر الطبيب النkowski وضعي على دواء آخر,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+إذًا، كنت تعاني من حرقة المعدة منذ تناولك أقراص البيسفوسفونات. هل أبلغت طبيبك العام عن هذا التأثير الجانبي؟,نعم قرر الطبيب النkowski وضعي على دواء آخر,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك كنت تأخذ أقراصك البيسفوسفونات ولاحظت بعض المشاكل، مثل ألم الأسنان وقليل من عسر الهضم. فقط للتأكيد، هل سبق أن أخبرت طبيبك العام بهذه الآثار الجانبية؟
+""""""",فعلت و قرر أن يرسلني إلى المستشفى,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""""""
+لذلك كنت تأخذ أقراصك البيسفوسفونات ولاحظت بعض المشاكل، مثل ألم الأسنان وقليل من عسر الهضم. فقط للتأكيد، هل سبق أن أخبرت طبيبك العام بهذه الآثار الجانبية؟
+""""""",فعلت و قرر أن يرسلني إلى المستشفى,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,False
+لقد تحدثت بالفعل مع طبيبك العام حول المشاكل التي تعاني منها مع أسنانك واضطراب الهضم. هل اقترح طبيبك العام أي تغييرات على علاجك أو أشارك إلى رؤية شخص آخر حول هذه الآثار الجانبية؟,نعم أرسلتني مرة أخرى إلى المستشفى,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+لقد تحدثت بالفعل مع طبيبك العام حول المشاكل التي تعاني منها مع أسنانك واضطراب الهضم. هل اقترح طبيبك العام أي تغييرات على علاجك أو أشارك إلى رؤية شخص آخر حول هذه الآثار الجانبية؟,نعم أرسلتني مرة أخرى إلى المستشفى,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن أبلغت طبيبك العام عن سوء الهضم المتزايد، أريد فقط التحقق، هل اتخذ طبيبك العام أي إجراء أو غير خطة علاجك بسبب هذا التأثير الجانبي؟""",قال يجب مراقبته لعدة أسابيع قبل تغيير أي شيء,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن أبلغت طبيبك العام عن سوء الهضم المتزايد، أريد فقط التحقق، هل اتخذ طبيبك العام أي إجراء أو غير خطة علاجك بسبب هذا التأثير الجانبي؟""",قال يجب أن نتابعها لعدة أسابيع,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن أبلغت طبيبك العام عن سوء الهضم المتزايد، أريد فقط التحقق، هل اتخذ طبيبك العام أي إجراء أو غير خطة علاجك بسبب هذا التأثير الجانبي؟""",لا، لم يفعل,"gp action taken - ""Has your GP tried you on a different medication or referred you back to the hospital?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن أبلغت طبيبك العام عن سوء الهضم المتزايد، أريد فقط التحقق، هل اتخذ طبيبك العام أي إجراء أو غير خطة علاجك بسبب هذا التأثير الجانبي؟""",لا، لم يفعل,"gp suggestion - ""What did your GP suggest or change in your plan?""",llm-fls-adherence@1.0.0,True
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,نعم، كنت آخذهم بانتظام، لكني لاحظت بعض الإضطرابات في المعدة التي أعتقد أنها قد تكون أحد الآثار الجانبية.,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,أتناول مكملاتي الغذائية حسب الوصفة، وحمدا لله لم أختبر أي أعراض جانبية أو مشاكل معها.,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,نعم ومنذ بدئي تناول الكالسيوم وفيتامين د، عانيت من بعض الإمساك، ويقول طبيبي إنه قد يكون أحد الآثار الجانبية للكالسيوم.,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,لقد كنت آخذ مكملاتي الغذائية كل صباح مع الإفطار.,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,أوصاني طبيبي أن آخذهم لذا فعلت,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+هل تتناول مكملات الكالسيوم و/أو فيتامين د بانتظام؟,نعم أنا,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"""""""
+إذاً أنت تأخذ مكملات الكالسيوم وفيتامين د. هل واجهت أي أعراض جانبية أو مشاكل معهم؟
+""""""",نعم أحيانًا أشعر بشيء من المرض,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+"""""""
+إذاً أنت تأخذ مكملات الكالسيوم وفيتامين د. هل واجهت أي أعراض جانبية أو مشاكل معهم؟
+""""""",حسناً هم غاليون قليلاً,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,False
+"""""""
+لذلك بدأت تاخذ علاج هشاشة العظام. أريد فقط التحقق، هل تتناول مكملات الكالسيوم و / أو فيتامين د بانتظام؟
+""""""",أفعل لكنهم يجعلونني مصاباً بالامساك حقاً,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل تعرضت لأي أعراض جانبية أو مشاكل مع المكملات الغذائية؟,لا,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل تعرضت لأي أعراض جانبية أو مشاكل مع المكملات الغذائية؟,نعم,"supplements side effects - ""Have you had any side effects or problems with the supplements?""",llm-fls-adherence@1.0.0,True
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,انزلقت على رقعة من الجليد خارج منزلي وسقطت على كوعي، وهو مؤلم منذ ذلك الحين,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,نعم، كنت قد وقعت الأسبوع الماضي، كنت أمشي في الدرج وخطوت خطوة خاطئة، الآن ركبتي متآكلة,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,سقطت في الحمام، وطارت قدماي من تحتي على الأرض الرطبة، وضربت رأسي في الحوض,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,هل سيكون الأمر سيئًا إذا كنت قد وقعت عدة مرات؟,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,أشعر بالدوار قليلاً في الآونة الأخيرة، ربما له علاقة بذلك,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+هل كنت قد تعرضت لأي حوادث سقوط منذ زيارتك الأخيرة للعيادة؟,أنا أتعثر من وقت لآخر,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+حسناً، هل يمكنك أن تخبرني المزيد عن ما حدث عندما وقعت؟,تعثرتُ وأنا أسير عائداً من المحلات,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل كنت قد تعرضت لأي حوادث سقوط منذ آخر زيارة لك العيادة؟
+""""""",أنا نعم,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل كنت قد تعرضت لأي حوادث سقوط منذ آخر زيارة لك العيادة؟
+""""""",سقطت منذ بضعة أسابيع,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+إذًا، هل يمكنك أن تخبرني المزيد عن ما حدث عندما وقعت قبل بضعة أسابيع؟,لقد خسرت توازني,"what happened - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل كسرت أي عظام منذ آخر زيارة لك العيادة؟
+""""""",انزلقت على الجليد وسقطت، ووقعت بضربة قوية على معصمي,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن ناقشنا دوائك، أريد فقط أن أسأل، هل كسرت أي عظام منذ آخر زيارة لك العيادة؟""",سقطت من الدرج وكسوت في كل مكان، وكسرت كعبي أيضًا.,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل كسرت أي عظام منذ آخر زيارة لك العيادة؟,نعم، كنت في حادث سيارة كبير وكسرت عظم الكتف,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+"""""""
+هل كسرت أي عظام منذ آخر زيارة لك العيادة؟
+""""""",نعم لدي,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+لقد تعرضت لكسور منذ زيارتك الأخيرة للعيادة. هل يمكنك أن تخبرني المزيد عما حدث؟,انزلقت في المطبخ وكسرت فخذي عندما سقطت عليه,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+لقد تعرضت لكسور منذ زيارتك الأخيرة للعيادة. هل يمكنك أن تخبرني المزيد عما حدث؟,نعم,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+لقد تعرضت لكسور منذ زيارتك الأخيرة للعيادة. هل يمكنك أن تخبرني المزيد عما حدث؟,لا,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""حسناً، الآن بعد أن أصبح واضحاً أنك بدأت في تناول علاجك، أريد فقط أن أسأل، هل كسرت أي عظام منذ آخر مرة حضرت فيها العيادة؟""",فعلت، وقال الطبيب إنني أحتاج إلى أن أكون أكثر حذرًا,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""""
+هل كسرت أي عظام منذ آخر زيارة لك العيادة؟
+""""""",كسرت ساقي للأسف,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+آسف، هل يمكنك أن تخبرني المزيد عما حدث مع ساقك؟,كان الحادث مخيفًا جدًا,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,False
+"""""لتوضيح الأمر، كنت قد كسرت ساقك منذ آخر زيارة لك للعيادة. هل يمكنك أن تخبرني المزيد عما حدث؟""""",خسرت توازني وسقطت من دراجتي النارية واصطدمت بساقي بحافة الرصيف,"more info on fractures - ""Can you tell me more about what happened?""",llm-fls-adherence@1.0.0,True
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,أنا أشعر بألم حاد في فكي، خاصة عند مضغ الطعام أو التحدث.,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+"""حسناً، الآن بعد أن بدأت في تناول دوائك، أريد فقط التحقق من是否 واجهت أي مشاكل في أسنانك منذ بدء العلاج، أو إذا كنت بحاجة إلى زيارة طبيب الأسنان لأي شيء؟""",نعم، كنت أعاني من ألم في الفك الذي بدأ منذ شهر تقريبًا، وهو ألم خفيف يأتي ويزول، ولكن في الآونة الأخيرة أصبح مستمرًا.,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,لقد شعرت بألم حاد من فكي إلى أذني منذ أن بدأت,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,لدي بعض المشاكل مع لثتي,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"""حسناً، الآن بعد أن بدأت في تناول دوائك، أريد فقط التحقق من是否 واجهت أي مشاكل في أسنانك منذ بدء العلاج، أو إذا كنت بحاجة إلى زيارة طبيب الأسنان لأي شيء؟""",كنت بحاجة إلى استبدال حشوة، لكن لا شيء كبير.,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,نعم,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"""إذاً, الآن بعد أن بدأت تاخذ علاجك, أريد فقط أن أسأل, هل واجهت أي مشاكل مع أسنانك أو كنت بحاجة إلى زيارة طبيب أسنان منذ بدء العلاج؟""",أشعر بألم في فكي,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+"""""حسناً، لقد واجهت بعض المشاكل مع أسنانك منذ بدء العلاج. هل يمكنك أن تخبرني المزيد عن ذلك؟""""",أشعر بألم الأسنان معظم الأيام لكن هذا كل شيء,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل كنت تعاني من أي ألم في فكك، ربما يتعلق الأمر بمشاكل في لثتك؟,لا,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل كنت تعاني من أي ألم في فكك، ربما يتعلق الأمر بمشاكل في لثتك؟,نعم,"more info on jaw pain - ""Can you tell me more about that?""",llm-fls-adherence@1.0.0,False
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,نعم، كنت أعاني من آلام في الفك مؤخرًا، وذكرت للطبيب الأسنان أنني بدأت في تناول الدواء,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+"""إذاً, الآن بعد أن بدأت تاخذ علاجك, أريد فقط أن أسأل, هل واجهت أي مشاكل مع أسنانك أو كنت بحاجة إلى زيارة طبيب أسنان منذ بدء العلاج؟""",كان لدي بعض الحشوات ولكن لا شيء كبير على الرغم من أن طبيب الأسنان قال إنني لأنني أتناول بيسفوسفونات أحتاج إلى أن أكون حذرًا,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,لقد كنت أشعر بألم في الفك، لكني لا أعرف إذا كان ذلك متعلقًا بالعلاج.,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+منذ بدء العلاج، هل ظهرت لديك أي مشاكل جديدة مع أسنانك أو كنت بحاجة إلى زيارة طبيب الأسنان؟,ذهبت إلى طبيب الأسنان الأسبوع الماضي بسبب نزيف اللثة,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""حسناً، الآن بعد أن بدأت في تناول دوائك، أريد فقط التحقق من是否 واجهت أي مشاكل في أسنانك منذ بدء العلاج، أو إذا كنت بحاجة إلى زيارة طبيب الأسنان لأي شيء؟""",أحاول أن أهتم بصحة أسناني بشكل أفضل من خلال تنظيفها بالفرشاة وخيوط الأسنان بشكل أكثر انتظامًا، لكني لم ألاحظ أي شيء منذ بدء العلاج.,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""إذاً, الآن بعد أن بدأت تاخذ علاجك, أريد فقط أن أسأل, هل واجهت أي مشاكل مع أسنانك أو كنت بحاجة إلى زيارة طبيب أسنان منذ بدء العلاج؟""",نعم,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"إذاً, أنت تعاني من ألم في الفك. هذا يمكن أن يكون مصدر قلق عند تناول علاج البيسفوسفونات. هل يعرف طبيب أسنانك أنك بدأت في تناول هذا الدواء؟",نعم,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+إذًا، أنا فقط أريد التحقق، هل يعرف طبيب أسنانك أنك بدأت تتلقى علاج بيسفوسفونات؟,لا,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+إذًا، أريد فقط أن أسأل، هل يعرف طبيب أسنانك أنك بدأت تتلقى علاج بيسفوسفونات؟,ذهبت إلى طبيب الأسنان الأسبوع الماضي,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,False
+"""""""
+إذن ذهبت إلى طبيب الأسنان في الأسبوع الماضي.  هل ذكرت لطبيب الأسنان أنك بدأت تتلقى علاجاً بالبيسفوسفونات؟",نسيته أن أقول لها,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True
+إذاً، فقط لتوضيح، أنت تعاني من بعض آلام الفك، ولكنك لم تذهب إلى طبيب الأسنان بعد. هل يعرف طبيب أسنانك أنك بدأت تتلقى علاج بيسفوسفونات؟,لم أخبر طبيبي الأسنان بأي شيء,"getting worse - ""Does your dentist know you have started bisphosphonate treatment?""",llm-fls-adherence@1.0.0,True

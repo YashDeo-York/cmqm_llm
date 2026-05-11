@@ -1,0 +1,2 @@
+llm_question,response,symptom,topic_key,expected_output
+"So, how's your left eye doing since the surgery?","Fine thanks. No blurriness, no floaters, no pain, no redness. I would like to get my other eye surgery done soon though.",eye_pain,llm-cataract@1.0.0,False
