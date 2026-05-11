@@ -7,23 +7,6 @@ Add or remove models from JUDGE_MODELS to control which LLMs are used.
 import os
 
 # ---------------------------------------------------------------------------
-# HuggingFace API
-# ---------------------------------------------------------------------------
-HF_TOKEN = os.environ.get("HF_TOKEN", "")
-HF_API_URL = "https://router.huggingface.co/v1/chat/completions"
-
-# Retry / rate-limit settings
-MAX_RETRIES = 5
-RETRY_BASE_MS = 3000
-REQUEST_DELAY_MS = 100  # delay between requests to avoid 429s
-CONCURRENCY = 10  # parallel API requests per model (rate limiter caps total throughput)
-
-# Global rate limit (HuggingFace PRO: 2,500 req / 5-min fixed window)
-# Conservative: 2,000 req / 5 min (~80% of quota) to avoid any 429s.
-RATE_LIMIT_REQUESTS = 2000
-RATE_LIMIT_WINDOW_SECONDS = 300
-
-# ---------------------------------------------------------------------------
 # Judge Models  
 # ---------------------------------------------------------------------------
 # Each entry: {"id": HF model ID, "short": short display name}
