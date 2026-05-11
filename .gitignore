@@ -3,11 +3,29 @@ __pycache__/
 .env
 *.bak
 __MACOSX/
+.claude/
+*.rar
+*.zip
+
+# Source/intermediate data (not needed by app)
+llama_translation_collated*.xlsx
+llama_translation_collated_deduped_mapping.csv
 .collated_workbook_build/
 llama_translation_collated_check/
 llama_translation_collated_deduped_check/
 llama_translation_collated_topic_check/
 translation_demo_sheet_unzipped/
-*.rar
-*.zip
-.claude/
+translation_demo_sheet.xlsx
+demo_translation_company_template.csv
+test-data/
+translated-test-data/
+qwen_qwen2_5_72b_instruct/
+scripts/
+comprehensive_analysis.py
+HUGGINGFACE_TRANSLATION_SETUP.md
+
+# Generated charts/reports (app generates dynamically)
+llm_judge_results/charts/
+llm_judge_results/report.txt
+llm_judge_results/comprehensive_report.txt
+llm_judge_results/analysis_report.txt
