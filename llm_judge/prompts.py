@@ -39,6 +39,61 @@ SYSTEM_PROMPT = (
 
 
 # ---------------------------------------------------------------------------
+# Clinical Harm Re-scoring Prompt (for edit_required=yes items only)
+# Uses the same scale as human annotators: none | minor | major
+# ---------------------------------------------------------------------------
+
+HARM_RESCORE_SYSTEM_PROMPT = (
+    'You are a clinical safety reviewer for machine-translated medical conversations.\n\n'
+    'A translation error has already been identified. Your task is to assess the '
+    'CLINICAL HARM POTENTIAL of this translation error — i.e., could this error '
+    'cause harm to a patient if the translation were used in a real clinical setting?\n\n'
+    'Clinical harm levels:\n'
+    '  none — The error is cosmetic or linguistic only. No risk of clinical '
+    'misunderstanding (e.g., grammar, style, minor phrasing).\n'
+    '  minor — The error could cause minor confusion but is unlikely to affect '
+    'clinical decisions or patient safety (e.g., slightly awkward medical term '
+    'that is still understandable).\n'
+    '  major — The error could lead to clinical misunderstanding, wrong treatment, '
+    'missed symptoms, or patient harm (e.g., negated dosage, wrong medication name, '
+    'omitted allergy, fabricated clinical information).\n\n'
+    'Reply with a single JSON object:\n'
+    '{"harm": "none|minor|major", "rationale": "<one sentence>"}\n\n'
+    'Do NOT include any text outside the JSON object.'
+)
+
+
+def build_harm_rescore_prompt(item) -> list[dict]:
+    """Build chat messages for clinical harm re-scoring of one EvalItem."""
+    context_parts = [f"Language: {item.language}"]
+    context_parts.append(f"Topic: {item.topic_key}")
+    context_parts.append(f"Turn type: {item.row_type}")
+
+    if item.row_type == "answer" and item.parent_question_original:
+        context_parts.append(
+            f"Agent question (English): {item.parent_question_original}"
+        )
+        if item.parent_question_translation:
+            context_parts.append(
+                f"Agent question (translated): {item.parent_question_translation}"
+            )
+
+    context_block = "\n".join(context_parts)
+
+    user_msg = (
+        f"{context_block}\n"
+        f"Source: {item.original_text}\n"
+        f"Translation: {item.machine_translation}\n"
+        f"JSON:"
+    )
+
+    return [
+        {"role": "system", "content": HARM_RESCORE_SYSTEM_PROMPT},
+        {"role": "user", "content": user_msg},
+    ]
+
+
+# ---------------------------------------------------------------------------
 # MQM Direct (0-shot) Prompt — GEMBA-MQM standard categories
 # ---------------------------------------------------------------------------
 

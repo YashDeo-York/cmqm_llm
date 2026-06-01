@@ -51,12 +51,22 @@ SHORT_NAMES = {
     "CohereLabs/aya-expanse-32b": "AyaExpanse-32B",
 }
 
-# Human harm labels mapped to our standard levels
-HARM_MAP = {
-    "none": "none", "": "none",
+# Human harm labels mapped to LLM scale.
+# LLM prompt only offers low|moderate|high (no "none") for edit=yes items.
+# Human "none" on edit=yes means "no clinical harm" = LLM "low" (lowest severity).
+# Human "minor" = LLM "low", human "major" = LLM "high".
+HARM_MAP_EDIT_YES = {
+    "none": "low", "": "low",
     "minor": "low", "low": "low",
     "moderate": "moderate",
     "major": "high", "high": "high",
+}
+# For edit=no items, harm is always none on both sides
+HARM_MAP_EDIT_NO = {
+    "none": "none", "": "none",
+    "minor": "none", "low": "none",
+    "moderate": "none",
+    "major": "none", "high": "none",
 }
 
 CMQM_IDS = [
@@ -83,7 +93,8 @@ def load_human_annotations():
             edit = "yes" if edit == "yes" else "no"
 
             harm_raw = str(row[col["Clinical Harm Potential"]] or "").strip().lower()
-            harm = HARM_MAP.get(harm_raw, "none")
+            harm_map = HARM_MAP_EDIT_YES if edit == "yes" else HARM_MAP_EDIT_NO
+            harm = harm_map.get(harm_raw, "low" if edit == "yes" else "none")
 
             cmqm_raw = str(row[col["CMQM Categories"]] or "").strip()
             cmqm = set()

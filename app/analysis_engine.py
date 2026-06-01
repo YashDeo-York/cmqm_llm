@@ -15,6 +15,9 @@ from sklearn.metrics import (
     f1_score, precision_score, recall_score, accuracy_score,
 )
 
+# Base directory for the project
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 MODELS_SHORT = {
     "CohereLabs__aya-expanse-32b":              "Aya-32B",
     "Qwen__Qwen3-30B-A3B":                     "Qwen3-30B",
@@ -499,3 +502,275 @@ def disagreement_examples(human_df, judge_df, language_filter, model_name, n=20)
     cols += ["edit_binary_human", "edit_binary", "brief_rationale"]
 
     return disagreements[cols].head(n)
+
+
+# ─── Atlas Professional Annotations ───────────────────────────────────
+
+ATLAS_FILES = {
+    "Bengali":                 ("Bengali_atlas_clean.xlsx",              "Bengali",                "BN"),
+    "Chinese Mandarin":        ("Chinese_Mandarin_atlas_clean.xlsx",     "Chinese Mandarin",       "ZH"),
+    "French":                  ("French_atlas_clean.xlsx",               "French",                 "FR"),
+    "Polish":                  ("Polish_atlas_clean.xlsx",               "Polish",                 "PL"),
+    "Portuguese (Brazilian)":  ("Portuguese_Brazilian_atlas_clean.xlsx",  "Portuguese (Brazilian)", "PT-BR"),
+    "Spanish":                 ("Spanish_atlas_clean.xlsx",              "Spanish",                "ES"),
+    "Turkish":                 ("Turkish_atlas_clean.xlsx",              "Turkish",                "TR"),
+    "Urdu":                    ("Urdu_atlas_clean.xlsx",                 "Urdu",                   "UR"),
+}
+
+
+def load_atlas_annotations(language_key):
+    """Load a single atlas professional annotation file."""
+    info = ATLAS_FILES.get(language_key)
+    if info is None:
+        return pd.DataFrame()
+    fname, lang_full, lang_short = info
+    fp = BASE_DIR / "human_professional" / fname
+    if not fp.exists():
+        return pd.DataFrame()
+    df = pd.read_excel(fp)
+
+    # Standardise columns
+    col_map = {}
+    for c in df.columns:
+        cl = c.strip().lower()
+        if cl == "identifier":
+            col_map[c] = "identifier"
+        elif cl == "topic key":
+            col_map[c] = "topic_key"
+        elif cl == "edit required":
+            col_map[c] = "Edit Required"
+        elif cl == "clinical harm potential":
+            col_map[c] = "Clinical Harm Potential"
+        elif cl == "cmqm categories":
+            col_map[c] = "CMQM Categories"
+        elif cl == "english source":
+            col_map[c] = "English Source"
+        elif cl == "machine translation":
+            col_map[c] = "Machine Translation"
+    df.rename(columns=col_map, inplace=True)
+
+    df["language"] = lang_full
+    df["lang_short"] = lang_short
+    df["edit_binary_human"] = df["Edit Required"].apply(
+        lambda x: 1 if str(x).strip().lower() == "yes" else 0
+    )
+    df["harm_ord_human"] = df.get("Clinical Harm Potential", pd.Series(dtype=float)).map(
+        lambda x: HARM_MAP_HUMAN.get(str(x).strip().lower(), np.nan)
+    )
+    for c in CMQM_CATS:
+        df[f"cmqm_{c}_human"] = 0
+    if "CMQM Categories" in df.columns:
+        for idx, val in df["CMQM Categories"].items():
+            if pd.notna(val):
+                for c in CMQM_CATS:
+                    if c in str(val).lower():
+                        df.loc[idx, f"cmqm_{c}_human"] = 1
+    return df
+
+
+def load_all_atlas():
+    """Load all atlas annotations into a dict keyed by language."""
+    result = {}
+    for lang_key in ATLAS_FILES:
+        df = load_atlas_annotations(lang_key)
+        if not df.empty:
+            result[lang_key] = df
+    return result
+
+
+def atlas_summary(all_atlas):
+    """Summary statistics for all atlas annotation sets."""
+    rows = []
+    for lang, df in all_atlas.items():
+        edit_yes = df["edit_binary_human"].sum()
+        edit_no = len(df) - edit_yes
+        harm_any = df["harm_ord_human"].apply(lambda x: x > 0 if pd.notna(x) else False).sum()
+        rows.append({
+            "Language": lang,
+            "Total Items": len(df),
+            "Edit Yes": int(edit_yes),
+            "Edit No": int(edit_no),
+            "Edit Rate %": round(edit_yes / len(df) * 100, 1),
+            "Harm Flagged": int(harm_any),
+        })
+    return pd.DataFrame(rows).sort_values("Language")
+
+
+def cross_language_human_vs_llm(all_atlas, judge_df):
+    """Compare human vs all LLM judges across all languages with atlas data."""
+    results = []
+    for lang, human_df in all_atlas.items():
+        comp = compare_human_vs_judges(human_df, judge_df, lang)
+        if comp.empty:
+            continue
+        comp["Language"] = lang
+        results.append(comp)
+    if results:
+        return pd.concat(results, ignore_index=True)
+    return pd.DataFrame()
+
+
+# ─── MQM Analysis Functions ───────────────────────────────────────────
+
+MQM_SEVERITY_WEIGHTS = {"critical": -25, "major": -5, "minor": -1}
+
+
+def load_all_mqm(results_dir=None):
+    """Load all MQM JSONL results into a DataFrame."""
+    if results_dir is None:
+        results_dir = BASE_DIR / "llm_judge_results" / "mqm"
+    else:
+        results_dir = Path(results_dir)
+    if not results_dir.exists():
+        return pd.DataFrame()
+
+    all_rows = []
+    for fp in sorted(results_dir.glob("*.jsonl")):
+        model_key = fp.stem
+        with open(fp, encoding="utf-8") as fh:
+            for line in fh:
+                if not line.strip():
+                    continue
+                r = json.loads(line)
+                r["model_key"] = model_key
+                r["model_short"] = MODELS_SHORT.get(model_key, model_key)
+                r["lang_short"] = LANG_SHORT.get(r.get("language", ""), r.get("language", ""))
+                # Flatten error categories
+                errors = r.get("errors", [])
+                cats = Counter()
+                for err in errors:
+                    if isinstance(err, dict):
+                        cats[err.get("category", "other")] += 1
+                r["error_categories"] = dict(cats)
+                r["n_errors"] = len(errors)
+                all_rows.append(r)
+    return pd.DataFrame(all_rows)
+
+
+def mqm_summary_by_model(mqm_df):
+    """Aggregate MQM stats per model."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False].copy()
+    agg = valid.groupby("model_short").agg(
+        items=("identifier", "count"),
+        mean_score=("mqm_score", "mean"),
+        median_score=("mqm_score", "median"),
+        mean_errors=("n_errors", "mean"),
+        n_critical=("n_critical", "sum"),
+        n_major=("n_major", "sum"),
+        n_minor=("n_minor", "sum"),
+    ).round(2)
+    return agg.sort_values("mean_score")
+
+
+def mqm_summary_by_language(mqm_df):
+    """Aggregate MQM stats per language."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False].copy()
+    agg = valid.groupby("lang_short").agg(
+        items=("identifier", "count"),
+        mean_score=("mqm_score", "mean"),
+        median_score=("mqm_score", "median"),
+        mean_errors=("n_errors", "mean"),
+        n_critical=("n_critical", "sum"),
+        n_major=("n_major", "sum"),
+        n_minor=("n_minor", "sum"),
+    ).round(2)
+    return agg.sort_values("mean_score")
+
+
+def mqm_score_heatmap(mqm_df):
+    """Pivot: mean MQM score by model x language."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False]
+    return valid.groupby(["model_short", "lang_short"])["mqm_score"].mean().unstack().round(2)
+
+
+def mqm_severity_distribution(mqm_df):
+    """Severity distribution per model."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False]
+    return valid.groupby("model_short")[["n_critical", "n_major", "n_minor"]].sum()
+
+
+def mqm_top_error_categories(mqm_df, top_n=15):
+    """Most common MQM error categories across all models."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False]
+    all_cats = Counter()
+    for cats in valid["error_categories"]:
+        if isinstance(cats, dict):
+            all_cats.update(cats)
+    rows = [{"category": k, "count": v} for k, v in all_cats.most_common(top_n)]
+    return pd.DataFrame(rows)
+
+
+def mqm_top_categories_by_model(mqm_df, top_n=10):
+    """Top error categories per model."""
+    if mqm_df.empty:
+        return pd.DataFrame()
+    valid = mqm_df[mqm_df["_parse_error"] == False]
+    results = {}
+    for model in sorted(valid["model_short"].unique()):
+        sub = valid[valid["model_short"] == model]
+        cats = Counter()
+        for c in sub["error_categories"]:
+            if isinstance(c, dict):
+                cats.update(c)
+        results[model] = dict(cats.most_common(top_n))
+    return pd.DataFrame(results).fillna(0).astype(int)
+
+
+def cmqm_vs_mqm_comparison(judge_df, mqm_df):
+    """Compare CMQM harm/categories with MQM scores for overlapping items."""
+    if mqm_df.empty or judge_df.empty:
+        return pd.DataFrame()
+    valid_mqm = mqm_df[mqm_df["_parse_error"] == False][
+        ["model_short", "language", "identifier", "topic_key", "mqm_score",
+         "n_critical", "n_major", "n_minor", "n_errors"]
+    ].copy()
+
+    # Get CMQM data for matching items
+    cmqm_cols = ["model_short", "language", "identifier", "topic_key",
+                 "harm_potential", "harm_ord"] + [f"cmqm_{c}" for c in CMQM_CATS]
+    cmqm_sub = judge_df[judge_df["edit_binary"] == 1][cmqm_cols].copy()
+
+    merged = valid_mqm.merge(
+        cmqm_sub,
+        on=["model_short", "language", "identifier", "topic_key"],
+        how="inner",
+    )
+    return merged
+
+
+# ─── Harm Rescore Functions ───────────────────────────────────────────
+
+def load_harm_rescore(results_dir=None):
+    """Load harm re-scoring results."""
+    if results_dir is None:
+        results_dir = BASE_DIR / "llm_judge_results" / "harm_rescore"
+    else:
+        results_dir = Path(results_dir)
+    if not results_dir.exists():
+        return pd.DataFrame()
+
+    all_rows = []
+    for fp in sorted(results_dir.glob("*.jsonl")):
+        model_key = fp.stem
+        with open(fp, encoding="utf-8") as fh:
+            for line in fh:
+                if not line.strip():
+                    continue
+                r = json.loads(line)
+                r["model_key"] = model_key
+                r["model_short"] = MODELS_SHORT.get(model_key, model_key)
+                r["lang_short"] = LANG_SHORT.get(r.get("language", ""), r.get("language", ""))
+                all_rows.append(r)
+    if not all_rows:
+        return pd.DataFrame()
+    return pd.DataFrame(all_rows)
