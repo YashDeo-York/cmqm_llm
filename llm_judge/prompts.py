@@ -38,6 +38,67 @@ SYSTEM_PROMPT = (
 )
 
 
+# ---------------------------------------------------------------------------
+# MQM Direct (0-shot) Prompt — GEMBA-MQM standard categories
+# ---------------------------------------------------------------------------
+
+MQM_SYSTEM_PROMPT = (
+    'You are an expert machine translation quality annotator. '
+    'You identify and classify translation errors using the MQM '
+    '(Multidimensional Quality Metrics) framework.\n\n'
+    'Given a source sentence and its translation, list ALL errors you find. '
+    'For each error, provide the category, subcategory, and severity.\n\n'
+    'Error categories and subcategories:\n'
+    '  accuracy: addition, mistranslation, omission, untranslated_text\n'
+    '  fluency: grammar, spelling, punctuation, register, inconsistency, character_encoding\n'
+    '  style: awkward\n'
+    '  terminology: inappropriate_for_context, inconsistent_use\n'
+    '  non_translation (entire segment is not translated)\n'
+    '  other (does not fit any above)\n\n'
+    'Severity levels:\n'
+    '  critical — inhibits comprehension of the text\n'
+    '  major — disrupts reading flow but meaning is still understandable\n'
+    '  minor — a technical error that does not disrupt flow or comprehension\n\n'
+    'Reply with a single JSON object:\n'
+    '{"errors": [{"category": "<cat>/<subcat>", "severity": "minor|major|critical", '
+    '"explanation": "<brief>"}], "mqm_score": <number>}\n\n'
+    'If no errors: {"errors": [], "mqm_score": 0}\n\n'
+    'Compute mqm_score as: -(25 * n_critical) - (5 * n_major) - (1 * n_minor), '
+    'capped at -25 minimum.\n'
+    'Do NOT include any text outside the JSON object.'
+)
+
+
+def build_mqm_prompt(item) -> list[dict]:
+    """Build chat messages for MQM error annotation of one EvalItem."""
+    context_parts = [f"Language: {item.language}"]
+    context_parts.append(f"Topic: {item.topic_key}")
+    context_parts.append(f"Turn type: {item.row_type}")
+
+    if item.row_type == "answer" and item.parent_question_original:
+        context_parts.append(
+            f"Agent question (English): {item.parent_question_original}"
+        )
+        if item.parent_question_translation:
+            context_parts.append(
+                f"Agent question (translated): {item.parent_question_translation}"
+            )
+
+    context_block = "\n".join(context_parts)
+
+    user_msg = (
+        f"{context_block}\n"
+        f"Source: {item.original_text}\n"
+        f"Translation: {item.machine_translation}\n"
+        f"JSON:"
+    )
+
+    return [
+        {"role": "system", "content": MQM_SYSTEM_PROMPT},
+        {"role": "user", "content": user_msg},
+    ]
+
+
 def build_judge_prompt(item) -> list[dict]:
     """
     Build the chat messages for judging one EvalItem.

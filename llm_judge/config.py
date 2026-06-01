@@ -122,6 +122,58 @@ for _domain, _cats in CMQM_CATEGORIES.items():
 # ---------------------------------------------------------------------------
 HARM_LEVELS = ["none", "low", "moderate", "high"]
 
+# Weights for CMQM harm levels (aligned to MQM scale for comparison)
+CMQM_HARM_WEIGHTS = {
+    "none": 0,
+    "low": -1,     # ≈ minor
+    "moderate": -5, # ≈ major
+    "high": -25,    # ≈ critical
+}
+
+# ---------------------------------------------------------------------------
+# MQM Error Taxonomy (GEMBA-MQM standard categories)
+# ---------------------------------------------------------------------------
+MQM_SEVERITY_WEIGHTS = {
+    "critical": -25,
+    "major": -5,
+    "minor": -1,
+}
+
+MQM_CATEGORIES = {
+    "accuracy": [
+        "addition",
+        "mistranslation",
+        "omission",
+        "untranslated_text",
+    ],
+    "fluency": [
+        "grammar",
+        "spelling",
+        "punctuation",
+        "register",
+        "inconsistency",
+        "character_encoding",
+    ],
+    "style": [
+        "awkward",
+    ],
+    "terminology": [
+        "inappropriate_for_context",
+        "inconsistent_use",
+    ],
+    "non_translation": [],
+    "other": [],
+}
+
+# Flat list of all MQM error types for validation
+ALL_MQM_TYPES = []
+for _mcat, _subtypes in MQM_CATEGORIES.items():
+    if _subtypes:
+        for _st in _subtypes:
+            ALL_MQM_TYPES.append(f"{_mcat}/{_st}")
+    else:
+        ALL_MQM_TYPES.append(_mcat)
+
 # ---------------------------------------------------------------------------
 # Languages in the dataset
 # ---------------------------------------------------------------------------
