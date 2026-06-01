@@ -773,4 +773,123 @@ def load_harm_rescore(results_dir=None):
                 all_rows.append(r)
     if not all_rows:
         return pd.DataFrame()
-    return pd.DataFrame(all_rows)
+    df = pd.DataFrame(all_rows)
+    # Normalise harm to ordinal
+    rescore_map = {"none": 0, "minor": 1, "major": 2}
+    df["harm_ord_rescore"] = df["harm"].map(rescore_map)
+    return df
+
+
+HARM_RESCORE_LABELS = {"none": 0, "minor": 1, "major": 2}
+
+
+def harm_rescore_summary(harm_df):
+    """Distribution of none/minor/major per model."""
+    if harm_df.empty:
+        return pd.DataFrame()
+    valid = harm_df[harm_df["harm"].isin(HARM_RESCORE_LABELS)]
+    ct = valid.groupby(["model_short", "harm"]).size().unstack(fill_value=0)
+    for h in ["none", "minor", "major"]:
+        if h not in ct.columns:
+            ct[h] = 0
+    ct = ct[["none", "minor", "major"]]
+    ct["total"] = ct.sum(axis=1)
+    ct["any_harm_%"] = ((ct["minor"] + ct["major"]) / ct["total"] * 100).round(1)
+    ct["major_%"] = (ct["major"] / ct["total"] * 100).round(1)
+    return ct.sort_values("any_harm_%", ascending=False)
+
+
+def harm_rescore_by_language(harm_df):
+    """Distribution of harm levels per language (aggregated across models)."""
+    if harm_df.empty:
+        return pd.DataFrame()
+    valid = harm_df[harm_df["harm"].isin(HARM_RESCORE_LABELS)]
+    ct = valid.groupby(["lang_short", "harm"]).size().unstack(fill_value=0)
+    for h in ["none", "minor", "major"]:
+        if h not in ct.columns:
+            ct[h] = 0
+    ct = ct[["none", "minor", "major"]]
+    ct["total"] = ct.sum(axis=1)
+    ct["any_harm_%"] = ((ct["minor"] + ct["major"]) / ct["total"] * 100).round(1)
+    return ct.sort_values("any_harm_%", ascending=False)
+
+
+def harm_rescore_heatmap(harm_df, level="major"):
+    """Pivot: % of items at given harm level by model x language."""
+    if harm_df.empty:
+        return pd.DataFrame()
+    valid = harm_df[harm_df["harm"].isin(HARM_RESCORE_LABELS)]
+    if level == "any_harm":
+        valid["flag"] = (valid["harm"] != "none").astype(int)
+    else:
+        valid["flag"] = (valid["harm"] == level).astype(int)
+    return (valid.groupby(["model_short", "lang_short"])["flag"].mean().unstack() * 100).round(1)
+
+
+def harm_rescore_vs_original(harm_df, judge_df):
+    """Compare rescored harm (none/minor/major) with original CMQM harm (low/moderate/high)."""
+    if harm_df.empty or judge_df.empty:
+        return pd.DataFrame()
+    # Get original harm from CMQM results
+    orig = judge_df[judge_df["edit_binary"] == 1][
+        ["model_key", "language", "identifier", "harm_potential", "harm_ord"]
+    ].copy()
+    orig.rename(columns={"harm_potential": "original_harm", "harm_ord": "original_harm_ord"}, inplace=True)
+
+    merged = harm_df.merge(
+        orig, on=["model_key", "language", "identifier"], how="inner",
+    )
+    return merged
+
+
+def harm_rescore_vs_human(harm_df, all_atlas):
+    """Compare rescored harm against human annotations across languages."""
+    if harm_df.empty or not all_atlas:
+        return pd.DataFrame()
+    results = []
+    for lang, human_df in all_atlas.items():
+        if "harm_ord_human" not in human_df.columns:
+            continue
+        h_sub = human_df[["identifier", "harm_ord_human"]].dropna(subset=["harm_ord_human"]).copy()
+        # Map human: 0=none, 1=minor, 2=moderate→minor, 3=major
+        # human uses HARM_MAP_HUMAN: none=0, minor=1, low=1, moderate=2, major=3, high=3
+        # rescore uses: none=0, minor=1, major=2
+        # Map human to 3-level: 0→none, 1→minor, 2→minor, 3→major
+        def human_to_3level(v):
+            if v == 0:
+                return "none"
+            elif v <= 2:
+                return "minor"
+            else:
+                return "major"
+        h_sub["harm_human_3level"] = h_sub["harm_ord_human"].apply(human_to_3level)
+
+        lang_harm = harm_df[harm_df["language"] == lang].copy()
+        if lang_harm.empty:
+            continue
+
+        for model in sorted(lang_harm["model_short"].unique()):
+            m_sub = lang_harm[lang_harm["model_short"] == model]
+            merged = h_sub.merge(
+                m_sub[["identifier", "harm", "model_short"]],
+                on="identifier", how="inner",
+            )
+            if len(merged) < 3:
+                continue
+            # Agreement on 3-level scale
+            agree = (merged["harm_human_3level"] == merged["harm"]).mean()
+            # Binary agreement: any harm vs none
+            h_bin = (merged["harm_human_3level"] != "none").astype(int)
+            j_bin = (merged["harm"] != "none").astype(int)
+            try:
+                kappa = cohen_kappa_score(h_bin, j_bin)
+            except Exception:
+                kappa = np.nan
+            results.append({
+                "Judge": model, "Language": lang, "N": len(merged),
+                "3-Level Agreement": round(agree, 3),
+                "Binary Kappa": round(kappa, 3) if not np.isnan(kappa) else "N/A",
+                "Human Harm %": round(h_bin.mean() * 100, 1),
+                "Judge Harm %": round(j_bin.mean() * 100, 1),
+            })
+    return pd.DataFrame(results)

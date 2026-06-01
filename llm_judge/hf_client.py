@@ -23,6 +23,11 @@ try:
 except ImportError:
     requests = None
 
+try:
+    from huggingface_hub import InferenceClient as _HFInferenceClient
+except ImportError:
+    _HFInferenceClient = None
+
 TRANSIENT_STATUS_CODES = {408, 409, 425, 429, 500, 502, 503, 504}
 
 
@@ -124,26 +129,83 @@ def call_hf_chat(model_id: str, messages: list[dict],
     """
     Call HuggingFace Inference API chat completions endpoint.
 
-    Acquires a global rate-limit slot before each request.
-    Returns the parsed JSON response content from the model.
+    Uses huggingface_hub.InferenceClient for automatic provider routing,
+    with a raw-requests fallback. Acquires a global rate-limit slot before
+    each request. Returns the parsed JSON response content from the model.
     Raises on non-retryable errors after exhausting retries.
     """
-    if requests is None:
-        raise RuntimeError(
-            "The 'requests' package is required to call HuggingFace. "
-            "Install it in the active Python environment."
-        )
-
     api_token = token or HF_TOKEN
     if not api_token:
         raise ValueError(
             "HF_TOKEN not set. Set it via environment variable or pass token= argument."
         )
 
+    if _HFInferenceClient is not None:
+        return _call_via_inference_client(model_id, messages, temperature,
+                                         max_tokens, api_token)
+    if requests is None:
+        raise RuntimeError(
+            "Either 'huggingface_hub' or 'requests' is required. "
+            "Install one in the active Python environment."
+        )
+    return _call_via_requests(model_id, messages, temperature,
+                              max_tokens, api_token)
+
+
+def _call_via_inference_client(model_id: str, messages: list[dict],
+                               temperature: float, max_tokens: int,
+                               token: str) -> dict[str, Any]:
+    """Primary path: uses huggingface_hub which handles provider routing."""
+    client = _HFInferenceClient(model=model_id, token=token, timeout=120)
+
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        _global_limiter.acquire()
+        try:
+            resp = client.chat_completion(
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
+            msg = resp.choices[0].message
+            content = msg.content
+            # Qwen3 models may put chain-of-thought in reasoning_content
+            # and leave content as None or empty.
+            if not content and hasattr(msg, "reasoning_content"):
+                content = msg.reasoning_content
+            return _parse_json_response(content)
+
+        except Exception as e:
+            err_str = str(e).lower()
+            # Spending limit — abort immediately
+            if "spending limit" in err_str:
+                raise SpendingLimitError(
+                    "HuggingFace monthly spending limit exceeded. "
+                    "Wait for your billing cycle to reset or increase the limit at "
+                    "https://huggingface.co/settings/billing"
+                )
+            # Non-retryable client errors (auth, not found, etc.)
+            if any(code in err_str for code in ["401", "402", "403", "404"]):
+                raise RuntimeError(f"HF API error for {model_id}: {str(e)[:300]}")
+            # Transient — retry with backoff
+            backoff = (RETRY_BASE_MS / 1000) * (2 ** attempt)
+            if "429" in err_str or "rate" in err_str:
+                backoff = max(backoff, 10.0)
+            print(f"    [error] retry {attempt+1}/{MAX_RETRIES}, waiting {backoff:.1f}s — {str(e)[:100]}")
+            time.sleep(backoff)
+            last_error = str(e)
+
+    raise RuntimeError(f"Failed after {MAX_RETRIES} retries. Last error: {last_error}")
+
+
+def _call_via_requests(model_id: str, messages: list[dict],
+                       temperature: float, max_tokens: int,
+                       token: str) -> dict[str, Any]:
+    """Fallback path: direct requests to HF router (no provider routing)."""
     url = "https://router.huggingface.co/v1/chat/completions"
 
     headers = {
-        "Authorization": f"Bearer {api_token}",
+        "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
     }
 
@@ -157,7 +219,6 @@ def call_hf_chat(model_id: str, messages: list[dict],
 
     last_error = None
     for attempt in range(MAX_RETRIES):
-        # Acquire rate-limit slot BEFORE each attempt (retries count too)
         _global_limiter.acquire()
 
         try:
@@ -165,15 +226,16 @@ def call_hf_chat(model_id: str, messages: list[dict],
 
             if resp.status_code == 200:
                 data = resp.json()
-                content = data["choices"][0]["message"]["content"]
+                msg = data["choices"][0]["message"]
+                content = msg.get("content")
+                if content is None:
+                    content = msg.get("reasoning_content")
                 return _parse_json_response(content)
 
             if resp.status_code in TRANSIENT_STATUS_CODES:
-                # Honour Retry-After header if present (especially for 429)
                 retry_after = _parse_retry_after(resp.headers.get("Retry-After"))
                 backoff = (RETRY_BASE_MS / 1000) * (2 ** attempt)
                 wait = retry_after if retry_after is not None else backoff
-                # On 429, add extra backoff — we're pushing the limit
                 if resp.status_code == 429:
                     wait = max(wait, 10.0)
                 status_hint = "rate limited" if resp.status_code == 429 else f"error {resp.status_code}"
@@ -182,7 +244,6 @@ def call_hf_chat(model_id: str, messages: list[dict],
                 last_error = f"HTTP {resp.status_code}: {resp.text[:200]}"
                 continue
 
-            # Spending limit hit — raise a specific error so the runner can abort early
             if resp.status_code == 403 and "spending limit" in resp.text.lower():
                 raise SpendingLimitError(
                     "HuggingFace monthly spending limit exceeded. "
@@ -190,7 +251,6 @@ def call_hf_chat(model_id: str, messages: list[dict],
                     "https://huggingface.co/settings/billing"
                 )
 
-            # Non-retryable error — raise with clear message
             raise RuntimeError(_build_error_message(resp.status_code, resp.text))
 
         except requests.exceptions.Timeout:
@@ -204,7 +264,7 @@ def call_hf_chat(model_id: str, messages: list[dict],
             time.sleep(wait)
             last_error = str(e)
         except RuntimeError:
-            raise  # re-raise non-retryable errors immediately
+            raise
 
     raise RuntimeError(f"Failed after {MAX_RETRIES} retries. Last error: {last_error}")
 
@@ -213,8 +273,17 @@ def call_hf_chat(model_id: str, messages: list[dict],
 # JSON response parsing
 # ---------------------------------------------------------------------------
 
-def _parse_json_response(content: str) -> dict[str, Any]:
+def _parse_json_response(content: str | None) -> dict[str, Any]:
     """Parse the model's response, handling common formatting issues."""
+    if content is None:
+        return {
+            "edit_required": "unknown",
+            "post_edited": "",
+            "cmqm_categories": [],
+            "harm_potential": "unknown",
+            "brief_rationale": "PARSE_ERROR: model returned null content",
+            "_parse_error": True,
+        }
     text = content.strip()
 
     # Strip <think>...</think> blocks (Qwen3 chain-of-thought)

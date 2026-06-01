@@ -33,6 +33,9 @@ from app.analysis_engine import (
     mqm_score_heatmap, mqm_severity_distribution,
     mqm_top_error_categories, mqm_top_categories_by_model,
     cmqm_vs_mqm_comparison, load_harm_rescore,
+    harm_rescore_summary, harm_rescore_by_language,
+    harm_rescore_heatmap, harm_rescore_vs_original,
+    harm_rescore_vs_human,
 )
 
 # --- Page Config ---
@@ -108,6 +111,7 @@ page = st.sidebar.radio("Go to", [
     "🤝 Inter-Judge Agreement",
     "👤 Human vs LLM (All Languages)",
     "🔎 Human vs LLM (Deep Dive)",
+    "🏥 Clinical Harm Re-scoring",
     "📐 MQM Error Analysis",
     "⚖️ CMQM vs MQM Comparison",
     "📤 Upload New Judge",
@@ -200,6 +204,37 @@ if page == "📊 Overview":
                 f"{val:.1f}%", va="center", fontsize=10)
     plt.tight_layout()
     st.pyplot(fig); plt.close()
+
+    # Harm re-scoring summary
+    harm_df = get_harm_rescore()
+    if not harm_df.empty:
+        valid_harm = harm_df[harm_df["harm"].isin(["none", "minor", "major"])]
+        st.subheader("Clinical Harm Re-scoring Summary")
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Items Re-scored", f"{len(valid_harm):,}")
+        c2.metric("Major Harm", f"{(valid_harm['harm'] == 'major').mean() * 100:.1f}%")
+        c3.metric("Any Harm (minor+major)", f"{(valid_harm['harm'] != 'none').mean() * 100:.1f}%")
+
+        summary = harm_rescore_summary(harm_df)
+        if not summary.empty:
+            fig, ax = plt.subplots(figsize=(12, 5))
+            models = summary.index
+            x = np.arange(len(models))
+            total = summary["total"]
+            w = 0.6
+            ax.bar(x, summary["none"] / total * 100, w, label="None", color="#4CAF50")
+            ax.bar(x, summary["minor"] / total * 100, w,
+                   bottom=summary["none"] / total * 100, label="Minor", color="#FFC107")
+            ax.bar(x, summary["major"] / total * 100, w,
+                   bottom=(summary["none"] + summary["minor"]) / total * 100,
+                   label="Major", color="#F44336")
+            ax.set_xticks(x)
+            ax.set_xticklabels(models, rotation=30, ha="right")
+            ax.set_ylabel("Percentage")
+            ax.set_title("Clinical Harm Distribution (Re-scored, Human-Aligned Scale)")
+            ax.legend()
+            plt.tight_layout()
+            st.pyplot(fig); plt.close()
 
     st.subheader("Parse Error / Repair Rates")
     pe = parse_error_rates(df)
@@ -641,6 +676,214 @@ elif page == "🔎 Human vs LLM (Deep Dive)":
             else:
                 st.write(f"Showing up to 30 disagreements with **{sel_model}**:")
                 st.dataframe(examples, use_container_width=True)
+
+
+# =======================================================================
+# PAGE: Clinical Harm Re-scoring
+# =======================================================================
+elif page == "🏥 Clinical Harm Re-scoring":
+    st.title("Clinical Harm Re-scoring Analysis")
+    st.markdown("""
+    Items flagged as `edit_required=yes` by each LLM judge were re-scored for
+    **clinical harm potential** using a human-aligned 3-level scale:
+    **none** (cosmetic only), **minor** (unlikely to affect decisions),
+    **major** (could cause clinical misunderstanding or patient harm).
+    """)
+
+    harm_df = get_harm_rescore()
+    if harm_df.empty:
+        st.warning("No harm re-scoring results found in llm_judge_results/harm_rescore/")
+        st.stop()
+
+    valid_harm = harm_df[harm_df["harm"].isin(["none", "minor", "major"])]
+    errors = len(harm_df) - len(valid_harm)
+
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Total Re-scored", f"{len(valid_harm):,}")
+    c2.metric("Models", valid_harm["model_short"].nunique())
+    c3.metric("Languages", valid_harm["lang_short"].nunique())
+    c4.metric("Major Harm %", f"{(valid_harm['harm'] == 'major').mean() * 100:.1f}%")
+    c5.metric("Parse Errors", f"{errors}")
+
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "Summary", "Heatmaps", "Original vs Rescored", "Human Comparison",
+    ])
+
+    with tab1:
+        st.subheader("Harm Distribution by Judge")
+        summary = harm_rescore_summary(harm_df)
+        if not summary.empty:
+            st.dataframe(summary, use_container_width=True)
+
+            # Stacked bar chart
+            fig, ax = plt.subplots(figsize=(12, 6))
+            models = summary.index
+            x = np.arange(len(models))
+            w = 0.6
+            ax.bar(x, summary["none"], w, label="None", color="#4CAF50")
+            ax.bar(x, summary["minor"], w, bottom=summary["none"], label="Minor", color="#FFC107")
+            ax.bar(x, summary["major"], w, bottom=summary["none"] + summary["minor"],
+                   label="Major", color="#F44336")
+            ax.set_xticks(x)
+            ax.set_xticklabels(models, rotation=30, ha="right")
+            ax.set_ylabel("Number of Items")
+            ax.set_title("Clinical Harm Distribution by Judge (Re-scored)")
+            ax.legend()
+            plt.tight_layout()
+            st.pyplot(fig); plt.close()
+
+            # Percentage version
+            fig, ax = plt.subplots(figsize=(12, 6))
+            total = summary["total"]
+            ax.bar(x, summary["none"] / total * 100, w, label="None", color="#4CAF50")
+            ax.bar(x, summary["minor"] / total * 100, w,
+                   bottom=summary["none"] / total * 100, label="Minor", color="#FFC107")
+            ax.bar(x, summary["major"] / total * 100, w,
+                   bottom=(summary["none"] + summary["minor"]) / total * 100,
+                   label="Major", color="#F44336")
+            ax.set_xticks(x)
+            ax.set_xticklabels(models, rotation=30, ha="right")
+            ax.set_ylabel("Percentage")
+            ax.set_title("Clinical Harm Distribution (%) by Judge")
+            ax.legend()
+            plt.tight_layout()
+            st.pyplot(fig); plt.close()
+
+        st.subheader("Harm Distribution by Language")
+        lang_summary = harm_rescore_by_language(harm_df)
+        if not lang_summary.empty:
+            st.dataframe(lang_summary, use_container_width=True)
+
+            fig, ax = plt.subplots(figsize=(12, 6))
+            langs = lang_summary.index
+            x = np.arange(len(langs))
+            total = lang_summary["total"]
+            ax.bar(x, lang_summary["none"] / total * 100, w, label="None", color="#4CAF50")
+            ax.bar(x, lang_summary["minor"] / total * 100, w,
+                   bottom=lang_summary["none"] / total * 100, label="Minor", color="#FFC107")
+            ax.bar(x, lang_summary["major"] / total * 100, w,
+                   bottom=(lang_summary["none"] + lang_summary["minor"]) / total * 100,
+                   label="Major", color="#F44336")
+            ax.set_xticks(x)
+            ax.set_xticklabels(langs, rotation=0)
+            ax.set_ylabel("Percentage")
+            ax.set_title("Clinical Harm Distribution (%) by Language")
+            ax.legend()
+            plt.tight_layout()
+            st.pyplot(fig); plt.close()
+
+    with tab2:
+        st.subheader("Harm Rate Heatmaps (Model x Language)")
+
+        harm_level = st.selectbox("Harm level to display", ["any_harm", "major", "minor", "none"])
+        heat = harm_rescore_heatmap(harm_df, level=harm_level)
+        if not heat.empty:
+            heat = heat[sorted(heat.columns)]
+            label = "Any Harm" if harm_level == "any_harm" else harm_level.title()
+            cmap = "YlOrRd" if harm_level != "none" else "YlGn"
+            fig = plot_heatmap(heat, f"{label} Rate (%) by Judge x Language",
+                               cbar_label=f"{label} %", cmap=cmap, figsize=(14, 7))
+            st.pyplot(fig); plt.close()
+            st.dataframe(heat, use_container_width=True)
+
+    with tab3:
+        st.subheader("Original CMQM Harm vs Re-scored Harm")
+        st.markdown("""
+        The original CMQM screening used a **low / moderate / high** harm scale.
+        The re-scoring uses a human-aligned **none / minor / major** scale.
+        This tab compares how the two scales relate.
+        """)
+
+        merged_harm = harm_rescore_vs_original(harm_df, df)
+        if merged_harm.empty:
+            st.info("No overlapping items found between harm rescore and CMQM results.")
+        else:
+            st.metric("Overlapping Items", f"{len(merged_harm):,}")
+
+            # Cross-tabulation
+            ct = pd.crosstab(
+                merged_harm["original_harm"].fillna("unknown"),
+                merged_harm["harm"],
+                margins=True,
+            )
+            st.subheader("Cross-tabulation: Original Harm x Re-scored Harm")
+            st.dataframe(ct, use_container_width=True)
+
+            # Heatmap of the cross-tab (without margins)
+            ct_clean = ct.drop("All", axis=0).drop("All", axis=1)
+            # Reorder
+            orig_order = [h for h in ["low", "moderate", "high", "unknown"]
+                          if h in ct_clean.index]
+            new_order = [h for h in ["none", "minor", "major"] if h in ct_clean.columns]
+            if orig_order and new_order:
+                ct_ordered = ct_clean.loc[
+                    [h for h in orig_order if h in ct_clean.index],
+                    [h for h in new_order if h in ct_clean.columns],
+                ]
+                fig, ax = plt.subplots(figsize=(8, 6))
+                sns.heatmap(ct_ordered, annot=True, fmt="d", cmap="YlOrRd", ax=ax)
+                ax.set_xlabel("Re-scored Harm (human-aligned)")
+                ax.set_ylabel("Original CMQM Harm")
+                ax.set_title("Original vs Re-scored Harm Classification")
+                plt.tight_layout()
+                st.pyplot(fig); plt.close()
+
+            # Per-model breakdown
+            st.subheader("Re-scored Harm by Original Harm Level (per model)")
+            for model in sorted(merged_harm["model_short"].unique()):
+                m_sub = merged_harm[merged_harm["model_short"] == model]
+                ct_m = pd.crosstab(m_sub["original_harm"].fillna("unknown"), m_sub["harm"])
+                with st.expander(f"{model} (n={len(m_sub)})"):
+                    st.dataframe(ct_m, use_container_width=True)
+
+    with tab4:
+        st.subheader("Re-scored Harm vs Human Annotations")
+        st.markdown("""
+        Comparing the LLM re-scored harm (none/minor/major) against professional
+        human annotations, where human harm is mapped to the same 3-level scale.
+        """)
+
+        all_atlas = get_all_atlas()
+        if not all_atlas:
+            st.info("No atlas professional annotations available for comparison.")
+        else:
+            harm_vs_human = harm_rescore_vs_human(harm_df, all_atlas)
+            if harm_vs_human.empty:
+                st.info("No matching items between harm rescore and human annotations.")
+            else:
+                st.dataframe(harm_vs_human, use_container_width=True)
+
+                # Kappa heatmap
+                kappa_pivot = harm_vs_human.pivot_table(
+                    index="Judge", columns="Language", values="Binary Kappa",
+                )
+                if not kappa_pivot.empty:
+                    # Convert 'N/A' strings to NaN for heatmap
+                    kappa_pivot = kappa_pivot.apply(pd.to_numeric, errors="coerce")
+                    fig = plot_heatmap(kappa_pivot,
+                                       "Binary Harm Kappa: Re-scored LLM vs Human",
+                                       fmt=".3f", cmap="RdYlGn", vmin=0, vmax=0.6,
+                                       cbar_label="Kappa", figsize=(14, 7))
+                    st.pyplot(fig); plt.close()
+
+                # 3-level agreement heatmap
+                agree_pivot = harm_vs_human.pivot_table(
+                    index="Judge", columns="Language", values="3-Level Agreement",
+                )
+                if not agree_pivot.empty:
+                    fig = plot_heatmap(agree_pivot,
+                                       "3-Level Harm Agreement: Re-scored LLM vs Human",
+                                       fmt=".3f", cmap="RdYlGn", vmin=0, vmax=1.0,
+                                       cbar_label="Agreement", figsize=(14, 7))
+                    st.pyplot(fig); plt.close()
+
+                # Mean per judge
+                st.subheader("Mean Harm Agreement per Judge (across languages)")
+                mean_agree = harm_vs_human.groupby("Judge").agg({
+                    "3-Level Agreement": "mean",
+                    "N": "sum",
+                }).sort_values("3-Level Agreement", ascending=False).round(3)
+                st.dataframe(mean_agree, use_container_width=True)
 
 
 # =======================================================================
